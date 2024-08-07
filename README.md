@@ -1,3 +1,3 @@
 # bulletin
 公告信息
-hello ShaoOrg 1
+hello ShaoOrg
