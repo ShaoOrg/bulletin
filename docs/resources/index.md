@@ -5,7 +5,7 @@
 |  ----  | ----  |
 |k8s-9i1 dashboard|[dashboard](https://dashboard.k8s-9i1.shao.sh)|
 |k8s-9i1 grafana|[grafana](https://grafana.k8s-9i1.shao.sh)|
-|k8s-9i1 prometheus|[prometheus](https://grafana.k8s-9i1.shao.sh)|
+|k8s-9i1 prometheus|[prometheus](https://prometheus.k8s-9i1.shao.sh)|
 |k8s-9i1 alertmanager|[alertmanager](https://alertmanager.k8s-9i1.shao.sh)|
 |k8s-9i1 grafana|[grafana](https://grafana.k8s-9i1.shao.sh)|
 |k8s-9i1 metrics|[metrics](https://metrics.k8s-9i1.shao.sh/metrics)|
