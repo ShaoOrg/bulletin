@@ -1,6 +1,6 @@
 site_name: Shao Organization Wiki   #网站名称
 site_description: Shao 组织内的公告  #站点描述
-site_url: https://example.com  #站点网址 URL，根可位于域名的子目录中
+site_url: https://example.com/docs  #站点网址 URL，根可位于域名的子目录中
 site_author: 佚名   #作者
 copyright: Copyright &copy; 2016-2022 佚名 <a href="https://beian.miit.gov.cn/" target="_blank">您的备案号</a> #版权声明与网站备案号
 
