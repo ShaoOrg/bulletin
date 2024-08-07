@@ -12,14 +12,18 @@
 |Ctrl + Shift + Tab|导航编辑器组历史记录 Navigate editor group history|
 |**Alt + ←/→**|返回/前进 Go back / forward, 回到上个光标所在行|
 |Ctrl + M|切换选项卡移动焦点 Toggle Tab moves focus|
+
 ## 切换工作区 Ctrl + W
+---
 |按 Press|功能 Function|
 |  ----  | ----  |
 |Ctrl + Shift + P，F1|显示命令面板 Show Command Palette|
 |Ctrl + P|快速打开 Quick Open|
 |Ctrl + Shift + N|新窗口/实例 New window/instance|
 |Ctrl + Shift + W|关闭窗口/实例 Close window/instance|
+
 ## 基础编辑 Basic editing
+---
 |按 Press|功能 Function|
 |  ----  | ----  |
 |Ctrl+X|剪切行（空选定） Cut line (empty selection)|
@@ -48,7 +52,9 @@
 |Ctrl+/|切换行注释 Toggle line comment|
 |Shift+Alt+A|切换块注释 Toggle block comment|
 |Alt+Z|切换换行 Toggle word wrap|
+
 ## 搜索和替换 Search and replace
+---
 |按 Press|功能 Function|
 |  ----  | ----  |
 |Ctrl + F|查找 Find|
