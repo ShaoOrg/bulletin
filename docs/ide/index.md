@@ -1,7 +1,5 @@
-IDEA
-===
-导航 Navigation
-===
+## Idea快捷键
+### 导航 Navigation
 |按 Press|功能 Function|
 |  ----  | ----  |
 |Ctrl+Alt+S|网易有道, 设置热键|

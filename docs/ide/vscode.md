@@ -1,5 +1,5 @@
-导航 Navigation
-===
+## Vscode快捷键
+### 导航 Navigation
 |按 Press|功能 Function|
 |  ----  | ----  |
 |Ctrl + T|显示所有符号 Show all Symbols|
