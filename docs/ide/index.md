@@ -1,4 +1,5 @@
 # Idea快捷键
+---
 ## 导航 Navigation
 |按 Press|功能 Function|
 |  ----  | ----  |
@@ -11,6 +12,7 @@
 |**Ctrl+Alt+L**|格式化代码|
 |**Ctrl+Alt+I**|将选中的代码进行自动缩进编排,这个功能在编辑 JSP 文件时也可以工作|
 ## IDEA常用快捷键
+---
 |按 Press|功能 Function|
 |  ----  | ----  |
 |Shift键两次|可以快速访问全局搜索菜单|
@@ -55,9 +57,10 @@
 |**Ctrl+J**|自动代码(例如：serr)|
 |Ctrl+H|显示类结构图(类的继承层次)|
 |Ctrl+Q|显示注释文档|
-|*Alt+F1|查找代码所在位置,可以回到Project树的文件位置*|
+|**Alt+F1**|查找代码所在位置,可以回到Project树的文件位置|
 |Alt+1|快速打开或隐藏工程面板|
 ## 最近文件
+---
 |按 Press|功能 Function|
 |  ----  | ----  |
 |**Alt+left/right**|切换代码视图|
@@ -75,6 +78,7 @@
 |Ctrl+”+/-”|当前方法展开、折叠|
 |Ctrl+Shift+”+/-”|全部展开、折叠|
 ## 调试部分、编译
+---
 |按 Press|功能 Function|
 |  ----  | ----  |
 |Ctrl+F2|停止|
@@ -110,6 +114,7 @@
 |Ctrl+Tab|转到下一个拆分器|
 |Ctrl+Shift+Tab|转到上一个拆分器|
 ## 重构
+---
 |按 Press|功能 Function|
 |  ----  | ----  |
 |Ctrl+Alt+Shift+T|弹出重构菜单|
@@ -119,6 +124,7 @@
 |Alt+Delete|安全删除|
 |Ctrl+Alt+N|内联|
 ## 查找
+---
 |按 Press|功能 Function|
 |  ----  | ----  |
 |Ctrl+F|查找|
