@@ -58,7 +58,9 @@
 |Ctrl + D|将选择添加到下一个查找匹配 Add selection to next Find match|
 |Ctrl + K Ctrl + D|将最后一个选择移至下一个查找匹配项 Move last selection to next Find match|
 |*Alt + C / R / W*|切换区分大小写/正则表达式/整个词 Toggle case-sensitive / regex / whole word, 弹出搜索或替换框可用,多选项|
+
 ## 多光标和选择 Multi-cursor and selection
+---
 |按 Press|功能 Function|
 |  ----  | ----  |
 |Alt +单击|插入光标 Insert cursor|
@@ -73,7 +75,9 @@
 |Shift + Alt + （拖动鼠标）|列（框）选择 Column (box) selection|
 |Ctrl + Shift + Alt +（箭头键）|列（框）选择 Column (box) selection|
 |Ctrl + Shift + Alt + PgUp / PgDown|列（框）选择页上/下 Column (box) selection page up/down|
+
 ## 丰富的语言编辑 Rich languages editing
+---
 |按 Press|功能 Function|
 |  ----  | ----  |
 |Ctrl + 空格|触发建议 Trigger suggestion|
@@ -90,7 +94,9 @@
 |Ctrl + Shift + . /，|替换为下一个/上一个值 Replace with next/previous value|
 |Ctrl + K Ctrl + X|修剪尾随空格 Trim trailing whitespace|
 |Ctrl + K M|更改文件语言 Change file language|
+
 ## 编辑器管理 Editor management
+---
 |按 Press|功能 Function|
 |  ----  | ----  |
 |Ctrl+F4, Ctrl+W|关闭编辑器 Close editor|
@@ -100,7 +106,9 @@
 |Ctrl+K Ctrl+ ←/→|聚焦到上一个/下一个编辑器组 Focus into previous/next editor group|
 |Ctrl+Shift+PgUp / PgDown|向左/向右移动编辑器 Move editor left/right|
 |Ctrl+K ← / →|移动活动编辑器组 Move active editor group|
+
 ## 文件管理 File management
+---
 |按 Press|功能 Function|
 |  ----  | ----  |
 |Ctrl+N|新文件 New File|
@@ -117,7 +125,9 @@
 |Ctrl+K P|复制活动文件的路径 Copy path of active file|
 |Ctrl+K R|显示资源管理器中的活动文件 Reveal active file in Explorer|
 |Ctrl+K O|显示新窗口/实例中的活动文件 Show active file in new window/instance|
+
 ## 显示 Display
+---
 |按 Press|功能 Function|
 |  ----  | ----  |
 |F11|切换全屏 Toggle full screen|
@@ -135,7 +145,9 @@
 |Ctrl+Shift+U|显示输出面板 Show Output panel|
 |Ctrl+Shift+V|切换Markdown预览 Toggle Markdown preview|
 |Ctrl+K V|从旁边打开Markdown预览 Open Markdown preview to the side|
+
 ## 调试 Debug
+---
 |按 Press|功能 Function|
 |  ----  | ----  |
 |F9|切换断点 Toggle breakpoint|
@@ -144,7 +156,9 @@
 |F11 / Shift+F11|下一步/上一步 Step into/out|
 |F10|跳过 Step over|
 |Ctrl+K Ctrl+I|显示悬停 Show hover|
+
 ## 集成终端 Integrated terminal
+---
 |按 Press|功能 Function|
 |  ----  | ----  |
 |*Ctrl+`*|显示集成终端 Show integrated terminal,支持Toggle|
