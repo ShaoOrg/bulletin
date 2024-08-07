@@ -32,3 +32,4 @@
 |nas234 emby|[emby](https://de.vicp.net:48096)|
 |nas248 emqx|[emqx](https://de.vicp.net:18083)|
 |win-9001 alist|[alist](https://de.vicp.net:5244)|
+|vps23 geminpro chat|[geminpro chat](https://de.vicp.net:3030)|
