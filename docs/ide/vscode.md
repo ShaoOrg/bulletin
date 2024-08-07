@@ -63,7 +63,7 @@
 |Alt + Enter|选择查找匹配的所有出现 Select all occurences of Find match|
 |Ctrl + D|将选择添加到下一个查找匹配 Add selection to next Find match|
 |Ctrl + K Ctrl + D|将最后一个选择移至下一个查找匹配项 Move last selection to next Find match|
-|*Alt + C / R / W*|切换区分大小写/正则表达式/整个词 Toggle case-sensitive / regex / whole word, 弹出搜索或替换框可用,多选项|
+|**Alt + C / R / W**|切换区分大小写/正则表达式/整个词 Toggle case-sensitive / regex / whole word, 弹出搜索或替换框可用,多选项|
 
 ## 多光标和选择 Multi-cursor and selection
 ---
