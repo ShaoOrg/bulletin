@@ -6,3 +6,6 @@
 |github 自定义Action|[Baosight/jekyll-build-pages](https://github.shao.sh/Baosight/jekyll-build-pages)|
 |github action node应用信任自签证书|[jekyll-gh-pages.yml](https://github.shao.sh/Baosight/baosight.github.io/blob/main/.github/workflows/jekyll-gh-pages.yml)|
 |github action 中使用自定义action|[jekyll-gh-pages.yml](https://github.shao.sh/Baosight/baosight.github.io/blob/main/.github/workflows/jekyll-gh-pages.yml)|
+|github organization wiki|[organization profile](https://github.shao.sh/Baosight/.github)|
+|github repository wiki|[repository wiki](https://github.shao.sh/Baosight/rfid/wiki)|
+|github organization Github Pages|[Organization Github Pages](https://github.shao.sh/Baosight/baosight.github.io)|
