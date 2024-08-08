@@ -1,7 +1,7 @@
 # 网站资源
 ---
 ## 云平台
-|按 Press|功能 Function|
+|描述|地址|
 |  ----  | ----  |
 |k8s-9i1 dashboard|[dashboard](https://dashboard.k8s-9i1.shao.sh)|
 |k8s-9i1 grafana|[grafana](https://grafana.k8s-9i1.shao.sh)|
@@ -18,7 +18,7 @@
 
 ## 公网资源
 ---
-|按 Press|功能 Function|
+|描述|地址|
 |  ----  | ----  |
 |k8s-9i1 kibana|[kibana](https://de.vicp.net:5601)|
 |k8s-9i1 grafana|[grafana](https://de.vicp.net:53000)|
@@ -33,3 +33,10 @@
 |nas248 emqx|[emqx](https://de.vicp.net:18083)|
 |win-9001 alist|[alist](https://de.vicp.net:5244)|
 |vps23 geminpro chat|[geminpro chat](https://de.vicp.net:3030)|
+
+## VM
+---
+|描述|地址|
+|  ----  | ----  |
+|nas249 self-hosted runner|github.shao.sh ub-9201|
+|nas248 self-hosted runner|github.shao.sh docker jammy|
