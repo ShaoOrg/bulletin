@@ -1,5 +1,7 @@
 # Shao Organization Resources
-[IDE Idea](docs/ide/index.md)
-[IDE Vscode](docs/ide/vscode.md)
-[Resources Url](docs/resources/index.md)
-[Resources UserCase](docs/resources/examples.md)
+|描述|链接|
+|  ----  | ----  |
+|IDE Idea|[IDE Idea](docs/ide/index.md)|
+|IDE Vscode|[IDE Vscode](docs/ide/vscode.md)|
+|Resources Url|[Resources Url](docs/resources/index.md)|
+|Resources UserCase|[Resources UserCase](docs/resources/examples.md)|
