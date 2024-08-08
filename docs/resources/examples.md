@@ -12,3 +12,4 @@
 |github enterprise action runners|[action runners](https://github.shao.sh/enterprises/ssz/settings/actions/runners)|
 |github organization action runners|[action runners](https://github.shao.sh/organizations/Baosight/settings/actions/runners)|
 |github organization runners group|[runners group](https://github.shao.sh/organizations/Baosight/settings/actions/runner-groups/3)|
+|github start self-hosted runner|修改run.sh,增加export RUNNER_ALLOW_RUNASROOT=1然后systemd-run --unit=actions-runner  /root/actions-runner/run.sh|
