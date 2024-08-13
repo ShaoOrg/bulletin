@@ -15,6 +15,7 @@
 |dev sample|[sample listbean](http://192.168.10.103:18084/sample/webapi/sample/listbean)|
 |dev sample|[sample wechat-webhook](http://192.168.10.103:18084/sample/webapi/sample/wechat-webhook)|
 |k8s-9i1 sample|[sample wechat-webhook](https://sample.k8s-9i1.shao.sh/sample/webapi/sample/wechat-webhook)|
+|nas234 github.shao.sh startup step|[github.shao.sh setup/complete](https://github.shao.sh:8443/setup/complete)|
 
 ## 公网资源
 ---
