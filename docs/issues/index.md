@@ -27,4 +27,17 @@
 |  ----  | ----  |
 |无论子进程内函数是否执行成功都退出|`(syno_cli_git_force_mirror_handler;exit 0) && exit 0`|
 |无论子进程内函数是否执行成功都`echo 2`|`(syno_cli_git_force_mirror_handler;exit 1) && exit 0 \|\| echo 2`|
+|mount nas234上的资源|`opt kernal backup smb-raid0`|
+---
+
+## Docker
+|描述|地址|
+|  ----  | ----  |
+|docker --entrypoint xxx.sh报错exec xxx.sh找不到|检查xxx.sh中的第一行是否`#!/bin/sh`|
+---
+
+## Idea
+|描述|地址|
+|  ----  | ----  |
+|命令行太长|启动配置里->缩短命令行->java -cp classpath.jar|
 ---
