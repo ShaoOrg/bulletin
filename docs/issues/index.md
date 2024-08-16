@@ -41,3 +41,15 @@
 |  ----  | ----  |
 |命令行太长|启动配置里->缩短命令行->java -cp classpath.jar|
 ---
+
+## Windows
+|描述|地址|
+|  ----  | ----  |
+|重启nginx|powersell -> stop-service nginx -> start-service nginx 或 restart-service nginx|
+---
+
+## Code
+|描述|地址|
+|  ----  | ----  |
+|修改rtc|增强branch chf-2.2.1-release|
+---
