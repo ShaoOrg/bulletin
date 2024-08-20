@@ -35,7 +35,6 @@
 |win-9001 alist|[alist](https://de.vicp.net:5244)|
 |vps23 geminpro chat|[geminpro chat](https://de.vicp.net:3030)|
 |code2snippets|[code to snippets for vscode](https://codepen.io/mrmlnc/pen/GqMqPg)|
-|youtobe private playlists|[private playlists](https://youtobe.com/feed/you)|
 ## VM
 ---
 |描述|地址|
