@@ -13,6 +13,7 @@
 |  ----  | ----  |
 |Vscode 调试自定义插件|[Vscode 调试自定义插件](https://de.vicp.net:6586/browse/KS-188)|
 |Ctrl + K V 如何输入|先同时按下Ctrl + K, 然后同时松开, 再次按下V|
+|Vscode中打开的pom文件看上去已格式化好,但在idea中确实没对其好|用noteplus打开后格式化好就可以了|
 ---
 
 ## WIKI
