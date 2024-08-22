@@ -55,6 +55,12 @@
 |修改rtc|增强branch chf-2.2.1-release|
 ---
 
+## Python
+|描述|地址|
+|  ----  | ----  |
+|逻辑错误,index=-1,此时if还是为True,返回`[:-1]`,最终少了一个字符|`index = long_option.find("=");long_option[:index] if index else long_option`|
+---
+
 ## Npm Package的版本号
 |符号|描述|示例|示例描述|
 | ---- | ---- | ---- | ---- |
