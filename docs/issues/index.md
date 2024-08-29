@@ -29,6 +29,11 @@
 |无论子进程内函数是否执行成功都退出|`(syno_cli_git_force_mirror_handler;exit 0) && exit 0`|
 |无论子进程内函数是否执行成功都`echo 2`|`(syno_cli_git_force_mirror_handler;exit 1) && exit 0 \|\| echo 2`|
 |mount nas234上的资源|`opt kernal backup smb-raid0`|
+|bash获取一个文件所有奇数行的第一个字段|`awk 'NR % 2 == 1 { print $1 }' /tmp/plugin_cache/plugin_cache_file`|
+|bash获取一个文件所有奇数行的第一个字段|`sed -n '1~2p' /tmp/plugin_cache/plugin_cache_file \| cut -d ':' -f 1`|
+|pipeline affect 命令的错误码|`foo_str=$(aaffsf) \|\| echo 1`,可以执行 `foo_str=$(aaffsf\| grep running \| awk '{print $2}') \|\| echo 1`,不会执行|
+|ssh远程curl文件到本机|`ssh jenkins-8m2-docker 'curl -ks -L http://nas246.shao.sh:39002/tools/linux/core/bash-completion-2.14.0.tar.xz' > bc.tar.xz`|
+|ssh远程curl文件到本机tar|`ssh jenkins-8m2-docker 'curl -ks -L http://nas246.shao.sh:39002/tools/linux/core/bash-completion-2.14.0.tar.xz' \| tar -xJf - -C /tmp`|
 ---
 
 ## Docker
