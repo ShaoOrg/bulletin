@@ -56,7 +56,7 @@
 |Import-Module 打印2个True在Console,通过Out-Null来规避,但导入过程中所有的输出都没有了|```Import-Module "C:\usr\ssz\workspace\git\app\scm-chocolatey\win\chocolatey\base\ssz.helper.extension\extensions\ssz.helper.psm1" -Force \|Out-Null```|
 |Powershell版本号, 可以按Tab自动补全|```$PsVersionTable```|
 |警告: 有些导入的命令名包含一个或多个以下受限字符: ```# , ( ) {{ }} [ ] & - / \ $ ^ ; : " ' < > \| ? @ ` * % + = ~```|函数名只允许出现一个'-',```function Write-Log-Debug {```|
-|表达式或语句中包含意外的标记“}”|检查所有中文注释,删除它,特别是Chat GPT生成的|
+|表达式或语句中包含意外的标记“}”|检查所有中文注释,删除它,特别是Chat GPT生成的 或者 升级到powershell 7.4|
 |Vscode中Power Shell Extension的Profile|C:\Users\ssz\Documents\WindowsPowerShell\Microsoft.VSCode_profile.ps1|
 |Vscode中Power Shell的Profile, 等同于Win Terminal|C:\Users\ssz\Documents\WindowsPowerShell\Microsoft.PowerShell_profile.ps1|
 ||[Approved Verbs For Powershell](https://learn.microsoft.com/en-us/powershell/scripting/developer/cmdlet/approved-verbs-for-windows-powershell-commands?view=powershell-7.4)|
