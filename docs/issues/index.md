@@ -94,6 +94,9 @@
 
 |描述|地址|
 |  ----  | ----  |
+|Pycli中不支持arg type description|```@cli_invoker(arg_type_desc="generic_maven_tempalte_type_hander_arg_definition,common,common")```|
+|Pycli中不支持arggreation|```@cli_invoker(arggreation=lambda: [{}]```|
+|Pycli中不支持int等类型转化|```@cli_invoker(arg_data_type="ptest=int")```|
 |逻辑错误,index=-1,此时if还是为True,返回`[:-1]`,最终少了一个字符|`index = long_option.find("=");long_option[:index] if index else long_option`|
 ---
 
