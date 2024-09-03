@@ -31,6 +31,7 @@
 
 |描述|地址|
 |  ----  | ----  |
+| 类似 PowerShell 的 Ctrl+R 反向搜索功能，Bash 已经支持使用 Ctrl+R 来搜索历史记录中的命令|`Ctrl+R` 反向搜索|
 |无论子进程内函数是否执行成功都退出|`(syno_cli_git_force_mirror_handler;exit 0) && exit 0`|
 |无论子进程内函数是否执行成功都`echo 2`|`(syno_cli_git_force_mirror_handler;exit 1) && exit 0 \|\| echo 2`|
 |mount nas234上的资源|`opt kernal backup smb-raid0`|
