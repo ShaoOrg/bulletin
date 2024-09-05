@@ -48,6 +48,8 @@
 
 |描述|地址|
 |  ----  | ----  |
+|windows 10安装windows terminal|[windows store](https://apps.microsoft.com/detail/9n0dx20hk701?rtc=1&hl=zh-cn&gl=CN)|
+|windows 10安装powershell 7|[github powershell 7](https://github.com/PowerShell/PowerShell/releases)|
 |奇妙的"" empty '', ```"" -like '-*'```,无论前面加-not 或不加一直是$false, 只有```-not ("" -like '-*')```逻辑才正常|```"" -like '-*';-not  "" -like '-*' ```|
 |powershell 5.1版本中的-不能被补全,升级到7.4解决了|```winget install --id Microsoft.Powershell --source winget```|
 |powershell初始化一个变量为null|```$currentCommandInfo=$null```|
