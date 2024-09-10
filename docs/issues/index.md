@@ -93,6 +93,14 @@
 |修改rtc|增强branch chf-2.2.1-release|
 ---
 
+## Npm
+
+|描述|地址|
+|  ----  | ----  |
+|npm install进度掉消失了|npm 10.8.3的问题,降级到10.2.4 ```npm install -g npm@10.2.4```|
+|npm install, errno ECONNRESET|```npm install --maxsockets=1```|
+---
+
 ## Python
 
 |描述|地址|
