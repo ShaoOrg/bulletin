@@ -99,6 +99,7 @@
 |  ----  | ----  |
 |npm install进度掉消失了|npm 10.8.3的问题,降级到10.2.4 ```npm install -g npm@10.2.4```|
 |npm install, errno ECONNRESET|```npm install --maxsockets=1```|
+|升级所有包到最新版本|```npm install -g npm-check-updates``` `ncp -u`|
 ---
 
 ## Python
