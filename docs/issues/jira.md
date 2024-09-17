@@ -16,3 +16,11 @@ curl -s -L -X GET \
   -H "Authorization: Bearer $(get_mask_password jira-admin-person-access-token)" \
   -H 'Accept: application/json'
 ```
+- issue type
+```bash
+curl -s -L -X GET -H "Authorization: Bearer $(get_mask_password jira-admin-person-access-token)" --url 'https://de.vicp.net:6586/rest/api/latest/issuetype'
+```
+- webhook
+```bash
+curl -s -L -X GET -H "Authorization: Bearer $(get_mask_password jira-admin-person-access-token)" --url 'https://de.vicp.net:6586/rest/api/2/webhook/failed'
+```
