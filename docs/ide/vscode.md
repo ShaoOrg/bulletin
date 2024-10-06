@@ -177,3 +177,6 @@
 |Ctrl+↑ / ↓|向上/向下滚动 Scroll up/down|
 |Shift+PgUp / PgDown|向上/向下滚动页面 Scroll page up/down|
 |*Ctrl+Home / End*|滚动到顶部/底部 Scroll to top/bottom|
+
+## 插件设置
+- Drawio Theme 选Atlas,就是白底黑字的,和visio兼容
