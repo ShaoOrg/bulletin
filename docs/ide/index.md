@@ -145,3 +145,6 @@
 |Ctrl+Alt+F7|显示用法|
 |Ctrl+F7|在文件中查找用法, 右键的Find Usages, 查看此方法的调用链|
 |Ctrl+Shift+F7|在文件中高亮显示用法|
+
+#### Issue
+- 命令行太长, 启动配置里->缩短命令行->java -cp classpath.jar

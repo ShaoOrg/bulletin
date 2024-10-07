@@ -34,14 +34,7 @@
 |docker --entrypoint xxx.sh报错exec xxx.sh找不到|检查xxx.sh中的第一行是否`#!/bin/sh`|
 ---
 
-## Idea
-
-|描述|地址|
-|  ----  | ----  |
-|命令行太长|启动配置里->缩短命令行->java -cp classpath.jar|
----
-
-## Code
+## 代码(备注)
 
 |描述|地址|
 |  ----  | ----  |
