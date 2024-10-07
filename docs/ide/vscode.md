@@ -151,6 +151,7 @@
 |Ctrl+Shift+H|替换文件 Replace in files|
 |Ctrl+Shift+J|切换搜索详细信息 Toggle Search details|
 |Ctrl+Shift+C|打开新命令提示符/终端 Open new command prompt/terminal|
+|ctrl+shift+alt+t(自定义)|最大化或恢复终端(terminal)的panel size|
 |Ctrl+Shift+U|显示输出面板 Show Output panel|
 |Ctrl+Shift+V|切换Markdown预览 Toggle Markdown preview|
 |Ctrl+K V|从旁边打开Markdown预览 Open Markdown preview to the side|
