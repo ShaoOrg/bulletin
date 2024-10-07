@@ -179,4 +179,7 @@
 |*Ctrl+Home / End*|滚动到顶部/底部 Scroll to top/bottom|
 
 ## 插件设置
-- Drawio Theme 选Atlas,就是白底黑字的,和visio兼容
+
+###### Drawio
+- Theme 选Atlas,就是白底黑字的,和visio兼容
+- 自动画布大小,拖动组件到不可见区域它就会自动扩展画布
