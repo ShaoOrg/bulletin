@@ -9,3 +9,4 @@ powersell -> stop-service nginx -> start-service nginx 或 restart-service nginx
 ```powershell
 [System.Environment]::SetEnvironmentVariable("变量名", "变量值", "User")
 ```
+- [win terminal 安装](https://github.com/microsoft/terminal/releases)
