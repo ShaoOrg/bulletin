@@ -11,7 +11,10 @@
                     "id": "d4uiqk46e7k0",
                     "created": 1728806443644,
                     "text": "Typora",
-                    "note": "#### Markdown编辑器\n- 实时预览和源代码模式\n- 打字机模式和专注模式\n- 图片处理\n"
+                    "note": "#### Markdown编辑器\n- 实时预览和源代码模式\n- 打字机模式和专注模式\n- 图片处理\n",
+                    "resource": [
+                        "ss"
+                    ]
                 },
                 "children": []
             },
@@ -20,7 +23,13 @@
                     "id": "d4uiqvlr75k0",
                     "created": 1728806468652,
                     "text": "Markdown Nice",
-                    "note": "Markdown Nice 是一个在线工具，允许用户自定义 Markdown 样式，可以用来生成美观的 Markdown 文档。它提供了丰富的主题选择，支持微信、知乎等平台。\n官网地址：https://www.mdnice.com/"
+                    "note": "Markdown Nice 是一个在线工具，允许用户自定义 Markdown 样式，可以用来生成美观的 Markdown 文档。它提供了丰富的主题选择，支持微信、知乎等平台。\n官网地址：https://www.mdnice.com/",
+                    "image": "",
+                    "imageTitle": "",
+                    "imageSize": "",
+                    "resource": [
+                        "bb"
+                    ]
                 },
                 "children": []
             },
@@ -29,7 +38,8 @@
                     "id": "d4uir2ufuqg0",
                     "created": 1728806484414,
                     "text": "Drawio",
-                    "note": "draw.io 是一款免费的在线图表编辑工具，无需注册或登录即可使用，安全、开源，且功能强大，广泛应用于各类图表绘制。\n\n除了在线版，draw.io 还支持安装到 Windows 和 Mac 进行离线使用。它能够绘制的图表类型丰富，包括流程图、思维导图、组织结构图、文氏图、信息图、楼宇平面图、网络图、架构图、电气工程图、UML 图等，满足多样化的绘图需求。\n\n我们可以在官网在线画图，也可以将软件下载到本地，笔者推荐下载到本地。\n\n官网地址：https://www.drawio.com/"
+                    "note": "draw.io 是一款免费的在线图表编辑工具，无需注册或登录即可使用，安全、开源，且功能强大，广泛应用于各类图表绘制。\n\n除了在线版，draw.io 还支持安装到 Windows 和 Mac 进行离线使用。它能够绘制的图表类型丰富，包括流程图、思维导图、组织结构图、文氏图、信息图、楼宇平面图、网络图、架构图、电气工程图、UML 图等，满足多样化的绘图需求。\n\n我们可以在官网在线画图，也可以将软件下载到本地，笔者推荐下载到本地。\n\n官网地址：https://www.drawio.com/",
+                    "progress": 2
                 },
                 "children": []
             },
@@ -38,7 +48,8 @@
                     "id": "d4uir5ui72g0",
                     "created": 1728806490949,
                     "text": "Carbon",
-                    "note": "Carbon 是一个用于将代码片段生成美观图片的工具，用户可以选择不同的背景、字体、颜色和样式，使代码展示更具美感。\n\n官网地址：https://carbon.now.sh/"
+                    "note": "Carbon 是一个用于将代码片段生成美观图片的工具，用户可以选择不同的背景、字体、颜色和样式，使代码展示更具美感。\n\n官网地址：https://carbon.now.sh/",
+                    "progress": 5
                 },
                 "children": []
             }
