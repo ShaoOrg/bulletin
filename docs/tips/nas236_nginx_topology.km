@@ -1,0 +1,108 @@
+{
+    "root": {
+        "data": {
+            "id": "d4wzxi0bqwo0",
+            "created": 1729058066389,
+            "text": "nas236 nginx"
+        },
+        "children": [
+            {
+                "data": {
+                    "id": "d4wzxmlf8sw0",
+                    "created": 1729058076371,
+                    "text": "app.d",
+                    "note": "系统应用 dsm.*.conf\nln -s /var/tmp/nginx/app.d /etc/nginx/app.d"
+                },
+                "children": [
+                    {
+                        "data": {
+                            "id": "d4x04a6svww0",
+                            "created": 1729058597915,
+                            "text": "server.ReverseProxy.conf",
+                            "resource": [
+                                "DSM",
+                                "Port"
+                            ]
+                        },
+                        "children": []
+                    }
+                ]
+            },
+            {
+                "data": {
+                    "id": "d4wzyavkakw0",
+                    "created": 1729058129227,
+                    "text": "conf.d",
+                    "note": "ln -s /usr/local/etc/nginx/conf.d /etc/nginx/conf.d"
+                },
+                "children": [
+                    {
+                        "data": {
+                            "id": "d4x01e6abew0",
+                            "created": 1729058371499,
+                            "text": "main.conf",
+                            "note": "main.conf -> /app/etc/main.conf",
+                            "resource": [
+                                "/app/etc",
+                                "Port"
+                            ]
+                        },
+                        "children": []
+                    },
+                    {
+                        "data": {
+                            "id": "d4x02t2bpr40",
+                            "created": 1729058482275,
+                            "text": "http.rvproxy.conf",
+                            "note": "http.rvproxy.conf -> /app/etc/server.custom.ReverseProxy.conf",
+                            "resource": [
+                                "/app/etc",
+                                "Port"
+                            ]
+                        },
+                        "children": []
+                    },
+                    {
+                        "data": {
+                            "id": "d4x032fl6ps0",
+                            "created": 1729058502668,
+                            "text": "dsm.Web.conf",
+                            "note": "dsm.Web.conf -> /app/etc/web.conf",
+                            "resource": [
+                                "/app/etc"
+                            ]
+                        },
+                        "children": []
+                    },
+                    {
+                        "data": {
+                            "id": "d4x03f0lp400",
+                            "created": 1729058530060,
+                            "text": "http.rpc.conf",
+                            "note": "http.rpc.conf -> /app/etc/http.conf",
+                            "resource": [
+                                "/app/etc"
+                            ]
+                        },
+                        "children": []
+                    }
+                ]
+            },
+            {
+                "data": {
+                    "id": "d4wzyqr94ew0",
+                    "created": 1729058163795,
+                    "text": "sites-enabled",
+                    "note": "ln -s /usr/local/etc/nginx/sites-enabled /etc/nginx/sites-enabled",
+                    "resource": [
+                        "DSM"
+                    ]
+                },
+                "children": []
+            }
+        ]
+    },
+    "template": "right",
+    "theme": "fresh-blue",
+    "version": "1.4.43"
+}
