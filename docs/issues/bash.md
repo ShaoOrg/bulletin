@@ -22,3 +22,10 @@ ssh jenkins-8m2-docker 'curl -ks -L http://nas246.shao.sh:39002/tools/linux/core
 `foo_str=$(aaffsf) || echo 1`
 - 不会执行
 `foo_str=$(aaffsf | grep running | awk '{print $2}') || echo 1`
+
+###### lvs
+- lvs 看磁盘分布
+`lvs -o+devices`
+###### grep
+- 限定文件 grep
+`grep -r "abc" --include "*.yaml" .`
