@@ -1,0 +1,101 @@
+{
+    "root": {
+        "data": {
+            "id": "d50qsa7psxk0",
+            "created": 1729438507438,
+            "text": "JDSClusterManager\ncom.hp.usage.mgmt\n.jds.cluster.\nJDSClusterManagerImpl",
+            "progress": null
+        },
+        "children": [
+            {
+                "data": {
+                    "id": "d50qsgpina00",
+                    "created": 1729438521575,
+                    "text": "ClusterManagerServiceImpl"
+                },
+                "children": [
+                    {
+                        "data": {
+                            "id": "d50qsn9jntc0",
+                            "created": 1729438535847,
+                            "text": "JDSClusterPanel"
+                        },
+                        "children": [
+                            {
+                                "data": {
+                                    "id": "d50qsqpe0vk0",
+                                    "created": 1729438543335,
+                                    "text": "JDSRecordsetPanel"
+                                },
+                                "children": []
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "data": {
+                    "id": "d50qsiyqqsg0",
+                    "created": 1729438526486,
+                    "text": "JDSAgentService",
+                    "note": "每个Collector都配置一个JDSAgentService"
+                },
+                "children": []
+            },
+            {
+                "data": {
+                    "id": "d50qsjcxfxc0",
+                    "created": 1729438527344,
+                    "text": "JobDistributionServer\ncom.hp.usage.jds.service.\nJDSAgentService",
+                    "note": "有1个或多个，但同时只有一个是Primary Status\n"
+                },
+                "children": [
+                    {
+                        "data": {
+                            "id": "d50qt0x7ets0",
+                            "created": 1729438565575,
+                            "text": "JDSKpiService",
+                            "priority": null
+                        },
+                        "children": []
+                    },
+                    {
+                        "data": {
+                            "id": "d50qt0h6gw80",
+                            "created": 1729438564606,
+                            "text": "JDSJobManagerService"
+                        },
+                        "children": []
+                    },
+                    {
+                        "data": {
+                            "id": "d50qt1bc0mo0",
+                            "created": 1729438566430,
+                            "text": "JDSStoreService"
+                        },
+                        "children": []
+                    },
+                    {
+                        "data": {
+                            "id": "d50qt1o18ts0",
+                            "created": 1729438567198,
+                            "text": "JDSFailedJobManagerControllerIF"
+                        },
+                        "children": []
+                    },
+                    {
+                        "data": {
+                            "id": "d50qt21f1r40",
+                            "created": 1729438568007,
+                            "text": "JDSProcessController"
+                        },
+                        "children": []
+                    }
+                ]
+            }
+        ]
+    },
+    "template": "structure",
+    "theme": "fresh-blue",
+    "version": "1.4.43"
+}
