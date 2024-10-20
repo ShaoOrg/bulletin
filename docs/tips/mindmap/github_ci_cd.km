@@ -1,0 +1,294 @@
+{
+    "root": {
+        "data": {
+            "id": "d50l2bqjrb40",
+            "created": 1729422367736,
+            "text": "github ci/cd"
+        },
+        "children": [
+            {
+                "data": {
+                    "id": "d50l33l3oyw0",
+                    "created": 1729422428356,
+                    "text": "on",
+                    "progress": 9
+                },
+                "children": [
+                    {
+                        "data": {
+                            "id": "d50l6jvn8j40",
+                            "created": 1729422698915,
+                            "text": "push",
+                            "progress": 9
+                        },
+                        "children": []
+                    },
+                    {
+                        "data": {
+                            "id": "d50l6gcwh280",
+                            "created": 1729422691251,
+                            "text": "release"
+                        },
+                        "children": []
+                    },
+                    {
+                        "data": {
+                            "id": "d50l6s13j6g0",
+                            "created": 1729422716659,
+                            "text": "workflow_dispatch"
+                        },
+                        "children": []
+                    }
+                ]
+            },
+            {
+                "data": {
+                    "id": "d50l35nzdio0",
+                    "created": 1729422432884,
+                    "text": "permissions"
+                },
+                "children": []
+            },
+            {
+                "data": {
+                    "id": "d50l3f2z2wg0",
+                    "created": 1729422453381,
+                    "text": "concurrency",
+                    "layout_right_offset": {
+                        "x": -5,
+                        "y": 93
+                    }
+                },
+                "children": []
+            },
+            {
+                "data": {
+                    "id": "d50l3g2kymg0",
+                    "created": 1729422455534,
+                    "text": "jobs",
+                    "progress": 9
+                },
+                "children": [
+                    {
+                        "data": {
+                            "id": "d50l4qrt4ls0",
+                            "created": 1729422557192,
+                            "text": "job名字"
+                        },
+                        "children": [
+                            {
+                                "data": {
+                                    "id": "d50l4wj8z340",
+                                    "created": 1729422569735,
+                                    "text": "runs-on",
+                                    "resource": [
+                                        "runner"
+                                    ]
+                                },
+                                "children": []
+                            },
+                            {
+                                "data": {
+                                    "id": "d50l4zmxiko0",
+                                    "created": 1729422576488,
+                                    "text": "steps[]"
+                                },
+                                "children": [
+                                    {
+                                        "data": {
+                                            "id": "d50l5aahs800",
+                                            "created": 1729422599681,
+                                            "text": "uses"
+                                        },
+                                        "children": []
+                                    },
+                                    {
+                                        "data": {
+                                            "id": "d50l5lkb0oo0",
+                                            "created": 1729422624218,
+                                            "text": "run",
+                                            "resource": [
+                                                "shell"
+                                            ]
+                                        },
+                                        "children": []
+                                    },
+                                    {
+                                        "data": {
+                                            "id": "d50l5dzu9y80",
+                                            "created": 1729422607744,
+                                            "text": "with"
+                                        },
+                                        "children": []
+                                    }
+                                ]
+                            },
+                            {
+                                "data": {
+                                    "id": "d50lxq5gmfc0",
+                                    "created": 1729424828401,
+                                    "text": "env/defaults.env",
+                                    "resource": [
+                                        "var"
+                                    ],
+                                    "note": "组织或仓库级别变量通过${{vars.变量名}}使用\n工作流变量通过${{变量名}}使用\n"
+                                },
+                                "children": []
+                            },
+                            {
+                                "data": {
+                                    "id": "d50n0et66cg0",
+                                    "created": 1729427859916,
+                                    "text": "environment",
+                                    "resource": [
+                                        "var"
+                                    ],
+                                    "note": "通过vars上下文访问,必须配置了environment才会生效\n配置environment,可以要求review才能执行workflo"
+                                },
+                                "children": []
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "data": {
+                    "id": "d50l3plcsw80",
+                    "created": 1729422476261,
+                    "text": "deploy"
+                },
+                "children": []
+            },
+            {
+                "data": {
+                    "id": "d50mo4jk3g00",
+                    "created": 1729426897197,
+                    "text": "env",
+                    "layout_right_offset": {
+                        "x": 5,
+                        "y": -508
+                    },
+                    "resource": [
+                        "var"
+                    ]
+                },
+                "children": []
+            },
+            {
+                "data": {
+                    "id": "d50msv2s5jk0",
+                    "created": 1729427268412,
+                    "text": "可使用的上下文",
+                    "hyperlink": "https://docs.github.com/zh/enterprise-server@3.14/actions/writing-workflows/choosing-what-your-workflow-does/accessing-contextual-information-about-workflow-runs#vars-context",
+                    "hyperlinkTitle": "官方文档",
+                    "layout_right_offset": {
+                        "x": -11,
+                        "y": -152
+                    }
+                },
+                "children": [
+                    {
+                        "data": {
+                            "id": "d50mtgllgtk0",
+                            "created": 1729427315262,
+                            "text": "github"
+                        },
+                        "children": []
+                    },
+                    {
+                        "data": {
+                            "id": "d50mtrqq0p40",
+                            "created": 1729427339518,
+                            "text": "env"
+                        },
+                        "children": []
+                    },
+                    {
+                        "data": {
+                            "id": "d50mtshce0g0",
+                            "created": 1729427341127,
+                            "text": "vars",
+                            "progress": 9
+                        },
+                        "children": []
+                    },
+                    {
+                        "data": {
+                            "id": "d50mtt6vfeo0",
+                            "created": 1729427342670,
+                            "text": "secrets"
+                        },
+                        "children": []
+                    },
+                    {
+                        "data": {
+                            "id": "d50mujgcv3k0",
+                            "created": 1729427399840,
+                            "text": "job"
+                        },
+                        "children": []
+                    },
+                    {
+                        "data": {
+                            "id": "d50muk7v5vk0",
+                            "created": 1729427401503,
+                            "text": "jobs"
+                        },
+                        "children": []
+                    },
+                    {
+                        "data": {
+                            "id": "d50muxg6mog0",
+                            "created": 1729427430305,
+                            "text": "steps"
+                        },
+                        "children": []
+                    },
+                    {
+                        "data": {
+                            "id": "d50muy2jms00",
+                            "created": 1729427431657,
+                            "text": "runner"
+                        },
+                        "children": []
+                    },
+                    {
+                        "data": {
+                            "id": "d50mv6ojag80",
+                            "created": 1729427450401,
+                            "text": "strategy"
+                        },
+                        "children": []
+                    },
+                    {
+                        "data": {
+                            "id": "d50mv8e7cu00",
+                            "created": 1729427454129,
+                            "text": "matrix"
+                        },
+                        "children": []
+                    },
+                    {
+                        "data": {
+                            "id": "d50mvcvzs8g0",
+                            "created": 1729427463912,
+                            "text": "needs"
+                        },
+                        "children": []
+                    },
+                    {
+                        "data": {
+                            "id": "d50mvfivdfc0",
+                            "created": 1729427469649,
+                            "text": "inputs"
+                        },
+                        "children": []
+                    }
+                ]
+            }
+        ]
+    },
+    "template": "right",
+    "theme": "fresh-blue",
+    "version": "1.4.43"
+}
