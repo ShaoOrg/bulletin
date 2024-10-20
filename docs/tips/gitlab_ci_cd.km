@@ -1,0 +1,146 @@
+{
+    "root": {
+        "data": {
+            "id": "d50k35r3nw80",
+            "created": 1729419611963,
+            "text": "gitlab ci/cd"
+        },
+        "children": [
+            {
+                "data": {
+                    "id": "d50k3heb3ds1",
+                    "created": 1729419637310,
+                    "text": "job名字",
+                    "progress": 9,
+                    "expandState": "expand",
+                    "note": "key作为名字, stage 关联 stages"
+                },
+                "children": [
+                    {
+                        "data": {
+                            "id": "d50k3heb3ds0",
+                            "created": 1729419637310,
+                            "text": "stage",
+                            "progress": 9
+                        },
+                        "children": []
+                    },
+                    {
+                        "data": {
+                            "id": "d50k6gdtrxk0",
+                            "created": 1729419870197,
+                            "text": "tags",
+                            "resource": [
+                                "runner"
+                            ]
+                        },
+                        "children": []
+                    },
+                    {
+                        "data": {
+                            "id": "d50k5o3pyug0",
+                            "created": 1729419808636,
+                            "text": "needs"
+                        },
+                        "children": []
+                    },
+                    {
+                        "data": {
+                            "id": "d50k3lprz4w0",
+                            "created": 1729419646711,
+                            "text": "image"
+                        },
+                        "children": []
+                    },
+                    {
+                        "data": {
+                            "id": "d50k3tp5cm00",
+                            "created": 1729419664087,
+                            "text": "rules"
+                        },
+                        "children": []
+                    },
+                    {
+                        "data": {
+                            "id": "d50k3viwwd40",
+                            "created": 1729419668064,
+                            "text": "script",
+                            "resource": [
+                                "shell"
+                            ]
+                        },
+                        "children": []
+                    },
+                    {
+                        "data": {
+                            "id": "d50k405vblc0",
+                            "created": 1729419678159,
+                            "text": "artifacts"
+                        },
+                        "children": []
+                    },
+                    {
+                        "data": {
+                            "id": "d50k4562gpc0",
+                            "created": 1729419689055,
+                            "text": "environment"
+                        },
+                        "children": []
+                    },
+                    {
+                        "data": {
+                            "id": "d50k47rci5k0",
+                            "created": 1729419694695,
+                            "text": "when"
+                        },
+                        "children": []
+                    },
+                    {
+                        "data": {
+                            "id": "d50k6yd6wow0",
+                            "created": 1729419909341,
+                            "text": "only"
+                        },
+                        "children": []
+                    },
+                    {
+                        "data": {
+                            "id": "d50k707hiu80",
+                            "created": 1729419913349,
+                            "text": "except"
+                        },
+                        "children": []
+                    },
+                    {
+                        "data": {
+                            "id": "d50k7a2wixk0",
+                            "created": 1729419934840,
+                            "text": "parallel"
+                        },
+                        "children": []
+                    }
+                ]
+            },
+            {
+                "data": {
+                    "id": "d50kcz9nqhc0",
+                    "created": 1729420381489,
+                    "text": "stages[string]",
+                    "progress": 9
+                },
+                "children": []
+            },
+            {
+                "data": {
+                    "id": "d50kdaqqp5k0",
+                    "created": 1729420406466,
+                    "text": "variables"
+                },
+                "children": []
+            }
+        ]
+    },
+    "template": "right",
+    "theme": "fresh-blue",
+    "version": "1.4.43"
+}
