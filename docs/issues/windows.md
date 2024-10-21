@@ -10,3 +10,9 @@ powersell -> stop-service nginx -> start-service nginx 或 restart-service nginx
 [System.Environment]::SetEnvironmentVariable("变量名", "变量值", "User")
 ```
 - [win terminal 安装](https://github.com/microsoft/terminal/releases)
+- 强制停止处于StopPending状态的Service, 需要先找到service 的 pid
+```
+sc queryex jenkins-agent
+taskkill /f /pid 2944
+Start-Service -Name "jenkins-agent"
+```
