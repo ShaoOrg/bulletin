@@ -1,4 +1,7 @@
 # Vscode快捷键
+## 常用快捷键
+- toggle terminal, Ctrl + `
+- toggle explorer, Ctrl + B
 ## 导航 Navigation
 |按 Press|功能 Function|
 |  ----  | ----  |
