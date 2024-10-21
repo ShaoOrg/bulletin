@@ -3,6 +3,7 @@
 -[官方文档](https://docs.gitlab.com/ee/ci/runners/runners_scope.html)
 - [instance runner](https://de.vicp.net:58443/admin/runners)
 - [runner缺省的shell类型](https://docs.gitlab.com/ee/ci/variables/#using-the-ci-variables-in-your-job-scripts), 定义在config.toml
+- [runner supportted shell](https://docs.gitlab.com/runner/shells/index.html#shell-profile-loading)
 ###### New Repository
 - Create a new repository
 ```
