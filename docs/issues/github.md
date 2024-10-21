@@ -5,8 +5,10 @@
 - Organization里可以看到Runner,但Repository里却看不到
 检查[Repository Access](https://github.shao.sh/organizations/SszOrg/settings/actions/runner-groups/3),它可以限制哪些repository可以使用这个Runner Group, 会导致repository看不到所属的Runner
 - 启动runner,一个runner只能同时运行一个job,但同一台机器可以安装多个runner
-`systemd-run --unit=actions-runner bash -c "export RUNNER_ALLOW_RUNASROOT=1; /root/actions-runner/run.sh"`
-`systemd-run --unit=actions-runner-2 bash -c "export RUNNER_ALLOW_RUNASROOT=1; /root/actions-runner-2/run.sh"`
+```
+systemd-run --unit=actions-runner bash -c "export RUNNER_ALLOW_RUNASROOT=1; /root/actions-runner/run.sh"
+systemd-run --unit=actions-runner-2 bash -c "export RUNNER_ALLOW_RUNASROOT=1; /root/actions-runner-2/run.sh"
+```
 ###### 变量
 - 企业级,不支持
 - [组织级](https://github.shao.sh/organizations/SszOrg/settings/variables/actions)
