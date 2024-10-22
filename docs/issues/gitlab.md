@@ -37,3 +37,8 @@ git push --set-upstream origin --tags
 - [组织级](https://de.vicp.net:58443/groups/SszOrg/-/settings/ci_cd)
 - [仓库级](https://de.vicp.net:58443/SszOrg/ci-cd-demo/-/settings/ci_cd)
 - CI级,定义在ci/cd文件的variables里
+###### Release
+- [通过API Release](https://docs.gitlab.com/ee/api/releases)
+###### Job Rules
+- if里不能用${变量},只能用$变量,否则会报错
+- [必须在repo的setting里设置protected tag(例如v*)](https://www.reddit.com/r/gitlab/comments/1ah7eq3/how_to_get_gitlabrunner_to_run_not_get_stuck_when/), 这样提交git push origin --tags(git push --follow-tags)时候,这个pipeline才不会stuck
