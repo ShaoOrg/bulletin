@@ -35,6 +35,7 @@
 |win-9001 alist|[alist](https://de.vicp.net:5244)|
 |vps23 geminpro chat|[geminpro chat](https://de.vicp.net:3030)|
 |minIO s3 |[s3](http://192.168.50.234:9001/)|
+|minIO s3 |[s3](https://de.vicp.net:9001/)|
 |code2snippets|[code to snippets for vscode](https://codepen.io/mrmlnc/pen/GqMqPg)|
 ## VM
 ---

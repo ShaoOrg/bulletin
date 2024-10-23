@@ -1,0 +1,63 @@
+{
+    "root": {
+        "data": {
+            "id": "d52s0zikpsg0",
+            "created": 1729645130451,
+            "text": "对象存储"
+        },
+        "children": [
+            {
+                "data": {
+                    "id": "d52s14ul6hs0",
+                    "created": 1729645142061,
+                    "text": "中国"
+                },
+                "children": [
+                    {
+                        "data": {
+                            "id": "d52s18rdcrk0",
+                            "created": 1729645150573,
+                            "text": "阿里云OSS"
+                        },
+                        "children": []
+                    },
+                    {
+                        "data": {
+                            "id": "d52s1du7hq80",
+                            "created": 1729645161629,
+                            "text": "腾讯云COS"
+                        },
+                        "children": []
+                    },
+                    {
+                        "data": {
+                            "id": "d52s1k7mi0o0",
+                            "created": 1729645175501,
+                            "text": "华为云OBS"
+                        },
+                        "children": []
+                    },
+                    {
+                        "data": {
+                            "id": "d52s200swy00",
+                            "created": 1729645209917,
+                            "text": "百度智能云BOS"
+                        },
+                        "children": []
+                    },
+                    {
+                        "data": {
+                            "id": "d52s25hjraw0",
+                            "created": 1729645221813,
+                            "text": "京东云JOS"
+                        },
+                        "children": []
+                    }
+                ]
+            }
+        ]
+    },
+    "template": "default",
+    "theme": "fresh-blue",
+    "version": "1.4.43"
+}

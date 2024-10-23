@@ -39,6 +39,17 @@ git push --set-upstream origin --tags
 - CI级,定义在ci/cd文件的variables里
 ###### Release
 - [通过API Release](https://docs.gitlab.com/ee/api/releases)
+- [已有的Release增加Link]()
+```
+curl "https://de.vicp.net:58443/api/v4/projects/353/releases/v0.3.3/assets/links" --header 'Content-Type: application/json' --request POST --header "PRIVATE-TOKEN: person-access-token" \
+--data @- <<EOF
+{
+  "name": "hello-public.sh",
+  "link_type": "other",
+  "url": "https://de.vicp.net:9000/gitlab.package/demo/hello.sh?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=Q0WiPPNdHXSiFoCftsF2%2F20241023%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20241023T001646Z&X-Amz-Expires=604800&X-Amz-SignedHeaders=host&X-Amz-Signature=df3e54943dc375255e6ba4adc547ebd58b98858bc8027597cc4644ba5db902d0"
+}
+EOF
+```
 ###### Job Rules
 - if里不能用${变量},只能用$变量,否则会报错
 - [必须在repo的setting里设置protected tag(例如v*)](https://www.reddit.com/r/gitlab/comments/1ah7eq3/how_to_get_gitlabrunner_to_run_not_get_stuck_when/), 这样提交git push origin --tags(git push --follow-tags)时候,这个pipeline才不会stuck
