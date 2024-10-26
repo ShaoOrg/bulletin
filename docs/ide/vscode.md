@@ -16,7 +16,7 @@
 |**Alt + ←/→**|返回/前进 Go back / forward, 回到上个光标所在行|
 |Ctrl + M|切换选项卡移动焦点 Toggle Tab moves focus|
 
-## 切换工作区 Ctrl + W
+## 切换工作区 Ctrl+W, Toggle 2个文件 Ctrl+Tab
 ---
 |按 Press|功能 Function|
 |  ----  | ----  |
