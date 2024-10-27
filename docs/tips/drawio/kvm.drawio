@@ -1,6 +1,6 @@
 <mxfile host="65bd71144e">
     <diagram id="mgwFtLMpxiVEjd0y8vvb" name="create server">
-        <mxGraphModel dx="1135" dy="433" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1100" pageHeight="850" math="0" shadow="0">
+        <mxGraphModel grid="1" page="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" pageScale="1" pageWidth="1100" pageHeight="850" math="0" shadow="0">
             <root>
                 <mxCell id="0"/>
                 <mxCell id="1" parent="0"/>
@@ -342,6 +342,35 @@
                 </mxCell>
                 <mxCell id="92Gd50F5aXhiHrvgFRSQ-2" value="guest" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;dashed=1;" vertex="1" parent="1">
                     <mxGeometry x="400" y="290" width="80" height="30" as="geometry"/>
+                </mxCell>
+            </root>
+        </mxGraphModel>
+    </diagram>
+    <diagram id="5NtY_muSh_cJPEZcF0wT" name="修改主机名">
+        <mxGraphModel dx="1135" dy="433" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1100" pageHeight="850" math="0" shadow="0">
+            <root>
+                <mxCell id="0"/>
+                <mxCell id="1" parent="0"/>
+                <mxCell id="zEvRfeQY_UMIYFhdd4TS-2" value="--run&lt;br&gt;script in host" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
+                    <mxGeometry x="360" y="140" width="80" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="AHLxmAVmjGIOJfRKhq1p-1" value="echo &quot;xxx&quot; &amp;gt; /etc/hostname" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;dashed=1;" vertex="1" parent="1">
+                    <mxGeometry x="160" y="140" width="80" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="AHLxmAVmjGIOJfRKhq1p-2" value="" style="swimlane;startSize=0;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
+                    <mxGeometry x="301" y="30" width="200" height="200" as="geometry"/>
+                </mxCell>
+                <mxCell id="zEvRfeQY_UMIYFhdd4TS-1" value="--hostname xxx" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="AHLxmAVmjGIOJfRKhq1p-2">
+                    <mxGeometry x="59" y="50" width="80" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="AHLxmAVmjGIOJfRKhq1p-3" value="virt-customize" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+                    <mxGeometry x="353" y="25" width="100" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="siL3gZd2IDLZs16i82CV-1" value="" style="endArrow=none;dashed=1;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="AHLxmAVmjGIOJfRKhq1p-1" target="zEvRfeQY_UMIYFhdd4TS-2">
+                    <mxGeometry width="50" height="50" relative="1" as="geometry">
+                        <mxPoint x="520" y="50" as="sourcePoint"/>
+                        <mxPoint x="570" as="targetPoint"/>
+                    </mxGeometry>
                 </mxCell>
             </root>
         </mxGraphModel>
