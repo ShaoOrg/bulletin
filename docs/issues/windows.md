@@ -16,3 +16,5 @@ sc queryex jenkins-agent
 taskkill /f /pid 2944
 Start-Service -Name "jenkins-agent"
 ```
+- 电池健康度
+`powercfg/batteryreport`
