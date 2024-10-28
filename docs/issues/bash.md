@@ -29,3 +29,20 @@ ssh jenkins-8m2-docker 'curl -ks -L http://nas246.shao.sh:39002/tools/linux/core
 ###### grep
 - 限定文件 grep
 `grep -r "abc" --include "*.yaml" .`
+
+###### yum variables
+- stream, centos-stream, rocky中有效
+```
+centos-stream: 8-stream, 9-stream, 10-stream
+rocky: 8-rocky, 9-rocky
+```
+- releasever, red hat系列中有效
+```
+centos: 8, 9, 10
+centos-stream: 8, 9, 10
+...
+```
+- basearch, red hat系列中有效
+```
+centos: x84_64, i686
+```
