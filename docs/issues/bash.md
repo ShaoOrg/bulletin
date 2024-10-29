@@ -46,3 +46,5 @@ centos-stream: 8, 9, 10
 ```
 centos: x84_64, i686
 ```
+###### GNU Software
+- [All GNU Software](https://www.gnu.org/software/)
