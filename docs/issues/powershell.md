@@ -18,3 +18,31 @@
 |Vscode中Power Shell的Profile, 等同于Win Terminal|C:\Users\ssz\Documents\WindowsPowerShell\Microsoft.PowerShell_profile.ps1|
 ||[Approved Verbs For Powershell](https://learn.microsoft.com/en-us/powershell/scripting/developer/cmdlet/approved-verbs-for-windows-powershell-commands?view=powershell-7.4)|
 ---
+
+###### Local Repository
+- [Local Repository](https://learn.microsoft.com/en-us/powershell/gallery/how-to/working-with-local-psrepositories?view=powershellget-3.x)
+```
+# Register a NuGet-based server
+$registerPSRepositorySplat = @{
+    Name = 'LocalPSRepo'
+    SourceLocation = 'http://MyLocalNuget/Api/V2/'
+    ScriptSourceLocation = 'http://MyLocalNuget/Api/V2'
+    InstallationPolicy = 'Trusted'
+}
+Register-PSRepository @registerPSRepositorySplat
+
+# Register a file share on my local machine
+$registerPSRepositorySplat = @{
+    Name = 'LocalPSRepo'
+    SourceLocation = '/root/ps-repository'
+    ScriptSourceLocation = '/root/ps-repository'
+    InstallationPolicy = 'Trusted'
+}
+Register-PSRepository @registerPSRepositorySplat
+Register-PSRepository -Name LocalPSRepo -SourceLocation "/root/ps-repository" -InstallationPolicy Trusted
+
+```
+- [crediential repository](https://learn.microsoft.com/en-us/powershell/gallery/powershellget/how-to/credential-persistence?view=powershellget-3.x)
+
+###### Modules
+- 安装路径, $env:PSModulePath, ':',分隔的多个路径, 依次搜索

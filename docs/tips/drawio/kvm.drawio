@@ -1,6 +1,10 @@
 <mxfile host="65bd71144e">
     <diagram id="mgwFtLMpxiVEjd0y8vvb" name="create server">
+<<<<<<< HEAD
         <mxGraphModel dx="693" dy="384" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1100" pageHeight="850" math="0" shadow="0">
+=======
+        <mxGraphModel dx="752" dy="217" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1100" pageHeight="850" math="0" shadow="0">
+>>>>>>> 4c13233 (NOCR: nexus)
             <root>
                 <mxCell id="0"/>
                 <mxCell id="1" parent="0"/>
@@ -347,6 +351,7 @@
         </mxGraphModel>
     </diagram>
     <diagram id="5NtY_muSh_cJPEZcF0wT" name="修改主机名">
+<<<<<<< HEAD
         <mxGraphModel dx="693" dy="552" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1100" pageHeight="850" math="0" shadow="0">
             <root>
                 <mxCell id="0"/>
@@ -356,16 +361,36 @@
                 </mxCell>
                 <mxCell id="AHLxmAVmjGIOJfRKhq1p-2" value="" style="swimlane;startSize=0;fillColor=#f8cecc;strokeColor=#b85450;swimlaneFillColor=#F8CECC;" parent="1" vertex="1">
                     <mxGeometry x="330" y="30" width="200" height="200" as="geometry"/>
+=======
+        <mxGraphModel dx="752" dy="217" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1100" pageHeight="850" math="0" shadow="0">
+            <root>
+                <mxCell id="0"/>
+                <mxCell id="1" parent="0"/>
+                <mxCell id="zEvRfeQY_UMIYFhdd4TS-2" value="--run&lt;br&gt;script in host" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" parent="1" vertex="1">
+                    <mxGeometry x="360" y="140" width="80" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="AHLxmAVmjGIOJfRKhq1p-1" value="echo &quot;xxx&quot; &amp;gt; /etc/hostname" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;dashed=1;" parent="1" vertex="1">
+                    <mxGeometry x="160" y="140" width="80" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="AHLxmAVmjGIOJfRKhq1p-2" value="" style="swimlane;startSize=0;fillColor=#f8cecc;strokeColor=#b85450;" parent="1" vertex="1">
+                    <mxGeometry x="301" y="30" width="200" height="200" as="geometry"/>
+>>>>>>> 4c13233 (NOCR: nexus)
                 </mxCell>
                 <mxCell id="zEvRfeQY_UMIYFhdd4TS-1" value="--hostname xxx" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" parent="AHLxmAVmjGIOJfRKhq1p-2" vertex="1">
                     <mxGeometry x="59" y="50" width="80" height="30" as="geometry"/>
                 </mxCell>
+<<<<<<< HEAD
                 <mxCell id="zEvRfeQY_UMIYFhdd4TS-2" value="--run&lt;br&gt;script in host" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" parent="AHLxmAVmjGIOJfRKhq1p-2" vertex="1">
                     <mxGeometry x="59" y="110" width="80" height="30" as="geometry"/>
                 </mxCell>
                 <mxCell id="AHLxmAVmjGIOJfRKhq1p-3" value="virt-customize" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="AHLxmAVmjGIOJfRKhq1p-2" vertex="1">
                     <mxGeometry x="49" width="100" height="30" as="geometry"/>
                 </mxCell>
+=======
+                <mxCell id="AHLxmAVmjGIOJfRKhq1p-3" value="virt-customize" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
+                    <mxGeometry x="353" y="25" width="100" height="30" as="geometry"/>
+                </mxCell>
+>>>>>>> 4c13233 (NOCR: nexus)
                 <mxCell id="siL3gZd2IDLZs16i82CV-1" value="" style="endArrow=none;dashed=1;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" parent="1" source="AHLxmAVmjGIOJfRKhq1p-1" target="zEvRfeQY_UMIYFhdd4TS-2" edge="1">
                     <mxGeometry width="50" height="50" relative="1" as="geometry">
                         <mxPoint x="520" y="50" as="sourcePoint"/>
