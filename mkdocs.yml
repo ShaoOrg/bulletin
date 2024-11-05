@@ -109,6 +109,7 @@ plugins:  #插件
 #        - ja  #日语
       separator: '[\s\u200b\-_,:!=\[\]()"`/]+|\.(?!\d)|&[lg]t;|(?!\b)(?=[A-Z][a-z])' #分隔符，空格、减号、点
 #      prebuild_index: true  #预构建索引，默认false，已经弃用该选项
+  - drawio
 
 extra_javascript:
   - javascripts/baidu-tongji.js  #百度统计
