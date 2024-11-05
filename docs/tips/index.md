@@ -7,6 +7,6 @@
 - [online diagram viewer](https://www.drawio.com/blog/online-diagram-viewer)
 ###### Online View
 - kvm ![create server](drawio/kvm.drawio)
-- watch ![GitHub watchers](https://raw.githubusercontent.com/jgraph/drawio-diagrams/dev/examples/cell-culture-flow.drawio)
 - 检查文件存在 ![检查文件存在](drawio/bash-lib-map.drawio)
+- watch ![GitHub watchers](https://raw.githubusercontent.com/jgraph/drawio-diagrams/dev/examples/cell-culture-flow.drawio)
 - 检查文件存在 ![检查文件存在](https://de.vicp.net:58443/ShaoOrg/bulletin/-/raw/main/docs/tips/drawio/bash-lib-map.drawio)
