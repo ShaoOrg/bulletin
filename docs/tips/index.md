@@ -6,6 +6,6 @@
 - [Example Templates](https://www.drawio.com/example-diagrams)
 - [online diagram viewer](https://www.drawio.com/blog/online-diagram-viewer)
 ###### Online View
-- kvm ![kvm](drawio/kvm.drawio)
+- kvm ![create server](drawio/kvm.drawio)
 - watch ![GitHub watchers](https://img.shields.io/github/watchers/OI-wiki/OI-wiki.svg?style=social&label=Watch)
-- 检查文件存在 ![d](drawio/bash-lib-map.drawio?page=3)
+- 检查文件存在 ![检查文件存在](drawio/bash-lib-map.drawio)
