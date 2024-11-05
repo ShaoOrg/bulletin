@@ -6,6 +6,6 @@
 - [Example Templates](https://www.drawio.com/example-diagrams)
 - [online diagram viewer](https://www.drawio.com/blog/online-diagram-viewer)
 ###### Online View
-- kvm ![kvm](kvm.drawio)
+- kvm ![kvm](drawio/kvm.drawio)
 - watch ![GitHub watchers](https://img.shields.io/github/watchers/OI-wiki/OI-wiki.svg?style=social&label=Watch)
 - digram ![d](drawio/bash-lib-map.drawio)
