@@ -8,4 +8,4 @@
 ###### Online View
 - kvm ![kvm](drawio/kvm.drawio)
 - watch ![GitHub watchers](https://img.shields.io/github/watchers/OI-wiki/OI-wiki.svg?style=social&label=Watch)
-- digram ![d](drawio/bash-lib-map.drawio)
+- 检查文件存在 ![d](drawio/bash-lib-map.drawio?page=3)
