@@ -1,7 +1,7 @@
 ## Drawio
 
 ###### Container
-- <a href="https://de.vicp.net:58765" onclick="return false;">刷新文档</a>
+- <a href="https://de.vicp.net:58765" target="_blank">刷新文档</a>
 - Container不能设置背景色
 选中container, 然后设置Fill边上的LaneColor
 - [Example Templates](https://www.drawio.com/example-diagrams)
