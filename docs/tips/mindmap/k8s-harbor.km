@@ -1,0 +1,130 @@
+{
+    "root": {
+        "data": {
+            "id": "d5frjoaec0w0",
+            "created": 1730964053257,
+            "text": "Harbor"
+        },
+        "children": [
+            {
+                "data": {
+                    "id": "d5frkff0u480",
+                    "created": 1730964112310,
+                    "text": "REST"
+                },
+                "children": [
+                    {
+                        "data": {
+                            "id": "d5frklwj8b40",
+                            "created": 1730964126430,
+                            "text": "robot name"
+                        },
+                        "children": [
+                            {
+                                "data": {
+                                    "id": "d5frqhqwrts0",
+                                    "created": 1730964587568,
+                                    "text": "-H \"Authorization: Bearer robot-name\""
+                                },
+                                "children": []
+                            }
+                        ]
+                    },
+                    {
+                        "data": {
+                            "id": "d5frla54pl40",
+                            "created": 1730964179192,
+                            "text": "user"
+                        },
+                        "children": [
+                            {
+                                "data": {
+                                    "id": "d5frn9jukjk0",
+                                    "created": 1730964334634,
+                                    "text": "-u user:pw"
+                                },
+                                "children": []
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "data": {
+                    "id": "d5frr7hiwgw0",
+                    "created": 1730964643596,
+                    "text": "Proxy"
+                },
+                "children": []
+            },
+            {
+                "data": {
+                    "id": "d5frt3zpxbs0",
+                    "created": 1730964792718,
+                    "text": "Certificates"
+                },
+                "children": []
+            },
+            {
+                "data": {
+                    "id": "d5frtb5bwig0",
+                    "created": 1730964808295,
+                    "text": "Components"
+                },
+                "children": [
+                    {
+                        "data": {
+                            "id": "d5frttn9moo0",
+                            "created": 1730964848561,
+                            "text": "harbor-core"
+                        },
+                        "children": []
+                    },
+                    {
+                        "data": {
+                            "id": "d5fru0nuyj40",
+                            "created": 1730964863834,
+                            "text": "nginx-photon"
+                        },
+                        "children": []
+                    },
+                    {
+                        "data": {
+                            "id": "d5fru7z7a3k0",
+                            "created": 1730964879758,
+                            "text": "redis-photon"
+                        },
+                        "children": []
+                    },
+                    {
+                        "data": {
+                            "id": "d5frucvta8g0",
+                            "created": 1730964890437,
+                            "text": "registry-photon"
+                        },
+                        "children": []
+                    },
+                    {
+                        "data": {
+                            "id": "d5frul559w80",
+                            "created": 1730964908415,
+                            "text": "harbor-registryctl"
+                        },
+                        "children": []
+                    },
+                    {
+                        "data": {
+                            "id": "d5frumcrge00",
+                            "created": 1730964911053,
+                            "text": "..."
+                        },
+                        "children": []
+                    }
+                ]
+            }
+        ]
+    },
+    "template": "filetree",
+    "theme": "fresh-purple-compat",
+    "version": "1.4.43"
+}
