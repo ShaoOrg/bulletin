@@ -1,4 +1,5 @@
-# Gitlab ![400px](../tips/mindmap/gitlab_ci_cd.km)
+# Gitlab 
+- ![400px](../tips/mindmap/gitlab_ci_cd.km)
 ###### GitLab Runners
 -[官方文档](https://docs.gitlab.com/ee/ci/runners/runners_scope.html)
 - [instance runner](https://de.vicp.net:58443/admin/runners)
