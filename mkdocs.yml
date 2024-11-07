@@ -117,10 +117,9 @@ plugins:  #插件
             background-color: white;
         }
         .btn-minder-view-toolbar {
-            border: 2px solid #4CAF50;  /* 设置边框的宽度、样式和颜色 */
+            border: 2px solid #dbb656;
             padding: 1px 2px;
-            background-color: #fff;
-            color: #4CAF50;
+            background-color: #fff2cc;
             cursor: pointer;
         }
 extra_javascript:
