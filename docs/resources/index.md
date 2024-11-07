@@ -37,6 +37,9 @@
 |minIO s3 |[s3](http://192.168.50.234:9001/)|
 |minIO s3 |[s3](https://de.vicp.net:9001/)|
 |code2snippets|[code to snippets for vscode](https://codepen.io/mrmlnc/pen/GqMqPg)|
+|刷新mkdocs |[mkdocs](https://de.vicp.net:58765/)|
+|drawio |[drawio](https://de.vicp.net:38443/)|
+
 ## VM
 ---
 |描述|地址|
