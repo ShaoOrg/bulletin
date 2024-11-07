@@ -139,7 +139,7 @@ plugins:  #插件
         }
 
       kity_minder_container_javascript: |
-        if(!kmLists) kmLists = []
+        if(!kmLists) { var kmLists = []; }
         kmLists.push(new kityminder.Minder());
         kmLists[kmLists.length -1].renderTo(document.querySelector('#${minder_view_id}'));
         kmLists[kmLists.length -1].importJson(${file_content});
