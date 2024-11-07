@@ -117,11 +117,23 @@ plugins:  #插件
             background-color: white;
         }
         .btn-minder-view-toolbar {
-            border: 2px solid #dbb656;
-            padding: 1px 2px;
+            border: 1px solid #dbb656;
+            padding: 1px 5px;
             background-color: #fff2cc;
             cursor: pointer;
         }
+      kity_minder_container_style: |
+        #$minder_view_id
+        {
+            border: 1px solid #ccc;
+            left: 10px;
+            top: 10px;
+            bottom: 10px;
+            right: 10px;
+            height: ${alt};
+            overflow: auto;
+        }
+
 extra_javascript:
   - javascripts/baidu-tongji.js  #百度统计
   - javascripts/mathjax.js  #数学公式的JS
