@@ -25,7 +25,8 @@
                         "data": {
                             "id": "d5fp9v4ls5s0",
                             "created": 1730957642283,
-                            "text": "systemctl enable"
+                            "text": "systemctl enable",
+                            "background": "#92d050"
                         },
                         "children": []
                     },
@@ -33,7 +34,8 @@
                         "data": {
                             "id": "d5fpa2t9vww0",
                             "created": 1730957659012,
-                            "text": "systemctl start"
+                            "text": "systemctl start",
+                            "background": "#fbd4b4"
                         },
                         "children": []
                     }
@@ -58,7 +60,8 @@
                         "data": {
                             "id": "d5fp9yzsxfs0",
                             "created": 1730957650700,
-                            "text": "systemctl enable"
+                            "text": "systemctl enable",
+                            "background": "#92d050"
                         },
                         "children": []
                     }
@@ -67,6 +70,6 @@
         ]
     },
     "template": "filetree",
-    "theme": "fresh-blue-compat",
+    "theme": "snow-compact",
     "version": "1.4.43"
 }
