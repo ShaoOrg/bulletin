@@ -130,12 +130,12 @@ plugins:  #插件
             top: 10px;
             bottom: 10px;
             right: 10px;
-            height: ${alt};
+            height: ${alt_height};
             overflow: auto;
         }
         #${minder_view_id} svg
         {
-            min-height: ${alt};
+            min-height: ${alt_svg_min_height};
         }
 
       kity_minder_container_javascript: |
