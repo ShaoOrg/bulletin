@@ -45,8 +45,12 @@ jobs:
         run: |
           mkdocs build --clean
           mkdocs --version
-      - name: Upload artifact
-        uses: actions/upload-pages-artifact@v2
+      # - name: Upload artifact
+      #   uses: actions/upload-pages-artifact@v2
+      - name: Upload to GitHub Pages
+        uses: actions/upload-pages-artifact@v3
+        with:
+          path: site
 
   # Deployment job
   deploy:
@@ -59,10 +63,6 @@ jobs:
       - name: Set NODE_TLS_REJECT_UNAUTHORIZED to 0
         run: |
           echo "NODE_TLS_REJECT_UNAUTHORIZED=0" >> $GITHUB_ENV
-      - name: Upload to GitHub Pages
-        uses: actions/upload-pages-artifact@v3
-        with:
-          path: site
       - name: Deploy to GitHub Pages
         id: deployment
         uses: actions/deploy-pages@v3
