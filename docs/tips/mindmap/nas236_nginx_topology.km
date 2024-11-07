@@ -3,7 +3,8 @@
         "data": {
             "id": "d4wzxi0bqwo0",
             "created": 1729058066389,
-            "text": "nas236 nginx"
+            "text": "nas236 nginx",
+            "expandState": "expand"
         },
         "children": [
             {
@@ -11,7 +12,9 @@
                     "id": "d4wzxmlf8sw0",
                     "created": 1729058076371,
                     "text": "app.d",
-                    "note": "系统应用 dsm.*.conf\nln -s /var/tmp/nginx/app.d /etc/nginx/app.d"
+                    "note": "系统应用 dsm.*.conf\nln -s /var/tmp/nginx/app.d /etc/nginx/app.d",
+                    "layout": null,
+                    "expandState": "expand"
                 },
                 "children": [
                     {
@@ -22,7 +25,8 @@
                             "resource": [
                                 "DSM",
                                 "Port"
-                            ]
+                            ],
+                            "layout": null
                         },
                         "children": []
                     }
@@ -33,7 +37,9 @@
                     "id": "d4wzyavkakw0",
                     "created": 1729058129227,
                     "text": "conf.d",
-                    "note": "ln -s /usr/local/etc/nginx/conf.d /etc/nginx/conf.d"
+                    "note": "ln -s /usr/local/etc/nginx/conf.d /etc/nginx/conf.d",
+                    "layout": null,
+                    "expandState": "expand"
                 },
                 "children": [
                     {
@@ -45,7 +51,8 @@
                             "resource": [
                                 "/app/etc",
                                 "Port"
-                            ]
+                            ],
+                            "layout": null
                         },
                         "children": []
                     },
@@ -58,7 +65,8 @@
                             "resource": [
                                 "/app/etc",
                                 "Port"
-                            ]
+                            ],
+                            "layout": null
                         },
                         "children": []
                     },
@@ -70,7 +78,8 @@
                             "note": "dsm.Web.conf -> /app/etc/web.conf",
                             "resource": [
                                 "/app/etc"
-                            ]
+                            ],
+                            "layout": null
                         },
                         "children": []
                     },
@@ -82,7 +91,8 @@
                             "note": "http.rpc.conf -> /app/etc/http.conf",
                             "resource": [
                                 "/app/etc"
-                            ]
+                            ],
+                            "layout": null
                         },
                         "children": []
                     }
@@ -96,13 +106,14 @@
                     "note": "ln -s /usr/local/etc/nginx/sites-enabled /etc/nginx/sites-enabled",
                     "resource": [
                         "DSM"
-                    ]
+                    ],
+                    "layout": null
                 },
                 "children": []
             }
         ]
     },
-    "template": "right",
-    "theme": "fresh-blue",
+    "template": "filetree",
+    "theme": "classic",
     "version": "1.4.43"
 }
