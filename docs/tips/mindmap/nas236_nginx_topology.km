@@ -114,6 +114,6 @@
         ]
     },
     "template": "filetree",
-    "theme": "classic",
+    "theme": "classic-compact",
     "version": "1.4.43"
 }

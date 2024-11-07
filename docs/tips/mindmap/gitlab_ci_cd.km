@@ -140,7 +140,7 @@
             }
         ]
     },
-    "template": "right",
-    "theme": "fresh-blue",
+    "template": "filetree",
+    "theme": "classic-compact",
     "version": "1.4.43"
 }

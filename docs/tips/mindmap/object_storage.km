@@ -57,7 +57,7 @@
             }
         ]
     },
-    "template": "default",
-    "theme": "fresh-blue",
+    "template": "filetree",
+    "theme": "fresh-blue-compat",
     "version": "1.4.43"
 }

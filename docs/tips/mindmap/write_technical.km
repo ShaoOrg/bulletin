@@ -55,7 +55,7 @@
             }
         ]
     },
-    "template": "right",
-    "theme": "fresh-blue",
+    "template": "default",
+    "theme": "fresh-purple-compat",
     "version": "1.4.43"
 }
