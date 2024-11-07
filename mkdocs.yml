@@ -180,6 +180,19 @@ plugins:  #插件
             fullContainer(document.getElementById('${minder_view_id}').querySelector('svg'))
         });
         document.getElementById('${minder_view_id}') && document.getElementById('${minder_view_id}').addEventListener('dblclick', function() {
+            const svg = this.querySelector('svg')
+            const divBackground = window.getComputedStyle(this).background;
+            if(!svg.hasFullscreenListener){
+              svg.addEventListener("fullscreenchange", function() {
+                  console.log(divBackground)
+                  if (document.fullscreenElement) {
+                      svg.style.background = divBackground;
+                  } else {
+                      svg.style.background = "";
+                  }
+              });
+              svg.hasFullscreenListener = true
+            }
             fullContainer(this.querySelector('svg'));
         });
 
