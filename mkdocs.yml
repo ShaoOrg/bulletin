@@ -113,7 +113,7 @@ plugins:  #插件
       kity_minder_toolbar: "<button id='btn-${minder_view_id}-zoom-in' class='btn-minder-view-toolbar'>➖</button><button id='btn-${minder_view_id}-zoom-out' class='btn-minder-view-toolbar'>➕</button><button id='btn-${minder_view_id}-full' class='btn-minder-view-toolbar'>&#9974;</button>"
       kity_minder_global_style: |
         :not(:root):fullscreen::backdrop {
-            background: transparent !important;
+            background: inherit !important;
         }
         .btn-minder-view-toolbar {
             border: 1px solid #dbb656;
