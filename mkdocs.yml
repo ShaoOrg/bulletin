@@ -112,9 +112,6 @@ plugins:  #插件
   - drawio:
       kity_minder_toolbar: "<button id='btn-${minder_view_id}-zoom-in' class='btn-minder-view-toolbar'>➖</button><button id='btn-${minder_view_id}-zoom-out' class='btn-minder-view-toolbar'>➕</button><button id='btn-${minder_view_id}-full' class='btn-minder-view-toolbar'>&#9974;</button>"
       kity_minder_global_style: |
-        :not(:root):fullscreen::backdrop {
-            background: initial !important;
-        }
         .btn-minder-view-toolbar {
             border: 1px solid #dbb656;
             padding: 1px 5px;
@@ -184,7 +181,6 @@ plugins:  #插件
             const divBackground = window.getComputedStyle(this).background;
             if(!svg.hasFullscreenListener){
               svg.addEventListener("fullscreenchange", function() {
-                  console.log(divBackground)
                   if (document.fullscreenElement) {
                       svg.style.background = divBackground;
                   } else {
