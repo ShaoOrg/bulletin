@@ -123,7 +123,7 @@ plugins:  #插件
             cursor: pointer;
         }
       kity_minder_container_style: |
-        #$minder_view_id
+        #${minder_view_id}
         {
             border: 1px solid #ccc;
             left: 10px;
@@ -133,6 +133,56 @@ plugins:  #插件
             height: ${alt};
             overflow: auto;
         }
+        #${minder_view_id} svg
+        {
+            min-height: ${alt};
+        }
+
+      kity_minder_container_javascript: |
+        let km = new kityminder.Minder();
+        let file_json=${file_content}
+        km.renderTo(document.querySelector('#${minder_view_id}'));
+        km.importJson(file_json);
+        if(!zoomContainer){
+            var zoomContainer=function(container, scale){
+                const cw = container.offsetWidth;
+                const nw = cw * scale;
+                container.style.width = nw + 'px';
+                const ch = container.offsetHeight;
+                const nh = ch * scale;
+                container.style.height = nh + 'px';
+                const svg = container.querySelector('svg')
+                svg.style.minWidth = nw + 'px';
+                svg.style.minHeight = nh + 'px';
+            }
+        }
+        if(!fullContainer){
+            var fullContainer=function(svgElement){
+                if (svgElement) {
+                    if (svgElement.requestFullscreen) {
+                        svgElement.requestFullscreen();
+                    } else if (svgElement.mozRequestFullScreen) {
+                        svgElement.mozRequestFullScreen();
+                    } else if (svgElement.webkitRequestFullscreen) {
+                        svgElement.webkitRequestFullscreen();
+                    } else if (svgElement.msRequestFullscreen) {
+                        svgElement.msRequestFullscreen();
+                    }
+                }
+            }
+        }
+        document.getElementById('btn-${minder_view_id}-zoom-in') && document.getElementById('btn-${minder_view_id}-zoom-in').addEventListener('click', function() {
+            zoomContainer(document.getElementById('${minder_view_id}'), 0.8)
+        });
+        document.getElementById('btn-${minder_view_id}-zoom-out') && document.getElementById('btn-${minder_view_id}-zoom-out').addEventListener('click', function() {
+            zoomContainer(document.getElementById('${minder_view_id}'), 1.2)
+        });
+        document.getElementById('btn-${minder_view_id}-full') && document.getElementById('btn-${minder_view_id}-full').addEventListener('click', function() {
+            fullContainer(document.getElementById('${minder_view_id}').querySelector('svg'))
+        });
+        document.getElementById('${minder_view_id}') && document.getElementById('${minder_view_id}').addEventListener('dblclick', function() {
+            fullContainer(this.querySelector('svg'));
+        });
 
 extra_javascript:
   - javascripts/baidu-tongji.js  #百度统计
