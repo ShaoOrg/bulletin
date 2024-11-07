@@ -1,0 +1,72 @@
+{
+    "root": {
+        "data": {
+            "id": "d5fp7o0602o0",
+            "created": 1730957470049,
+            "text": "Http调用Bash"
+        },
+        "children": [
+            {
+                "data": {
+                    "id": "d5fp8723i1s0",
+                    "created": 1730957511525,
+                    "text": "nginxfeeder.socket"
+                },
+                "children": [
+                    {
+                        "data": {
+                            "id": "d5fp91gopzs0",
+                            "created": 1730957577710,
+                            "text": "Define IP/Port"
+                        },
+                        "children": []
+                    },
+                    {
+                        "data": {
+                            "id": "d5fp9v4ls5s0",
+                            "created": 1730957642283,
+                            "text": "systemctl enable"
+                        },
+                        "children": []
+                    },
+                    {
+                        "data": {
+                            "id": "d5fpa2t9vww0",
+                            "created": 1730957659012,
+                            "text": "systemctl start"
+                        },
+                        "children": []
+                    }
+                ]
+            },
+            {
+                "data": {
+                    "id": "d5fp87liz6o0",
+                    "created": 1730957512699,
+                    "text": "nginxfeeder@.service"
+                },
+                "children": [
+                    {
+                        "data": {
+                            "id": "d5fp9a52q800",
+                            "created": 1730957596599,
+                            "text": "Define Bash"
+                        },
+                        "children": []
+                    },
+                    {
+                        "data": {
+                            "id": "d5fp9yzsxfs0",
+                            "created": 1730957650700,
+                            "text": "systemctl enable"
+                        },
+                        "children": []
+                    }
+                ]
+            }
+        ]
+    },
+    "template": "filetree",
+    "theme": "fresh-blue-compat",
+    "version": "1.4.43"
+}
