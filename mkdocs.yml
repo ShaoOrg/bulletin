@@ -140,9 +140,9 @@ plugins:  #插件
 
       kity_minder_container_javascript: |
         let km = new kityminder.Minder();
-        let file_json=${file_content}
+        # let file_json=${file_content}
         km.renderTo(document.querySelector('#${minder_view_id}'));
-        km.importJson(file_json);
+        km.importJson(${file_content});
         if(!zoomContainer){
             var zoomContainer=function(container, scale){
                 const cw = container.offsetWidth;
