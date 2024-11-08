@@ -65,6 +65,6 @@ pages:
     mkdocs --version
   artifacts:
     paths:
-    - site
+      - site
   rules:
     - if: $CI_COMMIT_REF_NAME == $CI_DEFAULT_BRANCH
