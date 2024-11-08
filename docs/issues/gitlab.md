@@ -57,5 +57,5 @@ curl "https://de.vicp.net:58443/api/v4/projects/353/releases/v0.3.3/assets/links
 EOF
 ```
 ###### Job Rules
-- if里不能用${变量},只能用$变量,否则会报错
+- if里不能用`${变量}`,只能用`$变量`,否则会报错
 - [必须在repo的setting里设置protected tag(例如v*)](https://www.reddit.com/r/gitlab/comments/1ah7eq3/how_to_get_gitlabrunner_to_run_not_get_stuck_when/), 这样提交git push origin --tags(git push --follow-tags)时候,这个pipeline才不会stuck

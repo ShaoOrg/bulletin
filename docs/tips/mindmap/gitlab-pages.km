@@ -59,7 +59,8 @@
                                     "id": "d5gbie35bc00",
                                     "created": 1731020374885,
                                     "text": "监听0.0.0.0:port",
-                                    "expandState": "expand"
+                                    "expandState": "expand",
+                                    "background": "#ff0000"
                                 },
                                 "children": [
                                     {
@@ -144,7 +145,8 @@
                                         "data": {
                                             "id": "d5gblsquiwg0",
                                             "created": 1731020641886,
-                                            "text": "http://127.0.0.1/api/v4"
+                                            "text": "http://127.0.0.1/api/v4",
+                                            "background": "#ff0000"
                                         },
                                         "children": []
                                     }
@@ -161,7 +163,8 @@
                                         "data": {
                                             "id": "d5gbn504ig00",
                                             "created": 1731020746932,
-                                            "text": "http://127.0.0.1"
+                                            "text": "http://127.0.0.1",
+                                            "background": "#ff0000"
                                         },
                                         "children": []
                                     }
@@ -189,7 +192,8 @@
                                 "data": {
                                     "id": "d5gbqosehns0",
                                     "created": 1731021025093,
-                                    "text": "pages_external_url/org/repo"
+                                    "text": "pages_external_url/org/repo",
+                                    "background": "#ff0000"
                                 },
                                 "children": []
                             }
@@ -228,6 +232,84 @@
                             "text": "log/gitlab-pages"
                         },
                         "children": []
+                    }
+                ]
+            },
+            {
+                "data": {
+                    "id": "d5gdn3195800",
+                    "created": 1731026384867,
+                    "text": "ci/cd"
+                },
+                "children": [
+                    {
+                        "data": {
+                            "id": "d5gdn8jq9y80",
+                            "created": 1731026396868,
+                            "text": "pages job"
+                        },
+                        "children": [
+                            {
+                                "data": {
+                                    "id": "d5gdnwafrrc0",
+                                    "created": 1731026448549,
+                                    "text": "stage"
+                                },
+                                "children": [
+                                    {
+                                        "data": {
+                                            "id": "d5gdorilyko0",
+                                            "created": 1731026516523,
+                                            "text": "必须是deploy"
+                                        },
+                                        "children": []
+                                    }
+                                ]
+                            },
+                            {
+                                "data": {
+                                    "id": "d5gdo87agkg0",
+                                    "created": 1731026474480,
+                                    "text": "artifacts"
+                                },
+                                "children": [
+                                    {
+                                        "data": {
+                                            "id": "d5gdohpkz7k0",
+                                            "created": 1731026495177,
+                                            "text": "必须是public",
+                                            "background": "#ff0000"
+                                        },
+                                        "children": []
+                                    },
+                                    {
+                                        "data": {
+                                            "id": "d5gdp297ry00",
+                                            "created": 1731026539900,
+                                            "text": "其它"
+                                        },
+                                        "children": [
+                                            {
+                                                "data": {
+                                                    "id": "d5gdpdxbiag0",
+                                                    "created": 1731026565302,
+                                                    "text": "job成功"
+                                                },
+                                                "children": []
+                                            },
+                                            {
+                                                "data": {
+                                                    "id": "d5gdplabtaw0",
+                                                    "created": 1731026581326,
+                                                    "text": "但deploy失败"
+                                                },
+                                                "children": []
+                                            }
+                                        ]
+                                    }
+                                ]
+                            }
+                        ]
                     }
                 ]
             }
