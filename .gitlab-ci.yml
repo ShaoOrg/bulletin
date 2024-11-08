@@ -61,10 +61,10 @@ pages:
   stage: deploy
   script:
   - |
-    mkdocs build --clean
+    mkdocs build --clean --site-dir public
     mkdocs --version
   artifacts:
     paths:
-      - site
+      - public
   rules:
     - if: $CI_COMMIT_REF_NAME == $CI_DEFAULT_BRANCH
