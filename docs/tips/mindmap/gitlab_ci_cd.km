@@ -136,7 +136,191 @@
                     "created": 1729420406466,
                     "text": "variables"
                 },
-                "children": []
+                "children": [
+                    {
+                        "data": {
+                            "id": "d5gxzpu6bqg0",
+                            "created": 1731083797073,
+                            "text": "Run Pipeline可选"
+                        },
+                        "children": [
+                            {
+                                "data": {
+                                    "id": "d5gxzxbj9000",
+                                    "created": 1731083813360,
+                                    "text": "options"
+                                },
+                                "children": [
+                                    {
+                                        "data": {
+                                            "id": "d5gy07015hs0",
+                                            "created": 1731083834432,
+                                            "text": "枚举类型,配置后可下拉"
+                                        },
+                                        "children": []
+                                    }
+                                ]
+                            },
+                            {
+                                "data": {
+                                    "id": "d5gy00c1i2g0",
+                                    "created": 1731083819921,
+                                    "text": "value"
+                                },
+                                "children": [
+                                    {
+                                        "data": {
+                                            "id": "d5gy02qkciw0",
+                                            "created": 1731083825153,
+                                            "text": "缺省值"
+                                        },
+                                        "children": []
+                                    }
+                                ]
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "data": {
+                    "id": "d5gydrol2hs0",
+                    "created": 1731084898187,
+                    "text": "Token Type"
+                },
+                "children": [
+                    {
+                        "data": {
+                            "id": "d5gydxifcpc0",
+                            "created": 1731084910875,
+                            "text": "Personal access token"
+                        },
+                        "children": []
+                    },
+                    {
+                        "data": {
+                            "id": "d5gye6u8nyg0",
+                            "created": 1731084931180,
+                            "text": "Deploy Token"
+                        },
+                        "children": []
+                    },
+                    {
+                        "data": {
+                            "id": "d5gyejpzaw00",
+                            "created": 1731084959221,
+                            "text": "CI Job token"
+                        },
+                        "children": [
+                            {
+                                "data": {
+                                    "id": "d5gyelv8pwo0",
+                                    "created": 1731084963893,
+                                    "text": "${CI_JOB_TOKEN}"
+                                },
+                                "children": []
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "data": {
+                    "id": "d5gygde2xbc0",
+                    "created": 1731085102169,
+                    "text": "Package Registry"
+                },
+                "children": [
+                    {
+                        "data": {
+                            "id": "d5gygi3amrk0",
+                            "created": 1731085112401,
+                            "text": "maven",
+                            "hyperlink": "https://docs.gitlab.com/ee/user/packages/maven_repository/index.html",
+                            "hyperlinkTitle": "Maven Package"
+                        },
+                        "children": [
+                            {
+                                "data": {
+                                    "id": "d5gygktloko0",
+                                    "created": 1731085118345,
+                                    "text": "mvn deploy"
+                                },
+                                "children": []
+                            },
+                            {
+                                "data": {
+                                    "id": "d5gygqgthq80",
+                                    "created": 1731085130633,
+                                    "text": "settings.xml",
+                                    "expandState": "expand"
+                                },
+                                "children": [
+                                    {
+                                        "data": {
+                                            "id": "d5gyhlkpi940",
+                                            "created": 1731085198348,
+                                            "text": "Custom HTTP header"
+                                        },
+                                        "children": [
+                                            {
+                                                "data": {
+                                                    "id": "d5gyiop3ut40",
+                                                    "created": 1731085283509,
+                                                    "text": "httpHeaders"
+                                                },
+                                                "children": [
+                                                    {
+                                                        "data": {
+                                                            "id": "d5gyj7qw1vs0",
+                                                            "created": 1731085324975,
+                                                            "text": "token name/value"
+                                                        },
+                                                        "children": []
+                                                    }
+                                                ]
+                                            }
+                                        ]
+                                    },
+                                    {
+                                        "data": {
+                                            "id": "d5gyia3q7t40",
+                                            "created": 1731085251741,
+                                            "text": "Basic HTTP Authentication"
+                                        },
+                                        "children": [
+                                            {
+                                                "data": {
+                                                    "id": "d5gyjpn2knc0",
+                                                    "created": 1731085363927,
+                                                    "text": "token username/password"
+                                                },
+                                                "children": []
+                                            }
+                                        ]
+                                    }
+                                ]
+                            }
+                        ]
+                    },
+                    {
+                        "data": {
+                            "id": "d5gymid99r40",
+                            "created": 1731085583188,
+                            "text": "generic"
+                        },
+                        "children": [
+                            {
+                                "data": {
+                                    "id": "d5gymlt3d000",
+                                    "created": 1731085590676,
+                                    "text": "curl"
+                                },
+                                "children": []
+                            }
+                        ]
+                    }
+                ]
             }
         ]
     },
