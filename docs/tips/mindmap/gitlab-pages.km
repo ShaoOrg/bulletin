@@ -1,0 +1,239 @@
+{
+    "root": {
+        "data": {
+            "id": "d5gbgwu12280",
+            "created": 1731020258964,
+            "text": "gitlab-pages"
+        },
+        "children": [
+            {
+                "data": {
+                    "id": "d5gbh79piew0",
+                    "created": 1731020281680,
+                    "text": "pages_external_url"
+                },
+                "children": [
+                    {
+                        "data": {
+                            "id": "d5gbhnpx7c80",
+                            "created": 1731020317489,
+                            "text": "https"
+                        },
+                        "children": [
+                            {
+                                "data": {
+                                    "id": "d5gbixlg4b40",
+                                    "created": 1731020417351,
+                                    "text": "with TLS"
+                                },
+                                "children": []
+                            }
+                        ]
+                    },
+                    {
+                        "data": {
+                            "id": "d5gbhqasqoo0",
+                            "created": 1731020323105,
+                            "text": "http"
+                        },
+                        "children": [
+                            {
+                                "data": {
+                                    "id": "d5gbisf24qg0",
+                                    "created": 1731020406080,
+                                    "text": "without TLS"
+                                },
+                                "children": []
+                            }
+                        ]
+                    },
+                    {
+                        "data": {
+                            "id": "d5gbhvvswu00",
+                            "created": 1731020335259,
+                            "text": "external_url同域"
+                        },
+                        "children": [
+                            {
+                                "data": {
+                                    "id": "d5gbie35bc00",
+                                    "created": 1731020374885,
+                                    "text": "监听0.0.0.0:port",
+                                    "expandState": "expand"
+                                },
+                                "children": [
+                                    {
+                                        "data": {
+                                            "id": "d5gbsbc5eqo0",
+                                            "created": 1731021152541,
+                                            "text": "nas236反向代理到gitlab:port"
+                                        },
+                                        "children": []
+                                    }
+                                ]
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "data": {
+                    "id": "d5gbj5541680",
+                    "created": 1731020433777,
+                    "text": "enable"
+                },
+                "children": [
+                    {
+                        "data": {
+                            "id": "d5gbtf6u1u00",
+                            "created": 1731021239291,
+                            "text": "true"
+                        },
+                        "children": [
+                            {
+                                "data": {
+                                    "id": "d5gbtk7zg540",
+                                    "created": 1731021250244,
+                                    "text": "本机启用"
+                                },
+                                "children": []
+                            }
+                        ]
+                    },
+                    {
+                        "data": {
+                            "id": "d5gbthdleio0",
+                            "created": 1731021244053,
+                            "text": "false"
+                        },
+                        "children": [
+                            {
+                                "data": {
+                                    "id": "d5gbtpl14rs0",
+                                    "created": 1731021261917,
+                                    "text": "外机启用"
+                                },
+                                "children": []
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "data": {
+                    "id": "d5gblh8qj080",
+                    "created": 1731020616846,
+                    "text": "external_url"
+                },
+                "children": [
+                    {
+                        "data": {
+                            "id": "d5gblkhe0i80",
+                            "created": 1731020623900,
+                            "text": "https"
+                        },
+                        "children": [
+                            {
+                                "data": {
+                                    "id": "d5gblor0iww0",
+                                    "created": 1731020633189,
+                                    "text": "artifacts_server_url"
+                                },
+                                "children": [
+                                    {
+                                        "data": {
+                                            "id": "d5gblsquiwg0",
+                                            "created": 1731020641886,
+                                            "text": "http://127.0.0.1/api/v4"
+                                        },
+                                        "children": []
+                                    }
+                                ]
+                            },
+                            {
+                                "data": {
+                                    "id": "d5gbmz6tqnk0",
+                                    "created": 1731020734277,
+                                    "text": "gitlab_server"
+                                },
+                                "children": [
+                                    {
+                                        "data": {
+                                            "id": "d5gbn504ig00",
+                                            "created": 1731020746932,
+                                            "text": "http://127.0.0.1"
+                                        },
+                                        "children": []
+                                    }
+                                ]
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "data": {
+                    "id": "d5gbqfosh140",
+                    "created": 1731021005284,
+                    "text": "namespace_in_path"
+                },
+                "children": [
+                    {
+                        "data": {
+                            "id": "d5gbqm9wkps0",
+                            "created": 1731021019621,
+                            "text": "true"
+                        },
+                        "children": [
+                            {
+                                "data": {
+                                    "id": "d5gbqosehns0",
+                                    "created": 1731021025093,
+                                    "text": "pages_external_url/org/repo"
+                                },
+                                "children": []
+                            }
+                        ]
+                    },
+                    {
+                        "data": {
+                            "id": "d5gbr4zxacg0",
+                            "created": 1731021060377,
+                            "text": "false"
+                        },
+                        "children": [
+                            {
+                                "data": {
+                                    "id": "d5gbr7dryq80",
+                                    "created": 1731021065568,
+                                    "text": "org.domain/repo"
+                                },
+                                "children": []
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "data": {
+                    "id": "d5gbuar602o0",
+                    "created": 1731021308000,
+                    "text": "日志"
+                },
+                "children": [
+                    {
+                        "data": {
+                            "id": "d5gbueyx6mg0",
+                            "created": 1731021317176,
+                            "text": "log/gitlab-pages"
+                        },
+                        "children": []
+                    }
+                ]
+            }
+        ]
+    },
+    "template": "filetree",
+    "theme": "fresh-soil-compat",
+    "version": "1.4.43"
+}
