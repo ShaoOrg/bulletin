@@ -1,0 +1,142 @@
+{
+    "root": {
+        "data": {
+            "id": "d5iljji70ww0",
+            "created": 1731251796056,
+            "text": "Lua"
+        },
+        "children": [
+            {
+                "data": {
+                    "id": "d5ilju28gb40",
+                    "created": 1731251819035,
+                    "text": "os.execute"
+                },
+                "children": [
+                    {
+                        "data": {
+                            "id": "d5ilkbod5mw0",
+                            "created": 1731251857379,
+                            "text": "成功"
+                        },
+                        "children": [
+                            {
+                                "data": {
+                                    "id": "d5ilkkvt0hs0",
+                                    "created": 1731251877419,
+                                    "text": "command -v bash"
+                                },
+                                "children": []
+                            },
+                            {
+                                "data": {
+                                    "id": "d5ilnak15s00",
+                                    "created": 1731252090032,
+                                    "text": "touch /tmp/lua.log"
+                                },
+                                "children": []
+                            },
+                            {
+                                "data": {
+                                    "id": "d5ilnfo2rx40",
+                                    "created": 1731252101161,
+                                    "text": "mkdir -p /tmp/lua/log"
+                                },
+                                "children": []
+                            },
+                            {
+                                "data": {
+                                    "id": "d5imi2vkppc0",
+                                    "created": 1731254502605,
+                                    "text": "/mnt/web是attached的volume",
+                                    "background": "#ff0000"
+                                },
+                                "children": []
+                            },
+                            {
+                                "data": {
+                                    "id": "d5ilwsegwdk0",
+                                    "created": 1731252834155,
+                                    "text": "chmod 777"
+                                },
+                                "children": [
+                                    {
+                                        "data": {
+                                            "id": "d5imhhg7tzc0",
+                                            "created": 1731254455964,
+                                            "text": "然后"
+                                        },
+                                        "children": []
+                                    },
+                                    {
+                                        "data": {
+                                            "id": "d5ilwy0i5zc0",
+                                            "created": 1731252846372,
+                                            "text": "mkdir -p /tmp/lua/log"
+                                        },
+                                        "children": []
+                                    }
+                                ]
+                            },
+                            {
+                                "data": {
+                                    "id": "d5imguhka2g0",
+                                    "created": 1731254405979,
+                                    "text": "user root",
+                                    "expandState": "expand"
+                                },
+                                "children": [
+                                    {
+                                        "data": {
+                                            "id": "d5imh40cum00",
+                                            "created": 1731254426707,
+                                            "text": "然后"
+                                        },
+                                        "children": []
+                                    },
+                                    {
+                                        "data": {
+                                            "id": "d5imh0wyl9c0",
+                                            "created": 1731254419971,
+                                            "text": "mkdir -p /tmp/lua/log"
+                                        },
+                                        "children": []
+                                    }
+                                ]
+                            }
+                        ]
+                    },
+                    {
+                        "data": {
+                            "id": "d5ilkiem9w00",
+                            "created": 1731251872027,
+                            "text": "失败"
+                        },
+                        "children": [
+                            {
+                                "data": {
+                                    "id": "d5ilsyag4i80",
+                                    "created": 1731252533516,
+                                    "text": "/mnt/web是attached的volume",
+                                    "background": "#ff0000"
+                                },
+                                "children": []
+                            },
+                            {
+                                "data": {
+                                    "id": "d5ilrygu99s0",
+                                    "created": 1731252455539,
+                                    "text": "mkdir -p /mnt/web/lua/log"
+                                },
+                                "children": []
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    "template": "filetree",
+    "theme": "snow-compact",
+    "version": "1.4.43"
+}
