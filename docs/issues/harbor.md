@@ -12,3 +12,6 @@ output
 {"errors":[{"code":"PROJECTPOLICYVIOLATION","message":"The image is not signed by notation."}]}
 ```
 通过比较,发现新建项目后会自动enable notation ![](./images/harbor-project-configuration-notation.png), disable it, 所有问题解决
+
+###### LDAP
+- ![](images/harbor-authentication-ldap.png)

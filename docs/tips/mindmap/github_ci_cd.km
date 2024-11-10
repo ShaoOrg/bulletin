@@ -286,6 +286,347 @@
                         "children": []
                     }
                 ]
+            },
+            {
+                "data": {
+                    "id": "d5hgi3a67ls0",
+                    "created": 1731136016872,
+                    "text": "变量使用"
+                },
+                "children": [
+                    {
+                        "data": {
+                            "id": "d5hgi7jnk680",
+                            "created": 1731136026152,
+                            "text": "${env中定义的}"
+                        },
+                        "children": []
+                    },
+                    {
+                        "data": {
+                            "id": "d5hgiiwduao0",
+                            "created": 1731136050866,
+                            "text": "${{github中定义的}}"
+                        },
+                        "children": []
+                    },
+                    {
+                        "data": {
+                            "id": "d5hgitu0uaw0",
+                            "created": 1731136074668,
+                            "text": "所以${},必须在env中转一次"
+                        },
+                        "children": []
+                    }
+                ]
+            },
+            {
+                "data": {
+                    "id": "d5hkmdw075s0",
+                    "created": 1731147637856,
+                    "text": "Packages"
+                },
+                "children": [
+                    {
+                        "data": {
+                            "id": "d5hkmhucqy00",
+                            "created": 1731147646463,
+                            "text": "maven",
+                            "hyperlink": "https://docs.github.com/zh/enterprise-server@3.14/packages/working-with-a-github-packages-registry/working-with-the-apache-maven-registry",
+                            "hyperlinkTitle": "maven in github enterprise",
+                            "expandState": "collapse"
+                        },
+                        "children": [
+                            {
+                                "data": {
+                                    "id": "d5hkr3i5vo80",
+                                    "created": 1731148007072,
+                                    "text": "PACKAGE_SERVER_MAVEN_URL",
+                                    "expandState": "expand"
+                                },
+                                "children": [
+                                    {
+                                        "data": {
+                                            "id": "d5hkmkqrd400",
+                                            "created": 1731147652776,
+                                            "text": "https://maven.github.shao.sh/SszOrg/ci-cd-demo"
+                                        },
+                                        "children": []
+                                    }
+                                ]
+                            },
+                            {
+                                "data": {
+                                    "id": "d5hkt6g41680",
+                                    "created": 1731148170206,
+                                    "text": "settings.xml",
+                                    "expandState": "collapse"
+                                },
+                                "children": [
+                                    {
+                                        "data": {
+                                            "id": "d5hktj33prs0",
+                                            "created": 1731148197718,
+                                            "text": "Basic HTTP Authentication",
+                                            "expandState": "collapse"
+                                        },
+                                        "children": [
+                                            {
+                                                "data": {
+                                                    "id": "d5hktsyzvtc0",
+                                                    "created": 1731148219238,
+                                                    "text": "username"
+                                                },
+                                                "children": [
+                                                    {
+                                                        "data": {
+                                                            "id": "d5hktwttubk0",
+                                                            "created": 1731148227632,
+                                                            "text": "GITHUB-ACTOR"
+                                                        },
+                                                        "children": []
+                                                    }
+                                                ]
+                                            },
+                                            {
+                                                "data": {
+                                                    "id": "d5hku2e9g0g0",
+                                                    "created": 1731148239752,
+                                                    "text": "password",
+                                                    "expandState": "expand"
+                                                },
+                                                "children": [
+                                                    {
+                                                        "data": {
+                                                            "id": "d5hku5b64gw0",
+                                                            "created": 1731148246095,
+                                                            "text": "${GITHUB_TOKEN}"
+                                                        },
+                                                        "children": []
+                                                    },
+                                                    {
+                                                        "data": {
+                                                            "id": "d5hkueu0aoo0",
+                                                            "created": 1731148266825,
+                                                            "text": "${PAT}"
+                                                        },
+                                                        "children": []
+                                                    }
+                                                ]
+                                            }
+                                        ]
+                                    }
+                                ]
+                            }
+                        ]
+                    },
+                    {
+                        "data": {
+                            "id": "d5hqqx6me740",
+                            "created": 1731164919973,
+                            "text": "nuget",
+                            "expandState": "collapse",
+                            "hyperlink": "https://docs.github.com/zh/packages/working-with-a-github-packages-registry/working-with-the-nuget-registry",
+                            "hyperlinkTitle": ""
+                        },
+                        "children": [
+                            {
+                                "data": {
+                                    "id": "d5hqxgmnqcw0",
+                                    "created": 1731165432486,
+                                    "text": "pack"
+                                },
+                                "children": [
+                                    {
+                                        "data": {
+                                            "id": "d5hqxo0siqg0",
+                                            "created": 1731165448578,
+                                            "text": "mono choco.exe pack"
+                                        },
+                                        "children": []
+                                    }
+                                ]
+                            },
+                            {
+                                "data": {
+                                    "id": "d5hqyustveo0",
+                                    "created": 1731165541699,
+                                    "text": "增加repository字段"
+                                },
+                                "children": [
+                                    {
+                                        "data": {
+                                            "id": "d5hr0ku2y7k0",
+                                            "created": 1731165676735,
+                                            "text": "因为choco pack\n不支持repository字段"
+                                        },
+                                        "children": []
+                                    },
+                                    {
+                                        "data": {
+                                            "id": "d5hqzjee6vs0",
+                                            "created": 1731165595245,
+                                            "text": "unzip"
+                                        },
+                                        "children": []
+                                    },
+                                    {
+                                        "data": {
+                                            "id": "d5hqzn84ajk0",
+                                            "created": 1731165603573,
+                                            "text": "sed .nuspec",
+                                            "expandState": "expand"
+                                        },
+                                        "children": [
+                                            {
+                                                "data": {
+                                                    "id": "d5hqzswjnhk0",
+                                                    "created": 1731165615934,
+                                                    "text": "增加type/url"
+                                                },
+                                                "children": []
+                                            }
+                                        ]
+                                    },
+                                    {
+                                        "data": {
+                                            "id": "d5hr05h4maw0",
+                                            "created": 1731165643300,
+                                            "text": "zip replace 旧的nupkg"
+                                        },
+                                        "children": []
+                                    }
+                                ]
+                            },
+                            {
+                                "data": {
+                                    "id": "d5hqxvviim80",
+                                    "created": 1731165465673,
+                                    "text": "push",
+                                    "expandState": "expand"
+                                },
+                                "children": [
+                                    {
+                                        "data": {
+                                            "id": "d5hqxyouwiw0",
+                                            "created": 1731165471801,
+                                            "text": "mono choco exec push",
+                                            "expandState": "collapse"
+                                        },
+                                        "children": [
+                                            {
+                                                "data": {
+                                                    "id": "d5hqy45zhvk0",
+                                                    "created": 1731165483721,
+                                                    "text": "--source https://nuget.github.shao.sh/SszOrg"
+                                                },
+                                                "children": []
+                                            },
+                                            {
+                                                "data": {
+                                                    "id": "d5hqylfph6w0",
+                                                    "created": 1731165521314,
+                                                    "text": "--api-key $GITHUB_TOKEN"
+                                                },
+                                                "children": []
+                                            }
+                                        ]
+                                    }
+                                ]
+                            }
+                        ]
+                    },
+                    {
+                        "data": {
+                            "id": "d5hqr0nigq00",
+                            "created": 1731164927524,
+                            "text": "npm",
+                            "expandState": "expand",
+                            "hyperlink": "https://docs.github.com/zh/packages/working-with-a-github-packages-registry/working-with-the-npm-registry",
+                            "hyperlinkTitle": ""
+                        },
+                        "children": [
+                            {
+                                "data": {
+                                    "id": "d5hqr37uinc0",
+                                    "created": 1731164933108,
+                                    "text": "package.json",
+                                    "expandState": "expand"
+                                },
+                                "children": [
+                                    {
+                                        "data": {
+                                            "id": "d5hqr7757ps0",
+                                            "created": 1731164941772,
+                                            "text": "环境变量不支持"
+                                        },
+                                        "children": []
+                                    },
+                                    {
+                                        "data": {
+                                            "id": "d5hqsar17uw0",
+                                            "created": 1731165027869,
+                                            "text": "用sed替换环境变量"
+                                        },
+                                        "children": []
+                                    }
+                                ]
+                            },
+                            {
+                                "data": {
+                                    "id": "d5hqrekeyk00",
+                                    "created": 1731164957812,
+                                    "text": ".npmrc",
+                                    "expandState": "expand"
+                                },
+                                "children": [
+                                    {
+                                        "data": {
+                                            "id": "d5hqrijf7oo0",
+                                            "created": 1731164966459,
+                                            "text": "环境变量只能用${}"
+                                        },
+                                        "children": []
+                                    },
+                                    {
+                                        "data": {
+                                            "id": "d5hqrpjrdc00",
+                                            "created": 1731164981717,
+                                            "text": "$Var不支持"
+                                        },
+                                        "children": []
+                                    },
+                                    {
+                                        "data": {
+                                            "id": "d5hqrxrgvzs0",
+                                            "created": 1731164999597,
+                                            "text": "GITHUB_TOKEN配置这"
+                                        },
+                                        "children": []
+                                    }
+                                ]
+                            },
+                            {
+                                "data": {
+                                    "id": "d5hqwqpe5400",
+                                    "created": 1731165376055,
+                                    "text": "self signed certificate",
+                                    "expandState": "collapse"
+                                },
+                                "children": [
+                                    {
+                                        "data": {
+                                            "id": "d5hqx0qlpx40",
+                                            "created": 1731165397896,
+                                            "text": "npm config set strict-ssl false"
+                                        },
+                                        "children": []
+                                    }
+                                ]
+                            }
+                        ]
+                    }
+                ]
             }
         ]
     },

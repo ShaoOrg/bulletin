@@ -121,6 +121,176 @@
                         "children": []
                     }
                 ]
+            },
+            {
+                "data": {
+                    "id": "d5ij4qyvhpc0",
+                    "created": 1731244994619,
+                    "text": "LDAP"
+                },
+                "children": [
+                    {
+                        "data": {
+                            "id": "d5ij4v5tf5k0",
+                            "created": 1731245003746,
+                            "text": "LDAP URL"
+                        },
+                        "children": [
+                            {
+                                "data": {
+                                    "id": "d5ij520tweo0",
+                                    "created": 1731245018682,
+                                    "text": "ldap://de.vicp.net"
+                                },
+                                "children": []
+                            }
+                        ]
+                    },
+                    {
+                        "data": {
+                            "id": "d5ij5830qwg0",
+                            "created": 1731245031875,
+                            "text": "LDAP Search DN"
+                        },
+                        "children": [
+                            {
+                                "data": {
+                                    "id": "d5ij5f49l280",
+                                    "created": 1731245047188,
+                                    "text": "uid=root,cn=users,dc=de,dc=vicp,dc=net"
+                                },
+                                "children": []
+                            }
+                        ]
+                    },
+                    {
+                        "data": {
+                            "id": "d5ij593iyig0",
+                            "created": 1731245034083,
+                            "text": "LDAP Search Password"
+                        },
+                        "children": []
+                    },
+                    {
+                        "data": {
+                            "id": "d5ij5uhyry00",
+                            "created": 1731245080668,
+                            "text": "LDAP Base DN "
+                        },
+                        "children": [
+                            {
+                                "data": {
+                                    "id": "d5ij62cyp2g0",
+                                    "created": 1731245097780,
+                                    "text": "dc=de,dc=vicp,dc=net"
+                                },
+                                "children": []
+                            }
+                        ]
+                    },
+                    {
+                        "data": {
+                            "id": "d5ij5uzg3yw0",
+                            "created": 1731245081725,
+                            "text": "LDAP Filter"
+                        },
+                        "children": [
+                            {
+                                "data": {
+                                    "id": "d5ij6b60dtk0",
+                                    "created": 1731245116951,
+                                    "text": "(memberOf=cn=HarborUser,cn=groups,dc=de,dc=vicp,dc=net)"
+                                },
+                                "children": []
+                            }
+                        ]
+                    },
+                    {
+                        "data": {
+                            "id": "d5ij5w73kds0",
+                            "created": 1731245084365,
+                            "text": "LDAP UID "
+                        },
+                        "children": [
+                            {
+                                "data": {
+                                    "id": "d5ij6swwhuo0",
+                                    "created": 1731245155582,
+                                    "text": "uid"
+                                },
+                                "children": []
+                            }
+                        ]
+                    },
+                    {
+                        "data": {
+                            "id": "d5ij6zcqnz40",
+                            "created": 1731245169600,
+                            "text": "LDAP Group Base DN "
+                        },
+                        "children": [
+                            {
+                                "data": {
+                                    "id": "d5ij73ml8c00",
+                                    "created": 1731245178903,
+                                    "text": "cn=groups,dc=de,dc=vicp,dc=net"
+                                },
+                                "children": []
+                            }
+                        ]
+                    },
+                    {
+                        "data": {
+                            "id": "d5ij7acgv000",
+                            "created": 1731245193528,
+                            "text": "LDAP Group GID "
+                        },
+                        "children": [
+                            {
+                                "data": {
+                                    "id": "d5ij7fqow080",
+                                    "created": 1731245205272,
+                                    "text": "cn"
+                                },
+                                "children": []
+                            }
+                        ]
+                    },
+                    {
+                        "data": {
+                            "id": "d5ij7he7wio0",
+                            "created": 1731245208872,
+                            "text": "LDAP Group Admin DN "
+                        },
+                        "children": [
+                            {
+                                "data": {
+                                    "id": "d5ij7m17vz40",
+                                    "created": 1731245218970,
+                                    "text": "cn=harboradmin,cn=groups,dc=de,dc=vicp,dc=net "
+                                },
+                                "children": []
+                            }
+                        ]
+                    },
+                    {
+                        "data": {
+                            "id": "d5ij7hxa9hs0",
+                            "created": 1731245210025,
+                            "text": "LDAP Group Membership "
+                        },
+                        "children": [
+                            {
+                                "data": {
+                                    "id": "d5ij83tl8740",
+                                    "created": 1731245257690,
+                                    "text": "memberof"
+                                },
+                                "children": []
+                            }
+                        ]
+                    }
+                ]
             }
         ]
     },
