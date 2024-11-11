@@ -5,3 +5,20 @@
 - 通过 resolver 192.168.50.236 **ipv6=off**; 解决,原因是nginx默认启用ipv6作为dns lookup
 ###### 调用Bash
 - systemd socket ![400px,600px](../tips/mindmap/bash_nginx.km)
+- Lua, openresty默认加载lua
+```
+user root; # run in docker必须或有sudo权限
+http {
+  server {
+    location {
+      content_by_lua_block {
+        if os.execute("touch /var/mkdocs-material/index.md") then
+          ngx.say("mkdocs-material refresh!!!")
+        else
+          ngx.say("mkdocs-material refresh failure!!!")
+        end
+      }
+    }
+  }
+}
+```
