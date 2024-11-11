@@ -39,7 +39,7 @@ git push --set-upstream origin --all
 git push --set-upstream origin --tags
 ```
 ###### Variable
-- 企业级, 不支持
+- [企业级](https://de.vicp.net:58443/admin/application_settings/ci_cd)
 - [组织级](https://de.vicp.net:58443/groups/SszOrg/-/settings/ci_cd)
 - [仓库级](https://de.vicp.net:58443/SszOrg/ci-cd-demo/-/settings/ci_cd)
 - CI级,定义在ci/cd文件的variables里
