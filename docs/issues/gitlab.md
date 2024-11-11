@@ -1,5 +1,5 @@
 # Gitlab 
-![400px,1000px](../tips/mindmap/gitlab_ci_cd.km)
+![400px,1000px](../assets/mindmap/gitlab_ci_cd.km)
 ###### GitLab Runners
 -[官方文档](https://docs.gitlab.com/ee/ci/runners/runners_scope.html)
 - [instance runner](https://de.vicp.net:58443/admin/runners)
@@ -8,7 +8,7 @@
 
 ###### Gitlab Pages
 - [官方文档](https://docs.gitlab.com/ee/administration/pages/)
-- 同域 ![400px,1000px](../tips/mindmap/gitlab-pages.km)
+- 同域 ![400px,1000px](../assets/mindmap/gitlab-pages.km)
 
 ###### New Repository
 - Create a new repository

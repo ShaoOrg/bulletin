@@ -1,5 +1,5 @@
 ## Harbor
-![400px,1200px](../tips/mindmap/k8s-harbor.km)
+![400px,1200px](../assets/mindmap/k8s-harbor.km)
 ###### Pull
 - The image is not signed by notation.
 ```
