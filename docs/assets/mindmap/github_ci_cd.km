@@ -324,7 +324,11 @@
                 "data": {
                     "id": "d5hkmdw075s0",
                     "created": 1731147637856,
-                    "text": "Packages"
+                    "text": "Packages",
+                    "layout_bottom_offset": {
+                        "x": -26.999998211860316,
+                        "y": 1.9999999701976776
+                    }
                 },
                 "children": [
                     {
@@ -342,7 +346,7 @@
                                     "id": "d5hkr3i5vo80",
                                     "created": 1731148007072,
                                     "text": "PACKAGE_SERVER_MAVEN_URL",
-                                    "expandState": "expand"
+                                    "expandState": "collapse"
                                 },
                                 "children": [
                                     {
@@ -368,7 +372,7 @@
                                             "id": "d5hktj33prs0",
                                             "created": 1731148197718,
                                             "text": "Basic HTTP Authentication",
-                                            "expandState": "collapse"
+                                            "expandState": "expand"
                                         },
                                         "children": [
                                             {

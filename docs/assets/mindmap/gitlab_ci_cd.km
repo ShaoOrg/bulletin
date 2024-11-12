@@ -3,7 +3,8 @@
         "data": {
             "id": "d50k35r3nw80",
             "created": 1729419611963,
-            "text": "gitlab ci/cd"
+            "text": "gitlab ci/cd",
+            "resource": []
         },
         "children": [
             {
@@ -191,42 +192,89 @@
                 "children": [
                     {
                         "data": {
-                            "id": "d5gydxifcpc0",
-                            "created": 1731084910875,
-                            "text": "Personal access token"
-                        },
-                        "children": []
-                    },
-                    {
-                        "data": {
-                            "id": "d5gye6u8nyg0",
-                            "created": 1731084931180,
-                            "text": "Deploy Token"
-                        },
-                        "children": []
-                    },
-                    {
-                        "data": {
-                            "id": "d5gyejpzaw00",
-                            "created": 1731084959221,
-                            "text": "CI Job token"
+                            "id": "d5jw3294uqw0",
+                            "created": 1731383096841,
+                            "text": "Maven/Gradle",
+                            "expandState": "expand",
+                            "hyperlink": "https://docs.gitlab.com/ee/user/packages/maven_repository/?tab=gradle",
+                            "hyperlinkTitle": ""
                         },
                         "children": [
                             {
                                 "data": {
-                                    "id": "d5gyelv8pwo0",
-                                    "created": 1731084963893,
-                                    "text": "${CI_JOB_TOKEN}"
+                                    "id": "d5gydxifcpc0",
+                                    "created": 1731084910875,
+                                    "text": "Personal access token"
                                 },
-                                "children": []
+                                "children": [
+                                    {
+                                        "data": {
+                                            "id": "d5jw26ncsug0",
+                                            "created": 1731383028044,
+                                            "text": "${PAT}"
+                                        },
+                                        "children": []
+                                    },
+                                    {
+                                        "data": {
+                                            "id": "d5jw2ddcgyo0",
+                                            "created": 1731383042677,
+                                            "text": "名字Private-Token"
+                                        },
+                                        "children": []
+                                    }
+                                ]
                             },
                             {
                                 "data": {
-                                    "id": "d5hf3ckbkgg0",
-                                    "created": 1731132040504,
-                                    "text": "JOB-TOKEN \nas token name"
+                                    "id": "d5gye6u8nyg0",
+                                    "created": 1731084931180,
+                                    "text": "Deploy Token"
                                 },
-                                "children": []
+                                "children": [
+                                    {
+                                        "data": {
+                                            "id": "d5jw1cg0ojc0",
+                                            "created": 1731382962297,
+                                            "text": "${DEPLOY_TOKEN}"
+                                        },
+                                        "children": []
+                                    },
+                                    {
+                                        "data": {
+                                            "id": "d5jw1yiezjs0",
+                                            "created": 1731383010331,
+                                            "text": "名字Deploy-Token"
+                                        },
+                                        "children": []
+                                    }
+                                ]
+                            },
+                            {
+                                "data": {
+                                    "id": "d5gyejpzaw00",
+                                    "created": 1731084959221,
+                                    "text": "CI Job token",
+                                    "expandState": "expand"
+                                },
+                                "children": [
+                                    {
+                                        "data": {
+                                            "id": "d5gyelv8pwo0",
+                                            "created": 1731084963893,
+                                            "text": "${CI_JOB_TOKEN}"
+                                        },
+                                        "children": []
+                                    },
+                                    {
+                                        "data": {
+                                            "id": "d5hf3ckbkgg0",
+                                            "created": 1731132040504,
+                                            "text": "名字JOB-TOKEN \n大小写都可以"
+                                        },
+                                        "children": []
+                                    }
+                                ]
                             }
                         ]
                     }
@@ -246,23 +294,107 @@
                             "text": "maven",
                             "hyperlink": "https://docs.gitlab.com/ee/user/packages/maven_repository/index.html",
                             "hyperlinkTitle": "Maven Package",
-                            "expandState": "collapse"
+                            "expandState": "expand"
                         },
                         "children": [
                             {
                                 "data": {
-                                    "id": "d5hkrs36tfk0",
-                                    "created": 1731148060586,
-                                    "text": "PACKAGE_SERVER_MAVEN_URL"
+                                    "id": "d5k2p2shg2o0",
+                                    "created": 1731401748682,
+                                    "text": "同一个包3个URL",
+                                    "expandState": "expand"
                                 },
                                 "children": [
                                     {
                                         "data": {
-                                            "id": "d5hksda8v2o0",
-                                            "created": 1731148106725,
-                                            "text": "https://de.vicp.net:58443/api/v4/projects/353/packages/maven"
+                                            "id": "d5hkrs36tfk0",
+                                            "created": 1731148060586,
+                                            "text": "PACKAGE_SERVER_MAVEN_URL",
+                                            "expandState": "expand"
                                         },
-                                        "children": []
+                                        "children": [
+                                            {
+                                                "data": {
+                                                    "id": "d5k2pn8cxw00",
+                                                    "created": 1731401793178,
+                                                    "text": "Instance",
+                                                    "resource": [
+                                                        "Install"
+                                                    ]
+                                                },
+                                                "children": [
+                                                    {
+                                                        "data": {
+                                                            "id": "d5k2qmoike80",
+                                                            "created": 1731401870342,
+                                                            "text": "https://de.vicp.net:58443/api/v4/packages/maven",
+                                                            "resource": []
+                                                        },
+                                                        "children": []
+                                                    },
+                                                    {
+                                                        "data": {
+                                                            "id": "d5k3h9qsri00",
+                                                            "created": 1731403958015,
+                                                            "text": "deploy报错415",
+                                                            "background": "#ff0000"
+                                                        },
+                                                        "children": []
+                                                    }
+                                                ]
+                                            },
+                                            {
+                                                "data": {
+                                                    "id": "d5k2ptcidkg0",
+                                                    "created": 1731401806490,
+                                                    "text": "Root Group",
+                                                    "resource": [
+                                                        "Install"
+                                                    ]
+                                                },
+                                                "children": [
+                                                    {
+                                                        "data": {
+                                                            "id": "d5k2pyr5f6g0",
+                                                            "created": 1731401818259,
+                                                            "text": "https://de.vicp.net:58443/api/v4/groups/473/-/packages/maven"
+                                                        },
+                                                        "children": []
+                                                    },
+                                                    {
+                                                        "data": {
+                                                            "id": "d5k3hgjkwj40",
+                                                            "created": 1731403972816,
+                                                            "text": "deploy报错415",
+                                                            "background": "#ff0000"
+                                                        },
+                                                        "children": []
+                                                    }
+                                                ]
+                                            },
+                                            {
+                                                "data": {
+                                                    "id": "d5k2q9t9u5k0",
+                                                    "created": 1731401842332,
+                                                    "text": "Project",
+                                                    "expandState": "expand",
+                                                    "resource": [
+                                                        "Install",
+                                                        "deploy"
+                                                    ]
+                                                },
+                                                "children": [
+                                                    {
+                                                        "data": {
+                                                            "id": "d5hksda8v2o0",
+                                                            "created": 1731148106725,
+                                                            "text": "https://de.vicp.net:58443/api/v4/projects/353/packages/maven"
+                                                        },
+                                                        "children": []
+                                                    }
+                                                ]
+                                            }
+                                        ]
                                     }
                                 ]
                             },
@@ -309,28 +441,103 @@
                                                         "data": {
                                                             "id": "d5hf8m2ehtc0",
                                                             "created": 1731132453009,
-                                                            "text": "property"
+                                                            "text": "property",
+                                                            "expandState": "collapse"
                                                         },
                                                         "children": [
                                                             {
                                                                 "data": {
-                                                                    "id": "d5hf8nflhxk0",
-                                                                    "created": 1731132455984,
-                                                                    "text": "name"
+                                                                    "id": "d5k3etg00pk0",
+                                                                    "created": 1731403765805,
+                                                                    "text": "Job-Token",
+                                                                    "expandState": "collapse"
                                                                 },
                                                                 "children": [
                                                                     {
                                                                         "data": {
-                                                                            "id": "d5hf8pqylzc0",
-                                                                            "created": 1731132461024,
-                                                                            "text": "JOB-TOKEN"
+                                                                            "id": "d5hf8nflhxk0",
+                                                                            "created": 1731132455984,
+                                                                            "text": "name",
+                                                                            "expandState": "collapse"
                                                                         },
                                                                         "children": [
                                                                             {
                                                                                 "data": {
-                                                                                    "id": "d5hf9xbrv7c0",
-                                                                                    "created": 1731132555884,
-                                                                                    "text": "常量,必须大写"
+                                                                                    "id": "d5hf8pqylzc0",
+                                                                                    "created": 1731132461024,
+                                                                                    "text": "JOB-TOKEN"
+                                                                                },
+                                                                                "children": [
+                                                                                    {
+                                                                                        "data": {
+                                                                                            "id": "d5hf9xbrv7c0",
+                                                                                            "created": 1731132555884,
+                                                                                            "text": "常量,大小写都可以"
+                                                                                        },
+                                                                                        "children": []
+                                                                                    }
+                                                                                ]
+                                                                            }
+                                                                        ]
+                                                                    },
+                                                                    {
+                                                                        "data": {
+                                                                            "id": "d5hf8uteo0g0",
+                                                                            "created": 1731132472056,
+                                                                            "text": "value",
+                                                                            "expandState": "collapse"
+                                                                        },
+                                                                        "children": [
+                                                                            {
+                                                                                "data": {
+                                                                                    "id": "d5hf96pghg80",
+                                                                                    "created": 1731132497939,
+                                                                                    "text": "${CI_JOB_TOKEN}"
+                                                                                },
+                                                                                "children": [
+                                                                                    {
+                                                                                        "data": {
+                                                                                            "id": "d5hf9e1xzns0",
+                                                                                            "created": 1731132513931,
+                                                                                            "text": "只在job run有效\n每个job都重新生成"
+                                                                                        },
+                                                                                        "children": []
+                                                                                    }
+                                                                                ]
+                                                                            }
+                                                                        ]
+                                                                    }
+                                                                ]
+                                                            },
+                                                            {
+                                                                "data": {
+                                                                    "id": "d5k3f5j17n40",
+                                                                    "created": 1731403792110,
+                                                                    "text": "Deploy-Token",
+                                                                    "expandState": "collapse"
+                                                                },
+                                                                "children": [
+                                                                    {
+                                                                        "data": {
+                                                                            "id": "d5k3fc1wciw0",
+                                                                            "created": 1731403806311,
+                                                                            "text": "name"
+                                                                        },
+                                                                        "children": []
+                                                                    },
+                                                                    {
+                                                                        "data": {
+                                                                            "id": "d5k3ffk8fag0",
+                                                                            "created": 1731403813950,
+                                                                            "text": "value",
+                                                                            "expandState": "collapse"
+                                                                        },
+                                                                        "children": [
+                                                                            {
+                                                                                "data": {
+                                                                                    "id": "d5k3fhpmnv40",
+                                                                                    "created": 1731403818630,
+                                                                                    "text": "${DEPLOY_TOKEN}"
                                                                                 },
                                                                                 "children": []
                                                                             }
@@ -340,24 +547,32 @@
                                                             },
                                                             {
                                                                 "data": {
-                                                                    "id": "d5hf8uteo0g0",
-                                                                    "created": 1731132472056,
-                                                                    "text": "value",
-                                                                    "expandState": "expand"
+                                                                    "id": "d5k3fomn3gw0",
+                                                                    "created": 1731403833687,
+                                                                    "text": "Private-Token",
+                                                                    "expandState": "collapse"
                                                                 },
                                                                 "children": [
                                                                     {
                                                                         "data": {
-                                                                            "id": "d5hf96pghg80",
-                                                                            "created": 1731132497939,
-                                                                            "text": "${CI_JOB_TOKEN}"
+                                                                            "id": "d5k3frw5rvk0",
+                                                                            "created": 1731403840793,
+                                                                            "text": "name"
+                                                                        },
+                                                                        "children": []
+                                                                    },
+                                                                    {
+                                                                        "data": {
+                                                                            "id": "d5k3fu8jp5k0",
+                                                                            "created": 1731403845895,
+                                                                            "text": "value"
                                                                         },
                                                                         "children": [
                                                                             {
                                                                                 "data": {
-                                                                                    "id": "d5hf9e1xzns0",
-                                                                                    "created": 1731132513931,
-                                                                                    "text": "只在job run有效\n每个job都重新生成"
+                                                                                    "id": "d5k3fwqk6ko0",
+                                                                                    "created": 1731403851338,
+                                                                                    "text": "${PAT}"
                                                                                 },
                                                                                 "children": []
                                                                             }
