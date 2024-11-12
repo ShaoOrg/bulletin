@@ -552,10 +552,77 @@
                         "children": [
                             {
                                 "data": {
+                                    "id": "d5ka749tj0w0",
+                                    "created": 1731422910232,
+                                    "text": "校验package.json\n的repository是否来自与相同的host",
+                                    "background": "#ff0000"
+                                },
+                                "children": []
+                            },
+                            {
+                                "data": {
+                                    "id": "d5ka8r3imns0",
+                                    "created": 1731423038281,
+                                    "text": "只有一种Url",
+                                    "expandState": "collapse"
+                                },
+                                "children": [
+                                    {
+                                        "data": {
+                                            "id": "d5ka8y1oe0o0",
+                                            "created": 1731423053407,
+                                            "text": "PACKAGE_SERVER_NPM_URL"
+                                        },
+                                        "children": [
+                                            {
+                                                "data": {
+                                                    "id": "d5ka9d6159c0",
+                                                    "created": 1731423086322,
+                                                    "text": "Instance",
+                                                    "resource": [
+                                                        "Install",
+                                                        "deploy"
+                                                    ],
+                                                    "expandState": "collapse"
+                                                },
+                                                "children": [
+                                                    {
+                                                        "data": {
+                                                            "id": "d5ka9h5q0v40",
+                                                            "created": 1731423095011,
+                                                            "text": "npm.github.shao.sh"
+                                                        },
+                                                        "children": []
+                                                    }
+                                                ]
+                                            },
+                                            {
+                                                "data": {
+                                                    "id": "d5kaa62k8s80",
+                                                    "created": 1731423149239,
+                                                    "text": "不支持组织和Repository",
+                                                    "background": "#ff0000"
+                                                },
+                                                "children": []
+                                            }
+                                        ]
+                                    }
+                                ]
+                            },
+                            {
+                                "data": {
+                                    "id": "d5kaaoz1gqg0",
+                                    "created": 1731423190385,
+                                    "text": "只有PAT, GITHUB_TOKEN\n没有DeployToken"
+                                },
+                                "children": []
+                            },
+                            {
+                                "data": {
                                     "id": "d5hqr37uinc0",
                                     "created": 1731164933108,
                                     "text": "package.json",
-                                    "expandState": "expand"
+                                    "expandState": "collapse"
                                 },
                                 "children": [
                                     {
@@ -581,7 +648,7 @@
                                     "id": "d5hqrekeyk00",
                                     "created": 1731164957812,
                                     "text": ".npmrc",
-                                    "expandState": "expand"
+                                    "expandState": "collapse"
                                 },
                                 "children": [
                                     {

@@ -302,7 +302,7 @@
                                     "id": "d5k2p2shg2o0",
                                     "created": 1731401748682,
                                     "text": "同一个包3个URL",
-                                    "expandState": "expand"
+                                    "expandState": "collapse"
                                 },
                                 "children": [
                                     {
@@ -411,7 +411,7 @@
                                     "id": "d5gygqgthq80",
                                     "created": 1731085130633,
                                     "text": "settings.xml",
-                                    "expandState": "expand"
+                                    "expandState": "collapse"
                                 },
                                 "children": [
                                     {
@@ -667,16 +667,117 @@
                             "created": 1731166720639,
                             "text": "npm",
                             "hyperlink": "https://docs.gitlab.com/ee/user/packages/npm_registry/",
-                            "hyperlinkTitle": ""
+                            "hyperlinkTitle": "",
+                            "expandState": "expand"
                         },
                         "children": [
                             {
                                 "data": {
                                     "id": "d5hresla3zk0",
                                     "created": 1731166790715,
-                                    "text": "see github"
+                                    "text": "校验package.json\n的repository是否来自与相同的host",
+                                    "background": "#ff0000"
                                 },
                                 "children": []
+                            },
+                            {
+                                "data": {
+                                    "id": "d5k9zd34zr40",
+                                    "created": 1731422302506,
+                                    "text": "同一个包3个Url",
+                                    "expandState": "collapse"
+                                },
+                                "children": [
+                                    {
+                                        "data": {
+                                            "id": "d5k9zt089480",
+                                            "created": 1731422337158,
+                                            "text": "PACKAGE_SERVER_MAVEN_URL",
+                                            "expandState": "expand"
+                                        },
+                                        "children": [
+                                            {
+                                                "data": {
+                                                    "id": "d5k9ztbses00",
+                                                    "created": 1731422337858,
+                                                    "text": "Instance",
+                                                    "resource": [
+                                                        "Install"
+                                                    ]
+                                                },
+                                                "children": [
+                                                    {
+                                                        "data": {
+                                                            "id": "d5ka03ffx7k0",
+                                                            "created": 1731422359846,
+                                                            "text": "https://de.vicp.net:58443/api/v4/packages/npm"
+                                                        },
+                                                        "children": []
+                                                    },
+                                                    {
+                                                        "data": {
+                                                            "id": "d5ka1cbs70w0",
+                                                            "created": 1731422457580,
+                                                            "text": "deploy报错404",
+                                                            "background": "#ff0000"
+                                                        },
+                                                        "children": []
+                                                    }
+                                                ]
+                                            },
+                                            {
+                                                "data": {
+                                                    "id": "d5ka0cixpq00",
+                                                    "created": 1731422379648,
+                                                    "text": "Root Group",
+                                                    "resource": [
+                                                        "Install"
+                                                    ]
+                                                },
+                                                "children": [
+                                                    {
+                                                        "data": {
+                                                            "id": "d5ka0k6skqo0",
+                                                            "created": 1731422396328,
+                                                            "text": "https://de.vicp.net:58443/api/v4/groups/473/-/packages/npm"
+                                                        },
+                                                        "children": []
+                                                    },
+                                                    {
+                                                        "data": {
+                                                            "id": "d5ka170bn5k0",
+                                                            "created": 1731422446003,
+                                                            "text": "deploy报错404",
+                                                            "background": "#ff0000"
+                                                        },
+                                                        "children": []
+                                                    }
+                                                ]
+                                            },
+                                            {
+                                                "data": {
+                                                    "id": "d5ka0rn0ycw0",
+                                                    "created": 1731422412547,
+                                                    "text": "Project",
+                                                    "resource": [
+                                                        "Install",
+                                                        "deploy"
+                                                    ]
+                                                },
+                                                "children": [
+                                                    {
+                                                        "data": {
+                                                            "id": "d5ka0v1napk0",
+                                                            "created": 1731422419962,
+                                                            "text": "https://de.vicp.net:58443/api/v4/projects/353/packages/npm"
+                                                        },
+                                                        "children": []
+                                                    }
+                                                ]
+                                            }
+                                        ]
+                                    }
+                                ]
                             },
                             {
                                 "data": {
