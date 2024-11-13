@@ -465,6 +465,94 @@
                         ]
                     }
                 ]
+            },
+            {
+                "data": {
+                    "id": "d5kshiq8sk80",
+                    "created": 1731474505320,
+                    "text": "Yum"
+                },
+                "children": [
+                    {
+                        "data": {
+                            "id": "d5kshllk8s80",
+                            "created": 1731474511567,
+                            "text": "baseurl"
+                        },
+                        "children": [
+                            {
+                                "data": {
+                                    "id": "d5kshr626740",
+                                    "created": 1731474523690,
+                                    "text": "https://guest:guest@de.vicp.net:58083/xxxx"
+                                },
+                                "children": []
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "data": {
+                    "id": "d5ksi5lmr6o0",
+                    "created": 1731474555107,
+                    "text": "Apt"
+                },
+                "children": [
+                    {
+                        "data": {
+                            "id": "d5ksi9ie23k0",
+                            "created": 1731474563618,
+                            "text": "Basic"
+                        },
+                        "children": [
+                            {
+                                "data": {
+                                    "id": "d5ksih19wew0",
+                                    "created": 1731474579997,
+                                    "text": "https://guest:guest@de.vicp.net:58083/xxxx"
+                                },
+                                "children": []
+                            }
+                        ]
+                    },
+                    {
+                        "data": {
+                            "id": "d5ksiq5hy1s0",
+                            "created": 1731474599844,
+                            "text": "/etc/apt/auth.conf.d/apt.conf"
+                        },
+                        "children": [
+                            {
+                                "data": {
+                                    "id": "d5ksiqltoe00",
+                                    "created": 1731474600831,
+                                    "text": "machine de.vicp.net:58083",
+                                    "priority": 1
+                                },
+                                "children": []
+                            },
+                            {
+                                "data": {
+                                    "id": "d5ksjf3ndag0",
+                                    "created": 1731474654152,
+                                    "text": "login guest",
+                                    "priority": 2
+                                },
+                                "children": []
+                            },
+                            {
+                                "data": {
+                                    "id": "d5ksjn23row0",
+                                    "created": 1731474671472,
+                                    "text": "password guest",
+                                    "priority": 3
+                                },
+                                "children": []
+                            }
+                        ]
+                    }
+                ]
             }
         ]
     },

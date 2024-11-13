@@ -1,0 +1,192 @@
+{
+    "root": {
+        "data": {
+            "id": "d5kwb58odig0",
+            "created": 1731485290214,
+            "text": "Bash"
+        },
+        "children": [
+            {
+                "data": {
+                    "id": "d5kwbbfz1400",
+                    "created": 1731485303716,
+                    "text": "function"
+                },
+                "children": [
+                    {
+                        "data": {
+                            "id": "d5kwbep7xpk0",
+                            "created": 1731485310805,
+                            "text": "参数",
+                            "expandState": "expand"
+                        },
+                        "children": [
+                            {
+                                "data": {
+                                    "id": "d5kwbiai2sg0",
+                                    "created": 1731485318623,
+                                    "text": "默认值"
+                                },
+                                "children": [
+                                    {
+                                        "data": {
+                                            "id": "d5kwbv4j8uo0",
+                                            "created": 1731485346560,
+                                            "text": "${1-xxx}"
+                                        },
+                                        "children": [
+                                            {
+                                                "data": {
+                                                    "id": "d5kwcni95vc0",
+                                                    "created": 1731485408339,
+                                                    "text": "参数未定义"
+                                                },
+                                                "children": []
+                                            }
+                                        ]
+                                    },
+                                    {
+                                        "data": {
+                                            "id": "d5kwc2pr5g00",
+                                            "created": 1731485363080,
+                                            "text": "${1:-xxx}"
+                                        },
+                                        "children": [
+                                            {
+                                                "data": {
+                                                    "id": "d5kwcy86vo80",
+                                                    "created": 1731485431676,
+                                                    "text": "参数未定义"
+                                                },
+                                                "children": []
+                                            },
+                                            {
+                                                "data": {
+                                                    "id": "d5kwd434rgg0",
+                                                    "created": 1731485444430,
+                                                    "text": "参数为空",
+                                                    "resource": [
+                                                        "Or"
+                                                    ]
+                                                },
+                                                "children": []
+                                            }
+                                        ]
+                                    }
+                                ]
+                            },
+                            {
+                                "data": {
+                                    "id": "d5kwfoh3cf40",
+                                    "created": 1731485645538,
+                                    "text": "超过10"
+                                },
+                                "children": [
+                                    {
+                                        "data": {
+                                            "id": "d5kwfuht0dk0",
+                                            "created": 1731485658642,
+                                            "text": "${1xxx}"
+                                        },
+                                        "children": []
+                                    }
+                                ]
+                            },
+                            {
+                                "data": {
+                                    "id": "d5kwg5o868g0",
+                                    "created": 1731485682975,
+                                    "text": "不超过10"
+                                },
+                                "children": [
+                                    {
+                                        "data": {
+                                            "id": "d5kwg9kz59c0",
+                                            "created": 1731485691486,
+                                            "text": "$1"
+                                        },
+                                        "children": []
+                                    },
+                                    {
+                                        "data": {
+                                            "id": "d5kwgfk45vk0",
+                                            "created": 1731485704494,
+                                            "text": "${1}"
+                                        },
+                                        "children": []
+                                    }
+                                ]
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "data": {
+                    "id": "d5kwdui8t800",
+                    "created": 1731485501940,
+                    "text": "变量"
+                },
+                "children": [
+                    {
+                        "data": {
+                            "id": "d5kwdyxvk3k0",
+                            "created": 1731485511593,
+                            "text": "默认值"
+                        },
+                        "children": [
+                            {
+                                "data": {
+                                    "id": "d5kwe55eeps0",
+                                    "created": 1731485525108,
+                                    "text": "${Var-xxx}"
+                                },
+                                "children": [
+                                    {
+                                        "data": {
+                                            "id": "d5kweu709co0",
+                                            "created": 1731485579625,
+                                            "text": "参数未定义"
+                                        },
+                                        "children": []
+                                    }
+                                ]
+                            },
+                            {
+                                "data": {
+                                    "id": "d5kwecisq600",
+                                    "created": 1731485541156,
+                                    "text": "${Var:-xxx}"
+                                },
+                                "children": [
+                                    {
+                                        "data": {
+                                            "id": "d5kweou8e080",
+                                            "created": 1731485567969,
+                                            "text": "参数未定义"
+                                        },
+                                        "children": []
+                                    },
+                                    {
+                                        "data": {
+                                            "id": "d5kwerdmhs00",
+                                            "created": 1731485573495,
+                                            "text": "参数为空",
+                                            "resource": [
+                                                "Or"
+                                            ]
+                                        },
+                                        "children": []
+                                    }
+                                ]
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    "template": "right",
+    "theme": "fresh-blue",
+    "version": "1.4.43"
+}

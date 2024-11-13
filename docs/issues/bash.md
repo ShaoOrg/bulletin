@@ -11,6 +11,8 @@
 |ssh远程curl文件到本机|`ssh jenkins-8m2-docker 'curl -ks -L http://nas246.shao.sh:39002/tools/linux/core/bash-completion-2.14.0.tar.xz' > bc.tar.xz`|
 |子shell代码块不改变当前context,包括当前路径|`(cd /sh/private/; ls -d */ \| sed 's/\///';)`|
 |代码块,改变当前context,包括当前路径,{}必须跟换行|`{`<br>`cd /sh/private/; ls -d */ \| sed 's/\///';`<br>`}`|
+|重启记录|`last reboot`|
+
 ---
 
 ###### ssh远程curl文件到本机tar

@@ -11,7 +11,7 @@
                     "id": "d5kqvwtdv8o0",
                     "created": 1731469990863,
                     "text": "私钥",
-                    "expandState": "collapse"
+                    "expandState": "expand"
                 },
                 "children": [
                     {
@@ -118,6 +118,40 @@
                                     ]
                                 },
                                 "children": []
+                            },
+                            {
+                                "data": {
+                                    "id": "d5ks7ikatjk0",
+                                    "created": 1731473721319,
+                                    "text": "结果"
+                                },
+                                "children": [
+                                    {
+                                        "data": {
+                                            "id": "d5ks7n3vzyg0",
+                                            "created": 1731473731210,
+                                            "text": "gpg: revocation certificate stored as '/c/Users/ssz/.gnupg/openpgp-revocs.d/A16B7F7C541315D341C78FC8C3DB17068BBBA31A.rev"
+                                        },
+                                        "children": []
+                                    },
+                                    {
+                                        "data": {
+                                            "id": "d5ks8920ipc0",
+                                            "created": 1731473778986,
+                                            "text": "passphrase"
+                                        },
+                                        "children": [
+                                            {
+                                                "data": {
+                                                    "id": "d5ks8arjjkw0",
+                                                    "created": 1731473782707,
+                                                    "text": "私钥密码"
+                                                },
+                                                "children": []
+                                            }
+                                        ]
+                                    }
+                                ]
                             }
                         ]
                     },
