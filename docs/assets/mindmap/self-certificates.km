@@ -1,0 +1,372 @@
+{
+    "root": {
+        "data": {
+            "id": "d5kk0q03fhc0",
+            "created": 1731450620083,
+            "text": "自签证书"
+        },
+        "children": [
+            {
+                "data": {
+                    "id": "d5kk0zv57eo0",
+                    "created": 1731450641551,
+                    "text": "签发"
+                },
+                "children": [
+                    {
+                        "data": {
+                            "id": "d5kkaq7nca80",
+                            "created": 1731451404181,
+                            "text": "Root CA"
+                        },
+                        "children": []
+                    },
+                    {
+                        "data": {
+                            "id": "d5kka9g1woo0",
+                            "created": 1731451367684,
+                            "text": "kernal certificate harbor --domain=github.shao.sh"
+                        },
+                        "children": []
+                    }
+                ]
+            },
+            {
+                "data": {
+                    "id": "d5kk13e5naw0",
+                    "created": 1731450649231,
+                    "text": "Linux",
+                    "resource": [
+                        "信任OS"
+                    ]
+                },
+                "children": [
+                    {
+                        "data": {
+                            "id": "d5kk1g0irq80",
+                            "created": 1731450676705,
+                            "text": "Ubuntu"
+                        },
+                        "children": [
+                            {
+                                "data": {
+                                    "id": "d5kk1pp5knc0",
+                                    "created": 1731450697786,
+                                    "text": "kernal tools --name trust-store"
+                                },
+                                "children": []
+                            }
+                        ]
+                    },
+                    {
+                        "data": {
+                            "id": "d5kk1jakna00",
+                            "created": 1731450683843,
+                            "text": "Centos"
+                        },
+                        "children": [
+                            {
+                                "data": {
+                                    "id": "d5kk2g8e1zc0",
+                                    "created": 1731450755545,
+                                    "text": "kernal tools --name trust-store"
+                                },
+                                "children": []
+                            }
+                        ]
+                    },
+                    {
+                        "data": {
+                            "id": "d5kk1m0ukkw0",
+                            "created": 1731450689786,
+                            "text": "Debian"
+                        },
+                        "children": [
+                            {
+                                "data": {
+                                    "id": "d5kk2gpyjxs0",
+                                    "created": 1731450756607,
+                                    "text": "kernal tools --name trust-store"
+                                },
+                                "children": []
+                            }
+                        ]
+                    },
+                    {
+                        "data": {
+                            "id": "d5kkd06ix940",
+                            "created": 1731451582610,
+                            "text": "Alpine"
+                        },
+                        "children": [
+                            {
+                                "data": {
+                                    "id": "d5kkda2q4so0",
+                                    "created": 1731451604148,
+                                    "text": "kernal tools --name trust-store"
+                                },
+                                "children": []
+                            }
+                        ]
+                    },
+                    {
+                        "data": {
+                            "id": "d5kkdhj5om80",
+                            "created": 1731451620379,
+                            "text": "Synology"
+                        },
+                        "children": []
+                    }
+                ]
+            },
+            {
+                "data": {
+                    "id": "d5kk194knhc0",
+                    "created": 1731450661713,
+                    "text": "Windows",
+                    "resource": [
+                        "信任OS"
+                    ]
+                },
+                "children": [
+                    {
+                        "data": {
+                            "id": "d5kkbp4wt2o0",
+                            "created": 1731451480203,
+                            "text": "Admin"
+                        },
+                        "children": [
+                            {
+                                "data": {
+                                    "id": "d5kkbsqy7940",
+                                    "created": 1731451488066,
+                                    "text": "Import-Certificate -FilePath $SszRootCAFilePath -CertStoreLocation Cert:\\LocalMachine\\Root"
+                                },
+                                "children": []
+                            }
+                        ]
+                    },
+                    {
+                        "data": {
+                            "id": "d5kkbv0gce80",
+                            "created": 1731451492994,
+                            "text": "Non Admin"
+                        },
+                        "children": [
+                            {
+                                "data": {
+                                    "id": "d5kkc99ahq80",
+                                    "created": 1731451524004,
+                                    "text": "Import-Certificate -FilePath $SszRootCAFilePath -CertStoreLocation Cert:\\CurrentUser\\Root"
+                                },
+                                "children": []
+                            }
+                        ]
+                    },
+                    {
+                        "data": {
+                            "id": "d5kkcn77t140",
+                            "created": 1731451554353,
+                            "text": "choco install ssz.CA"
+                        },
+                        "children": []
+                    }
+                ]
+            },
+            {
+                "data": {
+                    "id": "d5kk2mtvavs0",
+                    "created": 1731450769904,
+                    "text": "Java",
+                    "expandState": "expand"
+                },
+                "children": [
+                    {
+                        "data": {
+                            "id": "d5kk3a228o00",
+                            "created": 1731450820466,
+                            "text": "keytool -import"
+                        },
+                        "children": []
+                    },
+                    {
+                        "data": {
+                            "id": "d5kk3ka03mw0",
+                            "created": 1731450842714,
+                            "text": "Maven"
+                        },
+                        "children": []
+                    },
+                    {
+                        "data": {
+                            "id": "d5kk3ox96ns0",
+                            "created": 1731450852827,
+                            "text": "Gradle"
+                        },
+                        "children": [
+                            {
+                                "data": {
+                                    "id": "d5kk3sb9lio0",
+                                    "created": 1731450860204,
+                                    "text": "gradle.properteis"
+                                },
+                                "children": [
+                                    {
+                                        "data": {
+                                            "id": "d5kk4r7fqig0",
+                                            "created": 1731450936160,
+                                            "text": "systemProp.javax.net.ssl.trustStore"
+                                        },
+                                        "children": [
+                                            {
+                                                "data": {
+                                                    "id": "d5kk7qvpers0",
+                                                    "created": 1731451170543,
+                                                    "text": "link to jdk cacerts"
+                                                },
+                                                "children": []
+                                            }
+                                        ]
+                                    },
+                                    {
+                                        "data": {
+                                            "id": "d5kk8o4hjfc0",
+                                            "created": 1731451242908,
+                                            "text": "systemProp.javax.net.ssl.trustStorePassword"
+                                        },
+                                        "children": [
+                                            {
+                                                "data": {
+                                                    "id": "d5kk8skfmb40",
+                                                    "created": 1731451252580,
+                                                    "text": "changeit"
+                                                },
+                                                "children": []
+                                            }
+                                        ]
+                                    },
+                                    {
+                                        "data": {
+                                            "id": "d5kk4unojn40",
+                                            "created": 1731450943673,
+                                            "text": "hosted in ~/.gradle"
+                                        },
+                                        "children": []
+                                    }
+                                ]
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "data": {
+                    "id": "d5kkdzemhco0",
+                    "created": 1731451659287,
+                    "text": "Npm",
+                    "resource": [
+                        "信任OS"
+                    ]
+                },
+                "children": []
+            },
+            {
+                "data": {
+                    "id": "d5kke2y5omg0",
+                    "created": 1731451666998,
+                    "text": "Python",
+                    "expandState": "expand"
+                },
+                "children": [
+                    {
+                        "data": {
+                            "id": "d5kkttbd3rc0",
+                            "created": 1731452899855,
+                            "text": "REQUESTS_CA_BUNDLE",
+                            "resource": [
+                                "首先",
+                                "环境变量"
+                            ]
+                        },
+                        "children": [
+                            {
+                                "data": {
+                                    "id": "d5kktwqbz6o0",
+                                    "created": 1731452907291,
+                                    "text": "link to cacert.pem"
+                                },
+                                "children": []
+                            }
+                        ]
+                    },
+                    {
+                        "data": {
+                            "id": "d5kkfa39p1c0",
+                            "created": 1731451760909,
+                            "text": "certifi",
+                            "expandState": "expand"
+                        },
+                        "children": [
+                            {
+                                "data": {
+                                    "id": "d5kkfv9o4oo0",
+                                    "created": 1731451807008,
+                                    "text": "cacert.pem",
+                                    "expandState": "expand"
+                                },
+                                "children": [
+                                    {
+                                        "data": {
+                                            "id": "d5kkw6h0fhc0",
+                                            "created": 1731453085223,
+                                            "text": "直接追加CA"
+                                        },
+                                        "children": []
+                                    },
+                                    {
+                                        "data": {
+                                            "id": "d5kkwfwsfxc0",
+                                            "created": 1731453105768,
+                                            "text": "#开头是注释"
+                                        },
+                                        "children": []
+                                    },
+                                    {
+                                        "data": {
+                                            "id": "d5kkwlmir8g0",
+                                            "created": 1731453118208,
+                                            "text": "纯文本,无密码"
+                                        },
+                                        "children": []
+                                    }
+                                ]
+                            },
+                            {
+                                "data": {
+                                    "id": "d5kkg81pql40",
+                                    "created": 1731451834825,
+                                    "text": "hosted in \nLib/site-packages"
+                                },
+                                "children": []
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "data": {
+                    "id": "d5kn8aum2000",
+                    "created": 1731459677343,
+                    "text": "Choco",
+                    "resource": [
+                        "信任OS"
+                    ]
+                },
+                "children": []
+            }
+        ]
+    },
+    "template": "right",
+    "theme": "fresh-blue",
+    "version": "1.4.43"
+}

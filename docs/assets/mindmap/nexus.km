@@ -1,0 +1,296 @@
+{
+    "root": {
+        "data": {
+            "id": "d5kmybght6o0",
+            "created": 1731458895024,
+            "text": "Nexus"
+        },
+        "children": [
+            {
+                "data": {
+                    "id": "d5kmyev01mg0",
+                    "created": 1731458902432,
+                    "text": "Repository"
+                },
+                "children": [
+                    {
+                        "data": {
+                            "id": "d5kmyvpcz0o0",
+                            "created": 1731458939097,
+                            "text": "Pypi"
+                        },
+                        "children": [
+                            {
+                                "data": {
+                                    "id": "d5kmyyecu1s0",
+                                    "created": 1731458944961,
+                                    "text": "group",
+                                    "resource": [
+                                        "Install"
+                                    ]
+                                },
+                                "children": [
+                                    {
+                                        "data": {
+                                            "id": "d5kn1js84hc0",
+                                            "created": 1731459148240,
+                                            "text": "de.vicp.net:58083/repository/pypi-group/simple/"
+                                        },
+                                        "children": [
+                                            {
+                                                "data": {
+                                                    "id": "d5kn1p14wvk0",
+                                                    "created": 1731459159663,
+                                                    "text": "需要/simple",
+                                                    "priority": 1
+                                                },
+                                                "children": []
+                                            }
+                                        ]
+                                    }
+                                ]
+                            },
+                            {
+                                "data": {
+                                    "id": "d5kmz1cvf9s0",
+                                    "created": 1731458951402,
+                                    "text": "proxy"
+                                },
+                                "children": [
+                                    {
+                                        "data": {
+                                            "id": "d5kmzb2fxlc0",
+                                            "created": 1731458972539,
+                                            "text": "pypi.tuna.tsinghua.edu.cn/ "
+                                        },
+                                        "children": [
+                                            {
+                                                "data": {
+                                                    "id": "d5kn0doxr340",
+                                                    "created": 1731459056617,
+                                                    "text": "不需要/simple",
+                                                    "priority": 1
+                                                },
+                                                "children": []
+                                            }
+                                        ]
+                                    },
+                                    {
+                                        "data": {
+                                            "id": "d5kmzs323ds0",
+                                            "created": 1731459009581,
+                                            "text": "mirrors.aliyun.com/pypi/"
+                                        },
+                                        "children": [
+                                            {
+                                                "data": {
+                                                    "id": "d5kn0khkiug0",
+                                                    "created": 1731459071409,
+                                                    "text": "不需要/simple",
+                                                    "priority": 1
+                                                },
+                                                "children": []
+                                            }
+                                        ]
+                                    }
+                                ]
+                            },
+                            {
+                                "data": {
+                                    "id": "d5kn1yx3xdk0",
+                                    "created": 1731459181187,
+                                    "text": "host",
+                                    "resource": [
+                                        "deploy"
+                                    ]
+                                },
+                                "children": [
+                                    {
+                                        "data": {
+                                            "id": "d5kn2imofeg0",
+                                            "created": 1731459224092,
+                                            "text": "de.vicp.net:58083/repository/pypi-hosted/",
+                                            "resource": []
+                                        },
+                                        "children": [
+                                            {
+                                                "data": {
+                                                    "id": "d5kn2kovrow0",
+                                                    "created": 1731459228579,
+                                                    "text": "不需要/simple",
+                                                    "priority": 1
+                                                },
+                                                "children": []
+                                            }
+                                        ]
+                                    }
+                                ]
+                            }
+                        ]
+                    },
+                    {
+                        "data": {
+                            "id": "d5kn3as60jc0",
+                            "created": 1731459285374,
+                            "text": "Npm"
+                        },
+                        "children": [
+                            {
+                                "data": {
+                                    "id": "d5kn3j2a8080",
+                                    "created": 1731459303400,
+                                    "text": "group",
+                                    "resource": [
+                                        "Install"
+                                    ]
+                                },
+                                "children": [
+                                    {
+                                        "data": {
+                                            "id": "d5koycztw680",
+                                            "created": 1731464540590,
+                                            "text": "guest:guest@de.vicp.net:58083/repository/centos-group/"
+                                        },
+                                        "children": [
+                                            {
+                                                "data": {
+                                                    "id": "d5koyzey4hs0",
+                                                    "created": 1731464589393,
+                                                    "text": "Base"
+                                                },
+                                                "children": [
+                                                    {
+                                                        "data": {
+                                                            "id": "d5kozasyhbc0",
+                                                            "created": 1731464614185,
+                                                            "text": "$contentdir/$releasever/BaseOS/$basearch/os/"
+                                                        },
+                                                        "children": []
+                                                    }
+                                                ]
+                                            },
+                                            {
+                                                "data": {
+                                                    "id": "d5kp08miya80",
+                                                    "created": 1731464687807,
+                                                    "text": "AppStream"
+                                                },
+                                                "children": [
+                                                    {
+                                                        "data": {
+                                                            "id": "d5kp0clz4r40",
+                                                            "created": 1731464696481,
+                                                            "text": "$contentdir/$releasever/AppStream/$basearch/os/"
+                                                        },
+                                                        "children": []
+                                                    }
+                                                ]
+                                            }
+                                        ]
+                                    }
+                                ]
+                            },
+                            {
+                                "data": {
+                                    "id": "d5kn3lsqlp40",
+                                    "created": 1731459309353,
+                                    "text": "proxy",
+                                    "resource": [
+                                        "Install"
+                                    ]
+                                },
+                                "children": [
+                                    {
+                                        "data": {
+                                            "id": "d5koyi4x9ag0",
+                                            "created": 1731464551782,
+                                            "text": "mirrors.aliyun.com/centos-vault/"
+                                        },
+                                        "children": []
+                                    }
+                                ]
+                            },
+                            {
+                                "data": {
+                                    "id": "d5kn3odvchs0",
+                                    "created": 1731459314985,
+                                    "text": "host"
+                                },
+                                "children": []
+                            }
+                        ]
+                    },
+                    {
+                        "data": {
+                            "id": "d5kn3dnae1s0",
+                            "created": 1731459291609,
+                            "text": "Maven"
+                        },
+                        "children": [
+                            {
+                                "data": {
+                                    "id": "d5kn3qsezo00",
+                                    "created": 1731459320218,
+                                    "text": "group"
+                                },
+                                "children": []
+                            },
+                            {
+                                "data": {
+                                    "id": "d5kn3srzwwo0",
+                                    "created": 1731459324546,
+                                    "text": "proxy"
+                                },
+                                "children": []
+                            },
+                            {
+                                "data": {
+                                    "id": "d5kn3vgg5280",
+                                    "created": 1731459330378,
+                                    "text": "host"
+                                },
+                                "children": []
+                            }
+                        ]
+                    },
+                    {
+                        "data": {
+                            "id": "d5kn3zdryeo0",
+                            "created": 1731459338923,
+                            "text": "nuget"
+                        },
+                        "children": []
+                    },
+                    {
+                        "data": {
+                            "id": "d5koxiame6o0",
+                            "created": 1731464473762,
+                            "text": "Yum"
+                        },
+                        "children": [
+                            {
+                                "data": {
+                                    "id": "d5koxqn3eqw0",
+                                    "created": 1731464491931,
+                                    "text": "group"
+                                },
+                                "children": []
+                            },
+                            {
+                                "data": {
+                                    "id": "d5koxsvdvds0",
+                                    "created": 1731464496786,
+                                    "text": "proxy"
+                                },
+                                "children": []
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    "template": "default",
+    "theme": "fresh-blue",
+    "version": "1.4.43"
+}

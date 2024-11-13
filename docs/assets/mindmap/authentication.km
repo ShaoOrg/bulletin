@@ -1,0 +1,474 @@
+{
+    "root": {
+        "data": {
+            "id": "d5kmjeh86ns0",
+            "created": 1731457726136,
+            "text": "鉴权"
+        },
+        "children": [
+            {
+                "data": {
+                    "id": "d5kmjindgcw0",
+                    "created": 1731457735215,
+                    "text": "Python"
+                },
+                "children": [
+                    {
+                        "data": {
+                            "id": "d5kmjoodyko0",
+                            "created": 1731457748337,
+                            "text": "pip",
+                            "resource": [
+                                "Install"
+                            ]
+                        },
+                        "children": [
+                            {
+                                "data": {
+                                    "id": "d5kmk675jww0",
+                                    "created": 1731457786477,
+                                    "text": "keyring ",
+                                    "expandState": "expand"
+                                },
+                                "children": [
+                                    {
+                                        "data": {
+                                            "id": "d5kmjrsz9ps0",
+                                            "created": 1731457755145,
+                                            "text": "Windows Credential Manager"
+                                        },
+                                        "children": []
+                                    },
+                                    {
+                                        "data": {
+                                            "id": "d5kmkhy3b3s0",
+                                            "created": 1731457812051,
+                                            "text": "MacOS Keychain"
+                                        },
+                                        "children": []
+                                    },
+                                    {
+                                        "data": {
+                                            "id": "d5kml0ded340",
+                                            "created": 1731457852158,
+                                            "text": "Linux GNOME Keyring"
+                                        },
+                                        "children": []
+                                    }
+                                ]
+                            }
+                        ]
+                    },
+                    {
+                        "data": {
+                            "id": "d5kmmwlyic00",
+                            "created": 1731458000697,
+                            "text": "twine",
+                            "expandState": "expand",
+                            "resource": [
+                                "deploy"
+                            ]
+                        },
+                        "children": [
+                            {
+                                "data": {
+                                    "id": "d5kmn1w1mlc0",
+                                    "created": 1731458012191,
+                                    "text": ".pypirc"
+                                },
+                                "children": [
+                                    {
+                                        "data": {
+                                            "id": "d5kmn6lfn7c0",
+                                            "created": 1731458022433,
+                                            "text": "hosted in ~"
+                                        },
+                                        "children": []
+                                    }
+                                ]
+                            },
+                            {
+                                "data": {
+                                    "id": "d5kmo5v3ctc0",
+                                    "created": 1731458099205,
+                                    "text": "环境变量",
+                                    "expandState": "expand"
+                                },
+                                "children": [
+                                    {
+                                        "data": {
+                                            "id": "d5kmnizg1sw0",
+                                            "created": 1731458049402,
+                                            "text": "TWINE_USERNAME",
+                                            "resource": [
+                                                "环境变量"
+                                            ]
+                                        },
+                                        "children": []
+                                    },
+                                    {
+                                        "data": {
+                                            "id": "d5kmnwqhs1c0",
+                                            "created": 1731458079335,
+                                            "text": "TWINE_PASSWORD",
+                                            "resource": [
+                                                "环境变量"
+                                            ]
+                                        },
+                                        "children": []
+                                    }
+                                ]
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "data": {
+                    "id": "d5kml9fjydk0",
+                    "created": 1731457871880,
+                    "text": "Npm"
+                },
+                "children": [
+                    {
+                        "data": {
+                            "id": "d5kmlhri80g0",
+                            "created": 1731457890017,
+                            "text": ".npmrc",
+                            "resource": [
+                                "Install",
+                                "deploy"
+                            ]
+                        },
+                        "children": [
+                            {
+                                "data": {
+                                    "id": "d5kmllcnmvk0",
+                                    "created": 1731457897826,
+                                    "text": "authToken"
+                                },
+                                "children": [
+                                    {
+                                        "data": {
+                                            "id": "d5kmvljr7ug0",
+                                            "created": 1731458681897,
+                                            "text": "npm login后会自动生成"
+                                        },
+                                        "children": []
+                                    }
+                                ]
+                            },
+                            {
+                                "data": {
+                                    "id": "d5kmlpj7vo80",
+                                    "created": 1731457906930,
+                                    "text": "hosted in",
+                                    "expandState": "expand"
+                                },
+                                "children": [
+                                    {
+                                        "data": {
+                                            "id": "d5kmmcy641c0",
+                                            "created": 1731457957900,
+                                            "text": "当前目录"
+                                        },
+                                        "children": []
+                                    },
+                                    {
+                                        "data": {
+                                            "id": "d5kmluiwnow0",
+                                            "created": 1731457917795,
+                                            "text": "~",
+                                            "resource": [
+                                                "Or"
+                                            ]
+                                        },
+                                        "children": []
+                                    }
+                                ]
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "data": {
+                    "id": "d5kmoysst6w0",
+                    "created": 1731458162193,
+                    "text": "Maven"
+                },
+                "children": [
+                    {
+                        "data": {
+                            "id": "d5kmp4d4z8o0",
+                            "created": 1731458174306,
+                            "text": "settings.xml",
+                            "resource": [
+                                "Install",
+                                "deploy"
+                            ]
+                        },
+                        "children": [
+                            {
+                                "data": {
+                                    "id": "d5kmpf7cb3c0",
+                                    "created": 1731458197900,
+                                    "text": "server"
+                                },
+                                "children": [
+                                    {
+                                        "data": {
+                                            "id": "d5kmprnuzjc0",
+                                            "created": 1731458225021,
+                                            "text": "Basic",
+                                            "expandState": "expand"
+                                        },
+                                        "children": [
+                                            {
+                                                "data": {
+                                                    "id": "d5kmpibj00o0",
+                                                    "created": 1731458204684,
+                                                    "text": "username"
+                                                },
+                                                "children": []
+                                            },
+                                            {
+                                                "data": {
+                                                    "id": "d5kmplnkowo0",
+                                                    "created": 1731458211943,
+                                                    "text": "password"
+                                                },
+                                                "children": []
+                                            }
+                                        ]
+                                    },
+                                    {
+                                        "data": {
+                                            "id": "d5kmpxefg6g0",
+                                            "created": 1731458237511,
+                                            "text": "HttpHeader",
+                                            "resource": [
+                                                "Or"
+                                            ]
+                                        },
+                                        "children": [
+                                            {
+                                                "data": {
+                                                    "id": "d5kmq3ziokg0",
+                                                    "created": 1731458251847,
+                                                    "text": "name"
+                                                },
+                                                "children": []
+                                            },
+                                            {
+                                                "data": {
+                                                    "id": "d5kmq7is59c0",
+                                                    "created": 1731458259542,
+                                                    "text": "value"
+                                                },
+                                                "children": []
+                                            }
+                                        ]
+                                    }
+                                ]
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "data": {
+                    "id": "d5kmqgy74ww0",
+                    "created": 1731458280065,
+                    "text": "gradle"
+                },
+                "children": [
+                    {
+                        "data": {
+                            "id": "d5kmqlsksjs0",
+                            "created": 1731458290609,
+                            "text": "build.gradle",
+                            "resource": [
+                                "Install",
+                                "deploy"
+                            ]
+                        },
+                        "children": [
+                            {
+                                "data": {
+                                    "id": "d5kmqr5r71k0",
+                                    "created": 1731458302290,
+                                    "text": "maven/credential"
+                                },
+                                "children": [
+                                    {
+                                        "data": {
+                                            "id": "d5kmr0bcopc0",
+                                            "created": 1731458322219,
+                                            "text": "Basic"
+                                        },
+                                        "children": [
+                                            {
+                                                "data": {
+                                                    "id": "d5kmrdkqvk80",
+                                                    "created": 1731458351086,
+                                                    "text": "username"
+                                                },
+                                                "children": []
+                                            },
+                                            {
+                                                "data": {
+                                                    "id": "d5kmrgqnbuw0",
+                                                    "created": 1731458357973,
+                                                    "text": "password"
+                                                },
+                                                "children": []
+                                            }
+                                        ]
+                                    },
+                                    {
+                                        "data": {
+                                            "id": "d5kmr37qlpc0",
+                                            "created": 1731458328531,
+                                            "text": "HttpHeader",
+                                            "resource": [
+                                                "Or"
+                                            ]
+                                        },
+                                        "children": [
+                                            {
+                                                "data": {
+                                                    "id": "d5kmrjahmxs0",
+                                                    "created": 1731458363526,
+                                                    "text": "name"
+                                                },
+                                                "children": []
+                                            },
+                                            {
+                                                "data": {
+                                                    "id": "d5kmrm3z03k0",
+                                                    "created": 1731458369662,
+                                                    "text": "value"
+                                                },
+                                                "children": []
+                                            }
+                                        ]
+                                    }
+                                ]
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "data": {
+                    "id": "d5kmsol6bhc0",
+                    "created": 1731458453420,
+                    "text": "Docker"
+                },
+                "children": [
+                    {
+                        "data": {
+                            "id": "d5kmta2t7bs0",
+                            "created": 1731458500199,
+                            "text": "config.json",
+                            "resource": [
+                                "Install",
+                                "deploy"
+                            ]
+                        },
+                        "children": [
+                            {
+                                "data": {
+                                    "id": "d5kmtckmm3c0",
+                                    "created": 1731458505630,
+                                    "text": "hosted in ~/.docker"
+                                },
+                                "children": []
+                            },
+                            {
+                                "data": {
+                                    "id": "d5kmtqgn8zk0",
+                                    "created": 1731458535864,
+                                    "text": "auth"
+                                },
+                                "children": [
+                                    {
+                                        "data": {
+                                            "id": "d5kmtqv09s00",
+                                            "created": 1731458536733,
+                                            "text": "username:password\nthen base64"
+                                        },
+                                        "children": []
+                                    }
+                                ]
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "data": {
+                    "id": "d5kn5a9kr5s0",
+                    "created": 1731459440978,
+                    "text": "NuGet"
+                },
+                "children": [
+                    {
+                        "data": {
+                            "id": "d5kn5fskaqo0",
+                            "created": 1731459453010,
+                            "text": "choco"
+                        },
+                        "children": [
+                            {
+                                "data": {
+                                    "id": "d5kn5ip3gig0",
+                                    "created": 1731459459331,
+                                    "text": "--api-key",
+                                    "resource": [
+                                        "deploy",
+                                        "命令行参数"
+                                    ]
+                                },
+                                "children": []
+                            },
+                            {
+                                "data": {
+                                    "id": "d5kn709140w0",
+                                    "created": 1731459575906,
+                                    "text": "source add",
+                                    "resource": [
+                                        "Install",
+                                        "命令行参数"
+                                    ]
+                                },
+                                "children": [
+                                    {
+                                        "data": {
+                                            "id": "d5kn74oka8w0",
+                                            "created": 1731459585552,
+                                            "text": "-u"
+                                        },
+                                        "children": []
+                                    },
+                                    {
+                                        "data": {
+                                            "id": "d5kn7apzmqw0",
+                                            "created": 1731459598699,
+                                            "text": "-p"
+                                        },
+                                        "children": []
+                                    }
+                                ]
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    "template": "right",
+    "theme": "fresh-blue",
+    "version": "1.4.43"
+}

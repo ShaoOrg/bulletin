@@ -294,7 +294,7 @@
                             "text": "maven",
                             "hyperlink": "https://docs.gitlab.com/ee/user/packages/maven_repository/index.html",
                             "hyperlinkTitle": "Maven Package",
-                            "expandState": "expand"
+                            "expandState": "collapse"
                         },
                         "children": [
                             {
@@ -648,7 +648,8 @@
                             "created": 1731166715456,
                             "text": "nuget",
                             "hyperlink": "https://docs.gitlab.com/ee/user/packages/nuget_repository/",
-                            "hyperlinkTitle": ""
+                            "hyperlinkTitle": "",
+                            "expandState": "collapse"
                         },
                         "children": [
                             {
@@ -668,7 +669,7 @@
                             "text": "npm",
                             "hyperlink": "https://docs.gitlab.com/ee/user/packages/npm_registry/",
                             "hyperlinkTitle": "",
-                            "expandState": "expand"
+                            "expandState": "collapse"
                         },
                         "children": [
                             {
@@ -801,6 +802,51 @@
                                             "text": "否则报auth错误"
                                         },
                                         "children": []
+                                    }
+                                ]
+                            }
+                        ]
+                    },
+                    {
+                        "data": {
+                            "id": "d5kc9iq58v40",
+                            "created": 1731428740642,
+                            "text": "pypi"
+                        },
+                        "children": [
+                            {
+                                "data": {
+                                    "id": "d5kc9lm4qq00",
+                                    "created": 1731428746930,
+                                    "text": "twine"
+                                },
+                                "children": [
+                                    {
+                                        "data": {
+                                            "id": "d5kc9q5jth40",
+                                            "created": 1731428756811,
+                                            "text": ".pypirc"
+                                        },
+                                        "children": [
+                                            {
+                                                "data": {
+                                                    "id": "d5kc9uww8ko0",
+                                                    "created": 1731428767172,
+                                                    "text": "必须在~目录",
+                                                    "background": "#ff0000"
+                                                },
+                                                "children": []
+                                            },
+                                            {
+                                                "data": {
+                                                    "id": "d5kca0u1o7s0",
+                                                    "created": 1731428780060,
+                                                    "text": "不支持变量",
+                                                    "background": "#ff0000"
+                                                },
+                                                "children": []
+                                            }
+                                        ]
                                     }
                                 ]
                             }
