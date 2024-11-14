@@ -553,6 +553,218 @@
                         ]
                     }
                 ]
+            },
+            {
+                "data": {
+                    "id": "d5lksi007x40",
+                    "created": 1731554356817,
+                    "text": "Nginx/OpenResty"
+                },
+                "children": [
+                    {
+                        "data": {
+                            "id": "d5lkszzt0nk0",
+                            "created": 1731554395987,
+                            "text": "配置在location{}",
+                            "priority": 1
+                        },
+                        "children": []
+                    },
+                    {
+                        "data": {
+                            "id": "d5lksrrg72w0",
+                            "created": 1731554378067,
+                            "text": "Basic"
+                        },
+                        "children": [
+                            {
+                                "data": {
+                                    "id": "d5lkv1qoqlc0",
+                                    "created": 1731554556517,
+                                    "text": "location{}",
+                                    "expandState": "expand"
+                                },
+                                "children": [
+                                    {
+                                        "data": {
+                                            "id": "d5lkte13pns0",
+                                            "created": 1731554426540,
+                                            "text": "auth_basic \"Restricted Access\"",
+                                            "priority": null
+                                        },
+                                        "children": []
+                                    },
+                                    {
+                                        "data": {
+                                            "id": "d5lktpvr4k00",
+                                            "created": 1731554452338,
+                                            "text": "auth_basic_user_file /app/etc/.htpasswd"
+                                        },
+                                        "children": [
+                                            {
+                                                "data": {
+                                                    "id": "d5lkz4ej6400",
+                                                    "created": 1731554875769,
+                                                    "text": ".htpasswd"
+                                                },
+                                                "children": [
+                                                    {
+                                                        "data": {
+                                                            "id": "d5lkzp6wwjc0",
+                                                            "created": 1731554921021,
+                                                            "text": "z15:xxxxxxxxxxxxxxxx",
+                                                            "resource": [
+                                                                "Sample"
+                                                            ]
+                                                        },
+                                                        "children": []
+                                                    },
+                                                    {
+                                                        "data": {
+                                                            "id": "d5ll1eukl5c0",
+                                                            "created": 1731555055235,
+                                                            "text": "生成"
+                                                        },
+                                                        "children": [
+                                                            {
+                                                                "data": {
+                                                                    "id": "d5ll1hxlu3s0",
+                                                                    "created": 1731555061949,
+                                                                    "text": "htpasswd -b /etc/nginx/.htpasswd username password"
+                                                                },
+                                                                "children": []
+                                                            },
+                                                            {
+                                                                "data": {
+                                                                    "id": "d5ll1o46jwg0",
+                                                                    "created": 1731555075407,
+                                                                    "text": "openssl passwd -apr1 \"password\"",
+                                                                    "resource": [
+                                                                        "Or"
+                                                                    ]
+                                                                },
+                                                                "children": []
+                                                            }
+                                                        ]
+                                                    }
+                                                ]
+                                            }
+                                        ]
+                                    }
+                                ]
+                            }
+                        ]
+                    },
+                    {
+                        "data": {
+                            "id": "d5lksuckhsg0",
+                            "created": 1731554383698,
+                            "text": "Ldap"
+                        },
+                        "children": [
+                            {
+                                "data": {
+                                    "id": "d5lkvabhuao0",
+                                    "created": 1731554575189,
+                                    "text": "location{}",
+                                    "expandState": "expand"
+                                },
+                                "children": [
+                                    {
+                                        "data": {
+                                            "id": "d5lku8kjjco0",
+                                            "created": 1731554493019,
+                                            "text": "auth_ldap \"Forbidden\""
+                                        },
+                                        "children": []
+                                    },
+                                    {
+                                        "data": {
+                                            "id": "d5lkuq364cw0",
+                                            "created": 1731554531150,
+                                            "text": "auth_ldap_servers ad_de_vicp_net"
+                                        },
+                                        "children": []
+                                    }
+                                ]
+                            },
+                            {
+                                "data": {
+                                    "id": "d5lkvvd9kv40",
+                                    "created": 1731554621009,
+                                    "text": "根目录"
+                                },
+                                "children": [
+                                    {
+                                        "data": {
+                                            "id": "d5lkwies8aw0",
+                                            "created": 1731554671167,
+                                            "text": "ldap_server ad_de_vicp_net {}"
+                                        },
+                                        "children": [
+                                            {
+                                                "data": {
+                                                    "id": "d5lkwz0iidk0",
+                                                    "created": 1731554707309,
+                                                    "text": "url"
+                                                },
+                                                "children": []
+                                            },
+                                            {
+                                                "data": {
+                                                    "id": "d5lkx2m8s1s0",
+                                                    "created": 1731554715153,
+                                                    "text": "binddn"
+                                                },
+                                                "children": []
+                                            },
+                                            {
+                                                "data": {
+                                                    "id": "d5lkx62p7w80",
+                                                    "created": 1731554722679,
+                                                    "text": "binddn_passwd"
+                                                },
+                                                "children": []
+                                            },
+                                            {
+                                                "data": {
+                                                    "id": "d5lkxd944pk0",
+                                                    "created": 1731554738304,
+                                                    "text": "group_attribute"
+                                                },
+                                                "children": []
+                                            },
+                                            {
+                                                "data": {
+                                                    "id": "d5lkxnhd41c0",
+                                                    "created": 1731554760571,
+                                                    "text": "group_attribute_is_dn"
+                                                },
+                                                "children": []
+                                            },
+                                            {
+                                                "data": {
+                                                    "id": "d5lkxsux96g0",
+                                                    "created": 1731554772275,
+                                                    "text": "require group"
+                                                },
+                                                "children": []
+                                            },
+                                            {
+                                                "data": {
+                                                    "id": "d5lkxwdk5jc0",
+                                                    "created": 1731554779932,
+                                                    "text": "require user"
+                                                },
+                                                "children": []
+                                            }
+                                        ]
+                                    }
+                                ]
+                            }
+                        ]
+                    }
+                ]
             }
         ]
     },

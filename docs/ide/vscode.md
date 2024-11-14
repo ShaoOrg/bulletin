@@ -187,3 +187,6 @@
 ###### Drawio
 - Theme 选Atlas,就是白底黑字的,和visio兼容
 - 自动画布大小,拖动组件到不可见区域它就会自动扩展画布
+
+###### 其它
+- [version history](https://marketplace.visualstudio.com/items?itemName=mikestead.dotenv&ssr=false#version-history)

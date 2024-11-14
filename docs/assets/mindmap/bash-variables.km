@@ -118,6 +118,92 @@
                                 ]
                             }
                         ]
+                    },
+                    {
+                        "data": {
+                            "id": "d5li2ntn9yw0",
+                            "created": 1731546689805,
+                            "text": "返回值"
+                        },
+                        "children": [
+                            {
+                                "data": {
+                                    "id": "d5li2rndshk0",
+                                    "created": 1731546698133,
+                                    "text": "string"
+                                },
+                                "children": [
+                                    {
+                                        "data": {
+                                            "id": "d5li2xsctuo0",
+                                            "created": 1731546711494,
+                                            "text": "echo"
+                                        },
+                                        "children": []
+                                    }
+                                ]
+                            },
+                            {
+                                "data": {
+                                    "id": "d5li31su2ow0",
+                                    "created": 1731546720231,
+                                    "text": "bool"
+                                },
+                                "children": [
+                                    {
+                                        "data": {
+                                            "id": "d5li36f57sg0",
+                                            "created": 1731546730287,
+                                            "text": "return 1"
+                                        },
+                                        "children": []
+                                    },
+                                    {
+                                        "data": {
+                                            "id": "d5li3e705vk0",
+                                            "created": 1731546747209,
+                                            "text": "return 0"
+                                        },
+                                        "children": []
+                                    },
+                                    {
+                                        "data": {
+                                            "id": "d5li3hbqqrc0",
+                                            "created": 1731546754025,
+                                            "text": "条件表达式"
+                                        },
+                                        "children": [
+                                            {
+                                                "data": {
+                                                    "id": "d5li3ll8wio0",
+                                                    "created": 1731546763307,
+                                                    "text": "[ -n \"$Var\" ]",
+                                                    "priority": 1
+                                                },
+                                                "children": []
+                                            },
+                                            {
+                                                "data": {
+                                                    "id": "d5li3u6y3f40",
+                                                    "created": 1731546782034,
+                                                    "text": "[ -f \"$file\" ]",
+                                                    "priority": 1
+                                                },
+                                                "children": []
+                                            },
+                                            {
+                                                "data": {
+                                                    "id": "d5li43ea37k0",
+                                                    "created": 1731546802068,
+                                                    "text": "..."
+                                                },
+                                                "children": []
+                                            }
+                                        ]
+                                    }
+                                ]
+                            }
+                        ]
                     }
                 ]
             },
