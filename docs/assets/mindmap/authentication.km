@@ -20,7 +20,9 @@
                             "text": "pip",
                             "resource": [
                                 "Install"
-                            ]
+                            ],
+                            "hyperlink": "https://pip.pypa.io/en/stable/topics/authentication/",
+                            "hyperlinkTitle": ""
                         },
                         "children": [
                             {
@@ -56,6 +58,41 @@
                                         "children": []
                                     }
                                 ]
+                            },
+                            {
+                                "data": {
+                                    "id": "d5lyyb0el0g0",
+                                    "created": 1731594307327,
+                                    "text": ".netrc"
+                                },
+                                "children": [
+                                    {
+                                        "data": {
+                                            "id": "d5lyyiersjs0",
+                                            "created": 1731594323433,
+                                            "text": "hosted in ~"
+                                        },
+                                        "children": [
+                                            {
+                                                "data": {
+                                                    "id": "d5lyynv4cew0",
+                                                    "created": 1731594335305,
+                                                    "text": "machine domain login user password pw"
+                                                },
+                                                "children": [
+                                                    {
+                                                        "data": {
+                                                            "id": "d5lyyxoe1m80",
+                                                            "created": 1731594356666,
+                                                            "text": "不需要Port"
+                                                        },
+                                                        "children": []
+                                                    }
+                                                ]
+                                            }
+                                        ]
+                                    }
+                                ]
                             }
                         ]
                     },
@@ -83,7 +120,16 @@
                                             "created": 1731458022433,
                                             "text": "hosted in ~"
                                         },
-                                        "children": []
+                                        "children": [
+                                            {
+                                                "data": {
+                                                    "id": "d5lyzfaunn40",
+                                                    "created": 1731594395030,
+                                                    "text": "machine domain:port login user password pw"
+                                                },
+                                                "children": []
+                                            }
+                                        ]
                                     }
                                 ]
                             },
