@@ -110,7 +110,7 @@ plugins:  #插件
       separator: '[\s\u200b\-_,:!=\[\]()"`/]+|\.(?!\d)|&[lg]t;|(?!\b)(?=[A-Z][a-z])' #分隔符，空格、减号、点
 #      prebuild_index: true  #预构建索引，默认false，已经弃用该选项
   - drawio:
-      external_url_toolbar: "<a href='#'>刷新文档</a>"
+      external_url_toolbar: "<a href='#' url-x='${url}'>刷新文档</a>"
       kity_minder_toolbar: "<button id='btn-${minder_view_id}-edit' class='btn-minder-view-toolbar' file=${file}>✔</button><button id='btn-${minder_view_id}-zoom-in' class='btn-minder-view-toolbar'>➖</button><button id='btn-${minder_view_id}-zoom-out' class='btn-minder-view-toolbar'>➕</button><button id='btn-${minder_view_id}-full' class='btn-minder-view-toolbar'>&#9974;</button>"
       kity_minder_global_style: |
         .btn-minder-view-toolbar {
