@@ -171,7 +171,7 @@ plugins:  #插件
         }
         document.getElementById('btn-${minder_view_id}-edit') && document.getElementById('btn-${minder_view_id}-edit').addEventListener('click', function() {
             const file = this.getAttribute("file").replace(/.*\/assets\/(.+)/, '$1')
-            window.open(`/local-kity-minder/${file}`)
+            window.open("/local-kity-minder/" + file)
         });
         document.getElementById('btn-${minder_view_id}-zoom-in') && document.getElementById('btn-${minder_view_id}-zoom-in').addEventListener('click', function() {
             zoomContainer(document.getElementById('${minder_view_id}'), 0.8)
