@@ -814,7 +814,7 @@
             }
         ]
     },
-    "template": "right",
-    "theme": "fresh-blue",
+    "template": "default",
+    "theme": "wire",
     "version": "1.4.43"
 }

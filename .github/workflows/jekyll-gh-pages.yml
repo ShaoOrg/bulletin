@@ -43,6 +43,7 @@ jobs:
           GH_TOKEN: ${{ secrets.GH_TOKEN }}
           GOOGLE_ANALYTICS_KEY: ${{ secrets.GOOGLE_ANALYTICS_KEY }}
         run: |
+          pip install -y mkdocs-drawio-km
           mkdocs build --clean
           mkdocs --version
       # - name: Upload artifact

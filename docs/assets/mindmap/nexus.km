@@ -291,6 +291,6 @@
         ]
     },
     "template": "default",
-    "theme": "fresh-blue",
+    "theme": "wire",
     "version": "1.4.43"
 }
