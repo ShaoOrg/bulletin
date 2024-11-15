@@ -170,7 +170,7 @@ plugins:  #插件
             }
         }
         document.getElementById('btn-${minder_view_id}-edit') && document.getElementById('btn-${minder_view_id}-edit').addEventListener('click', function() {
-            zoomContainer(document.getElementById('${minder_view_id}'), 0.8)
+            alert(this.file)
         });
         document.getElementById('btn-${minder_view_id}-zoom-in') && document.getElementById('btn-${minder_view_id}-zoom-in').addEventListener('click', function() {
             zoomContainer(document.getElementById('${minder_view_id}'), 0.8)
