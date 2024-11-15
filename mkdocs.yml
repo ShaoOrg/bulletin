@@ -111,7 +111,7 @@ plugins:  #插件
 #      prebuild_index: true  #预构建索引，默认false，已经弃用该选项
   - drawio:
       refresh_url: "https://de.vicp.net:39002/bash_shell/squidfunk/mkdocs-material"
-      kity_minder_toolbar: "<button id='btn-${minder_view_id}-zoom-in' class='btn-minder-view-toolbar'>➖</button><button id='btn-${minder_view_id}-zoom-out' class='btn-minder-view-toolbar'>➕</button><button id='btn-${minder_view_id}-full' class='btn-minder-view-toolbar'>&#9974;</button>"
+      kity_minder_toolbar: "<button id='btn-${minder_view_id}-edit' class='btn-minder-view-toolbar'>✔</button><button id='btn-${minder_view_id}-zoom-in' class='btn-minder-view-toolbar'>➖</button><button id='btn-${minder_view_id}-zoom-out' class='btn-minder-view-toolbar'>➕</button><button id='btn-${minder_view_id}-full' class='btn-minder-view-toolbar'>&#9974;</button>"
       kity_minder_global_style: |
         .btn-minder-view-toolbar {
             border: 1px solid #dbb656;
@@ -169,6 +169,9 @@ plugins:  #插件
                 }
             }
         }
+        document.getElementById('btn-${minder_view_id}-edit') && document.getElementById('btn-${minder_view_id}-edit').addEventListener('click', function() {
+            zoomContainer(document.getElementById('${minder_view_id}'), 0.8)
+        });
         document.getElementById('btn-${minder_view_id}-zoom-in') && document.getElementById('btn-${minder_view_id}-zoom-in').addEventListener('click', function() {
             zoomContainer(document.getElementById('${minder_view_id}'), 0.8)
         });
