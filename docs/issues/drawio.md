@@ -4,6 +4,7 @@
 - [Preview](https://de.vicp.net:25053/local-drawio/?lightbox=1&title=#Uhttps://de.vicp.net:25053/docs-assets/drawio/demo.drawio)
 - [Edit](https://de.vicp.net:25053/local-drawio/?title=#Uhttps://de.vicp.net:25053/docs-assets/drawio/demo.drawio)
 - [Edit](https://de.vicp.net:25053/local-kity-minder/mindmap/authentication.km)
+- [Edit](https://de.vicp.net:25053/local-kity-minder/mindmap/self-certificates.km)
 - [Edit](https://de.vicp.net:25053/local-drawio/drawio/demo.drawio)
 ###### Container
 - Container不能设置背景色
