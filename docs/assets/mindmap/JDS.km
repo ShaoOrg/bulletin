@@ -4,7 +4,8 @@
             "id": "d50qsa7psxk0",
             "created": 1729438507438,
             "text": "JDSClusterManager\ncom.hp.usage.mgmt\n.jds.cluster.\nJDSClusterManagerImpl",
-            "progress": null
+            "progress": null,
+            "background": "#4f81bd"
         },
         "children": [
             {
@@ -95,7 +96,7 @@
             }
         ]
     },
-    "template": "structure",
-    "theme": "fresh-pink-compat",
+    "template": "default",
+    "theme": "wire",
     "version": "1.4.33"
 }
