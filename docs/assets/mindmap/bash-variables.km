@@ -272,7 +272,7 @@
             }
         ]
     },
-    "template": "right",
-    "theme": "fresh-blue",
-    "version": "1.4.43"
+    "template": "default",
+    "theme": "wire",
+    "version": "1.4.33"
 }
