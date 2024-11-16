@@ -40,10 +40,13 @@ jobs:
       #     destination: ./_site
       - name: Setup Python
         run: |
-          python3 -m venv github-python-sszorg-bulletin
+          pushd ~ || exit 1
+          [ -d github-python-sszorg-bulletin ] || {
+            python3 -m venv github-python-sszorg-bulletin
+          }
           source github-python-sszorg-bulletin/bin/activate
-          curl https://de.vicp.net:58443/squidfunk/mkdocs-material/-/raw/master-ssz/requirements.txt -O
-          pip install -r requirements.txt
+          popd || exit 1
+
       - name: Build documentation
         env:
           GH_TOKEN: ${{ secrets.GH_TOKEN }}
