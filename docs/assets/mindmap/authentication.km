@@ -85,7 +85,8 @@
                                                         "data": {
                                                             "id": "d5lyyxoe1m80",
                                                             "created": 1731594356666,
-                                                            "text": "不需要Port"
+                                                            "text": "不需要Port",
+                                                            "priority": 1
                                                         },
                                                         "children": []
                                                     }
@@ -174,7 +175,8 @@
                 "data": {
                     "id": "d5kml9fjydk0",
                     "created": 1731457871880,
-                    "text": "Npm"
+                    "text": "Npm",
+                    "expandState": "collapse"
                 },
                 "children": [
                     {
@@ -242,7 +244,8 @@
                 "data": {
                     "id": "d5kmoysst6w0",
                     "created": 1731458162193,
-                    "text": "Maven"
+                    "text": "Maven",
+                    "expandState": "collapse"
                 },
                 "children": [
                     {
@@ -327,7 +330,8 @@
                 "data": {
                     "id": "d5kmqgy74ww0",
                     "created": 1731458280065,
-                    "text": "gradle"
+                    "text": "gradle",
+                    "expandState": "collapse"
                 },
                 "children": [
                     {
@@ -411,7 +415,8 @@
                 "data": {
                     "id": "d5kmsol6bhc0",
                     "created": 1731458453420,
-                    "text": "Docker"
+                    "text": "Docker",
+                    "expandState": "collapse"
                 },
                 "children": [
                     {
@@ -543,7 +548,8 @@
                 "data": {
                     "id": "d5ksi5lmr6o0",
                     "created": 1731474555107,
-                    "text": "Apt"
+                    "text": "Apt",
+                    "expandState": "collapse"
                 },
                 "children": [
                     {
@@ -605,7 +611,8 @@
                 "data": {
                     "id": "d5lksi007x40",
                     "created": 1731554356817,
-                    "text": "Nginx/OpenResty"
+                    "text": "Nginx/OpenResty",
+                    "expandState": "collapse"
                 },
                 "children": [
                     {
