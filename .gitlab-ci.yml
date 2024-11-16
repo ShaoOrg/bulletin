@@ -68,6 +68,7 @@ pages:
       }
       source gitlab-python-sszorg-bulletin/bin/activate
       popd || exit 1
+      pwd
     - |
       pip install mkdocs-material mkdocs-drawio-km jieba
       mkdocs build --clean --site-dir public

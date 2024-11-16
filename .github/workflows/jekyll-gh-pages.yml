@@ -46,7 +46,7 @@ jobs:
           }
           source github-python-sszorg-bulletin/bin/activate
           popd || exit 1
-
+          pwd
       - name: Build documentation
         env:
           GH_TOKEN: ${{ secrets.GH_TOKEN }}
