@@ -52,7 +52,7 @@ jobs:
           GH_TOKEN: ${{ secrets.GH_TOKEN }}
           GOOGLE_ANALYTICS_KEY: ${{ secrets.GOOGLE_ANALYTICS_KEY }}
         run: |
-          pip install mkdocs-drawio-km jieba
+          pip install mkdocs-material mkdocs-drawio-km jieba
           mkdocs build --clean
           mkdocs --version
       # - name: Upload artifact

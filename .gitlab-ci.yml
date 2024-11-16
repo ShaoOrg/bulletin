@@ -68,11 +68,8 @@ pages:
       }
       source gitlab-python-sszorg-bulletin/bin/activate
       popd || exit 1
-      # curl https://de.vicp.net:58443/squidfunk/mkdocs-material/-/raw/master-ssz/requirements.txt -O
-      # pip install -r requirements.txt
-      pip install mkdocs-material
     - |
-      pip install mkdocs-drawio-km jieba
+      pip install mkdocs-material mkdocs-drawio-km jieba
       mkdocs build --clean --site-dir public
       mkdocs --version
   artifacts:
