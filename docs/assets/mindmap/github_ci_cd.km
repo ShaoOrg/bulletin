@@ -101,7 +101,49 @@
                                             "created": 1729422599681,
                                             "text": "uses"
                                         },
-                                        "children": []
+                                        "children": [
+                                            {
+                                                "data": {
+                                                    "id": "d5n67xg4f0o0",
+                                                    "created": 1731716369170,
+                                                    "text": "可引用的仓库"
+                                                },
+                                                "children": [
+                                                    {
+                                                        "data": {
+                                                            "id": "d5n684dimso0",
+                                                            "created": 1731716384250,
+                                                            "text": "actions/checkout@v4"
+                                                        },
+                                                        "children": []
+                                                    },
+                                                    {
+                                                        "data": {
+                                                            "id": "d5n68b4sy7s0",
+                                                            "created": 1731716398961,
+                                                            "text": "actions/setup-python@v4"
+                                                        },
+                                                        "children": []
+                                                    },
+                                                    {
+                                                        "data": {
+                                                            "id": "d5n68pdrv6w0",
+                                                            "created": 1731716429978,
+                                                            "text": "actions/upload-artifact@v3"
+                                                        },
+                                                        "children": []
+                                                    },
+                                                    {
+                                                        "data": {
+                                                            "id": "d5n690bscqg0",
+                                                            "created": 1731716453802,
+                                                            "text": "actions/download-artifact@v3"
+                                                        },
+                                                        "children": []
+                                                    }
+                                                ]
+                                            }
+                                        ]
                                     },
                                     {
                                         "data": {
@@ -110,9 +152,148 @@
                                             "text": "run",
                                             "resource": [
                                                 "shell"
-                                            ]
+                                            ],
+                                            "expandState": "expand"
                                         },
-                                        "children": []
+                                        "children": [
+                                            {
+                                                "data": {
+                                                    "id": "d5n66dtj9hk0",
+                                                    "created": 1731716248081,
+                                                    "text": "可引用的仓库或工具"
+                                                },
+                                                "children": [
+                                                    {
+                                                        "data": {
+                                                            "id": "d5n670z6uy80",
+                                                            "created": 1731716298489,
+                                                            "text": "gh"
+                                                        },
+                                                        "children": [
+                                                            {
+                                                                "data": {
+                                                                    "id": "d5n6estc7hc0",
+                                                                    "created": 1731716907634,
+                                                                    "text": "authentication",
+                                                                    "expandState": "expand",
+                                                                    "priority": 1
+                                                                },
+                                                                "children": [
+                                                                    {
+                                                                        "data": {
+                                                                            "id": "d5n7nb7r2ns0",
+                                                                            "created": 1731720395711,
+                                                                            "text": "oauth_token",
+                                                                            "expandState": "expand"
+                                                                        },
+                                                                        "children": [
+                                                                            {
+                                                                                "data": {
+                                                                                    "id": "d5n674lwweg0",
+                                                                                    "created": 1731716306393,
+                                                                                    "text": "用github application授权",
+                                                                                    "hyperlink": null,
+                                                                                    "hyperlinkTitle": null
+                                                                                },
+                                                                                "children": []
+                                                                            },
+                                                                            {
+                                                                                "data": {
+                                                                                    "id": "d5n7nwwdifk0",
+                                                                                    "created": 1731720442912,
+                                                                                    "text": "stored in ~/.config/gh/hosts.yml"
+                                                                                },
+                                                                                "children": []
+                                                                            }
+                                                                        ]
+                                                                    },
+                                                                    {
+                                                                        "data": {
+                                                                            "id": "d5n6ec2k12g0",
+                                                                            "created": 1731716871186,
+                                                                            "text": "export GH_TOKEN=PAT",
+                                                                            "resource": [
+                                                                                "Or"
+                                                                            ]
+                                                                        },
+                                                                        "children": [
+                                                                            {
+                                                                                "data": {
+                                                                                    "id": "d5n7eakopwo0",
+                                                                                    "created": 1731719689039,
+                                                                                    "text": "only for github.com"
+                                                                                },
+                                                                                "children": []
+                                                                            }
+                                                                        ]
+                                                                    },
+                                                                    {
+                                                                        "data": {
+                                                                            "id": "d5n7dsh37s80",
+                                                                            "created": 1731719649639,
+                                                                            "text": "export GH_HOST=github.shao.sh"
+                                                                        },
+                                                                        "children": [
+                                                                            {
+                                                                                "data": {
+                                                                                    "id": "d5n7e08cadk0",
+                                                                                    "created": 1731719666525,
+                                                                                    "text": "切换instance"
+                                                                                },
+                                                                                "children": []
+                                                                            }
+                                                                        ]
+                                                                    },
+                                                                    {
+                                                                        "data": {
+                                                                            "id": "d5n7hgagkg80",
+                                                                            "created": 1731719936574,
+                                                                            "text": "gh auth status"
+                                                                        },
+                                                                        "children": [
+                                                                            {
+                                                                                "data": {
+                                                                                    "id": "d5n7hhq2jnc0",
+                                                                                    "created": 1731719939694,
+                                                                                    "text": "可以获取如何授权",
+                                                                                    "priority": 1
+                                                                                },
+                                                                                "children": []
+                                                                            }
+                                                                        ]
+                                                                    }
+                                                                ]
+                                                            },
+                                                            {
+                                                                "data": {
+                                                                    "id": "d5n6aowg1000",
+                                                                    "created": 1731716585658,
+                                                                    "text": "gh release"
+                                                                },
+                                                                "children": [
+                                                                    {
+                                                                        "data": {
+                                                                            "id": "d5n6ar5soxk0",
+                                                                            "created": 1731716590577,
+                                                                            "text": "view"
+                                                                        },
+                                                                        "children": []
+                                                                    },
+                                                                    {
+                                                                        "data": {
+                                                                            "id": "d5n6at41m0g0",
+                                                                            "created": 1731716594825,
+                                                                            "text": "create"
+                                                                        },
+                                                                        "children": []
+                                                                    }
+                                                                ]
+                                                            }
+                                                        ]
+                                                    }
+                                                ]
+                                            }
+                                        ]
                                     },
                                     {
                                         "data": {
@@ -120,7 +301,16 @@
                                             "created": 1729422607744,
                                             "text": "with"
                                         },
-                                        "children": []
+                                        "children": [
+                                            {
+                                                "data": {
+                                                    "id": "d5n6bsnftyg0",
+                                                    "created": 1731716672185,
+                                                    "text": "参数取决于uses"
+                                                },
+                                                "children": []
+                                            }
+                                        ]
                                     }
                                 ]
                             },
@@ -698,10 +888,99 @@
                         ]
                     }
                 ]
+            },
+            {
+                "data": {
+                    "id": "d5n7hsx72w80",
+                    "created": 1731719964070,
+                    "text": "说明",
+                    "layout_mind_offset": {
+                        "x": 1011,
+                        "y": -1603
+                    },
+                    "priority": 1,
+                    "background": "#ff0000"
+                },
+                "children": [
+                    {
+                        "data": {
+                            "id": "d5n7i7k71cw0",
+                            "created": 1731719995936,
+                            "text": "顺序"
+                        },
+                        "children": [
+                            {
+                                "data": {
+                                    "id": "d5n7iba2ou80",
+                                    "created": 1731720004031,
+                                    "text": "1",
+                                    "priority": 1
+                                },
+                                "children": []
+                            },
+                            {
+                                "data": {
+                                    "id": "d5n7ikevlhk0",
+                                    "created": 1731720023912,
+                                    "text": "2",
+                                    "priority": 2
+                                },
+                                "children": []
+                            },
+                            {
+                                "data": {
+                                    "id": "d5n7innew2w0",
+                                    "created": 1731720030959,
+                                    "text": "...",
+                                    "priority": 9
+                                },
+                                "children": []
+                            }
+                        ]
+                    },
+                    {
+                        "data": {
+                            "id": "d5n7isojv140",
+                            "created": 1731720041911,
+                            "text": "Note",
+                            "priority": 1
+                        },
+                        "children": [
+                            {
+                                "data": {
+                                    "id": "d5n7kk0yd740",
+                                    "created": 1731720179799,
+                                    "text": "表示很重要"
+                                },
+                                "children": []
+                            }
+                        ]
+                    },
+                    {
+                        "data": {
+                            "id": "d5n7jlxpfew0",
+                            "created": 1731720105592,
+                            "text": "逻辑"
+                        },
+                        "children": [
+                            {
+                                "data": {
+                                    "id": "d5n7jp1r1dc0",
+                                    "created": 1731720112367,
+                                    "text": "和上一条记录",
+                                    "resource": [
+                                        "Or"
+                                    ]
+                                },
+                                "children": []
+                            }
+                        ]
+                    }
+                ]
             }
         ]
     },
-    "template": "filetree",
-    "theme": "classic-compact",
+    "template": "default",
+    "theme": "wire",
     "version": "1.4.43"
 }
