@@ -56,6 +56,6 @@
         ]
     },
     "template": "default",
-    "theme": "wire",
+    "theme": "fresh-pink-compat",
     "version": "1.4.33"
 }
