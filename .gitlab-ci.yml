@@ -61,7 +61,7 @@ pages:
   stage: deploy
   script:
   - |
-    pip uninstall mkdocs-drawio-km
+    pip uninstall mkdocs-drawio-km -y
     pip install mkdocs-drawio-km jieba
     mkdocs build --clean --site-dir public
     mkdocs --version
