@@ -1,0 +1,59 @@
+{
+    "root": {
+        "data": {
+            "id": "d5nethe85280",
+            "created": 1731740627118,
+            "text": "Drawio"
+        },
+        "children": [
+            {
+                "data": {
+                    "id": "d5nethh4ew80",
+                    "created": 1731740627293,
+                    "text": "viewer",
+                    "hyperlink": "https://www.drawio.com/doc/faq/embed-html-options",
+                    "hyperlinkTitle": ""
+                },
+                "children": [
+                    {
+                        "data": {
+                            "id": "d5neufl7jc00",
+                            "created": 1731740701550,
+                            "text": "Embed HTML options",
+                            "expandState": "expand"
+                        },
+                        "children": [
+                            {
+                                "data": {
+                                    "id": "d5nevk0dau00",
+                                    "created": 1731740789538,
+                                    "text": "toolbar=[pages|zoom|layers|lightbox|custom]"
+                                },
+                                "children": []
+                            },
+                            {
+                                "data": {
+                                    "id": "d5nevsgiemg0",
+                                    "created": 1731740807929,
+                                    "text": "toolbar-buttons={...}"
+                                },
+                                "children": []
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "data": {
+                    "id": "d5netu71zkw0",
+                    "created": 1731740654982,
+                    "text": "Editor"
+                },
+                "children": []
+            }
+        ]
+    },
+    "template": "default",
+    "theme": "fresh-blue",
+    "version": "1.4.43"
+}
