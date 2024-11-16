@@ -61,6 +61,7 @@ pages:
   stage: deploy
   script:
   - |
+    pip install mkdocs-drawio-km jieba
     mkdocs build --clean --site-dir public
     mkdocs --version
   artifacts:
