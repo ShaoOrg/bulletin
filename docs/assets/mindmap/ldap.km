@@ -121,12 +121,21 @@
                                 "children": []
                             }
                         ]
+                    },
+                    {
+                        "data": {
+                            "id": "d5nc33wso0w0",
+                            "created": 1731732918077,
+                            "text": "Note",
+                            "priority": 1
+                        },
+                        "children": []
                     }
                 ]
             }
         ]
     },
     "template": "right",
-    "theme": "fresh-blue",
-    "version": "1.4.43"
+    "theme": "fresh-green-compat",
+    "version": "1.4.33"
 }
