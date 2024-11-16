@@ -23,6 +23,12 @@ stages:          # List of stages for jobs, and their order of execution
 
 variables:
   CI_VAR: "the variable value from CI"
+  DEPLOY_ENV:
+    description: "Select the deployment environment"
+    value: "staging"         # 默认值
+    options:
+      - "staging"
+      - "deploy"
 
 build-job:       # This job runs in the build stage, which runs first.
   stage: build
@@ -77,4 +83,4 @@ pages:
     paths:
       - public
   rules:
-    - if: $CI_COMMIT_REF_NAME == $CI_DEFAULT_BRANCH
+    - if: $DEPLOY_ENV == "deploy"
