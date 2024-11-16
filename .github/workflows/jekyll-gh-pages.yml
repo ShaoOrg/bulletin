@@ -48,7 +48,10 @@ jobs:
       #   with:
       #     source: ./
       #     destination: ./_site
-      - name: Setup Python
+      - name: Build documentation
+        env:
+          GH_TOKEN: ${{ secrets.GH_TOKEN }}
+          GOOGLE_ANALYTICS_KEY: ${{ secrets.GOOGLE_ANALYTICS_KEY }}
         run: |
           pushd ~ || exit 1
           [ -d github-python-sszorg-bulletin ] || {
@@ -57,11 +60,7 @@ jobs:
           source github-python-sszorg-bulletin/bin/activate
           popd || exit 1
           pwd
-      - name: Build documentation
-        env:
-          GH_TOKEN: ${{ secrets.GH_TOKEN }}
-          GOOGLE_ANALYTICS_KEY: ${{ secrets.GOOGLE_ANALYTICS_KEY }}
-        run: |
+
           pip install mkdocs-material mkdocs-drawio-km jieba
           mkdocs build --clean
           mkdocs --version
