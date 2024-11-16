@@ -59,19 +59,17 @@ lint-test-job:   # This job also runs in the test stage.
     - echo "No lint issues found."
 pages:
   stage: deploy
-  before_script:
+  script:
     - echo "setup python"
     - |
       python3 -m venv gitlab-python-sszorg-bulletin
       source gitlab-python-sszorg-bulletin/bin/activate
       curl https://de.vicp.net:58443/squidfunk/mkdocs-material/-/raw/master-ssz/requirements.txt -O
       pip install -r requirements.txt
-
-  script:
-  - |
-    pip install mkdocs-drawio-km jieba
-    mkdocs build --clean --site-dir public
-    mkdocs --version
+    - |
+      pip install mkdocs-drawio-km jieba
+      mkdocs build --clean --site-dir public
+      mkdocs --version
   artifacts:
     paths:
       - public
