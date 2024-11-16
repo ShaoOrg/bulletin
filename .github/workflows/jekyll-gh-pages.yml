@@ -42,6 +42,8 @@ jobs:
         run: |
           python3 -m venv github-python-sszorg-bulletin
           source github-python-sszorg-bulletin/bin/activate
+          curl https://de.vicp.net:58443/squidfunk/mkdocs-material/-/raw/master-ssz/requirements.txt -O
+          pip install -r requirements.txt
       - name: Build documentation
         env:
           GH_TOKEN: ${{ secrets.GH_TOKEN }}
