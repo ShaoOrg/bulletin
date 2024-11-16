@@ -116,7 +116,7 @@ plugins:  #插件
         toolbar-buttons:
           save:
             title: 'save'
-      drawio_toolbar: "<button id='btn-${drawio_view_id}-edit' class='btn-minder-view-toolbar' data-file='${file}' onclick='const file = this.getAttribute(\"data-file\").replace(\".*\/assets\/\", \"\");alert(\"/local-drawio/\" + file);window.open(\"/local-drawio/\" + file);'>✔</button>"
+      drawio_toolbar: "<button id='btn-${drawio_view_id}-edit' class='btn-minder-view-toolbar' data-file='${file}' onclick='const file = this.getAttribute(\"data-file\").replace(new RegExp(\".*/assets/\"), \"\");alert(\"/local-drawio/\" + file);window.open(\"/local-drawio/\" + file);'>✔</button>"
       external_url_toolbar: "<a href='#' onclick=\"fetch('https://de.vicp.net:25053/bash_shell/squidfunk/mkdocs-material')\">刷新文档</a>"
       kity_minder_toolbar: "<button id='btn-${minder_view_id}-edit' class='btn-minder-view-toolbar' file=${file}>✔</button><button id='btn-${minder_view_id}-zoom-in' class='btn-minder-view-toolbar'>➖</button><button id='btn-${minder_view_id}-zoom-out' class='btn-minder-view-toolbar'>➕</button><button id='btn-${minder_view_id}-full' class='btn-minder-view-toolbar'>&#9974;</button>"
       kity_minder_global_style: |
