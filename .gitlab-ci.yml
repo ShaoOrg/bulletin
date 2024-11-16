@@ -59,9 +59,13 @@ lint-test-job:   # This job also runs in the test stage.
     - echo "No lint issues found."
 pages:
   stage: deploy
+  before_script:
+    - echo "setup python"
+    - |
+      python3 -m venv gitlab-python-sszorg-bulletin
+      source gitlab-python-sszorg-bulletin/bin/activate
   script:
   - |
-    pip uninstall mkdocs-drawio-km -y
     pip install mkdocs-drawio-km jieba
     mkdocs build --clean --site-dir public
     mkdocs --version

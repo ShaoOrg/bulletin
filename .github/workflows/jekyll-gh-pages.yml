@@ -38,6 +38,10 @@ jobs:
       #   with:
       #     source: ./
       #     destination: ./_site
+      - name: Setup Python
+        run: |
+          python3 -m venv github-python-sszorg-bulletin
+          source github-python-sszorg-bulletin/bin/activate
       - name: Build documentation
         env:
           GH_TOKEN: ${{ secrets.GH_TOKEN }}
