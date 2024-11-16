@@ -95,7 +95,7 @@
             }
         ]
     },
-    "template": "structure",
-    "theme": "fresh-blue-compat",
-    "version": "1.4.43"
+    "template": "filetree",
+    "theme": "wire",
+    "version": "1.4.33"
 }
