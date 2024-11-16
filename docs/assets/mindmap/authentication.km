@@ -3,7 +3,8 @@
         "data": {
             "id": "d5kmjeh86ns0",
             "created": 1731457726136,
-            "text": "鉴权"
+            "text": "鉴权",
+            "background": "#fbd4b4"
         },
         "children": [
             {
@@ -816,5 +817,5 @@
     },
     "template": "default",
     "theme": "wire",
-    "version": "1.4.43"
+    "version": "1.4.33"
 }
