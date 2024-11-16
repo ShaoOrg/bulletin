@@ -96,6 +96,6 @@
         ]
     },
     "template": "structure",
-    "theme": "fresh-green-compat",
+    "theme": "snow-compact",
     "version": "1.4.33"
 }
