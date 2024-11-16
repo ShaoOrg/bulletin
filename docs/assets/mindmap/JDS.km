@@ -5,7 +5,8 @@
             "created": 1729438507438,
             "text": "JDSClusterManager\ncom.hp.usage.mgmt\n.jds.cluster.\nJDSClusterManagerImpl",
             "progress": null,
-            "background": "#4f81bd"
+            "background": "#4f81bd",
+            "priority": 1
         },
         "children": [
             {
