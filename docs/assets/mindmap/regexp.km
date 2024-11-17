@@ -36,8 +36,40 @@
                                     "text": "grep -E"
                                 },
                                 "children": []
+                            },
+                            {
+                                "data": {
+                                    "id": "d5oi8o0wr800",
+                                    "created": 1731851840299,
+                                    "text": "sed -r"
+                                },
+                                "children": []
+                            },
+                            {
+                                "data": {
+                                    "id": "d5oi8rnfyp40",
+                                    "created": 1731851848192,
+                                    "text": "sed -E"
+                                },
+                                "children": []
                             }
                         ]
+                    },
+                    {
+                        "data": {
+                            "id": "d5oi8yx1d400",
+                            "created": 1731851864009,
+                            "text": "`表示或"
+                        },
+                        "children": []
+                    },
+                    {
+                        "data": {
+                            "id": "d5oi97ysfs80",
+                            "created": 1731851883706,
+                            "text": "(),{m,n},都不需要转义"
+                        },
+                        "children": []
                     }
                 ]
             },
@@ -127,7 +159,7 @@
                                 "data": {
                                     "id": "d5ohj6pacds0",
                                     "created": 1731849843487,
-                                    "text": "\\(\\)"
+                                    "text": "()"
                                 },
                                 "children": []
                             },
@@ -135,7 +167,7 @@
                                 "data": {
                                     "id": "d5ohjb85vco0",
                                     "created": 1731849853335,
-                                    "text": "\\{m,n\\}"
+                                    "text": "{m,n}"
                                 },
                                 "children": []
                             },
@@ -144,6 +176,72 @@
                                     "id": "d5ohjfzhieo0",
                                     "created": 1731849863694,
                                     "text": "'\\'"
+                                },
+                                "children": []
+                            },
+                            {
+                                "data": {
+                                    "id": "d5oianfb9s00",
+                                    "created": 1731851995721,
+                                    "text": "|"
+                                },
+                                "children": []
+                            },
+                            {
+                                "data": {
+                                    "id": "d5oib5jv3rk0",
+                                    "created": 1731852035178,
+                                    "text": "+"
+                                },
+                                "children": []
+                            },
+                            {
+                                "data": {
+                                    "id": "d5oib8o1w2g0",
+                                    "created": 1731852041962,
+                                    "text": "？"
+                                },
+                                "children": []
+                            }
+                        ]
+                    },
+                    {
+                        "data": {
+                            "id": "d5oibj8foy80",
+                            "created": 1731852064962,
+                            "text": "不需要转义的字符",
+                            "priority": 1
+                        },
+                        "children": [
+                            {
+                                "data": {
+                                    "id": "d5oibp2nq3s0",
+                                    "created": 1731852077674,
+                                    "text": "'.'"
+                                },
+                                "children": []
+                            },
+                            {
+                                "data": {
+                                    "id": "d5oichkeuc80",
+                                    "created": 1731852139697,
+                                    "text": "'*'"
+                                },
+                                "children": []
+                            },
+                            {
+                                "data": {
+                                    "id": "d5oicmk2yb40",
+                                    "created": 1731852150561,
+                                    "text": "[]"
+                                },
+                                "children": []
+                            },
+                            {
+                                "data": {
+                                    "id": "d5oie2fuovs0",
+                                    "created": 1731852263498,
+                                    "text": "如果加了转移符号,表示精确的字符"
                                 },
                                 "children": []
                             }
@@ -155,5 +253,5 @@
     },
     "template": "default",
     "theme": "fresh-blue",
-    "version": "1.4.43"
+    "version": "1.4.33"
 }
