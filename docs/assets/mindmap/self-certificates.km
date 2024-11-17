@@ -268,7 +268,74 @@
                         "信任OS"
                     ]
                 },
-                "children": []
+                "children": [
+                    {
+                        "data": {
+                            "id": "d5o8auv7mjk0",
+                            "created": 1731823800821,
+                            "text": "环境变量",
+                            "expandState": "expand"
+                        },
+                        "children": [
+                            {
+                                "data": {
+                                    "id": "d5o8blvnso00",
+                                    "created": 1731823859621,
+                                    "text": "NODE_EXTRA_CA_CERTS=/root/sszRootCA.crt",
+                                    "expandState": "expand",
+                                    "layout_left_offset": {
+                                        "x": -14,
+                                        "y": -6
+                                    }
+                                },
+                                "children": []
+                            },
+                            {
+                                "data": {
+                                    "id": "d5o8cg08t0w0",
+                                    "created": 1731823925202,
+                                    "text": "NODE_TLS_REJECT_UNAUTHORIZED=0",
+                                    "resource": [
+                                        "Warning",
+                                        "Or"
+                                    ]
+                                },
+                                "children": []
+                            },
+                            {
+                                "data": {
+                                    "id": "d5o8ot9ml540",
+                                    "created": 1731824894437,
+                                    "text": "NODE_OPTIONS=--use-openssl-ca",
+                                    "resource": [
+                                        "Or"
+                                    ]
+                                },
+                                "children": []
+                            }
+                        ]
+                    },
+                    {
+                        "data": {
+                            "id": "d5o8lval3iw0",
+                            "created": 1731824663756,
+                            "text": "node使用了embeds the Mozilla CA"
+                        },
+                        "children": []
+                    },
+                    {
+                        "data": {
+                            "id": "d5o8piel0qo0",
+                            "created": 1731824949157,
+                            "text": "npm config set cafile=xxx已失效",
+                            "priority": 1,
+                            "resource": [
+                                "Not Working"
+                            ]
+                        },
+                        "children": []
+                    }
+                ]
             },
             {
                 "data": {
@@ -372,5 +439,5 @@
     },
     "template": "default",
     "theme": "wire",
-    "version": "1.4.43"
+    "version": "1.4.33"
 }
