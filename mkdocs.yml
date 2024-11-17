@@ -209,10 +209,10 @@ plugins:  #插件
         });
 
 extra_javascript:
-  - javascripts/baidu-tongji.js  #百度统计
-  - javascripts/mathjax.js  #数学公式的JS
-  - https://polyfill.io/v3/polyfill.min.js?features=es6
-  - https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js
+  # - javascripts/baidu-tongji.js  #百度统计
+  # - javascripts/mathjax.js  #数学公式的JS
+  - https://polyfill.alicdn.com/v3/polyfill.js?features=es6
+  - https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js #数学公式的JS
 
 extra:
 #  version: #版本控制

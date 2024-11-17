@@ -36,9 +36,9 @@ jobs:
     runs-on: [ self-hosted ]
     if: ${{ github.event.inputs.DEPLOY_ENV == 'deploy' }}
     steps:
-      - name: Set NODE_TLS_REJECT_UNAUTHORIZED to 0
+      - name: Print Env
         run: |
-          echo "NODE_TLS_REJECT_UNAUTHORIZED=0" >> $GITHUB_ENV
+          env
       - name: Checkout
         uses: actions/checkout@v4
       - name: Setup Pages
@@ -80,9 +80,6 @@ jobs:
     if: ${{ github.event.inputs.DEPLOY_ENV == 'deploy' }}
     needs: build
     steps:
-      - name: Set NODE_TLS_REJECT_UNAUTHORIZED to 0
-        run: |
-          echo "NODE_TLS_REJECT_UNAUTHORIZED=0" >> $GITHUB_ENV
       - name: Deploy to GitHub Pages
         id: deployment
         uses: actions/deploy-pages@v3
