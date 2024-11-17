@@ -111,7 +111,7 @@ plugins:  #插件
 #      prebuild_index: true  #预构建索引，默认false，已经弃用该选项
   - drawio:
       enable_debug: false
-      viewer_js: https://de.vicp.net:39002/tools/app/drawio/viewer-static.min.js
+      viewer_js: https://de.vicp.net:25053/local-drawio/js/viewer-static.min.js
       drawio-viewer-embed-html-options:
         toolbar: 'zoom edit'
         toolbar-buttons:
