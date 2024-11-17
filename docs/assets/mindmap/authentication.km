@@ -819,10 +819,144 @@
                         ]
                     }
                 ]
+            },
+            {
+                "data": {
+                    "id": "d5o48ckdf480",
+                    "created": 1731812319816,
+                    "text": "Git",
+                    "expandState": "collapse"
+                },
+                "children": [
+                    {
+                        "data": {
+                            "id": "d5o48iz83c00",
+                            "created": 1731812333774,
+                            "text": "SSH"
+                        },
+                        "children": [
+                            {
+                                "data": {
+                                    "id": "d5o4az8xljs0",
+                                    "created": 1731812525918,
+                                    "text": "Server"
+                                },
+                                "children": [
+                                    {
+                                        "data": {
+                                            "id": "d5o4b44s6g00",
+                                            "created": 1731812536551,
+                                            "text": "~/.ssh/authorized_keys"
+                                        },
+                                        "children": [
+                                            {
+                                                "data": {
+                                                    "id": "d5o4coop07c0",
+                                                    "created": 1731812659655,
+                                                    "text": "存放Client的Pubic Key"
+                                                },
+                                                "children": []
+                                            }
+                                        ]
+                                    }
+                                ]
+                            },
+                            {
+                                "data": {
+                                    "id": "d5o4c0vd4bs0",
+                                    "created": 1731812607815,
+                                    "text": "Client",
+                                    "expandState": "expand"
+                                },
+                                "children": [
+                                    {
+                                        "data": {
+                                            "id": "d5o48ptppew0",
+                                            "created": 1731812348679,
+                                            "text": "~/.ssh/id_rsa"
+                                        },
+                                        "children": []
+                                    }
+                                ]
+                            }
+                        ]
+                    },
+                    {
+                        "data": {
+                            "id": "d5o48wa1f940",
+                            "created": 1731812362726,
+                            "text": "~/.gitconfig",
+                            "expandState": "expand"
+                        },
+                        "children": [
+                            {
+                                "data": {
+                                    "id": "d5o49bnm2wo0",
+                                    "created": 1731812396199,
+                                    "text": "[credential \"https://github.shao.sh\"]"
+                                },
+                                "children": [
+                                    {
+                                        "data": {
+                                            "id": "d5o49dviee80",
+                                            "created": 1731812401030,
+                                            "text": "password=xxx"
+                                        },
+                                        "children": []
+                                    }
+                                ]
+                            }
+                        ]
+                    },
+                    {
+                        "data": {
+                            "id": "d5o49s9wko00",
+                            "created": 1731812432375,
+                            "text": "文件权限"
+                        },
+                        "children": [
+                            {
+                                "data": {
+                                    "id": "d5o4a8nq4bs0",
+                                    "created": 1731812468039,
+                                    "text": "授予",
+                                    "expandState": "expand"
+                                },
+                                "children": [
+                                    {
+                                        "data": {
+                                            "id": "d5o4a0c0z1c0",
+                                            "created": 1731812449918,
+                                            "text": "git update-index --chmod +x file"
+                                        },
+                                        "children": []
+                                    }
+                                ]
+                            },
+                            {
+                                "data": {
+                                    "id": "d5o4actch4g0",
+                                    "created": 1731812477086,
+                                    "text": "查询"
+                                },
+                                "children": [
+                                    {
+                                        "data": {
+                                            "id": "d5o4af3njxk0",
+                                            "created": 1731812482063,
+                                            "text": "git ls-files --stage file"
+                                        },
+                                        "children": []
+                                    }
+                                ]
+                            }
+                        ]
+                    }
+                ]
             }
         ]
     },
     "template": "default",
     "theme": "wire",
-    "version": "1.4.33"
+    "version": "1.4.43"
 }
