@@ -77,7 +77,6 @@ pages:
       pwd
     - |
       pip install mkdocs-material mkdocs-drawio-km jieba
-      chmod +x ./generate_md.sh
       ./generate_md.sh $(pwd)
       mkdocs build --clean --site-dir public
       mkdocs --version

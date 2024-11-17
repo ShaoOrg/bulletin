@@ -7,3 +7,9 @@ Gabriel Staples
  Commentedyesterday
 Downgraded from 2.47 to the previous 2.42 on my windows machine & that fixed it for me – 
 Jason De Arte
+
+###### 权限
+- 提交到服务器上的没有执行权限
+`git update-index --chmod +x .\generate_md.sh`
+- 检查git的执行权限
+`git ls-files --state .\generate_md.sh`
