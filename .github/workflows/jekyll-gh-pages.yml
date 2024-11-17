@@ -61,7 +61,7 @@ jobs:
           popd || exit 1
           pwd
           chmod +x ./generate_md.sh
-          ./generate_md.sh
+          ./generate_md.sh $(pwd)
           pip install mkdocs-material mkdocs-drawio-km jieba
           mkdocs build --clean
           mkdocs --version

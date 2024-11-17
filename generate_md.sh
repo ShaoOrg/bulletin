@@ -1,5 +1,6 @@
 #!/bin/sh
-PROJECT_HOME=$(dirname $(readlink -f "${BASH_SOURCE}"))
+PROJECT_HOME=$1
+echo "PROJECT_HOME=$PROJECT_HOME,pwd=$(pwd)"
 mkdir -p $PROJECT_HOME/docs/kityminder
 rm -rf $PROJECT_HOME/docs/kityminder/*
 for km_file in $(ls $PROJECT_HOME/docs/assets/mindmap|grep -E ".km$"); do
