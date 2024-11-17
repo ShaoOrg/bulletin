@@ -3,7 +3,8 @@
         "data": {
             "id": "d5kwb58odig0",
             "created": 1731485290214,
-            "text": "Bash"
+            "text": "Bash",
+            "background": "#7030a0"
         },
         "children": [
             {
@@ -68,6 +69,14 @@
                                                     "resource": [
                                                         "Or"
                                                     ]
+                                                },
+                                                "children": []
+                                            },
+                                            {
+                                                "data": {
+                                                    "id": "d5oa8jkxcbs0",
+                                                    "created": 1731829261746,
+                                                    "text": "等效于optional"
                                                 },
                                                 "children": []
                                             }
@@ -261,6 +270,14 @@
                                             "resource": [
                                                 "Or"
                                             ]
+                                        },
+                                        "children": []
+                                    },
+                                    {
+                                        "data": {
+                                            "id": "d5oa879paj40",
+                                            "created": 1731829234946,
+                                            "text": "等效于optional"
                                         },
                                         "children": []
                                     }
