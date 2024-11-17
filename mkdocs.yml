@@ -185,7 +185,7 @@ plugins:  #插件
             fileArray.pop();
             const dirname = fileArray.join("/");
             let newFile = window.confirm("new file name");
-            newFile.endsWith(".km") || newFile += ".km";
+            # newFile.endsWith(".km") || newFile += ".km";
             window.open("/local-kity-minder/" + dirname + "/" + newFile);
         });
         document.getElementById('btn-${minder_view_id}-edit') && document.getElementById('btn-${minder_view_id}-edit').addEventListener('click', function() {
