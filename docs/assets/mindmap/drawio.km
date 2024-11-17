@@ -179,6 +179,14 @@
                                                     "text": "Bridge"
                                                 },
                                                 "children": []
+                                            },
+                                            {
+                                                "data": {
+                                                    "id": "d5o52mkkbeo0",
+                                                    "created": 1731814692520,
+                                                    "text": "注册快捷键"
+                                                },
+                                                "children": []
                                             }
                                         ]
                                     },
@@ -222,6 +230,76 @@
                                                     "text": "key关联"
                                                 },
                                                 "children": []
+                                            }
+                                        ]
+                                    }
+                                ]
+                            },
+                            {
+                                "data": {
+                                    "id": "d5o4z4sk4y80",
+                                    "created": 1731814418729,
+                                    "text": "快捷键"
+                                },
+                                "children": [
+                                    {
+                                        "data": {
+                                            "id": "d5o52uc1adc0",
+                                            "created": 1731814709418,
+                                            "text": "实现",
+                                            "expandState": "expand"
+                                        },
+                                        "children": [
+                                            {
+                                                "data": {
+                                                    "id": "d5o4zr3uupk0",
+                                                    "created": 1731814467301,
+                                                    "text": "src/main/webapp/js/grapheditor/EditorUi.js",
+                                                    "expandState": "expand"
+                                                },
+                                                "children": [
+                                                    {
+                                                        "data": {
+                                                            "id": "d5o4zbyzeqw0",
+                                                            "created": 1731814434355,
+                                                            "text": "keyHandler.bindAction = mxUtils.bind(this, function(code, control, key, shift)"
+                                                        },
+                                                        "children": [
+                                                            {
+                                                                "data": {
+                                                                    "id": "d5o502ih0i00",
+                                                                    "created": 1731814492129,
+                                                                    "text": "code is ASCII"
+                                                                },
+                                                                "children": []
+                                                            },
+                                                            {
+                                                                "data": {
+                                                                    "id": "d5o508j2jw80",
+                                                                    "created": 1731814505226,
+                                                                    "text": "control is Ctrl"
+                                                                },
+                                                                "children": []
+                                                            },
+                                                            {
+                                                                "data": {
+                                                                    "id": "d5o50d412fc0",
+                                                                    "created": 1731814515201,
+                                                                    "text": "key is Action key"
+                                                                },
+                                                                "children": []
+                                                            },
+                                                            {
+                                                                "data": {
+                                                                    "id": "d5o50i992wg0",
+                                                                    "created": 1731814526400,
+                                                                    "text": "shift is Shift"
+                                                                },
+                                                                "children": []
+                                                            }
+                                                        ]
+                                                    }
+                                                ]
                                             }
                                         ]
                                     }
