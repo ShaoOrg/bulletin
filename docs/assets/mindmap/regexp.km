@@ -1,0 +1,101 @@
+{
+    "root": {
+        "data": {
+            "id": "d5ogfvbley80",
+            "created": 1731846762512,
+            "text": "正则",
+            "background": "#7030a0"
+        },
+        "children": [
+            {
+                "data": {
+                    "id": "d5ogg14tzk80",
+                    "created": 1731846775163,
+                    "text": "Extend"
+                },
+                "children": [
+                    {
+                        "data": {
+                            "id": "d5oggjz48v40",
+                            "created": 1731846816177,
+                            "text": "Linux"
+                        },
+                        "children": [
+                            {
+                                "data": {
+                                    "id": "d5oggraemh40",
+                                    "created": 1731846832097,
+                                    "text": "Bash"
+                                },
+                                "children": []
+                            },
+                            {
+                                "data": {
+                                    "id": "d5oggvpzfr40",
+                                    "created": 1731846841746,
+                                    "text": "grep -E"
+                                },
+                                "children": []
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "data": {
+                    "id": "d5oggaehi280",
+                    "created": 1731846795338,
+                    "text": "Perl"
+                },
+                "children": [
+                    {
+                        "data": {
+                            "id": "d5oggz439xc0",
+                            "created": 1731846849129,
+                            "text": "Linux"
+                        },
+                        "children": [
+                            {
+                                "data": {
+                                    "id": "d5ogh2fxzhc0",
+                                    "created": 1731846856376,
+                                    "text": "grep -P"
+                                },
+                                "children": []
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "data": {
+                    "id": "d5oggd1zy000",
+                    "created": 1731846801113,
+                    "text": "标准"
+                },
+                "children": [
+                    {
+                        "data": {
+                            "id": "d5ogh75ymrs0",
+                            "created": 1731846866657,
+                            "text": "Linux"
+                        },
+                        "children": [
+                            {
+                                "data": {
+                                    "id": "d5oghannau80",
+                                    "created": 1731846874256,
+                                    "text": "grep"
+                                },
+                                "children": []
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    "template": "default",
+    "theme": "fresh-blue",
+    "version": "1.4.43"
+}
