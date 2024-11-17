@@ -3,7 +3,8 @@
         "data": {
             "id": "d5kqvt09v600",
             "created": 1731469982573,
-            "text": "GPG"
+            "text": "GPG",
+            "background": "#7030a0"
         },
         "children": [
             {
@@ -276,7 +277,7 @@
                     "id": "d5kqw0auigg0",
                     "created": 1731469998449,
                     "text": "公钥",
-                    "expandState": "collapse"
+                    "expandState": "expand"
                 },
                 "children": [
                     {
@@ -630,7 +631,7 @@
             }
         ]
     },
-    "template": "right",
-    "theme": "fresh-blue",
-    "version": "1.4.43"
+    "template": "default",
+    "theme": "wire",
+    "version": "1.4.33"
 }
