@@ -3,7 +3,8 @@
         "data": {
             "id": "d50l2bqjrb40",
             "created": 1729422367736,
-            "text": "github ci/cd"
+            "text": "github ci/cd",
+            "background": "#7030a0"
         },
         "children": [
             {
@@ -982,5 +983,5 @@
     },
     "template": "default",
     "theme": "wire",
-    "version": "1.4.43"
+    "version": "1.4.33"
 }
