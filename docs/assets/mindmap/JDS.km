@@ -101,7 +101,7 @@
             }
         ]
     },
-    "template": "default",
+    "template": "structure",
     "theme": "wire",
     "version": "1.4.33"
 }
