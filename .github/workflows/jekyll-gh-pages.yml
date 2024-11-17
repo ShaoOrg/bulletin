@@ -60,7 +60,7 @@ jobs:
           source github-python-sszorg-bulletin/bin/activate
           popd || exit 1
           pwd
-
+          generate_md.sh
           pip install mkdocs-material mkdocs-drawio-km jieba
           mkdocs build --clean
           mkdocs --version
