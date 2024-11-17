@@ -184,7 +184,7 @@ plugins:  #插件
             const fileArray = file.split("/");
             fileArray.pop();
             const dirname = fileArray.join("/");
-            let newFile = window.confirm("new file name");
+            let newFile = window.prompt("新建文件名字,如果不已.km结尾,自动加上");
             newFile.endsWith(".km") || (newFile += ".km");
             window.open("/local-kity-minder/" + dirname + "/" + newFile);
         });
