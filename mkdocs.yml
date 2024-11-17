@@ -121,7 +121,7 @@ plugins:  #插件
             handler: "(function(){const file='${file}'.replace(new RegExp(\".*/assets/\"), \"\");window.open(\"/local-drawio/\" + file);})"
       # drawio_toolbar: "<button id='btn-${drawio_view_id}-edit' class='btn-minder-view-toolbar' data-file='${file}' onclick='const file = this.getAttribute(\"data-file\").replace(new RegExp(\".*/assets/\"), \"\");window.open(\"/local-drawio/\" + file);'>✔</button>"
       external_url_toolbar: "<a href='#' onclick=\"fetch('https://de.vicp.net:25053/bash_shell/squidfunk/mkdocs-material')\">刷新文档</a>"
-      kity_minder_toolbar: "<button id='btn-${minder_view_id}-new' class='btn-minder-view-toolbar' file=${file}>📃</button><button id='btn-${minder_view_id}-edit' class='btn-minder-view-toolbar' file=${file}>✔</button><button id='btn-${minder_view_id}-zoom-in' class='btn-minder-view-toolbar'>➖</button><button id='btn-${minder_view_id}-zoom-out' class='btn-minder-view-toolbar'>➕</button><button id='btn-${minder_view_id}-full' class='btn-minder-view-toolbar'>&#9974;</button>"
+      kity_minder_toolbar: "<button id='btn-${minder_view_id}-new' class='btn-minder-view-toolbar' file=${file}>编辑</button><button id='btn-${minder_view_id}-edit' class='btn-minder-view-toolbar' file=${file}>✔</button><button id='btn-${minder_view_id}-zoom-in' class='btn-minder-view-toolbar'>➖</button><button id='btn-${minder_view_id}-zoom-out' class='btn-minder-view-toolbar'>➕</button><button id='btn-${minder_view_id}-full' class='btn-minder-view-toolbar'>&#9974;</button>"
       kity_minder_global_style: |
         .btn-minder-view-toolbar {
             border: 1px solid #dbb656;
