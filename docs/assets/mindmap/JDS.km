@@ -40,7 +40,11 @@
                     "id": "d50qsiyqqsg0",
                     "created": 1729438526486,
                     "text": "JDSAgentService",
-                    "note": "每个Collector都配置一个JDSAgentService"
+                    "note": "每个Collector都配置一个JDSAgentService",
+                    "layout_mind_offset": {
+                        "x": 195,
+                        "y": 57
+                    }
                 },
                 "children": []
             },
