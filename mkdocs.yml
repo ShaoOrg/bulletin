@@ -179,7 +179,15 @@ plugins:  #插件
                 }
             }
         }
-
+        document.getElementById('btn-${minder_view_id}-new') && document.getElementById('btn-${minder_view_id}-new').addEventListener('click', function() {
+            const file = this.getAttribute("file").replace(/.*\/assets\//, '');
+            const fileArray = file.split("/");
+            fileArray.pop();
+            const dirname = fileArray.join("/");
+            let newFile = window.confirm("new file name");
+            newFile.endsWith(".km") || newFile += ".km";
+            window.open("/local-kity-minder/" + dirname + "/" + newFile);
+        });
         document.getElementById('btn-${minder_view_id}-edit') && document.getElementById('btn-${minder_view_id}-edit').addEventListener('click', function() {
             const file = this.getAttribute("file").replace(/.*\/assets\//, '');
             window.open("/local-kity-minder/" + file);
