@@ -3,7 +3,8 @@
         "data": {
             "id": "d5kn97ano940",
             "created": 1731459747970,
-            "text": "代理"
+            "text": "代理",
+            "background": "#7030a0"
         },
         "children": [
             {
@@ -148,7 +149,7 @@
             }
         ]
     },
-    "template": "right",
-    "theme": "fresh-blue",
-    "version": "1.4.43"
+    "template": "default",
+    "theme": "wire",
+    "version": "1.4.33"
 }
