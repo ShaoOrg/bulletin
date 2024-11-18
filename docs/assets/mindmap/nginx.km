@@ -1,0 +1,22 @@
+{
+    "root": {
+        "data": {
+            "id": "d5popd93e8g0",
+            "created": 1731971635656,
+            "text": "Nginx"
+        },
+        "children": [
+            {
+                "data": {
+                    "id": "d5pophl6vzs0",
+                    "created": 1731971645095,
+                    "text": "location"
+                },
+                "children": []
+            }
+        ]
+    },
+    "template": "default",
+    "theme": "fresh-blue",
+    "version": "1.4.33"
+}
