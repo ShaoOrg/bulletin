@@ -102,6 +102,6 @@
         ]
     },
     "template": "structure",
-    "theme": "wire",
+    "theme": "classic",
     "version": "1.4.33"
 }
