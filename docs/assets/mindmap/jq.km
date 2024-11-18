@@ -1,0 +1,84 @@
+{
+    "root": {
+        "data": {
+            "id": "d5ovfig6jhc0",
+            "created": 1731889051139,
+            "text": "jq",
+            "background": "#7030a0"
+        },
+        "children": [
+            {
+                "data": {
+                    "id": "d5ovfmvczy00",
+                    "created": 1731889060764,
+                    "text": "Linux"
+                },
+                "children": []
+            },
+            {
+                "data": {
+                    "id": "d5ovfrn7rmg0",
+                    "created": 1731889071156,
+                    "text": "语法"
+                },
+                "children": [
+                    {
+                        "data": {
+                            "id": "d5ovg2xk6sw0",
+                            "created": 1731889095726,
+                            "text": "属性比较"
+                        },
+                        "children": [
+                            {
+                                "data": {
+                                    "id": "d5ovgbu10rk0",
+                                    "created": 1731889115103,
+                                    "text": "slect(.attr)"
+                                },
+                                "children": [
+                                    {
+                                        "data": {
+                                            "id": "d5ovgllgruo0",
+                                            "created": 1731889136353,
+                                            "text": "区分大小写相等"
+                                        },
+                                        "children": [
+                                            {
+                                                "data": {
+                                                    "id": "d5ovgwl6ys80",
+                                                    "created": 1731889160282,
+                                                    "text": "select(.attr == value)"
+                                                },
+                                                "children": []
+                                            }
+                                        ]
+                                    },
+                                    {
+                                        "data": {
+                                            "id": "d5ovh3ulnew0",
+                                            "created": 1731889176088,
+                                            "text": "不区分大小写"
+                                        },
+                                        "children": [
+                                            {
+                                                "data": {
+                                                    "id": "d5ovh7gyz7c0",
+                                                    "created": 1731889183971,
+                                                    "text": "select(.attr|ascii_downcase == value)"
+                                                },
+                                                "children": []
+                                            }
+                                        ]
+                                    }
+                                ]
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    "template": "default",
+    "theme": "fresh-blue",
+    "version": "1.4.33"
+}
