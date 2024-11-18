@@ -161,10 +161,65 @@
                                 "children": [
                                     {
                                         "data": {
-                                            "id": "d5gbn504ig00",
-                                            "created": 1731020746932,
+                                            "id": "d5p29lrwft40",
+                                            "created": 1731908335963,
+                                            "text": "https://de.vicp.net:58443",
+                                            "expandState": "expand"
+                                        },
+                                        "children": [
+                                            {
+                                                "data": {
+                                                    "id": "d5gbn504ig00",
+                                                    "created": 1731020746932,
+                                                    "text": "http://127.0.0.1",
+                                                    "background": "#ff0000"
+                                                },
+                                                "children": []
+                                            },
+                                            {
+                                                "data": {
+                                                    "id": "d5p29u8g3e80",
+                                                    "created": 1731908354378,
+                                                    "text": "如果配置成127.0.1\n会跳转到它"
+                                                },
+                                                "children": []
+                                            }
+                                        ]
+                                    },
+                                    {
+                                        "data": {
+                                            "id": "d5p2fye48uo0",
+                                            "created": 1731908833613,
+                                            "text": "没配置internal_gitlab_server会使用,默认二者相等"
+                                        },
+                                        "children": []
+                                    }
+                                ]
+                            },
+                            {
+                                "data": {
+                                    "id": "d5p2afz3zhc0",
+                                    "created": 1731908401702,
+                                    "text": "internal_gitlab_server",
+                                    "resource": [
+                                        "Pair"
+                                    ]
+                                },
+                                "children": [
+                                    {
+                                        "data": {
+                                            "id": "d5p2bke53hc0",
+                                            "created": 1731908489682,
                                             "text": "http://127.0.0.1",
-                                            "background": "#ff0000"
+                                            "priority": 1
+                                        },
+                                        "children": []
+                                    },
+                                    {
+                                        "data": {
+                                            "id": "d5p2fl79y4o0",
+                                            "created": 1731908804901,
+                                            "text": "优先使用它去gitlab_server授权"
                                         },
                                         "children": []
                                     }
@@ -213,6 +268,35 @@
                                     "text": "org.domain/repo"
                                 },
                                 "children": []
+                            }
+                        ]
+                    },
+                    {
+                        "data": {
+                            "id": "d5ozpjzospc0",
+                            "created": 1731901122577,
+                            "text": "override",
+                            "priority": 1
+                        },
+                        "children": [
+                            {
+                                "data": {
+                                    "id": "d5ozqivz8340",
+                                    "created": 1731901198540,
+                                    "text": "NSB/bulletin",
+                                    "hyperlink": "https://de.vicp.net:58443/nsb/bulletin/pages",
+                                    "hyperlinkTitle": ""
+                                },
+                                "children": [
+                                    {
+                                        "data": {
+                                            "id": "d5ozqp0u0400",
+                                            "created": 1731901211894,
+                                            "text": "设置了true,还是生成/bulletin-xxxxxx"
+                                        },
+                                        "children": []
+                                    }
+                                ]
                             }
                         ]
                     }
@@ -312,10 +396,53 @@
                         ]
                     }
                 ]
+            },
+            {
+                "data": {
+                    "id": "d5p2c7agguw0",
+                    "created": 1731908539526,
+                    "text": "declare",
+                    "layout_mind_offset": {
+                        "x": 348.9999947994949,
+                        "y": -514.999992325902
+                    },
+                    "expandState": "expand"
+                },
+                "children": [
+                    {
+                        "data": {
+                            "id": "d5p2cbnso3c0",
+                            "created": 1731908549039,
+                            "text": "pair",
+                            "resource": [
+                                "Pair"
+                            ],
+                            "expandState": "expand",
+                            "layout_right_offset": {
+                                "x": 236.9999964684249,
+                                "y": -37.999999433755875
+                            }
+                        },
+                        "children": [
+                            {
+                                "data": {
+                                    "id": "d5p2e9l66w80",
+                                    "created": 1731908701255,
+                                    "text": "和上个Item成对使用",
+                                    "layout_right_offset": {
+                                        "x": 314.99999530613434,
+                                        "y": 5.99999991059309
+                                    }
+                                },
+                                "children": []
+                            }
+                        ]
+                    }
+                ]
             }
         ]
     },
-    "template": "filetree",
-    "theme": "fresh-soil-compat",
+    "template": "default",
+    "theme": "fresh-soil",
     "version": "1.4.43"
 }

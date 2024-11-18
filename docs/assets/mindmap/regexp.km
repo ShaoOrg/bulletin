@@ -25,9 +25,53 @@
                                 "data": {
                                     "id": "d5oggraemh40",
                                     "created": 1731846832097,
-                                    "text": "Bash"
+                                    "text": "bash",
+                                    "expandState": "expand"
                                 },
-                                "children": []
+                                "children": [
+                                    {
+                                        "data": {
+                                            "id": "d5ohk7zeiw80",
+                                            "created": 1731849924639,
+                                            "text": "[[ ]] expr"
+                                        },
+                                        "children": [
+                                            {
+                                                "data": {
+                                                    "id": "d5p1yuzughk0",
+                                                    "created": 1731907494028,
+                                                    "text": "${BASH_REMATCH[n]}"
+                                                },
+                                                "children": [
+                                                    {
+                                                        "data": {
+                                                            "id": "d5p1z1gjub40",
+                                                            "created": 1731907508099,
+                                                            "text": "0 整体"
+                                                        },
+                                                        "children": []
+                                                    },
+                                                    {
+                                                        "data": {
+                                                            "id": "d5p1ze050f40",
+                                                            "created": 1731907535405,
+                                                            "text": "1 第一个()的内容"
+                                                        },
+                                                        "children": []
+                                                    },
+                                                    {
+                                                        "data": {
+                                                            "id": "d5p1zm80gq00",
+                                                            "created": 1731907553295,
+                                                            "text": "n, ..."
+                                                        },
+                                                        "children": []
+                                                    }
+                                                ]
+                                            }
+                                        ]
+                                    }
+                                ]
                             },
                             {
                                 "data": {
@@ -135,16 +179,7 @@
                                     "created": 1731849916623,
                                     "text": "bash"
                                 },
-                                "children": [
-                                    {
-                                        "data": {
-                                            "id": "d5ohk7zeiw80",
-                                            "created": 1731849924639,
-                                            "text": "[[ ]] expr"
-                                        },
-                                        "children": []
-                                    }
-                                ]
+                                "children": []
                             }
                         ]
                     },
@@ -253,5 +288,5 @@
     },
     "template": "default",
     "theme": "fresh-blue",
-    "version": "1.4.33"
+    "version": "1.4.43"
 }

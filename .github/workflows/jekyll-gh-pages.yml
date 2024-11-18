@@ -3,8 +3,11 @@ name: Deploy Jekyll with GitHub Pages dependencies preinstalled
 
 on:
   # Runs on pushes targeting the default branch
-  push:
+  push: # And
     branches: ["main"]
+    paths: # Or
+      - .github/workflows/**
+      - docs/**
 
   # Allows you to run this workflow manually from the Actions tab
   workflow_dispatch:
@@ -34,7 +37,7 @@ jobs:
   # Build job
   build:
     runs-on: [ self-hosted ]
-    if: ${{ github.event.inputs.DEPLOY_ENV == 'deploy' }}
+    if: ${{ github.event.inputs.DEPLOY_ENV == 'deploy' }} || github.event_name == 'push'
     steps:
       - name: Print Env
         run: |
@@ -43,11 +46,6 @@ jobs:
         uses: actions/checkout@v4
       - name: Setup Pages
         uses: actions/configure-pages@v4
-      # - name: Build with Jekyll
-      #   uses: Baosight/jekyll-build-pages@main
-      #   with:
-      #     source: ./
-      #     destination: ./_site
       - name: Build documentation
         env:
           GH_TOKEN: ${{ secrets.GH_TOKEN }}
@@ -64,8 +62,6 @@ jobs:
           pip install mkdocs-material mkdocs-drawio-km jieba
           mkdocs build --clean
           mkdocs --version
-      # - name: Upload artifact
-      #   uses: actions/upload-pages-artifact@v2
       - name: Upload to GitHub Pages
         uses: actions/upload-pages-artifact@v2
         with:
@@ -77,7 +73,7 @@ jobs:
       name: github-pages
       url: ${{ steps.deployment.outputs.page_url }}
     runs-on: [ self-hosted ]
-    if: ${{ github.event.inputs.DEPLOY_ENV == 'deploy' }}
+    if: ${{ github.event.inputs.DEPLOY_ENV == 'deploy' }}|| github.event_name == 'push'
     needs: build
     steps:
       - name: Deploy to GitHub Pages

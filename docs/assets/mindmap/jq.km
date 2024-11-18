@@ -57,10 +57,45 @@
                                         "data": {
                                             "id": "d5ovh3ulnew0",
                                             "created": 1731889176088,
-                                            "text": "不区分大小写,不支持",
+                                            "text": "不区分大小写",
                                             "priority": 1
                                         },
-                                        "children": []
+                                        "children": [
+                                            {
+                                                "data": {
+                                                    "id": "d5p0dr7d5wo0",
+                                                    "created": 1731903019019,
+                                                    "text": "select(.attr|ascii_downcase == (value|ascii_downcase))"
+                                                },
+                                                "children": [
+                                                    {
+                                                        "data": {
+                                                            "id": "d5p0jxiorco0",
+                                                            "created": 1731903502949,
+                                                            "text": "($value|ascii_downcase)"
+                                                        },
+                                                        "children": []
+                                                    }
+                                                ]
+                                            },
+                                            {
+                                                "data": {
+                                                    "id": "d5p0fe35t9c0",
+                                                    "created": 1731903147195,
+                                                    "text": "select(.attr|test(\"^value$\"; \"i\"))"
+                                                },
+                                                "children": [
+                                                    {
+                                                        "data": {
+                                                            "id": "d5p0jkvamo80",
+                                                            "created": 1731903475413,
+                                                            "text": "test(\"^\" + $value + \"$\")"
+                                                        },
+                                                        "children": []
+                                                    }
+                                                ]
+                                            }
+                                        ]
                                     }
                                 ]
                             }
@@ -72,5 +107,5 @@
     },
     "template": "default",
     "theme": "fresh-blue",
-    "version": "1.4.33"
+    "version": "1.4.43"
 }

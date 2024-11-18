@@ -59,7 +59,35 @@
                             "created": 1729419664087,
                             "text": "rules"
                         },
-                        "children": []
+                        "children": [
+                            {
+                                "data": {
+                                    "id": "d5p2sgznrl40",
+                                    "created": 1731909814467,
+                                    "text": "changes"
+                                },
+                                "children": [
+                                    {
+                                        "data": {
+                                            "id": "d5p2sjs2hl40",
+                                            "created": 1731909820539,
+                                            "text": "path/**",
+                                            "priority": 1
+                                        },
+                                        "children": [
+                                            {
+                                                "data": {
+                                                    "id": "d5p2sn9wv540",
+                                                    "created": 1731909828148,
+                                                    "text": "任意文件,包括子目录"
+                                                },
+                                                "children": []
+                                            }
+                                        ]
+                                    }
+                                ]
+                            }
+                        ]
                     },
                     {
                         "data": {
@@ -102,7 +130,44 @@
                             "created": 1729419909341,
                             "text": "only"
                         },
-                        "children": []
+                        "children": [
+                            {
+                                "data": {
+                                    "id": "d5p2qxoi3og0",
+                                    "created": 1731909694069,
+                                    "text": "changes"
+                                },
+                                "children": [
+                                    {
+                                        "data": {
+                                            "id": "d5p2r7qw67s0",
+                                            "created": 1731909715982,
+                                            "text": "path/**",
+                                            "priority": 1
+                                        },
+                                        "children": [
+                                            {
+                                                "data": {
+                                                    "id": "d5p2rfsslv40",
+                                                    "created": 1731909733511,
+                                                    "text": "任意文件,包括子目录"
+                                                },
+                                                "children": []
+                                            }
+                                        ]
+                                    }
+                                ]
+                            },
+                            {
+                                "data": {
+                                    "id": "d5p2s298bls0",
+                                    "created": 1731909782394,
+                                    "text": "推荐用rules代替only",
+                                    "priority": 1
+                                },
+                                "children": []
+                            }
+                        ]
                     },
                     {
                         "data": {

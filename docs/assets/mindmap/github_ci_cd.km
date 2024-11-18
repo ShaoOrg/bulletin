@@ -22,7 +22,43 @@
                             "text": "push",
                             "progress": 9
                         },
-                        "children": []
+                        "children": [
+                            {
+                                "data": {
+                                    "id": "d5p2nkw1qv40",
+                                    "created": 1731909431135,
+                                    "text": "paths"
+                                },
+                                "children": [
+                                    {
+                                        "data": {
+                                            "id": "d5p2no9n0b40",
+                                            "created": 1731909438487,
+                                            "text": "路径"
+                                        },
+                                        "children": [
+                                            {
+                                                "data": {
+                                                    "id": "d5p2o0z1urc0",
+                                                    "created": 1731909466145,
+                                                    "text": "path/**"
+                                                },
+                                                "children": [
+                                                    {
+                                                        "data": {
+                                                            "id": "d5p2oaw5ci80",
+                                                            "created": 1731909487737,
+                                                            "text": "任意文件,包含子目录"
+                                                        },
+                                                        "children": []
+                                                    }
+                                                ]
+                                            }
+                                        ]
+                                    }
+                                ]
+                            }
+                        ]
                     },
                     {
                         "data": {
@@ -141,6 +177,31 @@
                                                             "text": "actions/download-artifact@v3"
                                                         },
                                                         "children": []
+                                                    },
+                                                    {
+                                                        "data": {
+                                                            "id": "d5p2xgf6q4g0",
+                                                            "created": 1731910205050,
+                                                            "text": "Baosight/jekyll-build-pages"
+                                                        },
+                                                        "children": [
+                                                            {
+                                                                "data": {
+                                                                    "id": "d5p2xi9laig0",
+                                                                    "created": 1731910209065,
+                                                                    "text": "编译jekyll"
+                                                                },
+                                                                "children": []
+                                                            },
+                                                            {
+                                                                "data": {
+                                                                    "id": "d5p2xqla7c80",
+                                                                    "created": 1731910227186,
+                                                                    "text": "来自于actions/jekyll-build-pages"
+                                                                },
+                                                                "children": []
+                                                            }
+                                                        ]
                                                     }
                                                 ]
                                             }
@@ -981,7 +1042,7 @@
             }
         ]
     },
-    "template": "default",
+    "template": "filetree",
     "theme": "wire",
-    "version": "1.4.33"
+    "version": "1.4.43"
 }
