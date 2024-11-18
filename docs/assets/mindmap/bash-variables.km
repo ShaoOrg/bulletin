@@ -286,6 +286,49 @@
                         ]
                     }
                 ]
+            },
+            {
+                "data": {
+                    "id": "d5ovuuemu0g0",
+                    "created": 1731890252630,
+                    "text": "转化"
+                },
+                "children": [
+                    {
+                        "data": {
+                            "id": "d5ovv0jqme00",
+                            "created": 1731890265999,
+                            "text": "to小写"
+                        },
+                        "children": [
+                            {
+                                "data": {
+                                    "id": "d5ovv4c93000",
+                                    "created": 1731890274254,
+                                    "text": "${Var,,}"
+                                },
+                                "children": []
+                            }
+                        ]
+                    },
+                    {
+                        "data": {
+                            "id": "d5ovvddwv8w0",
+                            "created": 1731890293945,
+                            "text": "替换"
+                        },
+                        "children": [
+                            {
+                                "data": {
+                                    "id": "d5ovvh5nmo80",
+                                    "created": 1731890302153,
+                                    "text": "${Var/target/newValue}"
+                                },
+                                "children": []
+                            }
+                        ]
+                    }
+                ]
             }
         ]
     },
