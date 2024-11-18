@@ -4,7 +4,9 @@
             "id": "d5p4r8qoips0",
             "created": 1731915360366,
             "text": "Content-Security-Policy",
-            "background": "#7030a0"
+            "background": "#7030a0",
+            "hyperlink": "https://developer.mozilla.org/en-US/docs/Web/HTTP/CSP",
+            "hyperlinkTitle": ""
         },
         "children": [
             {
@@ -138,7 +140,7 @@
                                 "data": {
                                     "id": "d5p4vqm7dm00",
                                     "created": 1731915712734,
-                                    "text": "https://apis.google.com",
+                                    "text": "connect-src https://apis.google.com",
                                     "resource": [
                                         "Sample"
                                     ]
