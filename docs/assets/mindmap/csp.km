@@ -1,0 +1,173 @@
+{
+    "root": {
+        "data": {
+            "id": "d5p4r8qoips0",
+            "created": 1731915360366,
+            "text": "content-security-policy"
+        },
+        "children": [
+            {
+                "data": {
+                    "id": "d5p4rdnni200",
+                    "created": 1731915371066,
+                    "text": "HttpResponseHeader"
+                },
+                "children": [
+                    {
+                        "data": {
+                            "id": "d5p4s4uqa8w0",
+                            "created": 1731915430267,
+                            "text": "Content-Security-Policy"
+                        },
+                        "children": [
+                            {
+                                "data": {
+                                    "id": "d5p4srhdbls0",
+                                    "created": 1731915479526,
+                                    "text": "default-src 'self'"
+                                },
+                                "children": []
+                            },
+                            {
+                                "data": {
+                                    "id": "d5p4sy03og80",
+                                    "created": 1731915493719,
+                                    "text": "script-src"
+                                },
+                                "children": []
+                            },
+                            {
+                                "data": {
+                                    "id": "d5p4t2awkao0",
+                                    "created": 1731915503079,
+                                    "text": "style-src"
+                                },
+                                "children": []
+                            },
+                            {
+                                "data": {
+                                    "id": "d5p4t5oncmg0",
+                                    "created": 1731915510441,
+                                    "text": "img-src"
+                                },
+                                "children": []
+                            },
+                            {
+                                "data": {
+                                    "id": "d5p4t91fsa80",
+                                    "created": 1731915517744,
+                                    "text": "font-src"
+                                },
+                                "children": []
+                            },
+                            {
+                                "data": {
+                                    "id": "d5p4tc6ew140",
+                                    "created": 1731915524576,
+                                    "text": "connect-src"
+                                },
+                                "children": []
+                            },
+                            {
+                                "data": {
+                                    "id": "d5p4temtrwo0",
+                                    "created": 1731915529922,
+                                    "text": "media-src"
+                                },
+                                "children": []
+                            },
+                            {
+                                "data": {
+                                    "id": "d5p4u9tmooo0",
+                                    "created": 1731915597813,
+                                    "text": "关键字"
+                                },
+                                "children": [
+                                    {
+                                        "data": {
+                                            "id": "d5p4uiwz9sw0",
+                                            "created": 1731915617607,
+                                            "text": "'self'"
+                                        },
+                                        "children": []
+                                    },
+                                    {
+                                        "data": {
+                                            "id": "d5p4um121ww0",
+                                            "created": 1731915624384,
+                                            "text": "'none'"
+                                        },
+                                        "children": []
+                                    },
+                                    {
+                                        "data": {
+                                            "id": "d5p4upklt880",
+                                            "created": 1731915632096,
+                                            "text": "'unsafe-inline'"
+                                        },
+                                        "children": []
+                                    },
+                                    {
+                                        "data": {
+                                            "id": "d5p4usa4e2o0",
+                                            "created": 1731915637992,
+                                            "text": "'unsafe-eval'"
+                                        },
+                                        "children": []
+                                    },
+                                    {
+                                        "data": {
+                                            "id": "d5p4uuz8msg0",
+                                            "created": 1731915643865,
+                                            "text": "data:"
+                                        },
+                                        "children": []
+                                    },
+                                    {
+                                        "data": {
+                                            "id": "d5p4uy7g3480",
+                                            "created": 1731915650891,
+                                            "text": "https:"
+                                        },
+                                        "children": []
+                                    }
+                                ]
+                            },
+                            {
+                                "data": {
+                                    "id": "d5p4vqm7dm00",
+                                    "created": 1731915712734,
+                                    "text": "https://apis.google.com",
+                                    "resource": [
+                                        "Sample"
+                                    ]
+                                },
+                                "children": []
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "data": {
+                    "id": "d5p4rmxpeow0",
+                    "created": 1731915391265,
+                    "text": "HTML"
+                },
+                "children": [
+                    {
+                        "data": {
+                            "id": "d5p4rw7oguo0",
+                            "created": 1731915411459,
+                            "text": "<meta>"
+                        },
+                        "children": []
+                    }
+                ]
+            }
+        ]
+    },
+    "template": "default",
+    "theme": "fresh-blue",
+    "version": "1.4.33"
+}
