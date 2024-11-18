@@ -3,7 +3,8 @@
         "data": {
             "id": "d5p4r8qoips0",
             "created": 1731915360366,
-            "text": "content-security-policy"
+            "text": "Content-Security-Policy",
+            "background": "#7030a0"
         },
         "children": [
             {
@@ -161,7 +162,148 @@
                             "created": 1731915411459,
                             "text": "<meta>"
                         },
-                        "children": []
+                        "children": [
+                            {
+                                "data": {
+                                    "id": "d5p4x3ls6u80",
+                                    "created": 1731915819371,
+                                    "text": "<meta http-equiv=\"Content-Security-Policy\" content=\"default-src 'self'\">",
+                                    "resource": [
+                                        "Sample"
+                                    ]
+                                },
+                                "children": []
+                            },
+                            {
+                                "data": {
+                                    "id": "d5p4xcxp5740",
+                                    "created": 1731915839682,
+                                    "text": "http-equiv=\"Content-Security-Policy\"",
+                                    "progress": 1
+                                },
+                                "children": []
+                            },
+                            {
+                                "data": {
+                                    "id": "d5p4xkfvzzc0",
+                                    "created": 1731915856019,
+                                    "text": "content=\"default-src 'self'\"",
+                                    "resource": [
+                                        "Pair"
+                                    ],
+                                    "progress": 1
+                                },
+                                "children": []
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "data": {
+                    "id": "d5p5116phoo0",
+                    "created": 1731916127562,
+                    "text": "declare"
+                },
+                "children": [
+                    {
+                        "data": {
+                            "id": "d5p514zwveg0",
+                            "created": 1731916135858,
+                            "text": "Pair",
+                            "resource": [
+                                "Pair"
+                            ]
+                        },
+                        "children": [
+                            {
+                                "data": {
+                                    "id": "d5p51e9bx2w0",
+                                    "created": 1731916156019,
+                                    "text": "key",
+                                    "progress": 1
+                                },
+                                "children": []
+                            },
+                            {
+                                "data": {
+                                    "id": "d5p51iel67c0",
+                                    "created": 1731916165044,
+                                    "text": "value",
+                                    "resource": [
+                                        "Pair"
+                                    ],
+                                    "progress": 1
+                                },
+                                "children": []
+                            },
+                            {
+                                "data": {
+                                    "id": "d5p51pi31hk0",
+                                    "created": 1731916180493,
+                                    "text": "图标相同+Pair tag"
+                                },
+                                "children": []
+                            }
+                        ]
+                    },
+                    {
+                        "data": {
+                            "id": "d5p52fb2rmg0",
+                            "created": 1731916236665,
+                            "text": "Sample",
+                            "resource": [
+                                "Sample"
+                            ],
+                            "expandState": "collapse"
+                        },
+                        "children": [
+                            {
+                                "data": {
+                                    "id": "d5p52lzl49c0",
+                                    "created": 1731916251208,
+                                    "text": "具体例子"
+                                },
+                                "children": []
+                            }
+                        ]
+                    },
+                    {
+                        "data": {
+                            "id": "d5p538yttpk0",
+                            "created": 1731916301228,
+                            "text": "sequence",
+                            "expandState": "expand"
+                        },
+                        "children": [
+                            {
+                                "data": {
+                                    "id": "d5p53cfbn340",
+                                    "created": 1731916308756,
+                                    "text": "1",
+                                    "priority": 1
+                                },
+                                "children": []
+                            },
+                            {
+                                "data": {
+                                    "id": "d5p53oj60ig0",
+                                    "created": 1731916335110,
+                                    "text": "2",
+                                    "priority": 2
+                                },
+                                "children": []
+                            },
+                            {
+                                "data": {
+                                    "id": "d5p53qesqhk0",
+                                    "created": 1731916339199,
+                                    "text": "...",
+                                    "priority": 9
+                                },
+                                "children": []
+                            }
+                        ]
                     }
                 ]
             }
