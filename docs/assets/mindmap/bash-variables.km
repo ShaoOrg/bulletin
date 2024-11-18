@@ -327,6 +327,23 @@
                                 "children": []
                             }
                         ]
+                    },
+                    {
+                        "data": {
+                            "id": "d5oyo49twww0",
+                            "created": 1731898188888,
+                            "text": "to大写"
+                        },
+                        "children": [
+                            {
+                                "data": {
+                                    "id": "d5oyo9rhepk0",
+                                    "created": 1731898200839,
+                                    "text": "${Var^^}"
+                                },
+                                "children": []
+                            }
+                        ]
                     }
                 ]
             }
