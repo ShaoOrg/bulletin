@@ -57,18 +57,10 @@
                                         "data": {
                                             "id": "d5ovh3ulnew0",
                                             "created": 1731889176088,
-                                            "text": "不区分大小写"
+                                            "text": "不区分大小写,不支持",
+                                            "priority": 1
                                         },
-                                        "children": [
-                                            {
-                                                "data": {
-                                                    "id": "d5ovh7gyz7c0",
-                                                    "created": 1731889183971,
-                                                    "text": "select(.attr|ascii_downcase == value)"
-                                                },
-                                                "children": []
-                                            }
-                                        ]
+                                        "children": []
                                     }
                                 ]
                             }
