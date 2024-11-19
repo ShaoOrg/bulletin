@@ -1039,10 +1039,114 @@
                         ]
                     }
                 ]
+            },
+            {
+                "data": {
+                    "id": "d5ps9uc81yg0",
+                    "created": 1731981703463,
+                    "text": "流程"
+                },
+                "children": [
+                    {
+                        "data": {
+                            "id": "d5psa2o9hso0",
+                            "created": 1731981721606,
+                            "text": "选择事件相关的Branch",
+                            "priority": 1,
+                            "expandState": "collapse"
+                        },
+                        "children": [
+                            {
+                                "data": {
+                                    "id": "d5psafjwezk0",
+                                    "created": 1731981749640,
+                                    "text": "tag",
+                                    "expandState": "expand"
+                                },
+                                "children": [
+                                    {
+                                        "data": {
+                                            "id": "d5psahjl14w0",
+                                            "created": 1731981753975,
+                                            "text": "打tag所在的branch"
+                                        },
+                                        "children": []
+                                    }
+                                ]
+                            },
+                            {
+                                "data": {
+                                    "id": "d5psas6nkeg0",
+                                    "created": 1731981777137,
+                                    "text": "push",
+                                    "expandState": "expand"
+                                },
+                                "children": [
+                                    {
+                                        "data": {
+                                            "id": "d5psaviswvc0",
+                                            "created": 1731981784402,
+                                            "text": "所提交的branch"
+                                        },
+                                        "children": []
+                                    }
+                                ]
+                            },
+                            {
+                                "data": {
+                                    "id": "d5psbnr3ggo0",
+                                    "created": 1731981845854,
+                                    "text": "run workflow",
+                                    "expandState": "expand"
+                                },
+                                "children": [
+                                    {
+                                        "data": {
+                                            "id": "d5psbu4a3940",
+                                            "created": 1731981859711,
+                                            "text": "选tag"
+                                        },
+                                        "children": [
+                                            {
+                                                "data": {
+                                                    "id": "d5pscl7sesg0",
+                                                    "created": 1731981918697,
+                                                    "text": "tag创建时的branch"
+                                                },
+                                                "children": []
+                                            }
+                                        ]
+                                    },
+                                    {
+                                        "data": {
+                                            "id": "d5psbxkdk3c0",
+                                            "created": 1731981867215,
+                                            "text": "选branch"
+                                        },
+                                        "children": []
+                                    }
+                                ]
+                            }
+                        ]
+                    },
+                    {
+                        "data": {
+                            "id": "d5psc5gaxjs0",
+                            "created": 1731981884383,
+                            "text": "根据Branch找出相应的workflow",
+                            "layout_filetree-down_offset": {
+                                "x": 17,
+                                "y": 0
+                            },
+                            "priority": 2
+                        },
+                        "children": []
+                    }
+                ]
             }
         ]
     },
     "template": "filetree",
     "theme": "wire",
-    "version": "1.4.43"
+    "version": "1.4.33"
 }
