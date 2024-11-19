@@ -953,10 +953,142 @@
                         ]
                     }
                 ]
+            },
+            {
+                "data": {
+                    "id": "d5q7ealee740",
+                    "created": 1732024368952,
+                    "text": "Github App"
+                },
+                "children": [
+                    {
+                        "data": {
+                            "id": "d5q7efi9vwo0",
+                            "created": 1732024379647,
+                            "text": "Register",
+                            "priority": 1
+                        },
+                        "children": [
+                            {
+                                "data": {
+                                    "id": "d5q7eneccj40",
+                                    "created": 1732024396824,
+                                    "text": "callback"
+                                },
+                                "children": []
+                            },
+                            {
+                                "data": {
+                                    "id": "d5q7gwencnc0",
+                                    "created": 1732024573161,
+                                    "text": "clientId"
+                                },
+                                "children": []
+                            },
+                            {
+                                "data": {
+                                    "id": "d5q7h0ifra00",
+                                    "created": 1732024582098,
+                                    "text": "clientSecret"
+                                },
+                                "children": []
+                            }
+                        ]
+                    },
+                    {
+                        "data": {
+                            "id": "d5q7fvdl43k0",
+                            "created": 1732024492556,
+                            "text": "/login/oauth/authorize",
+                            "priority": 2
+                        },
+                        "children": [
+                            {
+                                "data": {
+                                    "id": "d5q7l1ebul40",
+                                    "created": 1732024897483,
+                                    "text": "GithubClient.js"
+                                },
+                                "children": []
+                            },
+                            {
+                                "data": {
+                                    "id": "d5q7l6sky8g0",
+                                    "created": 1732024909228,
+                                    "text": "scope权限力度",
+                                    "priority": 1
+                                },
+                                "children": [
+                                    {
+                                        "data": {
+                                            "id": "d5q7qykhwbk0",
+                                            "created": 1732025361510,
+                                            "text": "user%20repo"
+                                        },
+                                        "children": []
+                                    }
+                                ]
+                            }
+                        ]
+                    },
+                    {
+                        "data": {
+                            "id": "d5q7mqu2yog0",
+                            "created": 1732025031219,
+                            "text": "/login/oauth/access_token",
+                            "priority": 3,
+                            "resource": [
+                                "Callback"
+                            ],
+                            "expandState": "expand"
+                        },
+                        "children": [
+                            {
+                                "data": {
+                                    "id": "d5q7mydfrmo0",
+                                    "created": 1732025047627,
+                                    "text": "access_token",
+                                    "progress": 1
+                                },
+                                "children": []
+                            },
+                            {
+                                "data": {
+                                    "id": "d5q7nkhao880",
+                                    "created": 1732025095749,
+                                    "text": "expires_in"
+                                },
+                                "children": []
+                            }
+                        ]
+                    },
+                    {
+                        "data": {
+                            "id": "d5q7n5mw7b40",
+                            "created": 1732025063436,
+                            "text": "invoke github API",
+                            "priority": 4
+                        },
+                        "children": [
+                            {
+                                "data": {
+                                    "id": "d5q7nft9yco0",
+                                    "created": 1732025085590,
+                                    "text": "access_token",
+                                    "progress": 1,
+                                    "resource": [
+                                        "Pair"
+                                    ]
+                                },
+                                "children": []
+                            }
+                        ]
+                    }
+                ]
             }
         ]
     },
     "template": "default",
     "theme": "wire",
-    "version": "1.4.43"
+    "version": "1.4.33"
 }
