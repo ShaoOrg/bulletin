@@ -100,6 +100,51 @@
                                 ]
                             }
                         ]
+                    },
+                    {
+                        "data": {
+                            "id": "d5pu30ykiow0",
+                            "created": 1731986811546,
+                            "text": "参数"
+                        },
+                        "children": [
+                            {
+                                "data": {
+                                    "id": "d5pu4cwt0eg0",
+                                    "created": 1731986915925,
+                                    "text": "字符串",
+                                    "expandState": "expand"
+                                },
+                                "children": [
+                                    {
+                                        "data": {
+                                            "id": "d5pu35w98z40",
+                                            "created": 1731986822290,
+                                            "text": "--arg var value"
+                                        },
+                                        "children": []
+                                    }
+                                ]
+                            },
+                            {
+                                "data": {
+                                    "id": "d5pu4jrqfyw0",
+                                    "created": 1731986930856,
+                                    "text": "非字符串",
+                                    "expandState": "expand"
+                                },
+                                "children": [
+                                    {
+                                        "data": {
+                                            "id": "d5pu48pvm9k0",
+                                            "created": 1731986906799,
+                                            "text": "--argjson var value"
+                                        },
+                                        "children": []
+                                    }
+                                ]
+                            }
+                        ]
                     }
                 ]
             }
@@ -107,5 +152,5 @@
     },
     "template": "default",
     "theme": "fresh-blue",
-    "version": "1.4.43"
+    "version": "1.4.33"
 }
