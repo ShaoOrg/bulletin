@@ -125,7 +125,7 @@ plugins:  #插件
             handler: "(function(){const file='${file}'.replace(new RegExp(\".*/assets/\"), \"\");window.open(\"${DRAWIO_EDITOR_URL}/local-drawio/\" + file);})"
       # drawio_toolbar: "<button id='btn-${drawio_view_id}-edit' class='btn-minder-view-toolbar' data-file='${file}' onclick='const file = this.getAttribute(\"data-file\").replace(new RegExp(\".*/assets/\"), \"\");window.open(\"/local-drawio/\" + file);'>✔</button>"
       external_url_toolbar: "<a href='#' onclick=\"fetch('https://de.vicp.net:25053/bash_shell/squidfunk/mkdocs-material')\">刷新文档</a>"
-      kity_minder_toolbar: "<button id='btn-${minder_view_id}-new' class='btn-minder-view-toolbar' file=${file}>📃</button><button id='btn-${minder_view_id}-edit' class='btn-minder-view-toolbar' file=${file}>✔</button><button id='btn-${minder_view_id}-zoom-in' class='btn-minder-view-toolbar'>➖</button><button id='btn-${minder_view_id}-zoom-out' class='btn-minder-view-toolbar'>➕</button><button id='btn-${minder_view_id}-full' class='btn-minder-view-toolbar'>&#9974;</button>"
+      kity_minder_extra_toolbar: "<button id='btn-${minder_view_id}-new' class='btn-minder-view-toolbar' file=${file}>📃</button><button id='btn-${minder_view_id}-edit' class='btn-minder-view-toolbar' file=${file}>✔</button>"
       kity_minder_global_style: |
         .btn-minder-view-toolbar {
             border: 1px solid #dbb656;
@@ -150,39 +150,7 @@ plugins:  #插件
             min-height: ${alt_height};
         }
 
-      kity_minder_container_javascript: |
-        if(!kmLists) { var kmLists = []; }
-        kmLists.push(new kityminder.Minder());
-        kmLists[kmLists.length -1].renderTo(document.querySelector('#${minder_view_id}'));
-        kmLists[kmLists.length -1].importJson(${file_content});
-        if(!zoomContainer){
-            var zoomContainer=function(container, scale){
-                const cw = container.offsetWidth;
-                const nw = cw * scale;
-                container.style.width = nw + 'px';
-                const ch = container.offsetHeight;
-                const nh = ch * scale;
-                container.style.height = nh + 'px';
-                const svg = container.querySelector('svg')
-                svg.style.minWidth = nw + 'px';
-                svg.style.minHeight = nh + 'px';
-            }
-        }
-        if(!fullContainer){
-            var fullContainer=function(svgElement){
-                if (svgElement) {
-                    if (svgElement.requestFullscreen) {
-                        svgElement.requestFullscreen();
-                    } else if (svgElement.mozRequestFullScreen) {
-                        svgElement.mozRequestFullScreen();
-                    } else if (svgElement.webkitRequestFullscreen) {
-                        svgElement.webkitRequestFullscreen();
-                    } else if (svgElement.msRequestFullscreen) {
-                        svgElement.msRequestFullscreen();
-                    }
-                }
-            }
-        }
+      kity_minder_container_extra_javascript: |
         document.getElementById('btn-${minder_view_id}-new') && document.getElementById('btn-${minder_view_id}-new').addEventListener('click', function() {
             const file = this.getAttribute("file").replace(/.*\/assets\//, '');
             const fileArray = file.split("/");
@@ -195,30 +163,6 @@ plugins:  #插件
         document.getElementById('btn-${minder_view_id}-edit') && document.getElementById('btn-${minder_view_id}-edit').addEventListener('click', function() {
             const file = this.getAttribute("file").replace(/.*\/assets\//, '');
             window.open("${KITY_MINDER_EDITOR_URL}/local-kity-minder/" + file);
-        });
-        document.getElementById('btn-${minder_view_id}-zoom-in') && document.getElementById('btn-${minder_view_id}-zoom-in').addEventListener('click', function() {
-            zoomContainer(document.getElementById('${minder_view_id}'), 0.8)
-        });
-        document.getElementById('btn-${minder_view_id}-zoom-out') && document.getElementById('btn-${minder_view_id}-zoom-out').addEventListener('click', function() {
-            zoomContainer(document.getElementById('${minder_view_id}'), 1.2)
-        });
-        document.getElementById('btn-${minder_view_id}-full') && document.getElementById('btn-${minder_view_id}-full').addEventListener('click', function() {
-            fullContainer(document.getElementById('${minder_view_id}').querySelector('svg'))
-        });
-        document.getElementById('${minder_view_id}') && document.getElementById('${minder_view_id}').addEventListener('dblclick', function() {
-            const svg = this.querySelector('svg')
-            const divBackground = window.getComputedStyle(this).background;
-            if(!svg.hasFullscreenListener){
-              svg.addEventListener("fullscreenchange", function() {
-                  if (document.fullscreenElement) {
-                      svg.style.background = divBackground;
-                  } else {
-                      svg.style.background = "";
-                  }
-              });
-              svg.hasFullscreenListener = true
-            }
-            fullContainer(this.querySelector('svg'));
         });
 
 extra_javascript:
