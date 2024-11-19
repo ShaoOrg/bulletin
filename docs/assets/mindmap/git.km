@@ -1,0 +1,87 @@
+{
+    "root": {
+        "data": {
+            "id": "d5q5yye3rmo0",
+            "created": 1732020345817,
+            "text": "Git"
+        },
+        "children": [
+            {
+                "data": {
+                    "id": "d5q5z37xwxk0",
+                    "created": 1732020356329,
+                    "text": "Branch"
+                },
+                "children": []
+            },
+            {
+                "data": {
+                    "id": "d5q5z9jwaxs0",
+                    "created": 1732020370112,
+                    "text": "Tag"
+                },
+                "children": []
+            },
+            {
+                "data": {
+                    "id": "d5q5zdj7beg0",
+                    "created": 1732020378777,
+                    "text": "Clone"
+                },
+                "children": [
+                    {
+                        "data": {
+                            "id": "d5q5zg0vsts0",
+                            "created": 1732020384200,
+                            "text": "--depth=1",
+                            "priority": null
+                        },
+                        "children": [
+                            {
+                                "data": {
+                                    "id": "d5q608j3cdc0",
+                                    "created": 1732020446251,
+                                    "text": "拉取所有",
+                                    "expandState": "expand",
+                                    "priority": 1
+                                },
+                                "children": [
+                                    {
+                                        "data": {
+                                            "id": "d5q5zsns9eo0",
+                                            "created": 1732020411706,
+                                            "text": "git remote set-branches origin '*'",
+                                            "priority": 2
+                                        },
+                                        "children": [
+                                            {
+                                                "data": {
+                                                    "id": "d5q604hyx200",
+                                                    "created": 1732020437476,
+                                                    "text": "git pull --rebase",
+                                                    "priority": 3
+                                                },
+                                                "children": []
+                                            },
+                                            {
+                                                "data": {
+                                                    "id": "d5q60ytdvhs0",
+                                                    "created": 1732020503470,
+                                                    "text": "origin对应*"
+                                                },
+                                                "children": []
+                                            }
+                                        ]
+                                    }
+                                ]
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    "template": "default",
+    "theme": "fresh-blue",
+    "version": "1.4.33"
+}
