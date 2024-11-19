@@ -54,10 +54,36 @@
                         "children": []
                     }
                 ]
+            },
+            {
+                "data": {
+                    "id": "d5pu15fjtlc0",
+                    "created": 1731986664552,
+                    "text": "开源"
+                },
+                "children": [
+                    {
+                        "data": {
+                            "id": "d5pu1bmmtmg0",
+                            "created": 1731986678041,
+                            "text": "minio"
+                        },
+                        "children": [
+                            {
+                                "data": {
+                                    "id": "d5pu1gzy94o0",
+                                    "created": 1731986689730,
+                                    "text": "兼容S3"
+                                },
+                                "children": []
+                            }
+                        ]
+                    }
+                ]
             }
         ]
     },
     "template": "filetree",
     "theme": "fresh-blue-compat",
-    "version": "1.4.43"
+    "version": "1.4.33"
 }
