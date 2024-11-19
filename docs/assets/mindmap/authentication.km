@@ -1133,7 +1133,36 @@
                     "created": 1732025771147,
                     "text": "Gitlab App"
                 },
-                "children": []
+                "children": [
+                    {
+                        "data": {
+                            "id": "d5qjc1zkuy00",
+                            "created": 1732058046809,
+                            "text": "Register App",
+                            "hyperlink": "https://de.vicp.net:58443/admin/applications",
+                            "hyperlinkTitle": "",
+                            "priority": 1
+                        },
+                        "children": [
+                            {
+                                "data": {
+                                    "id": "d5qjch1inw00",
+                                    "created": 1732058079578,
+                                    "text": "clientId"
+                                },
+                                "children": []
+                            },
+                            {
+                                "data": {
+                                    "id": "d5qjckc6hh40",
+                                    "created": 1732058086753,
+                                    "text": "clientSecret"
+                                },
+                                "children": []
+                            }
+                        ]
+                    }
+                ]
             }
         ]
     },
