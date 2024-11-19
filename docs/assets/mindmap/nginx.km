@@ -12,7 +12,450 @@
                     "created": 1731971645095,
                     "text": "location"
                 },
-                "children": []
+                "children": [
+                    {
+                        "data": {
+                            "id": "d5ptja68u940",
+                            "created": 1731985264318,
+                            "text": "Lua"
+                        },
+                        "children": [
+                            {
+                                "data": {
+                                    "id": "d5ptxw5gvg00",
+                                    "created": 1731986409258,
+                                    "text": "Request参数"
+                                },
+                                "children": [
+                                    {
+                                        "data": {
+                                            "id": "d5pty65w82w0",
+                                            "created": 1731986431052,
+                                            "text": "ngx.var.参数名"
+                                        },
+                                        "children": []
+                                    }
+                                ]
+                            },
+                            {
+                                "data": {
+                                    "id": "d5ptyhojkdc0",
+                                    "created": 1731986456124,
+                                    "text": "Shell"
+                                },
+                                "children": [
+                                    {
+                                        "data": {
+                                            "id": "d5ptylnusls0",
+                                            "created": 1731986464790,
+                                            "text": "os.execute(cmd)"
+                                        },
+                                        "children": []
+                                    }
+                                ]
+                            },
+                            {
+                                "data": {
+                                    "id": "d5ptyx20zj40",
+                                    "created": 1731986489591,
+                                    "text": "语法"
+                                },
+                                "children": [
+                                    {
+                                        "data": {
+                                            "id": "d5ptz07epyg0",
+                                            "created": 1731986496447,
+                                            "text": "拼接字符串"
+                                        },
+                                        "children": [
+                                            {
+                                                "data": {
+                                                    "id": "d5ptzmn1vds0",
+                                                    "created": 1731986545282,
+                                                    "text": "string.format()"
+                                                },
+                                                "children": []
+                                            }
+                                        ]
+                                    }
+                                ]
+                            }
+                        ]
+                    },
+                    {
+                        "data": {
+                            "id": "d5ptjiipc4g0",
+                            "created": 1731985282485,
+                            "text": "Proxy"
+                        },
+                        "children": [
+                            {
+                                "data": {
+                                    "id": "d5ptjrx04yg0",
+                                    "created": 1731985302941,
+                                    "text": "proxy_pass"
+                                },
+                                "children": []
+                            },
+                            {
+                                "data": {
+                                    "id": "d5ptjv778e00",
+                                    "created": 1731985310088,
+                                    "text": "proxy_set_header",
+                                    "resource": [],
+                                    "progress": 1
+                                },
+                                "children": [
+                                    {
+                                        "data": {
+                                            "id": "d5ptkt52hw80",
+                                            "created": 1731985383970,
+                                            "text": "额外传给后端服务的header"
+                                        },
+                                        "children": []
+                                    }
+                                ]
+                            },
+                            {
+                                "data": {
+                                    "id": "d5ptkco5nfk0",
+                                    "created": 1731985348119,
+                                    "text": "proxy_pass_header",
+                                    "resource": [
+                                        "Pair"
+                                    ],
+                                    "progress": 1
+                                },
+                                "children": []
+                            },
+                            {
+                                "data": {
+                                    "id": "d5ptrqtut7c0",
+                                    "created": 1731985927487,
+                                    "text": "系统Header"
+                                },
+                                "children": [
+                                    {
+                                        "data": {
+                                            "id": "d5ptrwka0m80",
+                                            "created": 1731985939969,
+                                            "text": "X-Forwarded-Port"
+                                        },
+                                        "children": []
+                                    },
+                                    {
+                                        "data": {
+                                            "id": "d5pts0lq28w0",
+                                            "created": 1731985948763,
+                                            "text": "Host"
+                                        },
+                                        "children": []
+                                    },
+                                    {
+                                        "data": {
+                                            "id": "d5pts4zf5xs0",
+                                            "created": 1731985958299,
+                                            "text": "X-Real-IP"
+                                        },
+                                        "children": []
+                                    },
+                                    {
+                                        "data": {
+                                            "id": "d5pts9a79340",
+                                            "created": 1731985967659,
+                                            "text": "X-Forwarded-For"
+                                        },
+                                        "children": []
+                                    },
+                                    {
+                                        "data": {
+                                            "id": "d5ptsduanz40",
+                                            "created": 1731985977580,
+                                            "text": "X-Forwarded-Proto"
+                                        },
+                                        "children": []
+                                    }
+                                ]
+                            }
+                        ]
+                    },
+                    {
+                        "data": {
+                            "id": "d5ptlf1hl540",
+                            "created": 1731985431643,
+                            "text": "Request"
+                        },
+                        "children": [
+                            {
+                                "data": {
+                                    "id": "d5ptljwz4cg0",
+                                    "created": 1731985442254,
+                                    "text": "参数"
+                                },
+                                "children": [
+                                    {
+                                        "data": {
+                                            "id": "d5ptlrsvymg0",
+                                            "created": 1731985459421,
+                                            "text": "?url=xxx&assets=yyy",
+                                            "resource": [
+                                                "Sample"
+                                            ]
+                                        },
+                                        "children": []
+                                    },
+                                    {
+                                        "data": {
+                                            "id": "d5ptn7twwxs0",
+                                            "created": 1731985572675,
+                                            "text": "$arg_url"
+                                        },
+                                        "children": [
+                                            {
+                                                "data": {
+                                                    "id": "d5ptnabvzjs0",
+                                                    "created": 1731985578116,
+                                                    "text": "表示url参数"
+                                                },
+                                                "children": []
+                                            }
+                                        ]
+                                    },
+                                    {
+                                        "data": {
+                                            "id": "d5ptzvpgxn40",
+                                            "created": 1731986565019,
+                                            "text": "拼接字符串"
+                                        },
+                                        "children": [
+                                            {
+                                                "data": {
+                                                    "id": "d5pu01i4urk0",
+                                                    "created": 1731986577637,
+                                                    "text": "多个变量直接组合"
+                                                },
+                                                "children": [
+                                                    {
+                                                        "data": {
+                                                            "id": "d5pu07r2ycw0",
+                                                            "created": 1731986591238,
+                                                            "text": "/app/$var1/$var2",
+                                                            "resource": [
+                                                                "Sample"
+                                                            ]
+                                                        },
+                                                        "children": []
+                                                    }
+                                                ]
+                                            }
+                                        ]
+                                    }
+                                ]
+                            },
+                            {
+                                "data": {
+                                    "id": "d5pto7wkz4g0",
+                                    "created": 1731985651201,
+                                    "text": "系统参数"
+                                },
+                                "children": [
+                                    {
+                                        "data": {
+                                            "id": "d5ptohpvl400",
+                                            "created": 1731985672563,
+                                            "text": "$http_x_forwarded_for"
+                                        },
+                                        "children": []
+                                    },
+                                    {
+                                        "data": {
+                                            "id": "d5ptoqrq3cg0",
+                                            "created": 1731985692266,
+                                            "text": "$http_user_agent"
+                                        },
+                                        "children": []
+                                    },
+                                    {
+                                        "data": {
+                                            "id": "d5ptp3gm5ew0",
+                                            "created": 1731985719892,
+                                            "text": "$remote_addr"
+                                        },
+                                        "children": []
+                                    },
+                                    {
+                                        "data": {
+                                            "id": "d5ptp4se44o0",
+                                            "created": 1731985722781,
+                                            "text": "$remote_user"
+                                        },
+                                        "children": []
+                                    },
+                                    {
+                                        "data": {
+                                            "id": "d5ptpx9esv40",
+                                            "created": 1731985784760,
+                                            "text": "http_host"
+                                        },
+                                        "children": []
+                                    },
+                                    {
+                                        "data": {
+                                            "id": "d5ptraddtgo0",
+                                            "created": 1731985891663,
+                                            "text": "proxy_add_x_forwarded_for"
+                                        },
+                                        "children": []
+                                    },
+                                    {
+                                        "data": {
+                                            "id": "d5ptrf3k3z40",
+                                            "created": 1731985901953,
+                                            "text": "scheme"
+                                        },
+                                        "children": []
+                                    }
+                                ]
+                            },
+                            {
+                                "data": {
+                                    "id": "d5ptq34yae80",
+                                    "created": 1731985797551,
+                                    "text": "用$变量引用",
+                                    "priority": 1
+                                },
+                                "children": []
+                            },
+                            {
+                                "data": {
+                                    "id": "d5ptqckdg5k0",
+                                    "created": 1731985818075,
+                                    "text": "不区分大小写"
+                                },
+                                "children": []
+                            }
+                        ]
+                    },
+                    {
+                        "data": {
+                            "id": "d5ptl6diki80",
+                            "created": 1731985412779,
+                            "text": "Response"
+                        },
+                        "children": [
+                            {
+                                "data": {
+                                    "id": "d5pttrxub280",
+                                    "created": 1731986086633,
+                                    "text": "add_header"
+                                },
+                                "children": []
+                            },
+                            {
+                                "data": {
+                                    "id": "d5pttt7v2h40",
+                                    "created": 1731986089416,
+                                    "text": "系统Header"
+                                },
+                                "children": [
+                                    {
+                                        "data": {
+                                            "id": "d5pttxbnvmw0",
+                                            "created": 1731986098353,
+                                            "text": "CORS"
+                                        },
+                                        "children": []
+                                    },
+                                    {
+                                        "data": {
+                                            "id": "d5ptu01g9ao0",
+                                            "created": 1731986104266,
+                                            "text": "CSP"
+                                        },
+                                        "children": []
+                                    },
+                                    {
+                                        "data": {
+                                            "id": "d5ptu5j8nhc0",
+                                            "created": 1731986116226,
+                                            "text": "Cache"
+                                        },
+                                        "children": []
+                                    }
+                                ]
+                            }
+                        ]
+                    },
+                    {
+                        "data": {
+                            "id": "d5ptmn8k3q80",
+                            "created": 1731985527848,
+                            "text": "上传"
+                        },
+                        "children": [
+                            {
+                                "data": {
+                                    "id": "d5ptmqm6l5c0",
+                                    "created": 1731985535203,
+                                    "text": "dav_methods"
+                                },
+                                "children": []
+                            }
+                        ]
+                    },
+                    {
+                        "data": {
+                            "id": "d5ptuqmv28g0",
+                            "created": 1731986162157,
+                            "text": "授权"
+                        },
+                        "children": [
+                            {
+                                "data": {
+                                    "id": "d5ptv9sgcqo0",
+                                    "created": 1731986203854,
+                                    "text": "Ldap"
+                                },
+                                "children": [
+                                    {
+                                        "data": {
+                                            "id": "d5ptvdz6rdc0",
+                                            "created": 1731986212968,
+                                            "text": "auth_ldap_servers"
+                                        },
+                                        "children": []
+                                    }
+                                ]
+                            },
+                            {
+                                "data": {
+                                    "id": "d5ptx1lfuhs0",
+                                    "created": 1731986342744,
+                                    "text": "Location",
+                                    "expandState": "expand"
+                                },
+                                "children": [
+                                    {
+                                        "data": {
+                                            "id": "d5ptwhbl1io0",
+                                            "created": 1731986298612,
+                                            "text": "auth_request "
+                                        },
+                                        "children": []
+                                    },
+                                    {
+                                        "data": {
+                                            "id": "d5ptx8gpu740",
+                                            "created": 1731986357696,
+                                            "text": "由一个location里完成授权逻辑"
+                                        },
+                                        "children": []
+                                    }
+                                ]
+                            }
+                        ]
+                    }
+                ]
             }
         ]
     },
