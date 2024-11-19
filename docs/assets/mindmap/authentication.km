@@ -1034,8 +1034,41 @@
                                             "text": "user%20repo"
                                         },
                                         "children": []
+                                    },
+                                    {
+                                        "data": {
+                                            "id": "d5qirth6kuw0",
+                                            "created": 1732056460999,
+                                            "text": "对于每个用户只是第一次生效",
+                                            "priority": 1,
+                                            "progress": 2
+                                        },
+                                        "children": []
+                                    },
+                                    {
+                                        "data": {
+                                            "id": "d5qivfbsy7k0",
+                                            "created": 1732056743656,
+                                            "text": "如果需要修改,必须在Authorized里去revoke后再次调用",
+                                            "priority": 1,
+                                            "progress": 2,
+                                            "resource": [
+                                                "Pair"
+                                            ]
+                                        },
+                                        "children": []
                                     }
                                 ]
+                            },
+                            {
+                                "data": {
+                                    "id": "d5qit0vo93k0",
+                                    "created": 1732056555477,
+                                    "text": "第一次调用后出现在Authorized Github/OAuth Apps里",
+                                    "hyperlink": "https://github.shao.sh/settings/applications",
+                                    "hyperlinkTitle": ""
+                                },
+                                "children": []
                             }
                         ]
                     },
