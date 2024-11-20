@@ -476,10 +476,93 @@
                         ]
                     }
                 ]
+            },
+            {
+                "data": {
+                    "id": "d5qr5srxps00",
+                    "created": 1732080125450,
+                    "text": "存储"
+                },
+                "children": [
+                    {
+                        "data": {
+                            "id": "d5qr5wjnp9c0",
+                            "created": 1732080133657,
+                            "text": "GitLab"
+                        },
+                        "children": [
+                            {
+                                "data": {
+                                    "id": "d5qr6gpf4uw0",
+                                    "created": 1732080177541,
+                                    "text": "#A开头"
+                                },
+                                "children": [
+                                    {
+                                        "data": {
+                                            "id": "d5qr77wj2j40",
+                                            "created": 1732080236744,
+                                            "text": "https://de.vicp.net:25053/local-drawio/#Atempestwin/bulletin/main/docs/assets/drawio/public-ip.drawio",
+                                            "resource": [
+                                                "Sample"
+                                            ]
+                                        },
+                                        "children": []
+                                    }
+                                ]
+                            },
+                            {
+                                "data": {
+                                    "id": "d5qr7dt9b0g0",
+                                    "created": 1732080249607,
+                                    "text": "自动寻找配置打开授权界面"
+                                },
+                                "children": []
+                            }
+                        ]
+                    },
+                    {
+                        "data": {
+                            "id": "d5qr5zxjuko0",
+                            "created": 1732080141027,
+                            "text": "GitHub"
+                        },
+                        "children": [
+                            {
+                                "data": {
+                                    "id": "d5qr6bpq7s00",
+                                    "created": 1732080166675,
+                                    "text": "#H开头"
+                                },
+                                "children": [
+                                    {
+                                        "data": {
+                                            "id": "d5qr6s1rbm00",
+                                            "created": 1732080202231,
+                                            "text": "https://de.vicp.net:25053/local-drawio/#Htempestwin/bulletin/main/docs/assets/drawio/public-ip.drawio#{\"pageId\":\"IGNaPQVdiePCNsB7grzX\"}",
+                                            "resource": [
+                                                "Sample"
+                                            ]
+                                        },
+                                        "children": []
+                                    }
+                                ]
+                            },
+                            {
+                                "data": {
+                                    "id": "d5qr7ngd89s0",
+                                    "created": 1732080270595,
+                                    "text": "自动寻找配置打开授权界面"
+                                },
+                                "children": []
+                            }
+                        ]
+                    }
+                ]
             }
         ]
     },
     "template": "default",
     "theme": "wire",
-    "version": "1.4.43"
+    "version": "1.4.33"
 }
