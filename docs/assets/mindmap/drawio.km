@@ -518,6 +518,23 @@
                                     "text": "自动寻找配置打开授权界面"
                                 },
                                 "children": []
+                            },
+                            {
+                                "data": {
+                                    "id": "d5qrtzfn12g0",
+                                    "created": 1732082020684,
+                                    "text": "代码"
+                                },
+                                "children": [
+                                    {
+                                        "data": {
+                                            "id": "d5qru42gljk0",
+                                            "created": 1732082030771,
+                                            "text": "GitlabClient.js"
+                                        },
+                                        "children": []
+                                    }
+                                ]
                             }
                         ]
                     },
@@ -553,6 +570,14 @@
                                     "id": "d5qr7ngd89s0",
                                     "created": 1732080270595,
                                     "text": "自动寻找配置打开授权界面"
+                                },
+                                "children": []
+                            },
+                            {
+                                "data": {
+                                    "id": "d5qruac1r400",
+                                    "created": 1732082044411,
+                                    "text": "GithubClient.js"
                                 },
                                 "children": []
                             }
