@@ -1024,7 +1024,10 @@
                                     "id": "d5q7l6sky8g0",
                                     "created": 1732024909228,
                                     "text": "scope权限力度",
-                                    "priority": 1
+                                    "priority": 1,
+                                    "resource": [
+                                        "Request"
+                                    ]
                                 },
                                 "children": [
                                     {
@@ -1135,7 +1138,10 @@
                                     "id": "d5q7mydfrmo0",
                                     "created": 1732025047627,
                                     "text": "access_token",
-                                    "progress": 1
+                                    "progress": 1,
+                                    "resource": [
+                                        "Response"
+                                    ]
                                 },
                                 "children": []
                             },
@@ -1143,9 +1149,33 @@
                                 "data": {
                                     "id": "d5q7nkhao880",
                                     "created": 1732025095749,
-                                    "text": "expires_in"
+                                    "text": "expires_in",
+                                    "resource": [
+                                        "Response"
+                                    ]
                                 },
                                 "children": []
+                            },
+                            {
+                                "data": {
+                                    "id": "d5qr3wn9c2g0",
+                                    "created": 1732079977146,
+                                    "text": "redirect_uri",
+                                    "resource": [
+                                        "Request"
+                                    ]
+                                },
+                                "children": [
+                                    {
+                                        "data": {
+                                            "id": "d5qr472iihs0",
+                                            "created": 1732079999836,
+                                            "text": "必须和注册时候相等,否则报错",
+                                            "priority": 1
+                                        },
+                                        "children": []
+                                    }
+                                ]
                             }
                         ]
                     },
@@ -1164,7 +1194,8 @@
                                     "text": "access_token",
                                     "progress": 1,
                                     "resource": [
-                                        "Pair"
+                                        "Pair",
+                                        "Response"
                                     ]
                                 },
                                 "children": []
@@ -1255,9 +1286,33 @@
                                     "id": "d5qqzjyn4mo0",
                                     "created": 1732079636080,
                                     "text": "access_token",
-                                    "progress": 3
+                                    "progress": 3,
+                                    "resource": [
+                                        "Response"
+                                    ]
                                 },
                                 "children": []
+                            },
+                            {
+                                "data": {
+                                    "id": "d5qr2x97biw0",
+                                    "created": 1732079900109,
+                                    "text": "redirect_uri",
+                                    "resource": [
+                                        "Request"
+                                    ]
+                                },
+                                "children": [
+                                    {
+                                        "data": {
+                                            "id": "d5qr35s6ig00",
+                                            "created": 1732079918671,
+                                            "text": "必须和注册时候相等,否则报错",
+                                            "priority": 1
+                                        },
+                                        "children": []
+                                    }
+                                ]
                             }
                         ]
                     },
@@ -1276,7 +1331,8 @@
                                     "text": "access_token",
                                     "progress": 3,
                                     "resource": [
-                                        "Pair"
+                                        "Pair",
+                                        "Request"
                                     ]
                                 },
                                 "children": []
