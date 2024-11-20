@@ -1064,11 +1064,57 @@
                                 "data": {
                                     "id": "d5qit0vo93k0",
                                     "created": 1732056555477,
-                                    "text": "第一次调用后出现在Authorized Github/OAuth Apps里",
+                                    "text": "Authoirzed",
                                     "hyperlink": "https://github.shao.sh/settings/applications",
                                     "hyperlinkTitle": ""
                                 },
-                                "children": []
+                                "children": [
+                                    {
+                                        "data": {
+                                            "id": "d5qqv2p0tps0",
+                                            "created": 1732079285036,
+                                            "text": "Github App"
+                                        },
+                                        "children": [
+                                            {
+                                                "data": {
+                                                    "id": "d5qqvs5q2pk0",
+                                                    "created": 1732079340465,
+                                                    "text": "Install First,否则一直只读权限",
+                                                    "background": "#c00000",
+                                                    "hyperlink": "https://github.shao.sh/github-apps/local-drawio",
+                                                    "hyperlinkTitle": ""
+                                                },
+                                                "children": []
+                                            }
+                                        ]
+                                    },
+                                    {
+                                        "data": {
+                                            "id": "d5qqvejzh1c0",
+                                            "created": 1732079310853,
+                                            "text": "OAuth App"
+                                        },
+                                        "children": [
+                                            {
+                                                "data": {
+                                                    "id": "d5qqyl1t02o0",
+                                                    "created": 1732079560083,
+                                                    "text": "无须安装"
+                                                },
+                                                "children": []
+                                            }
+                                        ]
+                                    },
+                                    {
+                                        "data": {
+                                            "id": "d5qqvip0i5c0",
+                                            "created": 1732079319864,
+                                            "text": "第一次调用后出现在Authorized Github/OAuth Apps里"
+                                        },
+                                        "children": []
+                                    }
+                                ]
                             }
                         ]
                     },
@@ -1157,6 +1203,81 @@
                                     "id": "d5qjckc6hh40",
                                     "created": 1732058086753,
                                     "text": "clientSecret"
+                                },
+                                "children": []
+                            }
+                        ]
+                    },
+                    {
+                        "data": {
+                            "id": "d5qqszifmhs0",
+                            "created": 1732079121379,
+                            "text": "/oauth/authorize",
+                            "priority": 2
+                        },
+                        "children": [
+                            {
+                                "data": {
+                                    "id": "d5qr0rfhpg80",
+                                    "created": 1732079730700,
+                                    "text": "scope粒度",
+                                    "priority": 1
+                                },
+                                "children": [
+                                    {
+                                        "data": {
+                                            "id": "d5qr0vqbhc00",
+                                            "created": 1732079740062,
+                                            "text": "api%20read_repository%20write_repository",
+                                            "resource": [
+                                                "Sample"
+                                            ]
+                                        },
+                                        "children": []
+                                    }
+                                ]
+                            }
+                        ]
+                    },
+                    {
+                        "data": {
+                            "id": "d5qqtote1340",
+                            "created": 1732079176461,
+                            "text": "/oauth/token",
+                            "resource": [
+                                "Callback"
+                            ],
+                            "priority": 3
+                        },
+                        "children": [
+                            {
+                                "data": {
+                                    "id": "d5qqzjyn4mo0",
+                                    "created": 1732079636080,
+                                    "text": "access_token",
+                                    "progress": 3
+                                },
+                                "children": []
+                            }
+                        ]
+                    },
+                    {
+                        "data": {
+                            "id": "d5qqtx3wbdk0",
+                            "created": 1732079194511,
+                            "text": "invoke gitlab API",
+                            "priority": 4
+                        },
+                        "children": [
+                            {
+                                "data": {
+                                    "id": "d5qqz7lind40",
+                                    "created": 1732079609165,
+                                    "text": "access_token",
+                                    "progress": 3,
+                                    "resource": [
+                                        "Pair"
+                                    ]
                                 },
                                 "children": []
                             }
