@@ -41,6 +41,9 @@ jobs:
   build:
     runs-on: [ self-hosted ]
     if: ${{ inputs.DEPLOY_ENV == 'deploy' }} || github.event_name == 'push'
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
     env:
       DRAWIO_EDITOR_URL: https://de.vicp.net:25053
       KITY_MINDER_EDITOR_URL: https://de.vicp.net:25053
