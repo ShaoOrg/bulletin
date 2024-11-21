@@ -36,9 +36,8 @@ on:
 #   cancel-in-progress: false
 
 jobs:
-  # Build job
   build:
     uses: ShaoOrg/bulletin/.github/workflows/github-pages-ci.yml@main
+    with:
+      DEPLOY_ENV: ${{github.event.inputs.DEPLOY_ENV}}
     secrets: inherit
-    # runs-on: [ self-hosted ]
-    # if: ${{ github.event.inputs.DEPLOY_ENV == 'deploy' }} || github.event_name == 'push'
