@@ -14,10 +14,6 @@ on:
         options:
           - "staging"
           - "deploy"
-env:
-  DRAWIO_EDITOR_URL: https://de.vicp.net:25053
-  KITY_MINDER_EDITOR_URL: https://de.vicp.net:25053
-  ASSETS_FOLDER: ${GITHUB_REPOSITORY}/main/docs/assets
 # Sets permissions of the GITHUB_TOKEN to allow deployment to GitHub Pages
 permissions:
   contents: read
@@ -35,6 +31,10 @@ jobs:
   build:
     runs-on: [ self-hosted ]
     if: ${{ github.event.inputs.DEPLOY_ENV == 'deploy' }} || github.event_name == 'push'
+    env:
+      DRAWIO_EDITOR_URL: https://de.vicp.net:25053
+      KITY_MINDER_EDITOR_URL: https://de.vicp.net:25053
+      ASSETS_FOLDER: ${GITHUB_REPOSITORY}/main/docs/assets
     steps:
       - name: Print Env
         run: |
