@@ -836,21 +836,24 @@
                         "data": {
                             "id": "d5o48iz83c00",
                             "created": 1731812333774,
-                            "text": "SSH"
+                            "text": "SSH",
+                            "expandState": "expand"
                         },
                         "children": [
                             {
                                 "data": {
                                     "id": "d5o4az8xljs0",
                                     "created": 1731812525918,
-                                    "text": "Server"
+                                    "text": "Server",
+                                    "expandState": "expand"
                                 },
                                 "children": [
                                     {
                                         "data": {
                                             "id": "d5o4b44s6g00",
                                             "created": 1731812536551,
-                                            "text": "~/.ssh/authorized_keys"
+                                            "text": "~/.ssh/authorized_keys",
+                                            "expandState": "expand"
                                         },
                                         "children": [
                                             {
@@ -962,8 +965,8 @@
                 "data": {
                     "id": "d5q7ealee740",
                     "created": 1732024368952,
-                    "text": "Github App",
-                    "expandState": "collapse"
+                    "text": "Github Applications",
+                    "expandState": "expand"
                 },
                 "children": [
                     {
@@ -971,7 +974,8 @@
                             "id": "d5q7efi9vwo0",
                             "created": 1732024379647,
                             "text": "Register",
-                            "priority": 1
+                            "priority": 1,
+                            "expandState": "expand"
                         },
                         "children": [
                             {
@@ -1065,6 +1069,14 @@
                                             ]
                                         },
                                         "children": []
+                                    },
+                                    {
+                                        "data": {
+                                            "id": "d5rk8n9oufc0",
+                                            "created": 1732162160743,
+                                            "text": "只对OAuth App有效"
+                                        },
+                                        "children": []
                                     }
                                 ]
                             },
@@ -1094,6 +1106,15 @@
                                                     "hyperlinkTitle": ""
                                                 },
                                                 "children": []
+                                            },
+                                            {
+                                                "data": {
+                                                    "id": "d5rk98ybymo0",
+                                                    "created": 1732162207945,
+                                                    "text": "access_token权限取决于授予它的用户和GitHub App的Permissions",
+                                                    "background": "#fbd4b4"
+                                                },
+                                                "children": []
                                             }
                                         ]
                                     },
@@ -1111,6 +1132,15 @@
                                                     "text": "无须安装"
                                                 },
                                                 "children": []
+                                            },
+                                            {
+                                                "data": {
+                                                    "id": "d5rk9wjdx540",
+                                                    "created": 1732162259284,
+                                                    "text": "access_token权限取决于scope和授权它的用户",
+                                                    "background": "#fbd4b4"
+                                                },
+                                                "children": []
                                             }
                                         ]
                                     },
@@ -1118,7 +1148,8 @@
                                         "data": {
                                             "id": "d5qqvip0i5c0",
                                             "created": 1732079319864,
-                                            "text": "第一次调用后出现在Authorized Github/OAuth Apps里"
+                                            "text": "用户授权它后出现在Authorized Github/OAuth Apps里",
+                                            "background": "#fbd4b4"
                                         },
                                         "children": []
                                     }
@@ -1213,7 +1244,7 @@
                 "data": {
                     "id": "d5q7w6r52000",
                     "created": 1732025771147,
-                    "text": "Gitlab App",
+                    "text": "Gitlab Applications",
                     "expandState": "collapse"
                 },
                 "children": [
@@ -1352,7 +1383,7 @@
                     "id": "d5rgjidk94o0",
                     "created": 1732151727659,
                     "text": "Token",
-                    "expandState": "expand"
+                    "expandState": "collapse"
                 },
                 "children": [
                     {
@@ -1941,29 +1972,113 @@
                 "children": [
                     {
                         "data": {
-                            "id": "d5rhn2ymry00",
-                            "created": 1732154828671,
-                            "text": ".config/hosts.yml",
-                            "note": "github.shao.sh:\n    users:\n        ssz:\n            oauth_token: gho_xxx\n    git_protocol: https\n    oauth_token: gho_xxx\n    user: ssz"
+                            "id": "d5rhog02p8w0",
+                            "created": 1732154935422,
+                            "text": "DeviceFlow生成",
+                            "hyperlink": "https://de.vicp.net:25053/drawio/github.drawio/",
+                            "hyperlinkTitle": ""
+                        },
+                        "children": []
+                    },
+                    {
+                        "data": {
+                            "id": "d5rk4jf0qn40",
+                            "created": 1732161838901,
+                            "text": "gh auth login",
+                            "expandState": "expand",
+                            "progress": 1
                         },
                         "children": [
                             {
                                 "data": {
-                                    "id": "d5rhnhbfqp40",
-                                    "created": 1732154859920,
-                                    "text": "hosted in ~"
+                                    "id": "d5rhn2ymry00",
+                                    "created": 1732154828671,
+                                    "text": ".config/hosts.yml",
+                                    "note": "github.shao.sh:\n    users:\n        ssz:\n            oauth_token: gho_xxx\n    git_protocol: https\n    oauth_token: gho_xxx\n    user: ssz"
                                 },
-                                "children": []
+                                "children": [
+                                    {
+                                        "data": {
+                                            "id": "d5rhnhbfqp40",
+                                            "created": 1732154859920,
+                                            "text": "hosted in ~"
+                                        },
+                                        "children": []
+                                    },
+                                    {
+                                        "data": {
+                                            "id": "d5rk5k5qkm80",
+                                            "created": 1732161918881,
+                                            "text": "access_token"
+                                        },
+                                        "children": []
+                                    },
+                                    {
+                                        "data": {
+                                            "id": "d5rk5n7spow0",
+                                            "created": 1732161925536,
+                                            "text": "gh host"
+                                        },
+                                        "children": []
+                                    },
+                                    {
+                                        "data": {
+                                            "id": "d5rk5sa9vq80",
+                                            "created": 1732161936569,
+                                            "text": "user"
+                                        },
+                                        "children": []
+                                    }
+                                ]
                             }
                         ]
                     },
                     {
                         "data": {
-                            "id": "d5rhog02p8w0",
-                            "created": 1732154935422,
-                            "text": "DeviceFlow生成"
+                            "id": "d5rk3ok4up40",
+                            "created": 1732161771730,
+                            "text": "环境变量",
+                            "resource": [
+                                "Or"
+                            ],
+                            "progress": 1
                         },
-                        "children": []
+                        "children": [
+                            {
+                                "data": {
+                                    "id": "d5rk3slnpk00",
+                                    "created": 1732161780529,
+                                    "text": "GH_HOST"
+                                },
+                                "children": [
+                                    {
+                                        "data": {
+                                            "id": "d5rk5anxvxs0",
+                                            "created": 1732161898214,
+                                            "text": "github.shao.sh"
+                                        },
+                                        "children": []
+                                    }
+                                ]
+                            },
+                            {
+                                "data": {
+                                    "id": "d5rk3vx4fkg0",
+                                    "created": 1732161787753,
+                                    "text": "GH_ENTERPRISE_TOKEN"
+                                },
+                                "children": [
+                                    {
+                                        "data": {
+                                            "id": "d5rk53u91cg0",
+                                            "created": 1732161883358,
+                                            "text": "access_token"
+                                        },
+                                        "children": []
+                                    }
+                                ]
+                            }
+                        ]
                     }
                 ]
             }
@@ -1971,5 +2086,5 @@
     },
     "template": "default",
     "theme": "wire",
-    "version": "1.4.33"
+    "version": "1.4.43"
 }
