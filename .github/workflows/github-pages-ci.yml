@@ -34,7 +34,7 @@ jobs:
     env:
       DRAWIO_EDITOR_URL: https://de.vicp.net:25053
       KITY_MINDER_EDITOR_URL: https://de.vicp.net:25053
-      ASSETS_FOLDER: ${GITHUB_REPOSITORY}/main/docs/assets
+      ASSETS_FOLDER: ${{ vars.GITHUB_REPOSITORY }}/main/docs/assets
     steps:
       - name: Print Env
         run: |
