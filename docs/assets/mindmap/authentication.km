@@ -1368,7 +1368,7 @@
                                     "id": "d5rgq6lwcoo0",
                                     "created": 1732152250591,
                                     "text": "Organization",
-                                    "expandState": "collapse"
+                                    "expandState": "expand"
                                 },
                                 "children": [
                                     {
@@ -1672,6 +1672,34 @@
                                                     "id": "d5rhp7dfh4w0",
                                                     "created": 1732154995001,
                                                     "text": "每次JOB重新生成"
+                                                },
+                                                "children": []
+                                            }
+                                        ]
+                                    }
+                                ]
+                            },
+                            {
+                                "data": {
+                                    "id": "d5rhz1yyl000",
+                                    "created": 1732155766884,
+                                    "text": "Instance"
+                                },
+                                "children": [
+                                    {
+                                        "data": {
+                                            "id": "d5rhze5teps0",
+                                            "created": 1732155793420,
+                                            "text": "Personal Access Tokens policies",
+                                            "hyperlink": "https://github.shao.sh/enterprises/ssz/settings/personal-access-tokens-onboarding",
+                                            "hyperlinkTitle": ""
+                                        },
+                                        "children": [
+                                            {
+                                                "data": {
+                                                    "id": "d5ri0akguq00",
+                                                    "created": 1732155863963,
+                                                    "text": "缺省Fine-grained不能访问\n这里可以设置它可访问"
                                                 },
                                                 "children": []
                                             }
