@@ -57,6 +57,7 @@ jobs:
       # - name: Setup Pages
       #   uses: actions/configure-pages@v4
       - name: Build documentation
+        shell: bash
         run: |
           pushd ~ || exit 1
           [ -d github-python-sszorg-bulletin ] || {
