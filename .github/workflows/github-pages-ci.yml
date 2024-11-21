@@ -74,16 +74,19 @@ jobs:
         uses: actions/upload-pages-artifact@v2
         with:
           path: site
-
-  # Deployment job
-  deploy:
-    environment:
-      name: github-pages
-      url: ${{ steps.deployment.outputs.page_url }}
-    runs-on: [ self-hosted ]
-    if: ${{ inputs.DEPLOY_ENV == 'deploy' }}|| github.event_name == 'push'
-    needs: build
-    steps:
       - name: Deploy to GitHub Pages
         id: deployment
         uses: actions/deploy-pages@v3
+
+  # Deployment job
+  # deploy:
+  #   environment:
+  #     name: github-pages
+  #     url: ${{ steps.deployment.outputs.page_url }}
+  #   runs-on: [ self-hosted ]
+  #   if: ${{ inputs.DEPLOY_ENV == 'deploy' }}|| github.event_name == 'push'
+  #   needs: build
+  #   steps:
+  #     - name: Deploy to GitHub Pages
+  #       id: deployment
+  #       uses: actions/deploy-pages@v3
