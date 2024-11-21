@@ -1408,6 +1408,16 @@
                                                 "children": []
                                             }
                                         ]
+                                    },
+                                    {
+                                        "data": {
+                                            "id": "d5ric73b8bs0",
+                                            "created": 1732156796765,
+                                            "text": "保留组织的设置",
+                                            "hyperlink": "https://github.shao.sh/stafftools/users/github-enterprise/apps",
+                                            "hyperlinkTitle": ""
+                                        },
+                                        "children": []
                                     }
                                 ]
                             },
