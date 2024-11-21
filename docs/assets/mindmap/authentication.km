@@ -4,14 +4,16 @@
             "id": "d5kmjeh86ns0",
             "created": 1731457726136,
             "text": "鉴权",
-            "background": "#fbd4b4"
+            "background": "#fbd4b4",
+            "expandState": "expand"
         },
         "children": [
             {
                 "data": {
                     "id": "d5kmjindgcw0",
                     "created": 1731457735215,
-                    "text": "Python"
+                    "text": "Python",
+                    "expandState": "collapse"
                 },
                 "children": [
                     {
@@ -463,7 +465,8 @@
                 "data": {
                     "id": "d5kn5a9kr5s0",
                     "created": 1731459440978,
-                    "text": "NuGet"
+                    "text": "NuGet",
+                    "expandState": "collapse"
                 },
                 "children": [
                     {
@@ -522,7 +525,8 @@
                 "data": {
                     "id": "d5kshiq8sk80",
                     "created": 1731474505320,
-                    "text": "Yum"
+                    "text": "Yum",
+                    "expandState": "collapse"
                 },
                 "children": [
                     {
@@ -958,7 +962,8 @@
                 "data": {
                     "id": "d5q7ealee740",
                     "created": 1732024368952,
-                    "text": "Github App"
+                    "text": "Github App",
+                    "expandState": "collapse"
                 },
                 "children": [
                     {
@@ -1208,7 +1213,8 @@
                 "data": {
                     "id": "d5q7w6r52000",
                     "created": 1732025771147,
-                    "text": "Gitlab App"
+                    "text": "Gitlab App",
+                    "expandState": "collapse"
                 },
                 "children": [
                     {
@@ -1338,6 +1344,319 @@
                                 "children": []
                             }
                         ]
+                    }
+                ]
+            },
+            {
+                "data": {
+                    "id": "d5rgjidk94o0",
+                    "created": 1732151727659,
+                    "text": "Token"
+                },
+                "children": [
+                    {
+                        "data": {
+                            "id": "d5rgjlsvbjk0",
+                            "created": 1732151735115,
+                            "text": "GitHub"
+                        },
+                        "children": [
+                            {
+                                "data": {
+                                    "id": "d5rgq6lwcoo0",
+                                    "created": 1732152250591,
+                                    "text": "Organization"
+                                },
+                                "children": [
+                                    {
+                                        "data": {
+                                            "id": "d5rgqdq2uu80",
+                                            "created": 1732152266081,
+                                            "text": "GitHub Apps",
+                                            "hyperlink": "https://github.shao.sh/organizations/ShaoOrg/settings/installations",
+                                            "hyperlinkTitle": ""
+                                        },
+                                        "children": [
+                                            {
+                                                "data": {
+                                                    "id": "d5rgrpn0gbk0",
+                                                    "created": 1732152370381,
+                                                    "text": "已安装的GitHub Apps"
+                                                },
+                                                "children": []
+                                            }
+                                        ]
+                                    },
+                                    {
+                                        "data": {
+                                            "id": "d5rgqqdrbns0",
+                                            "created": 1732152293634,
+                                            "text": "Personal Access Tokens",
+                                            "hyperlink": "https://github.shao.sh/organizations/ShaoOrg/settings/personal-access-tokens-onboarding",
+                                            "hyperlinkTitle": ""
+                                        },
+                                        "children": [
+                                            {
+                                                "data": {
+                                                    "id": "d5rgr359m5s0",
+                                                    "created": 1732152321419,
+                                                    "text": "缺省Fine-grained不能访问\n这里可以设置它可访问"
+                                                },
+                                                "children": []
+                                            }
+                                        ]
+                                    }
+                                ]
+                            },
+                            {
+                                "data": {
+                                    "id": "d5rgo41q9ns0",
+                                    "created": 1732152088290,
+                                    "text": "Repository"
+                                },
+                                "children": [
+                                    {
+                                        "data": {
+                                            "id": "d5rgoaz3gyo0",
+                                            "created": 1732152103368,
+                                            "text": "Deploy Keys",
+                                            "hyperlink": "https://github.shao.sh/ShaoOrg/bulletin/settings/keys",
+                                            "hyperlinkTitle": ""
+                                        },
+                                        "children": []
+                                    }
+                                ]
+                            },
+                            {
+                                "data": {
+                                    "id": "d5rgjtpgxns0",
+                                    "created": 1732151752324,
+                                    "text": "Personal",
+                                    "hyperlink": "https://github.shao.sh/settings/apps",
+                                    "hyperlinkTitle": ""
+                                },
+                                "children": [
+                                    {
+                                        "data": {
+                                            "id": "d5rgl1uf3ww0",
+                                            "created": 1732151848401,
+                                            "text": "GitHub Apps"
+                                        },
+                                        "children": [
+                                            {
+                                                "data": {
+                                                    "id": "d5rgudvri8w0",
+                                                    "created": 1732152579882,
+                                                    "text": "Server",
+                                                    "expandState": "expand"
+                                                },
+                                                "children": [
+                                                    {
+                                                        "data": {
+                                                            "id": "d5rgtpwkx8o0",
+                                                            "created": 1732152527688,
+                                                            "text": "Public link",
+                                                            "priority": 1,
+                                                            "resource": [
+                                                                "Share"
+                                                            ]
+                                                        },
+                                                        "children": []
+                                                    },
+                                                    {
+                                                        "data": {
+                                                            "id": "d5rgwahwy880",
+                                                            "created": 1732152729242,
+                                                            "text": "Fine-grained Permissions"
+                                                        },
+                                                        "children": []
+                                                    },
+                                                    {
+                                                        "data": {
+                                                            "id": "d5rgv9e81280",
+                                                            "created": 1732152648478,
+                                                            "text": "Callback URL"
+                                                        },
+                                                        "children": []
+                                                    },
+                                                    {
+                                                        "data": {
+                                                            "id": "d5rh28r3ee00",
+                                                            "created": 1732153195629,
+                                                            "text": "Event Webhook",
+                                                            "resource": [
+                                                                "Optional"
+                                                            ],
+                                                            "expandState": "expand"
+                                                        },
+                                                        "children": [
+                                                            {
+                                                                "data": {
+                                                                    "id": "d5rgvhi3ark0",
+                                                                    "created": 1732152666126,
+                                                                    "text": "Callback URL"
+                                                                },
+                                                                "children": []
+                                                            },
+                                                            {
+                                                                "data": {
+                                                                    "id": "d5rh2s5ffig0",
+                                                                    "created": 1732153237854,
+                                                                    "text": "Secret"
+                                                                },
+                                                                "children": []
+                                                            }
+                                                        ]
+                                                    },
+                                                    {
+                                                        "data": {
+                                                            "id": "d5rh32hhau00",
+                                                            "created": 1732153260351,
+                                                            "text": "Device Flow",
+                                                            "resource": [
+                                                                "Optional"
+                                                            ]
+                                                        },
+                                                        "children": []
+                                                    },
+                                                    {
+                                                        "data": {
+                                                            "id": "d5rh3e8eluo0",
+                                                            "created": 1732153285923,
+                                                            "text": "Post Install",
+                                                            "resource": [
+                                                                "Optional"
+                                                            ]
+                                                        },
+                                                        "children": [
+                                                            {
+                                                                "data": {
+                                                                    "id": "d5rh3i67sf40",
+                                                                    "created": 1732153294498,
+                                                                    "text": "Callback URL"
+                                                                },
+                                                                "children": []
+                                                            }
+                                                        ]
+                                                    }
+                                                ]
+                                            },
+                                            {
+                                                "data": {
+                                                    "id": "d5rgugzb9dc0",
+                                                    "created": 1732152586627,
+                                                    "text": "Client",
+                                                    "expandState": "expand"
+                                                },
+                                                "children": [
+                                                    {
+                                                        "data": {
+                                                            "id": "d5rgtsvv8200",
+                                                            "created": 1732152534175,
+                                                            "text": "Client Id"
+                                                        },
+                                                        "children": []
+                                                    },
+                                                    {
+                                                        "data": {
+                                                            "id": "d5rgtx0zx800",
+                                                            "created": 1732152543193,
+                                                            "text": "Client Secret"
+                                                        },
+                                                        "children": []
+                                                    }
+                                                ]
+                                            }
+                                        ]
+                                    },
+                                    {
+                                        "data": {
+                                            "id": "d5rglpwxdqw0",
+                                            "created": 1732151900796,
+                                            "text": "OAuth Apps"
+                                        },
+                                        "children": [
+                                            {
+                                                "data": {
+                                                    "id": "d5rguwzsku80",
+                                                    "created": 1732152621484,
+                                                    "text": "Server"
+                                                },
+                                                "children": [
+                                                    {
+                                                        "data": {
+                                                            "id": "d5rguzuhb9c0",
+                                                            "created": 1732152627693,
+                                                            "text": "Callback URL"
+                                                        },
+                                                        "children": []
+                                                    }
+                                                ]
+                                            },
+                                            {
+                                                "data": {
+                                                    "id": "d5rgupqmmo80",
+                                                    "created": 1732152605692,
+                                                    "text": "Client",
+                                                    "expandState": "expand"
+                                                },
+                                                "children": [
+                                                    {
+                                                        "data": {
+                                                            "id": "d5rgu2dx4bc0",
+                                                            "created": 1732152554858,
+                                                            "text": "Client Id"
+                                                        },
+                                                        "children": []
+                                                    },
+                                                    {
+                                                        "data": {
+                                                            "id": "d5rgu5ltigo0",
+                                                            "created": 1732152561866,
+                                                            "text": "Client Secret"
+                                                        },
+                                                        "children": []
+                                                    }
+                                                ]
+                                            }
+                                        ]
+                                    },
+                                    {
+                                        "data": {
+                                            "id": "d5rglyt5aw00",
+                                            "created": 1732151920158,
+                                            "text": "Personal Access Tokens"
+                                        },
+                                        "children": [
+                                            {
+                                                "data": {
+                                                    "id": "d5rgmgz5ojk0",
+                                                    "created": 1732151959704,
+                                                    "text": "Fine-grained"
+                                                },
+                                                "children": []
+                                            },
+                                            {
+                                                "data": {
+                                                    "id": "d5rgnbzc6ls0",
+                                                    "created": 1732152027195,
+                                                    "text": "Classic"
+                                                },
+                                                "children": []
+                                            }
+                                        ]
+                                    }
+                                ]
+                            }
+                        ]
+                    },
+                    {
+                        "data": {
+                            "id": "d5rgjq0cseg0",
+                            "created": 1732151744275,
+                            "text": "GitLab"
+                        },
+                        "children": []
                     }
                 ]
             }
