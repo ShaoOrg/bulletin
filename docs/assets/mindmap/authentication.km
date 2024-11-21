@@ -178,7 +178,7 @@
                     "id": "d5kml9fjydk0",
                     "created": 1731457871880,
                     "text": "Npm",
-                    "expandState": "collapse"
+                    "expandState": "expand"
                 },
                 "children": [
                     {
@@ -1351,7 +1351,8 @@
                 "data": {
                     "id": "d5rgjidk94o0",
                     "created": 1732151727659,
-                    "text": "Token"
+                    "text": "Token",
+                    "expandState": "expand"
                 },
                 "children": [
                     {
@@ -1359,14 +1360,15 @@
                             "id": "d5rgjlsvbjk0",
                             "created": 1732151735115,
                             "text": "GitHub",
-                            "expandState": "collapse"
+                            "expandState": "expand"
                         },
                         "children": [
                             {
                                 "data": {
                                     "id": "d5rgq6lwcoo0",
                                     "created": 1732152250591,
-                                    "text": "Organization"
+                                    "text": "Organization",
+                                    "expandState": "collapse"
                                 },
                                 "children": [
                                     {
@@ -1413,7 +1415,8 @@
                                 "data": {
                                     "id": "d5rgo41q9ns0",
                                     "created": 1732152088290,
-                                    "text": "Repository"
+                                    "text": "Repository",
+                                    "expandState": "collapse"
                                 },
                                 "children": [
                                     {
@@ -1434,7 +1437,8 @@
                                     "created": 1732151752324,
                                     "text": "Personal",
                                     "hyperlink": "https://github.shao.sh/settings/apps",
-                                    "hyperlinkTitle": ""
+                                    "hyperlinkTitle": "",
+                                    "expandState": "collapse"
                                 },
                                 "children": [
                                     {
@@ -1648,6 +1652,32 @@
                                         ]
                                     }
                                 ]
+                            },
+                            {
+                                "data": {
+                                    "id": "d5rhoxjrg200",
+                                    "created": 1732154973616,
+                                    "text": "WorkFlow"
+                                },
+                                "children": [
+                                    {
+                                        "data": {
+                                            "id": "d5rhp0wjg740",
+                                            "created": 1732154980919,
+                                            "text": "GITHUB_TOKEN"
+                                        },
+                                        "children": [
+                                            {
+                                                "data": {
+                                                    "id": "d5rhp7dfh4w0",
+                                                    "created": 1732154995001,
+                                                    "text": "每次JOB重新生成"
+                                                },
+                                                "children": []
+                                            }
+                                        ]
+                                    }
+                                ]
                             }
                         ]
                     },
@@ -1847,12 +1877,55 @@
                                                     "hyperlinkTitle": ""
                                                 },
                                                 "children": []
+                                            },
+                                            {
+                                                "data": {
+                                                    "id": "d5rhpi61kr40",
+                                                    "created": 1732155018499,
+                                                    "text": "每次JOB重新生成"
+                                                },
+                                                "children": []
                                             }
                                         ]
                                     }
                                 ]
                             }
                         ]
+                    }
+                ]
+            },
+            {
+                "data": {
+                    "id": "d5rhmj3r1kw0",
+                    "created": 1732154785445,
+                    "text": "GitHub CLI"
+                },
+                "children": [
+                    {
+                        "data": {
+                            "id": "d5rhn2ymry00",
+                            "created": 1732154828671,
+                            "text": ".config/hosts.yml",
+                            "note": "github.shao.sh:\n    users:\n        ssz:\n            oauth_token: gho_xxx\n    git_protocol: https\n    oauth_token: gho_xxx\n    user: ssz"
+                        },
+                        "children": [
+                            {
+                                "data": {
+                                    "id": "d5rhnhbfqp40",
+                                    "created": 1732154859920,
+                                    "text": "hosted in ~"
+                                },
+                                "children": []
+                            }
+                        ]
+                    },
+                    {
+                        "data": {
+                            "id": "d5rhog02p8w0",
+                            "created": 1732154935422,
+                            "text": "DeviceFlow生成"
+                        },
+                        "children": []
                     }
                 ]
             }
