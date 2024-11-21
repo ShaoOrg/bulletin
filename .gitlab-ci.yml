@@ -16,9 +16,10 @@
 # This specific template is located at:
 # https://gitlab.com/gitlab-org/gitlab/-/blob/master/lib/gitlab/ci/templates/Getting-Started.gitlab-ci.yml
 
+include:
+  - local: gitlab-deploy-template.yml
 stages:          # List of stages for jobs, and their order of execution
   - build
-  - test
   - deploy
 
 variables:
@@ -42,28 +43,3 @@ build-job:       # This job runs in the build stage, which runs first.
     - echo "Compiling the code..."
     - echo "ORG_VAR is $ORG_VAR, REPO_VAR is $REPO_VAR, CI_VAR is $CI_VAR"
     - echo "Compile complete."
-pages:
-  stage: deploy
-  script:
-    - echo "setup python"
-    - |
-      pushd ~ || exit 1
-      [ -d gitlab-python-sszorg-bulletin ] || {
-        python3 -m venv gitlab-python-sszorg-bulletin
-      }
-      source gitlab-python-sszorg-bulletin/bin/activate
-      popd || exit 1
-      pwd
-    - |
-      pip install mkdocs-material mkdocs-drawio-km jieba
-      ./generate_md.sh $(pwd)
-      mkdocs build --clean --site-dir public
-      mkdocs --version
-  artifacts:
-    paths:
-      - public
-  rules: # 多个rule是或的关系
-    - changes:
-      - docs/**
-      - .gitlab-ci.yml
-    - if: $DEPLOY_ENV == "deploy"

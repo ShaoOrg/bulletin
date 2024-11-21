@@ -1,0 +1,33 @@
+spec:
+  inputs:
+    environment:
+      default: staging
+    stage:
+      default: deploy
+---
+# 必须是pages作为名字
+pages:
+  stage: $[[ inputs.stage ]]
+  script:
+    - echo "setup python"
+    - |
+      pushd ~ || exit 1
+      [ -d gitlab-python-sszorg-bulletin ] || {
+        python3 -m venv gitlab-python-sszorg-bulletin
+      }
+      source gitlab-python-sszorg-bulletin/bin/activate
+      popd || exit 1
+      pwd
+    - |
+      pip install mkdocs-material mkdocs-drawio-km jieba
+      ./generate_md.sh $(pwd)
+      mkdocs build --clean --site-dir public
+      mkdocs --version
+  artifacts:
+    paths:
+      - public
+  rules: # 多个rule是或的关系
+    - changes:
+      - docs/**
+      - .gitlab-ci.yml
+    - if: $DEPLOY_ENV == "deploy"
