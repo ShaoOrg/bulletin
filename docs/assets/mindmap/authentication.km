@@ -1358,7 +1358,8 @@
                         "data": {
                             "id": "d5rgjlsvbjk0",
                             "created": 1732151735115,
-                            "text": "GitHub"
+                            "text": "GitHub",
+                            "expandState": "collapse"
                         },
                         "children": [
                             {
@@ -1656,7 +1657,202 @@
                             "created": 1732151744275,
                             "text": "GitLab"
                         },
-                        "children": []
+                        "children": [
+                            {
+                                "data": {
+                                    "id": "d5rh66jkqps0",
+                                    "created": 1732153504277,
+                                    "text": "Group"
+                                },
+                                "children": [
+                                    {
+                                        "data": {
+                                            "id": "d5rhhe4ax8w0",
+                                            "created": 1732154382774,
+                                            "text": "Access Token",
+                                            "hyperlink": "https://de.vicp.net:58443/groups/ShaoOrg/-/settings/access_tokens",
+                                            "hyperlinkTitle": ""
+                                        },
+                                        "children": []
+                                    },
+                                    {
+                                        "data": {
+                                            "id": "d5rhht5wkq00",
+                                            "created": 1732154415522,
+                                            "text": "LDAP synchronizations",
+                                            "hyperlink": "https://de.vicp.net:58443/groups/ShaoOrg/-/ldap_group_links",
+                                            "hyperlinkTitle": ""
+                                        },
+                                        "children": []
+                                    },
+                                    {
+                                        "data": {
+                                            "id": "d5rhikjqla80",
+                                            "created": 1732154475133,
+                                            "text": "Deploy tokens",
+                                            "hyperlink": "https://de.vicp.net:58443/groups/ShaoOrg/-/settings/repository",
+                                            "hyperlinkTitle": ""
+                                        },
+                                        "children": []
+                                    },
+                                    {
+                                        "data": {
+                                            "id": "d5rhj4rfkxk0",
+                                            "created": 1732154519133,
+                                            "text": "Applications",
+                                            "hyperlink": "https://de.vicp.net:58443/groups/ShaoOrg/-/settings/applications",
+                                            "hyperlinkTitle": ""
+                                        },
+                                        "children": []
+                                    }
+                                ]
+                            },
+                            {
+                                "data": {
+                                    "id": "d5rh6aew9sw0",
+                                    "created": 1732153512701,
+                                    "text": "Project"
+                                },
+                                "children": [
+                                    {
+                                        "data": {
+                                            "id": "d5rh6jtzy9k0",
+                                            "created": 1732153533206,
+                                            "text": "Access Token",
+                                            "hyperlink": "https://de.vicp.net:58443/SszOrg/ci-cd-event-demo/-/settings/access_tokens",
+                                            "hyperlinkTitle": ""
+                                        },
+                                        "children": []
+                                    },
+                                    {
+                                        "data": {
+                                            "id": "d5rhc4arlq80",
+                                            "created": 1732153969576,
+                                            "text": "Pipeline trigger tokens",
+                                            "hyperlink": "https://de.vicp.net:58443/ShaoOrg/bulletin/-/settings/ci_cd",
+                                            "hyperlinkTitle": ""
+                                        },
+                                        "children": []
+                                    },
+                                    {
+                                        "data": {
+                                            "id": "d5rhe0tnre00",
+                                            "created": 1732154118739,
+                                            "text": "Deploy tokens",
+                                            "hyperlink": "https://de.vicp.net:58443/ShaoOrg/bulletin/-/settings/repository",
+                                            "hyperlinkTitle": ""
+                                        },
+                                        "children": []
+                                    },
+                                    {
+                                        "data": {
+                                            "id": "d5rhe55vpl40",
+                                            "created": 1732154128186,
+                                            "text": "Deploy keys",
+                                            "hyperlink": "https://de.vicp.net:58443/ShaoOrg/bulletin/-/settings/repository",
+                                            "hyperlinkTitle": ""
+                                        },
+                                        "children": []
+                                    },
+                                    {
+                                        "data": {
+                                            "id": "d5rhg5a9j740",
+                                            "created": 1732154285179,
+                                            "text": "Secure files",
+                                            "hyperlink": "https://de.vicp.net:58443/ShaoOrg/bulletin/-/settings/ci_cd",
+                                            "hyperlinkTitle": ""
+                                        },
+                                        "children": []
+                                    }
+                                ]
+                            },
+                            {
+                                "data": {
+                                    "id": "d5rh6cost5c0",
+                                    "created": 1732153517654,
+                                    "text": "Personal"
+                                },
+                                "children": [
+                                    {
+                                        "data": {
+                                            "id": "d5rh80xjrug0",
+                                            "created": 1732153648790,
+                                            "text": "SSH Keys",
+                                            "hyperlink": "https://de.vicp.net:58443/-/user_settings/ssh_keys",
+                                            "hyperlinkTitle": ""
+                                        },
+                                        "children": []
+                                    },
+                                    {
+                                        "data": {
+                                            "id": "d5rh86p0zsw0",
+                                            "created": 1732153661335,
+                                            "text": "GPG Keys",
+                                            "hyperlink": "https://de.vicp.net:58443/-/user_settings/gpg_keys",
+                                            "hyperlinkTitle": ""
+                                        },
+                                        "children": []
+                                    },
+                                    {
+                                        "data": {
+                                            "id": "d5rh932ew3k0",
+                                            "created": 1732153731802,
+                                            "text": "Personal Access Token",
+                                            "hyperlink": "https://de.vicp.net:58443/-/user_settings/personal_access_tokens",
+                                            "hyperlinkTitle": ""
+                                        },
+                                        "children": []
+                                    },
+                                    {
+                                        "data": {
+                                            "id": "d5rha1ezt3k0",
+                                            "created": 1732153806573,
+                                            "text": "Applications",
+                                            "hyperlink": "https://de.vicp.net:58443/-/user_settings/applications",
+                                            "hyperlinkTitle": ""
+                                        },
+                                        "children": [
+                                            {
+                                                "data": {
+                                                    "id": "d5rha7keez40",
+                                                    "created": 1732153819960,
+                                                    "text": "类似于GitHub OAuth Apps"
+                                                },
+                                                "children": []
+                                            }
+                                        ]
+                                    }
+                                ]
+                            },
+                            {
+                                "data": {
+                                    "id": "d5rh6z5ra5c0",
+                                    "created": 1732153566568,
+                                    "text": "WorkFlow"
+                                },
+                                "children": [
+                                    {
+                                        "data": {
+                                            "id": "d5rhba8pwz40",
+                                            "created": 1732153904149,
+                                            "text": "CI_JOB_TOKEN"
+                                        },
+                                        "children": [
+                                            {
+                                                "data": {
+                                                    "id": "d5rhclhyxc80",
+                                                    "created": 1732154007017,
+                                                    "text": "Job token permissions",
+                                                    "hyperlink": "https://de.vicp.net:58443/ShaoOrg/bulletin/-/settings/ci_cd",
+                                                    "hyperlinkTitle": ""
+                                                },
+                                                "children": []
+                                            }
+                                        ]
+                                    }
+                                ]
+                            }
+                        ]
                     }
                 ]
             }
