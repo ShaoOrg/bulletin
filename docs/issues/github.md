@@ -168,3 +168,7 @@ GITHUB_ACTION_REF=
 GITHUB_WORKFLOW=CI
 GITHUB_OUTPUT=/root/actions-runner/_work/_temp/_runner_file_commands/set_output_419e58a1-8d99-45fe-bcbd-14e1bb941c65
 ```
+###### Shared workflow
+- [](https://resources.github.com/learn/pathways/automation/intermediate/create-reusable-workflows-in-github-actions/)
+- [](https://github.com/orgs/community/discussions/63863)
+- [](https://brandur.org/fragments/github-actions-env-vars-in-env-vars)
