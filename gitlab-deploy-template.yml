@@ -24,7 +24,8 @@ pages:
       popd || exit 1
       pwd
     - |
-      pip install mkdocs-material mkdocs-drawio-km jieba
+      pip install mkdocs-material jieba
+      pip install mkdocs-drawio-km --upgrade
       ./generate_md.sh $(pwd)
       mkdocs build --clean --site-dir public
       mkdocs --version

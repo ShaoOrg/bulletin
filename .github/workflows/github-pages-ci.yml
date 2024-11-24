@@ -70,7 +70,8 @@ jobs:
           popd || exit 1
           pwd
           ./generate_md.sh $(pwd)
-          pip install mkdocs-material mkdocs-drawio-km jieba
+          pip install mkdocs-material jieba
+          pip install mkdocs-drawio-km --upgrade
           mkdocs build --clean
           mkdocs --version
       - name: Upload to GitHub Pages
