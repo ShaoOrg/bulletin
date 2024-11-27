@@ -32,9 +32,9 @@ pages:
   artifacts:
     paths:
       - public
-  rules: # 多个rule是或的关系
-    - changes:
-      - docs/**
-      - .gitlab-ci.yml
-      - gitlab-deploy-template.yml
+  # rules: # 多个rule是或的关系
+  #   - changes:
+  #     - docs/**
+  #     - .gitlab-ci.yml
+  #     - gitlab-deploy-template.yml
     # - if: $DEPLOY_ENV == "deploy"
