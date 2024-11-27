@@ -152,13 +152,7 @@ plugins:  #插件
 
       kity_minder_container_extra_javascript: |
         document.getElementById('btn-${minder_view_id}-new') && document.getElementById('btn-${minder_view_id}-new').addEventListener('click', function() {
-            const file = this.getAttribute("file").replace(/.*\/assets\//, '');
-            const fileArray = file.split("/");
-            fileArray.pop();
-            const dirname = fileArray.join("/");
-            let newFile = window.prompt("新建文件名字,如果不已.km结尾,自动加上");
-            newFile.endsWith(".km") || (newFile += ".km");
-            window.open("${KITY_MINDER_EDITOR_URL}/local-kity-minder/" + dirname + "/" + newFile);
+            window.open("${KITY_MINDER_EDITOR_URL}/local-kity-minder/" + drawio_get_new_file(this.getAttribute("file")));
         });
         document.getElementById('btn-${minder_view_id}-edit') && document.getElementById('btn-${minder_view_id}-edit').addEventListener('click', function() {
             const file = this.getAttribute("file").replace(/.*\/assets\//, '');
