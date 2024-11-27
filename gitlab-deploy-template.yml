@@ -32,10 +32,10 @@ pages:
   artifacts:
     paths:
       - public
-  rules: # 多个rule是或的关系
-    - if: $CI_COMMIT_BRANCH == $CI_DEFAULT_BRANCH
-      changes:
-        - docs/**
-        - .gitlab-ci.yml
-        - gitlab-deploy-template.yml
+  # rules: # 多个rule是或的关系
+  #   - if: $CI_COMMIT_BRANCH == $CI_DEFAULT_BRANCH
+  #     changes:
+  #       - docs/**
+  #       - .gitlab-ci.yml
+  #       - gitlab-deploy-template.yml
     # - if: $DEPLOY_ENV == "deploy"
