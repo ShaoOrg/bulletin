@@ -37,4 +37,4 @@ pages:
       - docs/**
       - .gitlab-ci.yml
       - gitlab-deploy-template.yml
-    - if: $DEPLOY_ENV == "deploy"
+    # - if: $DEPLOY_ENV == "deploy"
