@@ -1,0 +1,15 @@
+## 简写
+- user.name ?? 'default'
+- user?.address?.city
+- arr => [...new Set(arr)]
+- ~~4.9
+- { ...obj1, ...obj2 }
+- (name='default') => { console.log(`hello ${name}`)}
+- const [ var1, var2 ] = arr
+- name = +'123'
+- [ 1, 2, 3 ].includes(var) && console.log('match')
+- 2 ** 3
+- { attr1, attr2 }
+- arr.map(num => num * 2)
+- [ var1, var2 ] = [ var2, var1 ]
+- { `${var}name`: val }
