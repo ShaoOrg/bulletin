@@ -59,6 +59,14 @@
                                         "children": []
                                     }
                                 ]
+                            },
+                            {
+                                "data": {
+                                    "id": "dbd8fkx9ld40",
+                                    "created": 1752643962115,
+                                    "text": "可以设置最长期限366"
+                                },
+                                "children": []
                             }
                         ]
                     },
@@ -76,6 +84,14 @@
                                     "text": "允许跨组织"
                                 },
                                 "children": []
+                            },
+                            {
+                                "data": {
+                                    "id": "dbd8ft4hgow0",
+                                    "created": 1752643979966,
+                                    "text": "最长90天或者定制长度"
+                                },
+                                "children": []
                             }
                         ]
                     }
@@ -85,5 +101,5 @@
     },
     "template": "default",
     "theme": "fresh-blue",
-    "version": "1.4.43"
+    "version": "1.4.33"
 }
