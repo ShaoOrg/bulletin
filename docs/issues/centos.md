@@ -13,3 +13,10 @@ Error: error reading package header: '/var/cache/dnf/base-4b13e13a5655ccc5/packa
 dnf update rpm -y
 dnf upgrade -y
 ```
+###### upgrade default jdk version
+```
+alternatives --install /usr/bin/java java /usr/java/jdk-17/bin/java 3
+alternatives --install /usr/bin/javac javac /usr/java/jdk-17/bin/javac 3
+alternatives --set java /usr/java/jdk-17/bin/java
+alternatives --set javac /usr/java/jdk-17/bin/javac
+```
