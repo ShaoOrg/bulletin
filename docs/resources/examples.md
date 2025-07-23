@@ -3,6 +3,7 @@
 ## Github
 |描述|地址|
 |  ----  | ----  |
+|daily plan|[Shao/Draft/Plan](https://de.vicp.net:58443/-/ide/project/Shao/draft/edit/main/-/docs/ssz/plan/2025.7.md)|
 |github 自定义Action|[Baosight/jekyll-build-pages](https://github.shao.sh/Baosight/jekyll-build-pages)|
 |github action node应用信任自签证书|[jekyll-gh-pages.yml](https://github.shao.sh/Baosight/baosight.github.io/blob/main/.github/workflows/jekyll-gh-pages.yml)|
 |github action 中使用自定义action|[jekyll-gh-pages.yml](https://github.shao.sh/Baosight/baosight.github.io/blob/main/.github/workflows/jekyll-gh-pages.yml)|
