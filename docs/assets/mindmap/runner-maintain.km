@@ -1,1 +1,82 @@
-{"root":{"data":{"id":"dbj8lwv96lk0","created":1753253818040,"text":"Runner"},"children":[{"data":{"id":"dbj8lznbnwo0","created":1753253824091,"text":"Github"},"children":[{"data":{"id":"dbj8m8dowgw0","created":1753253843099,"text":"ub-9201.nas249"},"children":[]},{"data":{"id":"dbj8mk6jxq00","created":1753253868789,"text":"win-8004.nas248"},"children":[]}]},{"data":{"id":"dbj8m243hm80","created":1753253829459,"text":"Gitlab"},"children":[{"data":{"id":"dbj8m8dowgw0","created":1753253843099,"text":"ub-9201.nas249"},"children":[]},{"data":{"id":"dbj8mk6jxq00","created":1753253868789,"text":"win-8004.nas248"},"children":[]}]}]},"template":"default","theme":"fresh-blue","version":"1.4.33"}
+{
+    "root": {
+        "data": {
+            "id": "dbj8lwv96lk0",
+            "created": 1753253818040,
+            "text": "Runner"
+        },
+        "children": [
+            {
+                "data": {
+                    "id": "dbj8lznbnwo0",
+                    "created": 1753253824091,
+                    "text": "Github"
+                },
+                "children": [
+                    {
+                        "data": {
+                            "id": "dbj8m8dowgw0",
+                            "created": 1753253843099,
+                            "text": "ub-9201.nas249"
+                        },
+                        "children": [
+                            {
+                                "data": {
+                                    "id": "dbj8oudehls0",
+                                    "created": 1753254047699,
+                                    "text": "/github-runners/actions-runner1/run.sh"
+                                },
+                                "children": []
+                            }
+                        ]
+                    },
+                    {
+                        "data": {
+                            "id": "dbj8mk6jxq00",
+                            "created": 1753253868789,
+                            "text": "win-8004.nas248"
+                        },
+                        "children": []
+                    }
+                ]
+            },
+            {
+                "data": {
+                    "id": "dbj8m243hm80",
+                    "created": 1753253829459,
+                    "text": "Gitlab"
+                },
+                "children": [
+                    {
+                        "data": {
+                            "id": "dbj8m8dowgw0",
+                            "created": 1753253843099,
+                            "text": "ub-9201.nas249"
+                        },
+                        "children": [
+                            {
+                                "data": {
+                                    "id": "dbj8pgba1d40",
+                                    "created": 1753254095460,
+                                    "text": "/usr/bin/gitlab-runner"
+                                },
+                                "children": []
+                            }
+                        ]
+                    },
+                    {
+                        "data": {
+                            "id": "dbj8mk6jxq00",
+                            "created": 1753253868789,
+                            "text": "win-8004.nas248"
+                        },
+                        "children": []
+                    }
+                ]
+            }
+        ]
+    },
+    "template": "default",
+    "theme": "fresh-green-compat",
+    "version": "1.4.33"
+}
