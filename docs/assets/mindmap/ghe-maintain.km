@@ -35,6 +35,6 @@
         ]
     },
     "template": "default",
-    "theme": "fresh-green",
+    "theme": "fresh-green-compat",
     "version": "1.4.33"
 }
