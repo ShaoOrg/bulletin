@@ -1,0 +1,17 @@
+## 拼多多看视频赚金币
+#### Status Flag
+| Flag                   | Status                          |
+| ----------- | ------------------------------------ |
+| `:material-check:`           | :material-check:    |
+| `:material-check-all:`       | :material-check-all:    |
+| `:material-close:`           | :material-close:    |
+| `:x:`                        | :x:    |
+| `:heavy_multiplication_x:`   | :heavy_multiplication_x:    |
+
+#### 7.23
+| Topic                   | 19.99后1分所需金币(W) | 20.00所需总金币(W)                        |
+| ----------- | ----------- | ------------------------------------ |
+| `第一次`           | 70  |   |
+| `第二次`           | 80  | 819 |
+| `第三次`           | 90  | :x: |
+| `第四次`           | 100 | 949 |
