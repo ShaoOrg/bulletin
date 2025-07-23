@@ -146,6 +146,41 @@
                         "children": []
                     }
                 ]
+            },
+            {
+                "data": {
+                    "id": "dbj5wusjaso0",
+                    "created": 1753246212198,
+                    "text": "Application"
+                },
+                "children": [
+                    {
+                        "data": {
+                            "id": "dbj5x1y90880",
+                            "created": 1753246227781,
+                            "text": "windows platform"
+                        },
+                        "children": [
+                            {
+                                "data": {
+                                    "id": "dbj5x6wqjxc0",
+                                    "created": 1753246238574,
+                                    "text": "进入项目的根目录"
+                                },
+                                "children": [
+                                    {
+                                        "data": {
+                                            "id": "dbj5xd1an1k0",
+                                            "created": 1753246251910,
+                                            "text": "`pycli code misc --type solution/mkdoc`"
+                                        },
+                                        "children": []
+                                    }
+                                ]
+                            }
+                        ]
+                    }
+                ]
             }
         ]
     },
