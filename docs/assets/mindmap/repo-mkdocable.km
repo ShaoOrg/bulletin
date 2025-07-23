@@ -151,7 +151,8 @@
                 "data": {
                     "id": "dbj5wusjaso0",
                     "created": 1753246212198,
-                    "text": "Application"
+                    "text": "Application",
+                    "priority": 1
                 },
                 "children": [
                     {
@@ -185,6 +186,6 @@
         ]
     },
     "template": "default",
-    "theme": "fresh-blue",
+    "theme": "fresh-blue-compat",
     "version": "1.4.33"
 }
