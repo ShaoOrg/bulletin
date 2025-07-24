@@ -1,6 +1,6 @@
 # Material for MKDoc 的注解使用
 
-### 使用在代码块中
+### 使用在代码块中, 需要配置content.code.annotate
 
 ``` yaml
 ---
@@ -47,3 +47,18 @@ title: 我使用了注解,它是一个表格 # (1)!
     | `:heavy_multiplication_x:`   | :heavy_multiplication_x:    |
     | `:hourglass_flowing_sand:`   | :hourglass_flowing_sand:    |
 2.  :woman_raising_hand: I'm an annotation as well!
+
+### 使用在Tab页中
+=== "页 1"
+
+    我使用了注解,它是一段文字 (1)
+    { .annotate }
+
+    1.  :man_raising_hand: I'm an annotation!
+
+=== "页 2"
+
+    我使用了注解,它是一段文字 (1)
+    { .annotate }
+
+    1.  :woman_raising_hand: I'm an annotation as well!
