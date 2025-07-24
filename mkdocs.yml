@@ -35,7 +35,7 @@ theme:  #主题
     - content.tabs.link #Content Tabs
     - content.action.edit # edit_uri后生效 edit this page
     - content.action.view # edit_uri后生效 view source for this page
-    - content.code.annotate
+    - content.code.annotate # 代码块中可以使用annotate
     - content.code.copy
     - content.tooltips
 

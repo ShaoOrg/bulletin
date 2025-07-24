@@ -32,3 +32,18 @@ title: 我使用了注解,它是一个表格 # (1)!
     | `:x:`                        | :x:    |
     | `:heavy_multiplication_x:`   | :heavy_multiplication_x:    |
     | `:hourglass_flowing_sand:`   | :hourglass_flowing_sand:    |
+
+### 使用在警告中
+!!! note annotate "我使用了注解,它是一个表格 (1)"
+
+    我使用了注解,它是一段文字 (2)
+
+1.  | Flag                   | Status                          |
+    | ----------- | ------------------------------------ |
+    | `:material-check:`           | :material-check:    |
+    | `:material-check-all:`       | :material-check-all:    |
+    | `:material-close:`           | :material-close:    |	
+    | `:x:`                        | :x:    |
+    | `:heavy_multiplication_x:`   | :heavy_multiplication_x:    |
+    | `:hourglass_flowing_sand:`   | :hourglass_flowing_sand:    |
+2.  :woman_raising_hand: I'm an annotation as well!
