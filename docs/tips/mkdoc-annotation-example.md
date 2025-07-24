@@ -62,3 +62,12 @@ title: 我使用了注解,它是一个表格 # (1)!
     { .annotate }
 
     1.  :woman_raising_hand: I'm an annotation as well!
+
+### 使用在annotate class的HTML中
+<div class="annotate" markdown>
+
+> 我使用了注解,它是一段文字, (1)
+
+</div>
+
+1.  :man_raising_hand: I'm an annotation!
