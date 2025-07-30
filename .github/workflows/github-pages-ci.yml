@@ -104,6 +104,7 @@ jobs:
         shell: bash
         run: |
           rm -rf site/react-web
+          rm -rf dist
           mkdir -p dist && cd dist
           gh run download ${{ steps.get_run.outputs.run_id }} -n react-dist
           pwd
