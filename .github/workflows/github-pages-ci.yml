@@ -99,20 +99,15 @@ jobs:
             --jq '.[0].databaseId')
           echo "workflow=${{ inputs.COMBIND_REACT_WORKFLOW_NAME }}, run_id=$RUN_ID"
           echo "run_id=$RUN_ID" >> $GITHUB_OUTPUT
-      - name: Download React dist artifacts
-        if: inputs.COMBIND_REACT_WORKFLOW_NAME != ''
-        uses: actions/download-artifact@v3
-        with:
-          name: react-dist
-          run-id: ${{ steps.get_run.outputs.run_id }}
-          path: ./dist
       - name: Combine react build into mkdocs material
         if: inputs.COMBIND_REACT_WORKFLOW_NAME != ''
         shell: bash
         run: |
-          [ -d dist ] || exit 0
           rm -rf site/react-web
-          cp -r dist/* site/react-web
+          mkdir -p dist && cd dist
+          gh run download ${{ steps.get_run.outputs.run_id }} -n react-dict
+          pwd
+          cp -r * site/react-web
       - name: Upload to GitHub Pages
         uses: actions/upload-pages-artifact@v2
         with:
