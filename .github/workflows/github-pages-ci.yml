@@ -9,7 +9,7 @@ on:
         required: true
         default: "staging"
         type: string
-      COMBIND_REACT_DIST_RUN_ID:
+      COMBIND_REACT_WORKFLOW_NAME:
         description: "combind react build dist folder into mkdocs material"
         required: true
         default: ""
@@ -88,15 +88,24 @@ jobs:
       #     key: react-
       #     path: dist
       #     lookup-only: false
+      - name: Get latest successful run ID
+        id: get_run
+        run: |
+          RUN_ID=$(gh run list \
+            --workflow=${{ inputs.COMBIND_REACT_WORKFLOW_NAME }} \
+            --limit=1 \
+            --json databaseId \
+            --jq '.[0].databaseId')
+          echo "run_id=$RUN_ID" >> $GITHUB_OUTPUT
       - name: Download React dist artifacts
-        if: inputs.COMBIND_REACT_DIST_RUN_ID != ''
+        if: inputs.COMBIND_REACT_WORKFLOW_NAME != ''
         uses: actions/download-artifact@v4
         with:
           name: react-dist
-          run-id: ${{ inputs.COMBIND_REACT_DIST_RUN_ID }}
+          run-id: ${{ steps.get_run.outputs.run_id }}
           path: ./dist
       - name: Combine react build into mkdocs material
-        if: inputs.COMBIND_REACT_DIST_RUN_ID != ''
+        if: inputs.COMBIND_REACT_WORKFLOW_NAME != ''
         shell: bash
         run: |
           [ -d dist ] || exit 0
