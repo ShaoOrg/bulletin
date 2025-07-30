@@ -79,6 +79,32 @@ jobs:
           pip install mkdocs-drawio-km --upgrade
           mkdocs build --clean
           mkdocs --version
+      - name: Build documentation
+        shell: bash
+        run: |
+          # 检查 ACTIONS_CACHE_URL 是否存在
+          if [[ -z "${ACTIONS_CACHE_URL:-}" ]]; then
+            echo "ACTIONS_CACHE_URL is not set"
+            exit 1
+          fi
+
+          echo "ACTIONS_CACHE_URL: $ACTIONS_CACHE_URL"
+
+          # 使用 hostname 命令获取当前主机名
+          HOSTNAME=$(hostname)
+          echo "Current hostname: $HOSTNAME"
+
+          # 解析 ACTIONS_CACHE_URL 中的 hostname 部分
+          CACHE_HOST=$(echo "$ACTIONS_CACHE_URL" | sed -E 's#https?://([^:/]+).*#\1#')
+          echo "Extracted cache host from ACTIONS_CACHE_URL: $CACHE_HOST"
+
+          # 可选：检查是否能访问该主机的 443 端口（HTTPS）
+          if command -v nc >/dev/null 2>&1; then
+            echo "Checking connection to $CACHE_HOST:443..."
+            nc -zv "$CACHE_HOST" 443
+          else
+            echo "nc command not found, skipping connectivity check"
+          fi
       - name: Combine react build into mkdocs material download artifact firstly
         if: inputs.COMBIND_REACT_DIST == true
         uses: actions/cache/restore@v3
