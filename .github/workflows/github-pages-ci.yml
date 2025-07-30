@@ -107,7 +107,7 @@ jobs:
           mkdir -p dist && cd dist
           gh run download ${{ steps.get_run.outputs.run_id }} -n react-dist
           pwd
-          cp -r * site/react-web
+          cd .. && cp -r dist/* site/react-web
       - name: Upload to GitHub Pages
         uses: actions/upload-pages-artifact@v2
         with:
