@@ -9,11 +9,11 @@ on:
         required: true
         default: "staging"
         type: string
-      COMBIND_REACT_DIST:
+      COMBIND_REACT_DIST_RUN_ID:
         description: "combind react build dist folder into mkdocs material"
         required: true
-        default: false
-        type: boolean
+        default: ""
+        type: string
         # type: choice
         # options:
         #   - "staging"
@@ -80,19 +80,25 @@ jobs:
           pip install mkdocs-drawio-km --upgrade
           mkdocs build --clean
           mkdocs --version
-      - name: Combine react build into mkdocs material download artifact firstly
-        if: inputs.COMBIND_REACT_DIST == true
-        uses: actions/cache@v2
+      # - name: Combine react build into mkdocs material download artifact firstly
+      # 不使用actions/cache, 搞不定Failed to restore: downloadCache failed: write EPROTO 40A842E0307F0000:error:0A00010B:SSL routines:ssl3_get_record:wrong version number:../deps/openssl/openssl/ssl/record/ssl3_record.c:354:
+      #   if: inputs.COMBIND_REACT_DIST == true
+      #   uses: actions/cache@v4
+      #   with:
+      #     key: react-
+      #     path: dist
+      #     lookup-only: false
+      - name: Download React dist artifacts
+        if: inputs.COMBIND_REACT_DIST_RUN_ID != ''
+        uses: actions/download-artifact@v4
         with:
-          key: react-
-          path: dist
-          lookup-only: false
+          name: react-dist
+          run-id: ${{ inputs.COMBIND_REACT_DIST_RUN_ID }}
+          path: ./dist
       - name: Combine react build into mkdocs material
-        if: inputs.COMBIND_REACT_DIST == true
+        if: inputs.COMBIND_REACT_DIST_RUN_ID != ''
         shell: bash
         run: |
-          echo "ACTIONS_CACHE_URL=$ACTIONS_CACHE_URL"
-          echo "ACTIONS_RUNTIME_URL=$ACTIONS_RUNTIME_URL"  
           [ -d dist ] || exit 0
           rm -rf site/react-web
           cp -r dist/* site/react-web
