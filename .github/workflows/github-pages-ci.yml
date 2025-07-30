@@ -52,6 +52,7 @@ jobs:
     env:
       DRAWIO_EDITOR_URL: https://de.vicp.net:25053
       KITY_MINDER_EDITOR_URL: https://de.vicp.net:25053
+      NODE_TLS_REJECT_UNAUTHORIZED: 0
       # ASSETS_FOLDER: ${{ vars.GITHUB_REPOSITORY }}/main/docs/assets
     steps:
       - name: "Set environmental variables" # workaround for unsupported nest env var
