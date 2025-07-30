@@ -93,7 +93,7 @@ jobs:
         id: get_run
         run: |
           RUN_ID=$(gh run list \
-            --workflow=${{ inputs.COMBIND_REACT_WORKFLOW_NAME }} \
+            --workflow="${{ inputs.COMBIND_REACT_WORKFLOW_NAME }}" \
             --limit=1 \
             --json databaseId \
             --jq '.[0].databaseId')
