@@ -81,11 +81,11 @@ jobs:
           mkdocs --version
       - name: Combine react build into mkdocs material download artifact firstly
         if: inputs.COMBIND_REACT_DIST == true
-        uses: actions/cache@v3
+        uses: actions/cache/restore@v3
         with:
           key: react-
           path: dist
-          lookup-only: true
+          lookup-only: false
       - name: Combine react build into mkdocs material
         if: inputs.COMBIND_REACT_DIST == true
         shell: bash
