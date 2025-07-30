@@ -81,17 +81,17 @@ jobs:
           mkdocs --version
       - name: Combine react build into mkdocs material download artifact firstly
         if: inputs.COMBIND_REACT_DIST == true
-        uses: actions/download-artifact@v3
+        uses: actions/cache@v3
         with:
-          name: react-dist
-          path: ./downloaded-react-dist          
+          key: react-dist
+          path: ./dist          
       - name: Combine react build into mkdocs material
         if: inputs.COMBIND_REACT_DIST == true
         shell: bash
         run: |
-          [ -d downloaded-react-dist ] || exit 0
+          [ -d dist ] || exit 0
           rm -rf site/react-web
-          cp -r downloaded-react-dist/* site/react-web
+          cp -r dist/* site/react-web
       - name: Upload to GitHub Pages
         uses: actions/upload-pages-artifact@v2
         with:
