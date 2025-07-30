@@ -89,6 +89,7 @@ jobs:
       #     path: dist
       #     lookup-only: false
       - name: Get latest successful run ID
+        if: inputs.COMBIND_REACT_WORKFLOW_NAME != ''
         id: get_run
         run: |
           RUN_ID=$(gh run list \
@@ -96,6 +97,7 @@ jobs:
             --limit=1 \
             --json databaseId \
             --jq '.[0].databaseId')
+          echo "workflow=${{ inputs.COMBIND_REACT_WORKFLOW_NAME }}, run_id=$RUN_ID"
           echo "run_id=$RUN_ID" >> $GITHUB_OUTPUT
       - name: Download React dist artifacts
         if: inputs.COMBIND_REACT_WORKFLOW_NAME != ''
