@@ -81,7 +81,7 @@ jobs:
           mkdocs --version
       - name: Combine react build into mkdocs material download artifact firstly
         if: inputs.COMBIND_REACT_DIST == true
-        uses: actions/cache@v3
+        uses: actions/cache@v4
         with:
           key: react-
           path: dist
