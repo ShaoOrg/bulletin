@@ -105,7 +105,7 @@ jobs:
         run: |
           rm -rf site/react-web
           mkdir -p dist && cd dist
-          gh run download ${{ steps.get_run.outputs.run_id }} -n react-dict
+          gh run download ${{ steps.get_run.outputs.run_id }} -n react-dist
           pwd
           cp -r * site/react-web
       - name: Upload to GitHub Pages
