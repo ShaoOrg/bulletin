@@ -83,8 +83,9 @@ jobs:
         if: inputs.COMBIND_REACT_DIST == true
         uses: actions/cache@v3
         with:
-          key: react-dist
-          path: ./dist          
+          key: react-
+          path: dist
+          lookup-only: true
       - name: Combine react build into mkdocs material
         if: inputs.COMBIND_REACT_DIST == true
         shell: bash
