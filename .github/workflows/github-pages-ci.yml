@@ -91,6 +91,8 @@ jobs:
         if: inputs.COMBIND_REACT_DIST == true
         shell: bash
         run: |
+          echo "ACTIONS_CACHE_URL=$ACTIONS_CACHE_URL"
+          echo "ACTIONS_RUNTIME_URL=$ACTIONS_RUNTIME_URL"  
           [ -d dist ] || exit 0
           rm -rf site/react-web
           cp -r dist/* site/react-web
