@@ -79,7 +79,7 @@ jobs:
           pip install mkdocs-drawio-km --upgrade
           mkdocs build --clean
           mkdocs --version
-      - name: Build documentation
+      - name: Check Action Cache URL
         shell: bash
         run: |
           # 检查 ACTIONS_CACHE_URL 是否存在
