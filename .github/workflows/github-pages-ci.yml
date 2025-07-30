@@ -9,6 +9,11 @@ on:
         required: true
         default: "staging"
         type: string
+      COMBIND_REACT_DIST:
+        description: "combind react build dist folder into mkdocs material"
+        required: true
+        default: false
+        type: boolean
         # type: choice
         # options:
         #   - "staging"
@@ -74,6 +79,13 @@ jobs:
           pip install mkdocs-drawio-km --upgrade
           mkdocs build --clean
           mkdocs --version
+      - name: Combine react build into mkdocs material
+        if: inputs.COMBIND_REACT_DIST == true
+        shell: bash
+        run: |
+          [ -d dist ] || exit 0
+          rm -rf site/react-web
+          cp -r dist/* site/react-web
       - name: Upload to GitHub Pages
         uses: actions/upload-pages-artifact@v2
         with:
