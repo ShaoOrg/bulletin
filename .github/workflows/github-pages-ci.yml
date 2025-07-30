@@ -101,7 +101,7 @@ jobs:
           echo "run_id=$RUN_ID" >> $GITHUB_OUTPUT
       - name: Download React dist artifacts
         if: inputs.COMBIND_REACT_WORKFLOW_NAME != ''
-        uses: actions/download-artifact@v4
+        uses: actions/download-artifact@v3
         with:
           name: react-dist
           run-id: ${{ steps.get_run.outputs.run_id }}
