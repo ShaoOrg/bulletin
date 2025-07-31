@@ -2,7 +2,7 @@
 
 ###### LDAP
 - Connection
-![Connection](./images/low-voltage-protection.png)
+![Connection](./images/4810-EVE-50A-low-voltage-protection.PNG)
 - User And Group
 ![User And Group](./images/nexus-ldap-userAndGroup.png)
 - Roles
