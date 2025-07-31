@@ -11,7 +11,7 @@ on:
         type: string
       COMBIND_REACT_WORKFLOW_NAME:
         description: "combind react build dist folder into mkdocs material"
-        required: true
+        required: false
         default: ""
         type: string
         # type: choice
