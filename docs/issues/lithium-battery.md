@@ -21,9 +21,18 @@
 - 近欠压保护55V 2025-08-01
 ![近欠压保护55V](./images/AM-6020-EVE-40近保护电压.PNG){width="25%" align=left}
 
+## AM-6020-DC-40A
+- 60V20AH, DMEGC5000 21700, 嘉佰达40A保护板
+- 欠压保护55V 990WH 2025-08-03
+![欠压保护55V](./images/AM-6020-DC-40保护电压.PNG){width="25%" align=left}
+- 近欠压保护1 55V 990WH 2025-08-03
+![近欠压保护55V](./images/AM-6020-DC-40近保护电压1.PNG){width="25%" align=left}
+- 近欠压保护2 55V 990WH 2025-08-03
+![近欠压保护55V](./images/AM-6020-DC-40近保护电压2.PNG){width="25%" align=left}
+
 ## AM-6020-FST-40A
 - 60V20AH, 福斯特2500 18650, 嘉佰达40A保护板
-- 欠压保护55V 2025-08-01
+- 欠压保护55V 929WH 2025-08-02
 ![欠压保护55V](./images/AM-6020-FST-40A欠压保护.PNG){width=25% align=left}
-- 近欠压保护55V 2025-08-01
+- 近欠压保护55V 929WH 2025-08-02
 ![近欠压保护55V](./images/AM-6020-FST-40A近欠压保护.PNG){width=25% align=left}
