@@ -28,9 +28,13 @@
 ![欠压保护13V](./images/2042-BSD-欠压保护.jpg)
 
 ## 4810-EVE-50A
-- 48V10AH, 亿纬5000 21700, 嘉佰达50A保护板, 407WH, 28*5=140元, 343元/KWH, 364/358W
+- 48V10AH, 亿纬5000 21700, 嘉佰达50A保护板, 407/435WH, 28*5=140元, 343/321元/KWH
 - 欠压保护44V 2025-07-31
-![欠压保护44V](./images/4810-EVE-50A-low-voltage-protection.PNG){width="200px" align=left} 
+![欠压保护44V](./images/4810-EVE-50A-low-voltage-protection.PNG){width="200px" align=left}
+- 近欠压保护43V 2025-08-06
+![近欠压保护43V](./images/4810-EVE-50A-近欠压保护.PNG){width=25% align=left}
+- 欠压保护43V 2025-08-06
+![欠压保护43V](./images/4810-EVE-50A-欠压保护.PNG){width=25% align=left}
 
 ## 4809-DC-30A
 - 48V09AH, 东磁4500 21700, 嘉佰达30A保护板, 4??WH, 28*5.4=151元, 4??元/KWH
@@ -39,6 +43,7 @@
 - 48V20AH, 亿纬5000 21700, 嘉佰达50A保护板, 709WH, 56*8=448元, 632元/KWH
 - 近欠压保护42V 2025-07-31
 ![近欠压保护42V](./images/4820-EVE-30A-under-voltage-protection.PNG){width=25% align=left}
+
 
 ## AM-6020-EVE-40A
 - 60V20AH, 亿纬5000 21700, 嘉佰达40A保护板, 874/961WH, 3819mAH 68*8=544元, 635/566元/KWH
