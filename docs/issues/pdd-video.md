@@ -1,12 +1,17 @@
 # 拼多多看视频赚金币
 ## Status Flag
-| Flag                   | Status                          |
-| ----------- | ------------------------------------ |
-| `:material-check:`           | :material-check:    |
-| `:material-check-all:`       | :material-check-all:    |
-| `:material-close:`           | :material-close:    |
-| `:x:`                        | :x:    |
-| `:heavy_multiplication_x:`   | :heavy_multiplication_x:    |
+
+使用emojj,可选的emojj (1)
+{ .annotate }
+
+1. | Flag                   | Status                          |
+    | ----------- | ------------------------------------ |
+    | `:material-check:`           | :material-check:    |
+    | `:material-check-all:`       | :material-check-all:    |
+    | `:material-close:`           | :material-close:    |
+    | `:x:`                        | :x:    |
+    | `:heavy_multiplication_x:`   | :heavy_multiplication_x:    |
+    | `:hourglass_flowing_sand:`   | :hourglass_flowing_sand:    |
 
 ## 7.23
 | Topic                   | 19.99后1分所需金币(W) | 20.00所需总金币(W)                        |
