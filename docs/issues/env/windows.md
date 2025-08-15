@@ -16,13 +16,18 @@ tempestwin@163.com.secret.gpg
 ```
 deploy batch credential
 ```
-如果遇到gpg公钥到期,需要用
+如果遇到gpg公钥到期,需要用(key 1是必须的否则报公钥无效)
 ```
 gpg --edit-key longid
 gpg# key 1
 gpg# expire
 gpg# save
 ```
+提交备份到git
+```
+vilink check-git-commit --commit
+```
+
 去renew 它(私钥在本机)
 ### 恢复
 ```
