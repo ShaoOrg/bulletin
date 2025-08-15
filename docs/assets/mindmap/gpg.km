@@ -597,6 +597,54 @@
                                         "children": []
                                     }
                                 ]
+                            },
+                            {
+                                "data": {
+                                    "id": "dc2trw0zjmo0",
+                                    "created": 1755243168880,
+                                    "text": "Renew"
+                                },
+                                "children": [
+                                    {
+                                        "data": {
+                                            "id": "dc2trz8lweg0",
+                                            "created": 1755243175871,
+                                            "text": "--edit-key keyId",
+                                            "resource": [
+                                                "命令行参数"
+                                            ]
+                                        },
+                                        "children": [
+                                            {
+                                                "data": {
+                                                    "id": "dc2ts98d3d40",
+                                                    "created": 1755243197624,
+                                                    "text": "key 1",
+                                                    "priority": 1
+                                                },
+                                                "children": []
+                                            },
+                                            {
+                                                "data": {
+                                                    "id": "dc2tsc4r4pk0",
+                                                    "created": 1755243203936,
+                                                    "text": "expire",
+                                                    "priority": 2
+                                                },
+                                                "children": []
+                                            },
+                                            {
+                                                "data": {
+                                                    "id": "dc2tse4v6540",
+                                                    "created": 1755243208296,
+                                                    "text": "save",
+                                                    "priority": 3
+                                                },
+                                                "children": []
+                                            }
+                                        ]
+                                    }
+                                ]
                             }
                         ]
                     }
@@ -633,5 +681,5 @@
     },
     "template": "default",
     "theme": "wire",
-    "version": "1.4.33"
+    "version": "1.4.43"
 }
