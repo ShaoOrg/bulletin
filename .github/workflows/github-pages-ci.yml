@@ -74,7 +74,7 @@ jobs:
         if: inputs.USING_REPO_README != ''
         shell: bash
         run: |
-          cp -f README.md docs\index.md
+          cp -f README.md docs/index.md
       - name: Build documentation
         shell: bash
         run: |
