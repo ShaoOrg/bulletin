@@ -26,4 +26,4 @@
 
 下图展示了三类效率的典型对比：
 
-![效率对比图](.\images\lithium_battery_efficiency_comparison.png)
+![效率对比图](./images/lithium_battery_efficiency_comparison.png)
