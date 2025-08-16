@@ -5,6 +5,15 @@ spec:
     stage:
       default: deploy
 ---
+deploy-using-readme-as-index:
+  stage: deploy
+  tags: [ Self-managed, ubuntu-latest ]
+  environment: production
+  script:
+    - 'cp -f README.md docs/index.md'
+  rules:
+    - if: $USING_REPO_README == "true"
+    
 # 必须是pages作为名字
 pages:
   stage: $[[ inputs.stage ]]
