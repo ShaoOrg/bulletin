@@ -14,6 +14,11 @@ on:
         required: false
         default: ""
         type: string
+      USING_REPO_README:
+        description: "using repo readme.md to replace index.md"
+        required: false
+        default: ""
+        type: string
         # type: choice
         # options:
         #   - "staging"
@@ -65,6 +70,11 @@ jobs:
         uses: actions/checkout@v4
       # - name: Setup Pages
       #   uses: actions/configure-pages@v4
+      - name: using repo readme to replace index.md
+        if: inputs.USING_REPO_README != ''
+        shell: bash
+        run: |
+          cp -f README.md docs\index.md
       - name: Build documentation
         shell: bash
         run: |
