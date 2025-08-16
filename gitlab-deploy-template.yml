@@ -5,15 +5,6 @@ spec:
     stage:
       default: deploy
 ---
-deploy-using-readme-as-index:
-  stage: deploy
-  tags: [ Self-managed, ubuntu-latest ]
-  environment: production
-  script:
-    - 'cp -f README.md docs/index.md'
-  rules:
-    - if: $USING_REPO_README == "true"
-    
 # 必须是pages作为名字
 pages:
   stage: $[[ inputs.stage ]]
@@ -21,6 +12,14 @@ pages:
     DRAWIO_EDITOR_URL: https://de.vicp.net:25053
     KITY_MINDER_EDITOR_URL: https://de.vicp.net:25053
     ASSETS_FOLDER: ${CI_PROJECT_PATH}/main/docs/assets
+  before_script:
+    - |
+      if [ "$USING_REPO_README" = "true" ]; then
+        echo "Using README.md as docs/index.md"
+        cp -f README.md docs/index.md
+      else
+        echo "Skipping README.md overwrite"
+      fi
   script:
     - echo "setup python"
     - |
