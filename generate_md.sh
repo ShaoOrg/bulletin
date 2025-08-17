@@ -3,6 +3,7 @@ PROJECT_HOME=$1
 echo "PROJECT_HOME=$PROJECT_HOME,pwd=$(pwd)"
 mkdir -p $PROJECT_HOME/docs/kityminder
 rm -rf $PROJECT_HOME/docs/kityminder/*
+cp -f README.md docs/index.md
 for km_file in $(ls $PROJECT_HOME/docs/assets/mindmap|grep -E ".km$"); do
   [ $? -ne 0 ] && exit 1
   echo "![400px,1000px](../assets/mindmap/${km_file})" > $PROJECT_HOME/docs/kityminder/${km_file}.md
