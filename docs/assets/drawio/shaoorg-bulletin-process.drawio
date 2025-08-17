@@ -35,7 +35,10 @@
           <mxGeometry width="320" height="100" as="geometry" />
         </mxCell>
         <mxCell id="wITlb7fnW3Wly0T3jRTa-3" value="push event" style="shape=callout;whiteSpace=wrap;html=1;perimeter=calloutPerimeter;" vertex="1" parent="wITlb7fnW3Wly0T3jRTa-25">
-          <mxGeometry x="130" y="25.5" width="120" height="80" as="geometry" />
+          <mxGeometry x="70" y="22.75" width="120" height="54.5" as="geometry" />
+        </mxCell>
+        <mxCell id="wITlb7fnW3Wly0T3jRTa-34" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.622;entryY=0.01;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="dNxyNK7c78bLwvsdeMH5-21" source="wITlb7fnW3Wly0T3jRTa-3" target="wITlb7fnW3Wly0T3jRTa-19">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="dNxyNK7c78bLwvsdeMH5-22" value="nas246" style="swimlane;html=1;startSize=20;horizontal=0;" parent="dNxyNK7c78bLwvsdeMH5-19" vertex="1">
           <mxGeometry x="20" y="830" width="720" height="480" as="geometry" />
@@ -67,13 +70,19 @@
         <mxCell id="wITlb7fnW3Wly0T3jRTa-31" value="&lt;br&gt;&lt;div&gt;&lt;span style=&quot;color: rgb(10, 48, 105); font-family: ui-monospace, SFMono-Regular, &amp;quot;SF Mono&amp;quot;, Menlo, Consolas, &amp;quot;Liberation Mono&amp;quot;, monospace; text-align: start; white-space-collapse: preserve; background-color: rgb(255, 235, 233);&quot;&gt;/bash_shell/shaoorg/bulletin/refresh&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;font-size: 11px; text-wrap-mode: nowrap; background-color: rgb(255, 255, 255);&quot;&gt;cd /docs &amp;amp;&amp;amp; git pull &amp;amp;&amp;amp; /docs/generate_md.sh /docs&lt;/span&gt;&lt;span style=&quot;color: rgb(10, 48, 105); font-family: ui-monospace, SFMono-Regular, &amp;quot;SF Mono&amp;quot;, Menlo, Consolas, &amp;quot;Liberation Mono&amp;quot;, monospace; text-align: start; white-space-collapse: preserve; background-color: rgb(255, 235, 233);&quot;&gt;&lt;/span&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;dashed=1;dashPattern=1 4;" vertex="1" parent="wITlb7fnW3Wly0T3jRTa-29">
           <mxGeometry x="10" y="20" width="260" height="120" as="geometry" />
         </mxCell>
+        <mxCell id="wITlb7fnW3Wly0T3jRTa-36" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.468;entryY=0.125;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="dNxyNK7c78bLwvsdeMH5-22">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="195.03999999999996" y="113" as="sourcePoint" />
+            <mxPoint x="195.03999999999996" y="203" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
         <mxCell id="wITlb7fnW3Wly0T3jRTa-7" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="dNxyNK7c78bLwvsdeMH5-19" source="wITlb7fnW3Wly0T3jRTa-5" target="wITlb7fnW3Wly0T3jRTa-1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="wITlb7fnW3Wly0T3jRTa-9" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="dNxyNK7c78bLwvsdeMH5-19" source="wITlb7fnW3Wly0T3jRTa-3" target="wITlb7fnW3Wly0T3jRTa-1">
+        <mxCell id="wITlb7fnW3Wly0T3jRTa-32" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="dNxyNK7c78bLwvsdeMH5-19" source="wITlb7fnW3Wly0T3jRTa-4" target="wITlb7fnW3Wly0T3jRTa-2">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="wITlb7fnW3Wly0T3jRTa-32" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="dNxyNK7c78bLwvsdeMH5-19" source="wITlb7fnW3Wly0T3jRTa-4" target="wITlb7fnW3Wly0T3jRTa-2">
+        <mxCell id="wITlb7fnW3Wly0T3jRTa-35" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="dNxyNK7c78bLwvsdeMH5-19" source="wITlb7fnW3Wly0T3jRTa-19" target="wITlb7fnW3Wly0T3jRTa-20">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
       </root>
