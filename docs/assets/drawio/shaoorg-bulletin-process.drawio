@@ -39,6 +39,14 @@
             <mxPoint x="10" y="287" as="offset" />
           </mxGeometry>
         </mxCell>
+        <mxCell id="wITlb7fnW3Wly0T3jRTa-9" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="dNxyNK7c78bLwvsdeMH5-19" source="wITlb7fnW3Wly0T3jRTa-3" target="wITlb7fnW3Wly0T3jRTa-1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="wITlb7fnW3Wly0T3jRTa-10" value="&lt;b style=&quot;box-sizing: inherit; color: oklch(0.05 0.075 256.91); font-family: system-ui, &amp;quot;Segoe UI&amp;quot;, roboto, &amp;quot;Noto Sans&amp;quot;, oxygen, ubuntu, cantarell, &amp;quot;Fira Sans&amp;quot;, &amp;quot;Droid Sans&amp;quot;, &amp;quot;Helvetica Neue&amp;quot;, arial, sans-serif, &amp;quot;Apple Color Emoji&amp;quot;, &amp;quot;Segoe UI Emoji&amp;quot;, &amp;quot;Segoe UI Symbol&amp;quot;; font-size: 14px; text-align: start; text-wrap-mode: wrap; background-color: rgb(254, 254, 254);&quot;&gt;generic-webhook-trigger&lt;/b&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="wITlb7fnW3Wly0T3jRTa-9">
+          <mxGeometry x="0.1856" y="-2" relative="1" as="geometry">
+            <mxPoint x="-8" y="-140" as="offset" />
+          </mxGeometry>
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
