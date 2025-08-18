@@ -133,8 +133,14 @@ jobs:
           gh run download ${{ steps.get_run.outputs.run_id }} -n react-dist
           pwd
           cd .. && cp -r dist/* site/react-web
-      - name: Upload to GitHub Pages
+      - name: Upload to GitHub Pages (Cloud)
+        if: ${{ github.server_url == 'https://github.com' }}
         uses: actions/upload-pages-artifact@v3
+        with:
+          path: site
+      - name: Upload to GitHub Pages (GHES)
+        if: ${{ github.server_url != 'https://github.com' }}
+        uses: actions/upload-pages-artifact@v2
         with:
           path: site
       - name: Deploy to GitHub Pages (Cloud)
