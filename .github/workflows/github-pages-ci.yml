@@ -68,6 +68,19 @@ jobs:
           env
       - name: Checkout
         uses: actions/checkout@v4
+      - name: Check IP reachability
+        id: ipcheck
+        run: |
+          if ping -c 1 -W 1 192.168.50.236 >/dev/null 2>&1; then
+            echo "reachable=true" >> $GITHUB_OUTPUT
+          else
+            echo "reachable=false" >> $GITHUB_OUTPUT
+          fi
+      - name: Set up Python
+        if: steps.ipcheck.outputs.reachable == 'false'
+        uses: actions/setup-python@v4
+        with:
+          python-version: "3.x"
       # - name: Setup Pages
       #   uses: actions/configure-pages@v4
       - name: using repo readme to replace index.md
@@ -126,7 +139,7 @@ jobs:
           path: site
       - name: Deploy to GitHub Pages
         id: deployment
-        uses: actions/deploy-pages@v3
+        uses: actions/deploy-pages@v4
 
   # Deployment job
   # deploy:
