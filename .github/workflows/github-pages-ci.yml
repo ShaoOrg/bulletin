@@ -62,7 +62,7 @@ jobs:
     steps:
       - name: "Set environmental variables" # workaround for unsupported nest env var
         run: |
-          echo "ASSETS_FOLDER=$GITHUB_REPOSITORY/main/docs/assets" >> $GITHUB_ENV
+          echo "ASSETS_FOLDER=$GITHUB_REPOSITORY/$GITHUB_REF_NAME/docs/assets" >> $GITHUB_ENV
       - name: Print Env
         run: |
           env
