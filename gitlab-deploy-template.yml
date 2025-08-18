@@ -42,7 +42,7 @@ pages:
       - public
   rules: # 多个rule是或的关系
     - changes:
-      - docs/**
+      - docs/**/*
       - mkdocs.yml
       - .gitlab-ci.yml
       - gitlab-deploy-template.yml
