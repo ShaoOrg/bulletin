@@ -49,7 +49,7 @@ concurrency:
 jobs:
   # Build job
   build:
-    runs-on: [ self-hosted ]
+    runs-on: [ ubuntu-latest ]
     if: ${{ inputs.DEPLOY_ENV == 'deploy' }} || github.event_name == 'push'
     environment:
       name: github-pages
