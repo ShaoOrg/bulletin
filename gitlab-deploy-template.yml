@@ -41,7 +41,7 @@ pages:
     paths:
       - public
   rules: # 多个rule是或的关系
-    changes:
+    - changes:
       - docs/**
       - mkdocs.yml
       - .gitlab-ci.yml
