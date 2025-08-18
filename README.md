@@ -5,4 +5,3 @@
 |IDE Vscode|[IDE Vscode](docs/ide/vscode.md)|
 |Resources Url|[Resources Url](docs/resources/index.md)|
 |Resources UserCase|[Resources UserCase](docs/resources/examples.md)|
-
