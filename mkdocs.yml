@@ -4,8 +4,8 @@ site_url: https://example.com/docs  #站点网址 URL，根可位于域名的子
 site_author: 佚名   #作者
 copyright: Copyright &copy; 2016-2022 ShaoShunZhong <a href="https://beian.miit.gov.cn/" target="_blank">您的备案号</a> #版权声明与网站备案号
 # Repository
-repo_name: shaoorg/bulletin
-repo_url: https://github.shao.sh/shaoorg/bulletin
+repo_name: sszorg/bulletin
+repo_url: https://github.shao.sh/sszorg/bulletin
 edit_uri: edit/main/docs/
 
 theme:  #主题

@@ -42,7 +42,7 @@ pages:
       - public
   rules: # 多个rule是或的关系
     - changes:
-      - docs/**/*
+      - docs/**/* # 递归监控子目录发生变化
       - mkdocs.yml
       - .gitlab-ci.yml
       - gitlab-deploy-template.yml
