@@ -1,4 +1,4 @@
-# Shao Organization Resources
+# 组织内资源
 |描述|链接|
 |  ----  | ----  |
 |IDE Idea|[IDE Idea](docs/ide/index.md)|
