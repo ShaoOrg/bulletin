@@ -134,12 +134,18 @@ jobs:
           pwd
           cd .. && cp -r dist/* site/react-web
       - name: Upload to GitHub Pages
-        uses: actions/upload-pages-artifact@v2
+        uses: actions/upload-pages-artifact@v3
         with:
           path: site
-      - name: Deploy to GitHub Pages
-        id: deployment
+      - name: Deploy to GitHub Pages (Cloud)
+        if: ${{ github.server_url == 'https://github.com' }}
+        id: deploy_cloud
         uses: actions/deploy-pages@v4
+
+      - name: Deploy to GitHub Pages (GHES)
+        if: ${{ github.server_url != 'https://github.com' }}
+        id: deploy_ghes
+        uses: actions/deploy-pages@v3
 
   # Deployment job
   # deploy:
