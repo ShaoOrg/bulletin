@@ -1,0 +1,162 @@
+{
+    "root": {
+        "data": {
+            "id": "d5j7kym06w00",
+            "created": 1731313971720,
+            "text": "Maven"
+        },
+        "children": [
+            {
+                "data": {
+                    "id": "d5j7l4304o00",
+                    "created": 1731313983632,
+                    "text": "下载依赖"
+                },
+                "children": [
+                    {
+                        "data": {
+                            "id": "d5j7liq51w80",
+                            "created": 1731314015505,
+                            "text": "pom.repo"
+                        },
+                        "children": [
+                            {
+                                "data": {
+                                    "id": "d5j7lrzubmo0",
+                                    "created": 1731314035683,
+                                    "text": "settings.mirror拦截"
+                                },
+                                "children": []
+                            }
+                        ]
+                    },
+                    {
+                        "data": {
+                            "id": "d5j7m6oze000",
+                            "created": 1731314067678,
+                            "text": "settings.repo"
+                        },
+                        "children": [
+                            {
+                                "data": {
+                                    "id": "d5j7mdv4lw80",
+                                    "created": 1731314083287,
+                                    "text": "settings.mirror拦截"
+                                },
+                                "children": []
+                            }
+                        ]
+                    },
+                    {
+                        "data": {
+                            "id": "d5j7mny5upk0",
+                            "created": 1731314105239,
+                            "text": "结论"
+                        },
+                        "children": [
+                            {
+                                "data": {
+                                    "id": "d5j7mql0un40",
+                                    "created": 1731314110975,
+                                    "text": "如果想pom.repo生效\n就不能配置mirrorOf为*\n否则它会拦截所有repo的请求",
+                                    "background": "#e36c0a"
+                                },
+                                "children": []
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "data": {
+                    "id": "d5j7nqisdls0",
+                    "created": 1731314189204,
+                    "text": "Authentication"
+                },
+                "children": [
+                    {
+                        "data": {
+                            "id": "d5j7nxast4g0",
+                            "created": 1731314203958,
+                            "text": "repo.id"
+                        },
+                        "children": [
+                            {
+                                "data": {
+                                    "id": "d5j7o1sg6r40",
+                                    "created": 1731314213732,
+                                    "text": "server.id"
+                                },
+                                "children": [
+                                    {
+                                        "data": {
+                                            "id": "d5j7oar23340",
+                                            "created": 1731314233239,
+                                            "text": "username"
+                                        },
+                                        "children": []
+                                    },
+                                    {
+                                        "data": {
+                                            "id": "d5j7odjvii80",
+                                            "created": 1731314239335,
+                                            "text": "password"
+                                        },
+                                        "children": []
+                                    },
+                                    {
+                                        "data": {
+                                            "id": "d5j7p1wyx5s0",
+                                            "created": 1731314292370,
+                                            "text": "Or httpHeader",
+                                            "expandState": "expand"
+                                        },
+                                        "children": [
+                                            {
+                                                "data": {
+                                                    "id": "d5j7p69wa2w0",
+                                                    "created": 1731314301859,
+                                                    "text": "name"
+                                                },
+                                                "children": [
+                                                    {
+                                                        "data": {
+                                                            "id": "d5j7p8lxw3s0",
+                                                            "created": 1731314306940,
+                                                            "text": "=username"
+                                                        },
+                                                        "children": []
+                                                    }
+                                                ]
+                                            },
+                                            {
+                                                "data": {
+                                                    "id": "d5j7pdd9no80",
+                                                    "created": 1731314317300,
+                                                    "text": "value"
+                                                },
+                                                "children": [
+                                                    {
+                                                        "data": {
+                                                            "id": "d5j7pfyjk3s0",
+                                                            "created": 1731314322940,
+                                                            "text": "=password"
+                                                        },
+                                                        "children": []
+                                                    }
+                                                ]
+                                            }
+                                        ]
+                                    }
+                                ]
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    "template": "filetree",
+    "theme": "fresh-purple-compat",
+    "version": "1.4.43"
+}

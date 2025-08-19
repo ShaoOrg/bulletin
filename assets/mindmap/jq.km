@@ -1,0 +1,156 @@
+{
+    "root": {
+        "data": {
+            "id": "d5ovfig6jhc0",
+            "created": 1731889051139,
+            "text": "jq",
+            "background": "#7030a0"
+        },
+        "children": [
+            {
+                "data": {
+                    "id": "d5ovfmvczy00",
+                    "created": 1731889060764,
+                    "text": "Linux"
+                },
+                "children": []
+            },
+            {
+                "data": {
+                    "id": "d5ovfrn7rmg0",
+                    "created": 1731889071156,
+                    "text": "语法"
+                },
+                "children": [
+                    {
+                        "data": {
+                            "id": "d5ovg2xk6sw0",
+                            "created": 1731889095726,
+                            "text": "属性比较"
+                        },
+                        "children": [
+                            {
+                                "data": {
+                                    "id": "d5ovgbu10rk0",
+                                    "created": 1731889115103,
+                                    "text": "slect(.attr)"
+                                },
+                                "children": [
+                                    {
+                                        "data": {
+                                            "id": "d5ovgllgruo0",
+                                            "created": 1731889136353,
+                                            "text": "区分大小写相等"
+                                        },
+                                        "children": [
+                                            {
+                                                "data": {
+                                                    "id": "d5ovgwl6ys80",
+                                                    "created": 1731889160282,
+                                                    "text": "select(.attr == value)"
+                                                },
+                                                "children": []
+                                            }
+                                        ]
+                                    },
+                                    {
+                                        "data": {
+                                            "id": "d5ovh3ulnew0",
+                                            "created": 1731889176088,
+                                            "text": "不区分大小写",
+                                            "priority": 1
+                                        },
+                                        "children": [
+                                            {
+                                                "data": {
+                                                    "id": "d5p0dr7d5wo0",
+                                                    "created": 1731903019019,
+                                                    "text": "select(.attr|ascii_downcase == (value|ascii_downcase))"
+                                                },
+                                                "children": [
+                                                    {
+                                                        "data": {
+                                                            "id": "d5p0jxiorco0",
+                                                            "created": 1731903502949,
+                                                            "text": "($value|ascii_downcase)"
+                                                        },
+                                                        "children": []
+                                                    }
+                                                ]
+                                            },
+                                            {
+                                                "data": {
+                                                    "id": "d5p0fe35t9c0",
+                                                    "created": 1731903147195,
+                                                    "text": "select(.attr|test(\"^value$\"; \"i\"))"
+                                                },
+                                                "children": [
+                                                    {
+                                                        "data": {
+                                                            "id": "d5p0jkvamo80",
+                                                            "created": 1731903475413,
+                                                            "text": "test(\"^\" + $value + \"$\")"
+                                                        },
+                                                        "children": []
+                                                    }
+                                                ]
+                                            }
+                                        ]
+                                    }
+                                ]
+                            }
+                        ]
+                    },
+                    {
+                        "data": {
+                            "id": "d5pu30ykiow0",
+                            "created": 1731986811546,
+                            "text": "参数"
+                        },
+                        "children": [
+                            {
+                                "data": {
+                                    "id": "d5pu4cwt0eg0",
+                                    "created": 1731986915925,
+                                    "text": "字符串",
+                                    "expandState": "expand"
+                                },
+                                "children": [
+                                    {
+                                        "data": {
+                                            "id": "d5pu35w98z40",
+                                            "created": 1731986822290,
+                                            "text": "--arg var value"
+                                        },
+                                        "children": []
+                                    }
+                                ]
+                            },
+                            {
+                                "data": {
+                                    "id": "d5pu4jrqfyw0",
+                                    "created": 1731986930856,
+                                    "text": "非字符串",
+                                    "expandState": "expand"
+                                },
+                                "children": [
+                                    {
+                                        "data": {
+                                            "id": "d5pu48pvm9k0",
+                                            "created": 1731986906799,
+                                            "text": "--argjson var value"
+                                        },
+                                        "children": []
+                                    }
+                                ]
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    "template": "default",
+    "theme": "fresh-blue",
+    "version": "1.4.33"
+}

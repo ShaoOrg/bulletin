@@ -1,0 +1,475 @@
+{
+    "root": {
+        "data": {
+            "id": "d5p4r8qoips0",
+            "created": 1731915360366,
+            "text": "Content-Security-Policy",
+            "background": "#7030a0",
+            "hyperlink": "https://developer.mozilla.org/en-US/docs/Web/HTTP/CSP",
+            "hyperlinkTitle": ""
+        },
+        "children": [
+            {
+                "data": {
+                    "id": "d5p5116phoo0",
+                    "created": 1731916127562,
+                    "text": "declare"
+                },
+                "children": [
+                    {
+                        "data": {
+                            "id": "d5p514zwveg0",
+                            "created": 1731916135858,
+                            "text": "Pair",
+                            "resource": [
+                                "Pair"
+                            ]
+                        },
+                        "children": [
+                            {
+                                "data": {
+                                    "id": "d5p51e9bx2w0",
+                                    "created": 1731916156019,
+                                    "text": "key",
+                                    "progress": 1
+                                },
+                                "children": []
+                            },
+                            {
+                                "data": {
+                                    "id": "d5p51iel67c0",
+                                    "created": 1731916165044,
+                                    "text": "value",
+                                    "resource": [
+                                        "Pair"
+                                    ],
+                                    "progress": 1
+                                },
+                                "children": []
+                            },
+                            {
+                                "data": {
+                                    "id": "d5p51pi31hk0",
+                                    "created": 1731916180493,
+                                    "text": "图标相同+Pair tag"
+                                },
+                                "children": []
+                            }
+                        ]
+                    },
+                    {
+                        "data": {
+                            "id": "d5p52fb2rmg0",
+                            "created": 1731916236665,
+                            "text": "Sample",
+                            "resource": [
+                                "Sample"
+                            ],
+                            "expandState": "collapse"
+                        },
+                        "children": [
+                            {
+                                "data": {
+                                    "id": "d5p52lzl49c0",
+                                    "created": 1731916251208,
+                                    "text": "具体例子"
+                                },
+                                "children": []
+                            }
+                        ]
+                    },
+                    {
+                        "data": {
+                            "id": "d5p538yttpk0",
+                            "created": 1731916301228,
+                            "text": "sequence",
+                            "expandState": "expand"
+                        },
+                        "children": [
+                            {
+                                "data": {
+                                    "id": "d5p53cfbn340",
+                                    "created": 1731916308756,
+                                    "text": "1",
+                                    "priority": 1
+                                },
+                                "children": []
+                            },
+                            {
+                                "data": {
+                                    "id": "d5p53oj60ig0",
+                                    "created": 1731916335110,
+                                    "text": "2",
+                                    "priority": 2
+                                },
+                                "children": []
+                            },
+                            {
+                                "data": {
+                                    "id": "d5p53qesqhk0",
+                                    "created": 1731916339199,
+                                    "text": "...",
+                                    "priority": 9
+                                },
+                                "children": []
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "data": {
+                    "id": "d5p5mp8dk8o0",
+                    "created": 1731917825553,
+                    "text": "Content-Security-Policy\nCSP",
+                    "expandState": "expand",
+                    "resource": [
+                        "Client"
+                    ]
+                },
+                "children": [
+                    {
+                        "data": {
+                            "id": "d5p4rmxpeow0",
+                            "created": 1731915391265,
+                            "text": "HTML"
+                        },
+                        "children": [
+                            {
+                                "data": {
+                                    "id": "d5p4rw7oguo0",
+                                    "created": 1731915411459,
+                                    "text": "<meta>"
+                                },
+                                "children": [
+                                    {
+                                        "data": {
+                                            "id": "d5p4x3ls6u80",
+                                            "created": 1731915819371,
+                                            "text": "<meta http-equiv=\"Content-Security-Policy\" content=\"default-src 'self'\">",
+                                            "resource": [
+                                                "Sample"
+                                            ]
+                                        },
+                                        "children": []
+                                    },
+                                    {
+                                        "data": {
+                                            "id": "d5p4xcxp5740",
+                                            "created": 1731915839682,
+                                            "text": "http-equiv=\"Content-Security-Policy\"",
+                                            "progress": 1
+                                        },
+                                        "children": []
+                                    },
+                                    {
+                                        "data": {
+                                            "id": "d5p4xkfvzzc0",
+                                            "created": 1731915856019,
+                                            "text": "content=\"default-src 'self'\"",
+                                            "resource": [
+                                                "Pair"
+                                            ],
+                                            "progress": 1
+                                        },
+                                        "children": []
+                                    }
+                                ]
+                            }
+                        ]
+                    },
+                    {
+                        "data": {
+                            "id": "d5p4rdnni200",
+                            "created": 1731915371066,
+                            "text": "HttpResponseHeader"
+                        },
+                        "children": [
+                            {
+                                "data": {
+                                    "id": "d5p4s4uqa8w0",
+                                    "created": 1731915430267,
+                                    "text": "Content-Security-Policy"
+                                },
+                                "children": [
+                                    {
+                                        "data": {
+                                            "id": "d5p4srhdbls0",
+                                            "created": 1731915479526,
+                                            "text": "default-src 'self'"
+                                        },
+                                        "children": []
+                                    },
+                                    {
+                                        "data": {
+                                            "id": "d5p4sy03og80",
+                                            "created": 1731915493719,
+                                            "text": "script-src"
+                                        },
+                                        "children": []
+                                    },
+                                    {
+                                        "data": {
+                                            "id": "d5p4t2awkao0",
+                                            "created": 1731915503079,
+                                            "text": "style-src"
+                                        },
+                                        "children": []
+                                    },
+                                    {
+                                        "data": {
+                                            "id": "d5p4t5oncmg0",
+                                            "created": 1731915510441,
+                                            "text": "img-src"
+                                        },
+                                        "children": []
+                                    },
+                                    {
+                                        "data": {
+                                            "id": "d5p4t91fsa80",
+                                            "created": 1731915517744,
+                                            "text": "font-src"
+                                        },
+                                        "children": []
+                                    },
+                                    {
+                                        "data": {
+                                            "id": "d5p4tc6ew140",
+                                            "created": 1731915524576,
+                                            "text": "connect-src"
+                                        },
+                                        "children": []
+                                    },
+                                    {
+                                        "data": {
+                                            "id": "d5p4temtrwo0",
+                                            "created": 1731915529922,
+                                            "text": "media-src"
+                                        },
+                                        "children": []
+                                    },
+                                    {
+                                        "data": {
+                                            "id": "d5p4u9tmooo0",
+                                            "created": 1731915597813,
+                                            "text": "关键字"
+                                        },
+                                        "children": [
+                                            {
+                                                "data": {
+                                                    "id": "d5p4uiwz9sw0",
+                                                    "created": 1731915617607,
+                                                    "text": "'self'"
+                                                },
+                                                "children": []
+                                            },
+                                            {
+                                                "data": {
+                                                    "id": "d5p4um121ww0",
+                                                    "created": 1731915624384,
+                                                    "text": "'none'"
+                                                },
+                                                "children": []
+                                            },
+                                            {
+                                                "data": {
+                                                    "id": "d5p4upklt880",
+                                                    "created": 1731915632096,
+                                                    "text": "'unsafe-inline'"
+                                                },
+                                                "children": []
+                                            },
+                                            {
+                                                "data": {
+                                                    "id": "d5p4usa4e2o0",
+                                                    "created": 1731915637992,
+                                                    "text": "'unsafe-eval'"
+                                                },
+                                                "children": []
+                                            },
+                                            {
+                                                "data": {
+                                                    "id": "d5p4uuz8msg0",
+                                                    "created": 1731915643865,
+                                                    "text": "data:"
+                                                },
+                                                "children": []
+                                            },
+                                            {
+                                                "data": {
+                                                    "id": "d5p4uy7g3480",
+                                                    "created": 1731915650891,
+                                                    "text": "https:"
+                                                },
+                                                "children": []
+                                            }
+                                        ]
+                                    },
+                                    {
+                                        "data": {
+                                            "id": "d5p4vqm7dm00",
+                                            "created": 1731915712734,
+                                            "text": "connect-src https://apis.google.com",
+                                            "resource": [
+                                                "Sample"
+                                            ]
+                                        },
+                                        "children": []
+                                    }
+                                ]
+                            }
+                        ]
+                    },
+                    {
+                        "data": {
+                            "id": "d5p5rpoeotk0",
+                            "created": 1731918218343,
+                            "text": "Client所在的服务器生成",
+                            "priority": 1
+                        },
+                        "children": []
+                    }
+                ]
+            },
+            {
+                "data": {
+                    "id": "d5p5ol9lvxc0",
+                    "created": 1731917973649,
+                    "text": "Cross-Origin Resource Sharing\nCORS",
+                    "hyperlink": "https://developer.mozilla.org/en-US/docs/Web/HTTP/CSP",
+                    "hyperlinkTitle": "",
+                    "resource": [
+                        "Server",
+                        "防盗链"
+                    ]
+                },
+                "children": [
+                    {
+                        "data": {
+                            "id": "d5p5vvul5600",
+                            "created": 1731918545234,
+                            "text": "HttpResponseHeader"
+                        },
+                        "children": [
+                            {
+                                "data": {
+                                    "id": "d5p5wm5xy0g0",
+                                    "created": 1731918602517,
+                                    "text": "Access-Control-Allow-Origin"
+                                },
+                                "children": [
+                                    {
+                                        "data": {
+                                            "id": "d5p5xeqe9zc0",
+                                            "created": 1731918664704,
+                                            "text": "https://mywebsite.com",
+                                            "resource": [
+                                                "Sample"
+                                            ]
+                                        },
+                                        "children": []
+                                    },
+                                    {
+                                        "data": {
+                                            "id": "d5p5z0axi600",
+                                            "created": 1731918790022,
+                                            "text": "表示仅允许来自 domain 的请求"
+                                        },
+                                        "children": []
+                                    }
+                                ]
+                            },
+                            {
+                                "data": {
+                                    "id": "d5p5wr01qmg0",
+                                    "created": 1731918613045,
+                                    "text": "Access-Control-Allow-Methods"
+                                },
+                                "children": [
+                                    {
+                                        "data": {
+                                            "id": "d5p5xlzymcw0",
+                                            "created": 1731918680520,
+                                            "text": "GET, POST",
+                                            "resource": [
+                                                "Sample"
+                                            ]
+                                        },
+                                        "children": []
+                                    },
+                                    {
+                                        "data": {
+                                            "id": "d5p5yuqqo5c0",
+                                            "created": 1731918777918,
+                                            "text": "表示服务器允许的请求方法"
+                                        },
+                                        "children": []
+                                    }
+                                ]
+                            },
+                            {
+                                "data": {
+                                    "id": "d5p5wvknaig0",
+                                    "created": 1731918622997,
+                                    "text": "Access-Control-Allow-Headers"
+                                },
+                                "children": [
+                                    {
+                                        "data": {
+                                            "id": "d5p5y272mk80",
+                                            "created": 1731918715778,
+                                            "text": "Content-Type",
+                                            "resource": [
+                                                "Sample"
+                                            ]
+                                        },
+                                        "children": []
+                                    },
+                                    {
+                                        "data": {
+                                            "id": "d5p5yoln8lk0",
+                                            "created": 1731918764549,
+                                            "text": "列出了允许客户端发送的请求头部"
+                                        },
+                                        "children": []
+                                    }
+                                ]
+                            },
+                            {
+                                "data": {
+                                    "id": "d5p5wzc58dk0",
+                                    "created": 1731918631191,
+                                    "text": "Access-Control-Allow-Credentials"
+                                },
+                                "children": [
+                                    {
+                                        "data": {
+                                            "id": "d5p5y5fn1r40",
+                                            "created": 1731918722827,
+                                            "text": "true",
+                                            "resource": [
+                                                "Sample"
+                                            ]
+                                        },
+                                        "children": []
+                                    },
+                                    {
+                                        "data": {
+                                            "id": "d5p5yejwmdc0",
+                                            "created": 1731918742676,
+                                            "text": "允许客户端在跨域请求时发送凭证"
+                                        },
+                                        "children": []
+                                    }
+                                ]
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    "template": "default",
+    "theme": "fresh-blue",
+    "version": "1.4.33"
+}

@@ -1,0 +1,105 @@
+{
+    "root": {
+        "data": {
+            "id": "dbd84081d5k0",
+            "created": 1752643055048,
+            "text": "Github Token"
+        },
+        "children": [
+            {
+                "data": {
+                    "id": "dbd847cv5iw0",
+                    "created": 1752643070578,
+                    "text": "PAT",
+                    "note": "personnel access token"
+                },
+                "children": [
+                    {
+                        "data": {
+                            "id": "dbd84m8765c0",
+                            "created": 1752643102947,
+                            "text": "fined-grained"
+                        },
+                        "children": [
+                            {
+                                "data": {
+                                    "id": "dbd852jieu80",
+                                    "created": 1752643138460,
+                                    "text": "不允许跨组织",
+                                    "expandState": "expand"
+                                },
+                                "children": [
+                                    {
+                                        "data": {
+                                            "id": "dbd85b0i5340",
+                                            "created": 1752643156902,
+                                            "text": "个人repo"
+                                        },
+                                        "children": []
+                                    },
+                                    {
+                                        "data": {
+                                            "id": "dbd85fwrhv40",
+                                            "created": 1752643167559,
+                                            "text": "组织repo"
+                                        },
+                                        "children": []
+                                    },
+                                    {
+                                        "data": {
+                                            "id": "dbd85k9imuo0",
+                                            "created": 1752643177038,
+                                            "text": "resources owner选择是关键",
+                                            "layout_right_offset": {
+                                                "x": -10.999999766879455,
+                                                "y": -150.9999967998931
+                                            },
+                                            "priority": 1
+                                        },
+                                        "children": []
+                                    }
+                                ]
+                            },
+                            {
+                                "data": {
+                                    "id": "dbd8fkx9ld40",
+                                    "created": 1752643962115,
+                                    "text": "可以设置最长期限366"
+                                },
+                                "children": []
+                            }
+                        ]
+                    },
+                    {
+                        "data": {
+                            "id": "dbd84mx6i880",
+                            "created": 1752643104458,
+                            "text": "classic"
+                        },
+                        "children": [
+                            {
+                                "data": {
+                                    "id": "dbd860iwx5c0",
+                                    "created": 1752643212434,
+                                    "text": "允许跨组织"
+                                },
+                                "children": []
+                            },
+                            {
+                                "data": {
+                                    "id": "dbd8ft4hgow0",
+                                    "created": 1752643979966,
+                                    "text": "最长90天或者定制长度"
+                                },
+                                "children": []
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    "template": "default",
+    "theme": "classic-compact",
+    "version": "1.4.33"
+}

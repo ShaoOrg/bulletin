@@ -1,0 +1,593 @@
+{
+    "root": {
+        "data": {
+            "id": "d5nethe85280",
+            "created": 1731740627118,
+            "text": "Drawio",
+            "color": "#7030a0",
+            "background": "#73a1bf"
+        },
+        "children": [
+            {
+                "data": {
+                    "id": "d5nethh4ew80",
+                    "created": 1731740627293,
+                    "text": "Viewer",
+                    "hyperlink": "https://www.drawio.com/doc/faq/embed-html-options",
+                    "hyperlinkTitle": ""
+                },
+                "children": [
+                    {
+                        "data": {
+                            "id": "d5nyujsbvk80",
+                            "created": 1731797132886,
+                            "text": "二次开发",
+                            "expandState": "expand"
+                        },
+                        "children": [
+                            {
+                                "data": {
+                                    "id": "d5no4kyfew80",
+                                    "created": 1731766886864,
+                                    "text": "viewer_static_min.js"
+                                },
+                                "children": [
+                                    {
+                                        "data": {
+                                            "id": "d5nyq8nymr40",
+                                            "created": 1731796795221,
+                                            "text": "修改toolbar-buttons"
+                                        },
+                                        "children": [
+                                            {
+                                                "data": {
+                                                    "id": "d5nyqenhm0g0",
+                                                    "created": 1731796808253,
+                                                    "text": "eval(A.handler)"
+                                                },
+                                                "children": []
+                                            },
+                                            {
+                                                "data": {
+                                                    "id": "d5nyvqgdcko0",
+                                                    "created": 1731797225765,
+                                                    "text": "官方版本不支持handler的string版本"
+                                                },
+                                                "children": []
+                                            }
+                                        ]
+                                    }
+                                ]
+                            },
+                            {
+                                "data": {
+                                    "id": "d5o143q5ss00",
+                                    "created": 1731803523788,
+                                    "text": "src/main/webapp/js/diagramly/GraphViewer.js"
+                                },
+                                "children": [
+                                    {
+                                        "data": {
+                                            "id": "d5o14lg5pvc0",
+                                            "created": 1731803562365,
+                                            "text": "eval(def.handler)"
+                                        },
+                                        "children": []
+                                    },
+                                    {
+                                        "data": {
+                                            "id": "d5o14qce6w00",
+                                            "created": 1731803573022,
+                                            "text": "ant 生成 viewer_static_min.js"
+                                        },
+                                        "children": []
+                                    }
+                                ]
+                            }
+                        ]
+                    },
+                    {
+                        "data": {
+                            "id": "d5nyun4vi800",
+                            "created": 1731797140175,
+                            "text": "Doc",
+                            "expandState": "expand"
+                        },
+                        "children": [
+                            {
+                                "data": {
+                                    "id": "d5neufl7jc00",
+                                    "created": 1731740701550,
+                                    "text": "Embed HTML options",
+                                    "expandState": "expand"
+                                },
+                                "children": [
+                                    {
+                                        "data": {
+                                            "id": "d5nevk0dau00",
+                                            "created": 1731740789538,
+                                            "text": "toolbar=[pages|zoom|layers|lightbox|custom]"
+                                        },
+                                        "children": []
+                                    },
+                                    {
+                                        "data": {
+                                            "id": "d5nevsgiemg0",
+                                            "created": 1731740807929,
+                                            "text": "toolbar-buttons={...}"
+                                        },
+                                        "children": []
+                                    }
+                                ]
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "data": {
+                    "id": "d5netu71zkw0",
+                    "created": 1731740654982,
+                    "text": "Editor"
+                },
+                "children": [
+                    {
+                        "data": {
+                            "id": "d5nniwe18pk0",
+                            "created": 1731765187741,
+                            "text": "二次开发",
+                            "hyperlink": "https://blog.csdn.net/WQearl/article/details/138679674",
+                            "hyperlinkTitle": ""
+                        },
+                        "children": [
+                            {
+                                "data": {
+                                    "id": "d5nnj3q72sg0",
+                                    "created": 1731765203714,
+                                    "text": "定制菜单",
+                                    "expandState": "expand"
+                                },
+                                "children": [
+                                    {
+                                        "data": {
+                                            "id": "d5nnje5jq140",
+                                            "created": 1731765226411,
+                                            "text": "src/main/webapp/js/diagramly/Menus.js"
+                                        },
+                                        "children": [
+                                            {
+                                                "data": {
+                                                    "id": "d5nysyqo6ww0",
+                                                    "created": 1731797008709,
+                                                    "text": "Position"
+                                                },
+                                                "children": []
+                                            }
+                                        ]
+                                    },
+                                    {
+                                        "data": {
+                                            "id": "d5nyqxmk5200",
+                                            "created": 1731796849556,
+                                            "text": "src/main/webapp/js/diagramly/EditorUi.js"
+                                        },
+                                        "children": [
+                                            {
+                                                "data": {
+                                                    "id": "d5nytze19vk0",
+                                                    "created": 1731797088486,
+                                                    "text": "Bridge"
+                                                },
+                                                "children": []
+                                            },
+                                            {
+                                                "data": {
+                                                    "id": "d5o52mkkbeo0",
+                                                    "created": 1731814692520,
+                                                    "text": "注册快捷键"
+                                                },
+                                                "children": []
+                                            }
+                                        ]
+                                    },
+                                    {
+                                        "data": {
+                                            "id": "d5nyse34q5c0",
+                                            "created": 1731796963750,
+                                            "text": "src\\main\\webapp\\js\\grapheditor\\Actions.js"
+                                        },
+                                        "children": [
+                                            {
+                                                "data": {
+                                                    "id": "d5nyt9ucko00",
+                                                    "created": 1731797032876,
+                                                    "text": "动作"
+                                                },
+                                                "children": []
+                                            }
+                                        ]
+                                    }
+                                ]
+                            },
+                            {
+                                "data": {
+                                    "id": "d5no4shdwmo0",
+                                    "created": 1731766903248,
+                                    "text": "I18N"
+                                },
+                                "children": [
+                                    {
+                                        "data": {
+                                            "id": "d5no4w8lzg00",
+                                            "created": 1731766911425,
+                                            "text": "src/main/webapp/resources"
+                                        },
+                                        "children": [
+                                            {
+                                                "data": {
+                                                    "id": "d5nyvcd40c00",
+                                                    "created": 1731797195093,
+                                                    "text": "key关联"
+                                                },
+                                                "children": []
+                                            }
+                                        ]
+                                    }
+                                ]
+                            },
+                            {
+                                "data": {
+                                    "id": "d5o4z4sk4y80",
+                                    "created": 1731814418729,
+                                    "text": "快捷键"
+                                },
+                                "children": [
+                                    {
+                                        "data": {
+                                            "id": "d5o52uc1adc0",
+                                            "created": 1731814709418,
+                                            "text": "实现",
+                                            "expandState": "expand"
+                                        },
+                                        "children": [
+                                            {
+                                                "data": {
+                                                    "id": "d5o4zr3uupk0",
+                                                    "created": 1731814467301,
+                                                    "text": "src/main/webapp/js/grapheditor/EditorUi.js",
+                                                    "expandState": "expand"
+                                                },
+                                                "children": [
+                                                    {
+                                                        "data": {
+                                                            "id": "d5o4zbyzeqw0",
+                                                            "created": 1731814434355,
+                                                            "text": "keyHandler.bindAction = mxUtils.bind(this, function(code, control, key, shift)"
+                                                        },
+                                                        "children": [
+                                                            {
+                                                                "data": {
+                                                                    "id": "d5o502ih0i00",
+                                                                    "created": 1731814492129,
+                                                                    "text": "code is ASCII"
+                                                                },
+                                                                "children": []
+                                                            },
+                                                            {
+                                                                "data": {
+                                                                    "id": "d5o508j2jw80",
+                                                                    "created": 1731814505226,
+                                                                    "text": "control is Ctrl"
+                                                                },
+                                                                "children": []
+                                                            },
+                                                            {
+                                                                "data": {
+                                                                    "id": "d5o50d412fc0",
+                                                                    "created": 1731814515201,
+                                                                    "text": "key is Action key"
+                                                                },
+                                                                "children": []
+                                                            },
+                                                            {
+                                                                "data": {
+                                                                    "id": "d5o50i992wg0",
+                                                                    "created": 1731814526400,
+                                                                    "text": "shift is Shift"
+                                                                },
+                                                                "children": []
+                                                            }
+                                                        ]
+                                                    }
+                                                ]
+                                            }
+                                        ]
+                                    }
+                                ]
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "data": {
+                    "id": "d5nyw6pyc0w0",
+                    "created": 1731797261173,
+                    "text": "Declare"
+                },
+                "children": [
+                    {
+                        "data": {
+                            "id": "d5nywd4uh0g0",
+                            "created": 1731797275134,
+                            "text": "Sequence"
+                        },
+                        "children": [
+                            {
+                                "data": {
+                                    "id": "d5nyx15uhnc0",
+                                    "created": 1731797327437,
+                                    "text": "1",
+                                    "priority": 1
+                                },
+                                "children": []
+                            },
+                            {
+                                "data": {
+                                    "id": "d5nyx39sq7k0",
+                                    "created": 1731797332030,
+                                    "text": "2",
+                                    "priority": 2
+                                },
+                                "children": []
+                            },
+                            {
+                                "data": {
+                                    "id": "d5nyx5m6whk0",
+                                    "created": 1731797337133,
+                                    "text": "...",
+                                    "priority": 9
+                                },
+                                "children": []
+                            }
+                        ]
+                    },
+                    {
+                        "data": {
+                            "id": "d5nyxe170gw0",
+                            "created": 1731797355454,
+                            "text": "Note",
+                            "priority": 1
+                        },
+                        "children": []
+                    }
+                ]
+            },
+            {
+                "data": {
+                    "id": "d5nyxpoln5c0",
+                    "created": 1731797380814,
+                    "text": "Image"
+                },
+                "children": [
+                    {
+                        "data": {
+                            "id": "d5nyxwq358g0",
+                            "created": 1731797396141,
+                            "text": "jgraph/drawio-docker"
+                        },
+                        "children": [
+                            {
+                                "data": {
+                                    "id": "d5nyy576yg00",
+                                    "created": 1731797414590,
+                                    "text": "git pull jgraph/drawio"
+                                },
+                                "children": [
+                                    {
+                                        "data": {
+                                            "id": "d5nyykuywco0",
+                                            "created": 1731797448679,
+                                            "text": "ant /etc/build"
+                                        },
+                                        "children": []
+                                    }
+                                ]
+                            },
+                            {
+                                "data": {
+                                    "id": "d5nyyw54nrk0",
+                                    "created": 1731797473238,
+                                    "text": "DockerFile"
+                                },
+                                "children": [
+                                    {
+                                        "data": {
+                                            "id": "d5nyz255tk00",
+                                            "created": 1731797486301,
+                                            "text": "hosted in main"
+                                        },
+                                        "children": []
+                                    },
+                                    {
+                                        "data": {
+                                            "id": "d5nyz7r31480",
+                                            "created": 1731797498510,
+                                            "text": "tomcat as base image"
+                                        },
+                                        "children": []
+                                    }
+                                ]
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "data": {
+                    "id": "d5nz4ru1rc00",
+                    "created": 1731797934046,
+                    "text": "CI"
+                },
+                "children": [
+                    {
+                        "data": {
+                            "id": "d5nz4xw8kag0",
+                            "created": 1731797947239,
+                            "text": "triggered by tag"
+                        },
+                        "children": [
+                            {
+                                "data": {
+                                    "id": "d5nz55n06400",
+                                    "created": 1731797964095,
+                                    "text": "ant /etc/build",
+                                    "priority": 1,
+                                    "expandState": "expand"
+                                },
+                                "children": [
+                                    {
+                                        "data": {
+                                            "id": "d5nyzkgyrs80",
+                                            "created": 1731797526197,
+                                            "text": "js"
+                                        },
+                                        "children": []
+                                    },
+                                    {
+                                        "data": {
+                                            "id": "d5nyzqdvfa00",
+                                            "created": 1731797539070,
+                                            "text": "java"
+                                        },
+                                        "children": []
+                                    }
+                                ]
+                            },
+                            {
+                                "data": {
+                                    "id": "d5nz5gbly600",
+                                    "created": 1731797987351,
+                                    "text": "release war",
+                                    "priority": 2
+                                },
+                                "children": []
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "data": {
+                    "id": "d5qr5srxps00",
+                    "created": 1732080125450,
+                    "text": "存储"
+                },
+                "children": [
+                    {
+                        "data": {
+                            "id": "d5qr5wjnp9c0",
+                            "created": 1732080133657,
+                            "text": "GitLab"
+                        },
+                        "children": [
+                            {
+                                "data": {
+                                    "id": "d5qr6gpf4uw0",
+                                    "created": 1732080177541,
+                                    "text": "#A开头"
+                                },
+                                "children": [
+                                    {
+                                        "data": {
+                                            "id": "d5qr77wj2j40",
+                                            "created": 1732080236744,
+                                            "text": "https://de.vicp.net:25053/local-drawio/#Atempestwin/bulletin/main/docs/assets/drawio/public-ip.drawio",
+                                            "resource": [
+                                                "Sample"
+                                            ]
+                                        },
+                                        "children": []
+                                    }
+                                ]
+                            },
+                            {
+                                "data": {
+                                    "id": "d5qr7dt9b0g0",
+                                    "created": 1732080249607,
+                                    "text": "自动寻找配置打开授权界面"
+                                },
+                                "children": []
+                            },
+                            {
+                                "data": {
+                                    "id": "d5qrtzfn12g0",
+                                    "created": 1732082020684,
+                                    "text": "代码"
+                                },
+                                "children": [
+                                    {
+                                        "data": {
+                                            "id": "d5qru42gljk0",
+                                            "created": 1732082030771,
+                                            "text": "GitlabClient.js"
+                                        },
+                                        "children": []
+                                    }
+                                ]
+                            }
+                        ]
+                    },
+                    {
+                        "data": {
+                            "id": "d5qr5zxjuko0",
+                            "created": 1732080141027,
+                            "text": "GitHub"
+                        },
+                        "children": [
+                            {
+                                "data": {
+                                    "id": "d5qr6bpq7s00",
+                                    "created": 1732080166675,
+                                    "text": "#H开头"
+                                },
+                                "children": [
+                                    {
+                                        "data": {
+                                            "id": "d5qr6s1rbm00",
+                                            "created": 1732080202231,
+                                            "text": "https://de.vicp.net:25053/local-drawio/#Htempestwin/bulletin/main/docs/assets/drawio/public-ip.drawio#{\"pageId\":\"IGNaPQVdiePCNsB7grzX\"}",
+                                            "resource": [
+                                                "Sample"
+                                            ]
+                                        },
+                                        "children": []
+                                    }
+                                ]
+                            },
+                            {
+                                "data": {
+                                    "id": "d5qr7ngd89s0",
+                                    "created": 1732080270595,
+                                    "text": "自动寻找配置打开授权界面"
+                                },
+                                "children": []
+                            },
+                            {
+                                "data": {
+                                    "id": "d5qruac1r400",
+                                    "created": 1732082044411,
+                                    "text": "GithubClient.js"
+                                },
+                                "children": []
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    "template": "default",
+    "theme": "wire",
+    "version": "1.4.33"
+}

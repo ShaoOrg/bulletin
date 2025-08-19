@@ -1,0 +1,1048 @@
+{
+    "root": {
+        "data": {
+            "id": "d50l2bqjrb40",
+            "created": 1729422367736,
+            "text": "github ci/cd",
+            "background": "#7030a0"
+        },
+        "children": [
+            {
+                "data": {
+                    "id": "d50l33l3oyw0",
+                    "created": 1729422428356,
+                    "text": "on",
+                    "progress": 9
+                },
+                "children": [
+                    {
+                        "data": {
+                            "id": "d50l6jvn8j40",
+                            "created": 1729422698915,
+                            "text": "push",
+                            "progress": 9
+                        },
+                        "children": [
+                            {
+                                "data": {
+                                    "id": "d5p2nkw1qv40",
+                                    "created": 1731909431135,
+                                    "text": "paths"
+                                },
+                                "children": [
+                                    {
+                                        "data": {
+                                            "id": "d5p2no9n0b40",
+                                            "created": 1731909438487,
+                                            "text": "路径"
+                                        },
+                                        "children": [
+                                            {
+                                                "data": {
+                                                    "id": "d5p2o0z1urc0",
+                                                    "created": 1731909466145,
+                                                    "text": "path/**"
+                                                },
+                                                "children": [
+                                                    {
+                                                        "data": {
+                                                            "id": "d5p2oaw5ci80",
+                                                            "created": 1731909487737,
+                                                            "text": "任意文件,包含子目录"
+                                                        },
+                                                        "children": []
+                                                    }
+                                                ]
+                                            }
+                                        ]
+                                    }
+                                ]
+                            }
+                        ]
+                    },
+                    {
+                        "data": {
+                            "id": "d50l6gcwh280",
+                            "created": 1729422691251,
+                            "text": "release"
+                        },
+                        "children": []
+                    },
+                    {
+                        "data": {
+                            "id": "d50l6s13j6g0",
+                            "created": 1729422716659,
+                            "text": "workflow_dispatch"
+                        },
+                        "children": []
+                    }
+                ]
+            },
+            {
+                "data": {
+                    "id": "d50l35nzdio0",
+                    "created": 1729422432884,
+                    "text": "permissions"
+                },
+                "children": []
+            },
+            {
+                "data": {
+                    "id": "d50l3f2z2wg0",
+                    "created": 1729422453381,
+                    "text": "concurrency",
+                    "layout_right_offset": {
+                        "x": -5,
+                        "y": 93
+                    }
+                },
+                "children": []
+            },
+            {
+                "data": {
+                    "id": "d50l3g2kymg0",
+                    "created": 1729422455534,
+                    "text": "jobs",
+                    "progress": 9,
+                    "expandState": "expand"
+                },
+                "children": [
+                    {
+                        "data": {
+                            "id": "d50l4qrt4ls0",
+                            "created": 1729422557192,
+                            "text": "job名字"
+                        },
+                        "children": [
+                            {
+                                "data": {
+                                    "id": "d50l4wj8z340",
+                                    "created": 1729422569735,
+                                    "text": "runs-on",
+                                    "resource": [
+                                        "runner"
+                                    ]
+                                },
+                                "children": []
+                            },
+                            {
+                                "data": {
+                                    "id": "d50l4zmxiko0",
+                                    "created": 1729422576488,
+                                    "text": "steps[]"
+                                },
+                                "children": [
+                                    {
+                                        "data": {
+                                            "id": "d50l5aahs800",
+                                            "created": 1729422599681,
+                                            "text": "uses"
+                                        },
+                                        "children": [
+                                            {
+                                                "data": {
+                                                    "id": "d5n67xg4f0o0",
+                                                    "created": 1731716369170,
+                                                    "text": "可引用的仓库"
+                                                },
+                                                "children": [
+                                                    {
+                                                        "data": {
+                                                            "id": "d5n684dimso0",
+                                                            "created": 1731716384250,
+                                                            "text": "actions/checkout@v4"
+                                                        },
+                                                        "children": []
+                                                    },
+                                                    {
+                                                        "data": {
+                                                            "id": "d5n68b4sy7s0",
+                                                            "created": 1731716398961,
+                                                            "text": "actions/setup-python@v4"
+                                                        },
+                                                        "children": []
+                                                    },
+                                                    {
+                                                        "data": {
+                                                            "id": "d5n68pdrv6w0",
+                                                            "created": 1731716429978,
+                                                            "text": "actions/upload-artifact@v3"
+                                                        },
+                                                        "children": []
+                                                    },
+                                                    {
+                                                        "data": {
+                                                            "id": "d5n690bscqg0",
+                                                            "created": 1731716453802,
+                                                            "text": "actions/download-artifact@v3"
+                                                        },
+                                                        "children": []
+                                                    },
+                                                    {
+                                                        "data": {
+                                                            "id": "d5p2xgf6q4g0",
+                                                            "created": 1731910205050,
+                                                            "text": "Baosight/jekyll-build-pages"
+                                                        },
+                                                        "children": [
+                                                            {
+                                                                "data": {
+                                                                    "id": "d5p2xi9laig0",
+                                                                    "created": 1731910209065,
+                                                                    "text": "编译jekyll"
+                                                                },
+                                                                "children": []
+                                                            },
+                                                            {
+                                                                "data": {
+                                                                    "id": "d5p2xqla7c80",
+                                                                    "created": 1731910227186,
+                                                                    "text": "来自于actions/jekyll-build-pages"
+                                                                },
+                                                                "children": []
+                                                            }
+                                                        ]
+                                                    }
+                                                ]
+                                            }
+                                        ]
+                                    },
+                                    {
+                                        "data": {
+                                            "id": "d50l5lkb0oo0",
+                                            "created": 1729422624218,
+                                            "text": "run",
+                                            "resource": [
+                                                "shell"
+                                            ],
+                                            "expandState": "expand"
+                                        },
+                                        "children": [
+                                            {
+                                                "data": {
+                                                    "id": "d5n66dtj9hk0",
+                                                    "created": 1731716248081,
+                                                    "text": "可引用的仓库或工具"
+                                                },
+                                                "children": [
+                                                    {
+                                                        "data": {
+                                                            "id": "d5n670z6uy80",
+                                                            "created": 1731716298489,
+                                                            "text": "gh"
+                                                        },
+                                                        "children": [
+                                                            {
+                                                                "data": {
+                                                                    "id": "d5n6estc7hc0",
+                                                                    "created": 1731716907634,
+                                                                    "text": "authentication",
+                                                                    "expandState": "expand",
+                                                                    "priority": 1
+                                                                },
+                                                                "children": [
+                                                                    {
+                                                                        "data": {
+                                                                            "id": "d5n7nb7r2ns0",
+                                                                            "created": 1731720395711,
+                                                                            "text": "oauth_token",
+                                                                            "expandState": "expand"
+                                                                        },
+                                                                        "children": [
+                                                                            {
+                                                                                "data": {
+                                                                                    "id": "d5n674lwweg0",
+                                                                                    "created": 1731716306393,
+                                                                                    "text": "用github application授权",
+                                                                                    "hyperlink": null,
+                                                                                    "hyperlinkTitle": null
+                                                                                },
+                                                                                "children": []
+                                                                            },
+                                                                            {
+                                                                                "data": {
+                                                                                    "id": "d5n7nwwdifk0",
+                                                                                    "created": 1731720442912,
+                                                                                    "text": "stored in ~/.config/gh/hosts.yml"
+                                                                                },
+                                                                                "children": []
+                                                                            }
+                                                                        ]
+                                                                    },
+                                                                    {
+                                                                        "data": {
+                                                                            "id": "d5n6ec2k12g0",
+                                                                            "created": 1731716871186,
+                                                                            "text": "export GH_TOKEN=PAT",
+                                                                            "resource": [
+                                                                                "Or"
+                                                                            ]
+                                                                        },
+                                                                        "children": [
+                                                                            {
+                                                                                "data": {
+                                                                                    "id": "d5n7eakopwo0",
+                                                                                    "created": 1731719689039,
+                                                                                    "text": "only for github.com"
+                                                                                },
+                                                                                "children": []
+                                                                            }
+                                                                        ]
+                                                                    },
+                                                                    {
+                                                                        "data": {
+                                                                            "id": "d5n7dsh37s80",
+                                                                            "created": 1731719649639,
+                                                                            "text": "export GH_HOST=github.shao.sh"
+                                                                        },
+                                                                        "children": [
+                                                                            {
+                                                                                "data": {
+                                                                                    "id": "d5n7e08cadk0",
+                                                                                    "created": 1731719666525,
+                                                                                    "text": "切换instance"
+                                                                                },
+                                                                                "children": []
+                                                                            }
+                                                                        ]
+                                                                    },
+                                                                    {
+                                                                        "data": {
+                                                                            "id": "d5n7hgagkg80",
+                                                                            "created": 1731719936574,
+                                                                            "text": "gh auth status"
+                                                                        },
+                                                                        "children": [
+                                                                            {
+                                                                                "data": {
+                                                                                    "id": "d5n7hhq2jnc0",
+                                                                                    "created": 1731719939694,
+                                                                                    "text": "可以获取如何授权",
+                                                                                    "priority": 1
+                                                                                },
+                                                                                "children": []
+                                                                            }
+                                                                        ]
+                                                                    }
+                                                                ]
+                                                            },
+                                                            {
+                                                                "data": {
+                                                                    "id": "d5n6aowg1000",
+                                                                    "created": 1731716585658,
+                                                                    "text": "gh release"
+                                                                },
+                                                                "children": [
+                                                                    {
+                                                                        "data": {
+                                                                            "id": "d5n6ar5soxk0",
+                                                                            "created": 1731716590577,
+                                                                            "text": "view"
+                                                                        },
+                                                                        "children": []
+                                                                    },
+                                                                    {
+                                                                        "data": {
+                                                                            "id": "d5n6at41m0g0",
+                                                                            "created": 1731716594825,
+                                                                            "text": "create"
+                                                                        },
+                                                                        "children": []
+                                                                    }
+                                                                ]
+                                                            }
+                                                        ]
+                                                    }
+                                                ]
+                                            }
+                                        ]
+                                    },
+                                    {
+                                        "data": {
+                                            "id": "d50l5dzu9y80",
+                                            "created": 1729422607744,
+                                            "text": "with"
+                                        },
+                                        "children": [
+                                            {
+                                                "data": {
+                                                    "id": "d5n6bsnftyg0",
+                                                    "created": 1731716672185,
+                                                    "text": "参数取决于uses"
+                                                },
+                                                "children": []
+                                            }
+                                        ]
+                                    }
+                                ]
+                            },
+                            {
+                                "data": {
+                                    "id": "d50lxq5gmfc0",
+                                    "created": 1729424828401,
+                                    "text": "env/defaults.env",
+                                    "resource": [
+                                        "var"
+                                    ],
+                                    "note": "组织或仓库级别变量通过${{vars.变量名}}使用\n工作流变量通过${{变量名}}使用\n"
+                                },
+                                "children": []
+                            },
+                            {
+                                "data": {
+                                    "id": "d50n0et66cg0",
+                                    "created": 1729427859916,
+                                    "text": "environment",
+                                    "resource": [
+                                        "var"
+                                    ],
+                                    "note": "通过vars上下文访问,必须配置了environment才会生效\n配置environment,可以要求review才能执行workflo"
+                                },
+                                "children": []
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "data": {
+                    "id": "d50l3plcsw80",
+                    "created": 1729422476261,
+                    "text": "deploy"
+                },
+                "children": []
+            },
+            {
+                "data": {
+                    "id": "d50mo4jk3g00",
+                    "created": 1729426897197,
+                    "text": "env",
+                    "layout_right_offset": {
+                        "x": 5,
+                        "y": -508
+                    },
+                    "resource": [
+                        "var"
+                    ]
+                },
+                "children": []
+            },
+            {
+                "data": {
+                    "id": "d50msv2s5jk0",
+                    "created": 1729427268412,
+                    "text": "可使用的上下文",
+                    "hyperlink": "https://docs.github.com/zh/enterprise-server@3.14/actions/writing-workflows/choosing-what-your-workflow-does/accessing-contextual-information-about-workflow-runs#vars-context",
+                    "hyperlinkTitle": "官方文档",
+                    "layout_right_offset": {
+                        "x": -41.999999538063946,
+                        "y": -92.00000089406961
+                    }
+                },
+                "children": [
+                    {
+                        "data": {
+                            "id": "d50mtgllgtk0",
+                            "created": 1729427315262,
+                            "text": "github"
+                        },
+                        "children": []
+                    },
+                    {
+                        "data": {
+                            "id": "d50mtrqq0p40",
+                            "created": 1729427339518,
+                            "text": "env"
+                        },
+                        "children": []
+                    },
+                    {
+                        "data": {
+                            "id": "d50mtshce0g0",
+                            "created": 1729427341127,
+                            "text": "vars",
+                            "progress": 9
+                        },
+                        "children": []
+                    },
+                    {
+                        "data": {
+                            "id": "d50mtt6vfeo0",
+                            "created": 1729427342670,
+                            "text": "secrets"
+                        },
+                        "children": []
+                    },
+                    {
+                        "data": {
+                            "id": "d50mujgcv3k0",
+                            "created": 1729427399840,
+                            "text": "job"
+                        },
+                        "children": []
+                    },
+                    {
+                        "data": {
+                            "id": "d50muk7v5vk0",
+                            "created": 1729427401503,
+                            "text": "jobs"
+                        },
+                        "children": []
+                    },
+                    {
+                        "data": {
+                            "id": "d50muxg6mog0",
+                            "created": 1729427430305,
+                            "text": "steps"
+                        },
+                        "children": []
+                    },
+                    {
+                        "data": {
+                            "id": "d50muy2jms00",
+                            "created": 1729427431657,
+                            "text": "runner"
+                        },
+                        "children": []
+                    },
+                    {
+                        "data": {
+                            "id": "d50mv6ojag80",
+                            "created": 1729427450401,
+                            "text": "strategy"
+                        },
+                        "children": []
+                    },
+                    {
+                        "data": {
+                            "id": "d50mv8e7cu00",
+                            "created": 1729427454129,
+                            "text": "matrix"
+                        },
+                        "children": []
+                    },
+                    {
+                        "data": {
+                            "id": "d50mvcvzs8g0",
+                            "created": 1729427463912,
+                            "text": "needs"
+                        },
+                        "children": []
+                    },
+                    {
+                        "data": {
+                            "id": "d50mvfivdfc0",
+                            "created": 1729427469649,
+                            "text": "inputs"
+                        },
+                        "children": []
+                    }
+                ]
+            },
+            {
+                "data": {
+                    "id": "d5hgi3a67ls0",
+                    "created": 1731136016872,
+                    "text": "变量使用"
+                },
+                "children": [
+                    {
+                        "data": {
+                            "id": "d5hgi7jnk680",
+                            "created": 1731136026152,
+                            "text": "${env中定义的}"
+                        },
+                        "children": []
+                    },
+                    {
+                        "data": {
+                            "id": "d5hgiiwduao0",
+                            "created": 1731136050866,
+                            "text": "${{github中定义的}}"
+                        },
+                        "children": []
+                    },
+                    {
+                        "data": {
+                            "id": "d5hgitu0uaw0",
+                            "created": 1731136074668,
+                            "text": "所以${},必须在env中转一次"
+                        },
+                        "children": []
+                    }
+                ]
+            },
+            {
+                "data": {
+                    "id": "d5hkmdw075s0",
+                    "created": 1731147637856,
+                    "text": "Packages",
+                    "layout_bottom_offset": {
+                        "x": -26.999998211860316,
+                        "y": 1.9999999701976776
+                    }
+                },
+                "children": [
+                    {
+                        "data": {
+                            "id": "d5hkmhucqy00",
+                            "created": 1731147646463,
+                            "text": "maven",
+                            "hyperlink": "https://docs.github.com/zh/enterprise-server@3.14/packages/working-with-a-github-packages-registry/working-with-the-apache-maven-registry",
+                            "hyperlinkTitle": "maven in github enterprise",
+                            "expandState": "collapse"
+                        },
+                        "children": [
+                            {
+                                "data": {
+                                    "id": "d5hkr3i5vo80",
+                                    "created": 1731148007072,
+                                    "text": "PACKAGE_SERVER_MAVEN_URL",
+                                    "expandState": "collapse"
+                                },
+                                "children": [
+                                    {
+                                        "data": {
+                                            "id": "d5hkmkqrd400",
+                                            "created": 1731147652776,
+                                            "text": "https://maven.github.shao.sh/SszOrg/ci-cd-demo"
+                                        },
+                                        "children": []
+                                    }
+                                ]
+                            },
+                            {
+                                "data": {
+                                    "id": "d5hkt6g41680",
+                                    "created": 1731148170206,
+                                    "text": "settings.xml",
+                                    "expandState": "collapse"
+                                },
+                                "children": [
+                                    {
+                                        "data": {
+                                            "id": "d5hktj33prs0",
+                                            "created": 1731148197718,
+                                            "text": "Basic HTTP Authentication",
+                                            "expandState": "expand"
+                                        },
+                                        "children": [
+                                            {
+                                                "data": {
+                                                    "id": "d5hktsyzvtc0",
+                                                    "created": 1731148219238,
+                                                    "text": "username"
+                                                },
+                                                "children": [
+                                                    {
+                                                        "data": {
+                                                            "id": "d5hktwttubk0",
+                                                            "created": 1731148227632,
+                                                            "text": "GITHUB-ACTOR"
+                                                        },
+                                                        "children": []
+                                                    }
+                                                ]
+                                            },
+                                            {
+                                                "data": {
+                                                    "id": "d5hku2e9g0g0",
+                                                    "created": 1731148239752,
+                                                    "text": "password",
+                                                    "expandState": "expand"
+                                                },
+                                                "children": [
+                                                    {
+                                                        "data": {
+                                                            "id": "d5hku5b64gw0",
+                                                            "created": 1731148246095,
+                                                            "text": "${GITHUB_TOKEN}"
+                                                        },
+                                                        "children": []
+                                                    },
+                                                    {
+                                                        "data": {
+                                                            "id": "d5hkueu0aoo0",
+                                                            "created": 1731148266825,
+                                                            "text": "${PAT}"
+                                                        },
+                                                        "children": []
+                                                    }
+                                                ]
+                                            }
+                                        ]
+                                    }
+                                ]
+                            }
+                        ]
+                    },
+                    {
+                        "data": {
+                            "id": "d5hqqx6me740",
+                            "created": 1731164919973,
+                            "text": "nuget",
+                            "expandState": "collapse",
+                            "hyperlink": "https://docs.github.com/zh/packages/working-with-a-github-packages-registry/working-with-the-nuget-registry",
+                            "hyperlinkTitle": ""
+                        },
+                        "children": [
+                            {
+                                "data": {
+                                    "id": "d5hqxgmnqcw0",
+                                    "created": 1731165432486,
+                                    "text": "pack"
+                                },
+                                "children": [
+                                    {
+                                        "data": {
+                                            "id": "d5hqxo0siqg0",
+                                            "created": 1731165448578,
+                                            "text": "mono choco.exe pack"
+                                        },
+                                        "children": []
+                                    }
+                                ]
+                            },
+                            {
+                                "data": {
+                                    "id": "d5hqyustveo0",
+                                    "created": 1731165541699,
+                                    "text": "增加repository字段"
+                                },
+                                "children": [
+                                    {
+                                        "data": {
+                                            "id": "d5hr0ku2y7k0",
+                                            "created": 1731165676735,
+                                            "text": "因为choco pack\n不支持repository字段"
+                                        },
+                                        "children": []
+                                    },
+                                    {
+                                        "data": {
+                                            "id": "d5hqzjee6vs0",
+                                            "created": 1731165595245,
+                                            "text": "unzip"
+                                        },
+                                        "children": []
+                                    },
+                                    {
+                                        "data": {
+                                            "id": "d5hqzn84ajk0",
+                                            "created": 1731165603573,
+                                            "text": "sed .nuspec",
+                                            "expandState": "expand"
+                                        },
+                                        "children": [
+                                            {
+                                                "data": {
+                                                    "id": "d5hqzswjnhk0",
+                                                    "created": 1731165615934,
+                                                    "text": "增加type/url"
+                                                },
+                                                "children": []
+                                            }
+                                        ]
+                                    },
+                                    {
+                                        "data": {
+                                            "id": "d5hr05h4maw0",
+                                            "created": 1731165643300,
+                                            "text": "zip replace 旧的nupkg"
+                                        },
+                                        "children": []
+                                    }
+                                ]
+                            },
+                            {
+                                "data": {
+                                    "id": "d5hqxvviim80",
+                                    "created": 1731165465673,
+                                    "text": "push",
+                                    "expandState": "expand"
+                                },
+                                "children": [
+                                    {
+                                        "data": {
+                                            "id": "d5hqxyouwiw0",
+                                            "created": 1731165471801,
+                                            "text": "mono choco exec push",
+                                            "expandState": "collapse"
+                                        },
+                                        "children": [
+                                            {
+                                                "data": {
+                                                    "id": "d5hqy45zhvk0",
+                                                    "created": 1731165483721,
+                                                    "text": "--source https://nuget.github.shao.sh/SszOrg"
+                                                },
+                                                "children": []
+                                            },
+                                            {
+                                                "data": {
+                                                    "id": "d5hqylfph6w0",
+                                                    "created": 1731165521314,
+                                                    "text": "--api-key $GITHUB_TOKEN"
+                                                },
+                                                "children": []
+                                            }
+                                        ]
+                                    }
+                                ]
+                            }
+                        ]
+                    },
+                    {
+                        "data": {
+                            "id": "d5hqr0nigq00",
+                            "created": 1731164927524,
+                            "text": "npm",
+                            "expandState": "expand",
+                            "hyperlink": "https://docs.github.com/zh/packages/working-with-a-github-packages-registry/working-with-the-npm-registry",
+                            "hyperlinkTitle": ""
+                        },
+                        "children": [
+                            {
+                                "data": {
+                                    "id": "d5ka749tj0w0",
+                                    "created": 1731422910232,
+                                    "text": "校验package.json\n的repository是否来自与相同的host",
+                                    "background": "#ff0000"
+                                },
+                                "children": []
+                            },
+                            {
+                                "data": {
+                                    "id": "d5ka8r3imns0",
+                                    "created": 1731423038281,
+                                    "text": "只有一种Url",
+                                    "expandState": "collapse"
+                                },
+                                "children": [
+                                    {
+                                        "data": {
+                                            "id": "d5ka8y1oe0o0",
+                                            "created": 1731423053407,
+                                            "text": "PACKAGE_SERVER_NPM_URL"
+                                        },
+                                        "children": [
+                                            {
+                                                "data": {
+                                                    "id": "d5ka9d6159c0",
+                                                    "created": 1731423086322,
+                                                    "text": "Instance",
+                                                    "resource": [
+                                                        "Install",
+                                                        "deploy"
+                                                    ],
+                                                    "expandState": "collapse"
+                                                },
+                                                "children": [
+                                                    {
+                                                        "data": {
+                                                            "id": "d5ka9h5q0v40",
+                                                            "created": 1731423095011,
+                                                            "text": "npm.github.shao.sh"
+                                                        },
+                                                        "children": []
+                                                    }
+                                                ]
+                                            },
+                                            {
+                                                "data": {
+                                                    "id": "d5kaa62k8s80",
+                                                    "created": 1731423149239,
+                                                    "text": "不支持组织和Repository",
+                                                    "background": "#ff0000"
+                                                },
+                                                "children": []
+                                            }
+                                        ]
+                                    }
+                                ]
+                            },
+                            {
+                                "data": {
+                                    "id": "d5kaaoz1gqg0",
+                                    "created": 1731423190385,
+                                    "text": "只有PAT, GITHUB_TOKEN\n没有DeployToken"
+                                },
+                                "children": []
+                            },
+                            {
+                                "data": {
+                                    "id": "d5hqr37uinc0",
+                                    "created": 1731164933108,
+                                    "text": "package.json",
+                                    "expandState": "collapse"
+                                },
+                                "children": [
+                                    {
+                                        "data": {
+                                            "id": "d5hqr7757ps0",
+                                            "created": 1731164941772,
+                                            "text": "环境变量不支持"
+                                        },
+                                        "children": []
+                                    },
+                                    {
+                                        "data": {
+                                            "id": "d5hqsar17uw0",
+                                            "created": 1731165027869,
+                                            "text": "用sed替换环境变量"
+                                        },
+                                        "children": []
+                                    }
+                                ]
+                            },
+                            {
+                                "data": {
+                                    "id": "d5hqrekeyk00",
+                                    "created": 1731164957812,
+                                    "text": ".npmrc",
+                                    "expandState": "collapse"
+                                },
+                                "children": [
+                                    {
+                                        "data": {
+                                            "id": "d5hqrijf7oo0",
+                                            "created": 1731164966459,
+                                            "text": "环境变量只能用${}"
+                                        },
+                                        "children": []
+                                    },
+                                    {
+                                        "data": {
+                                            "id": "d5hqrpjrdc00",
+                                            "created": 1731164981717,
+                                            "text": "$Var不支持"
+                                        },
+                                        "children": []
+                                    },
+                                    {
+                                        "data": {
+                                            "id": "d5hqrxrgvzs0",
+                                            "created": 1731164999597,
+                                            "text": "GITHUB_TOKEN配置这"
+                                        },
+                                        "children": []
+                                    }
+                                ]
+                            },
+                            {
+                                "data": {
+                                    "id": "d5hqwqpe5400",
+                                    "created": 1731165376055,
+                                    "text": "self signed certificate",
+                                    "expandState": "collapse"
+                                },
+                                "children": [
+                                    {
+                                        "data": {
+                                            "id": "d5hqx0qlpx40",
+                                            "created": 1731165397896,
+                                            "text": "npm config set strict-ssl false"
+                                        },
+                                        "children": []
+                                    }
+                                ]
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "data": {
+                    "id": "d5n7hsx72w80",
+                    "created": 1731719964070,
+                    "text": "说明",
+                    "layout_mind_offset": {
+                        "x": 1011,
+                        "y": -1603
+                    },
+                    "priority": 1,
+                    "background": "#ff0000"
+                },
+                "children": [
+                    {
+                        "data": {
+                            "id": "d5n7i7k71cw0",
+                            "created": 1731719995936,
+                            "text": "顺序"
+                        },
+                        "children": [
+                            {
+                                "data": {
+                                    "id": "d5n7iba2ou80",
+                                    "created": 1731720004031,
+                                    "text": "1",
+                                    "priority": 1
+                                },
+                                "children": []
+                            },
+                            {
+                                "data": {
+                                    "id": "d5n7ikevlhk0",
+                                    "created": 1731720023912,
+                                    "text": "2",
+                                    "priority": 2
+                                },
+                                "children": []
+                            },
+                            {
+                                "data": {
+                                    "id": "d5n7innew2w0",
+                                    "created": 1731720030959,
+                                    "text": "...",
+                                    "priority": 9
+                                },
+                                "children": []
+                            }
+                        ]
+                    },
+                    {
+                        "data": {
+                            "id": "d5n7isojv140",
+                            "created": 1731720041911,
+                            "text": "Note",
+                            "priority": 1
+                        },
+                        "children": [
+                            {
+                                "data": {
+                                    "id": "d5n7kk0yd740",
+                                    "created": 1731720179799,
+                                    "text": "表示很重要"
+                                },
+                                "children": []
+                            }
+                        ]
+                    },
+                    {
+                        "data": {
+                            "id": "d5n7jlxpfew0",
+                            "created": 1731720105592,
+                            "text": "逻辑"
+                        },
+                        "children": [
+                            {
+                                "data": {
+                                    "id": "d5n7jp1r1dc0",
+                                    "created": 1731720112367,
+                                    "text": "和上一条记录",
+                                    "resource": [
+                                        "Or"
+                                    ]
+                                },
+                                "children": []
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    "template": "filetree",
+    "theme": "wire",
+    "version": "1.4.43"
+}

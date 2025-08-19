@@ -1,0 +1,448 @@
+{
+    "root": {
+        "data": {
+            "id": "d5gbgwu12280",
+            "created": 1731020258964,
+            "text": "gitlab-pages"
+        },
+        "children": [
+            {
+                "data": {
+                    "id": "d5gbh79piew0",
+                    "created": 1731020281680,
+                    "text": "pages_external_url"
+                },
+                "children": [
+                    {
+                        "data": {
+                            "id": "d5gbhnpx7c80",
+                            "created": 1731020317489,
+                            "text": "https"
+                        },
+                        "children": [
+                            {
+                                "data": {
+                                    "id": "d5gbixlg4b40",
+                                    "created": 1731020417351,
+                                    "text": "with TLS"
+                                },
+                                "children": []
+                            }
+                        ]
+                    },
+                    {
+                        "data": {
+                            "id": "d5gbhqasqoo0",
+                            "created": 1731020323105,
+                            "text": "http"
+                        },
+                        "children": [
+                            {
+                                "data": {
+                                    "id": "d5gbisf24qg0",
+                                    "created": 1731020406080,
+                                    "text": "without TLS"
+                                },
+                                "children": []
+                            }
+                        ]
+                    },
+                    {
+                        "data": {
+                            "id": "d5gbhvvswu00",
+                            "created": 1731020335259,
+                            "text": "external_url同域"
+                        },
+                        "children": [
+                            {
+                                "data": {
+                                    "id": "d5gbie35bc00",
+                                    "created": 1731020374885,
+                                    "text": "监听0.0.0.0:port",
+                                    "expandState": "expand",
+                                    "background": "#ff0000"
+                                },
+                                "children": [
+                                    {
+                                        "data": {
+                                            "id": "d5gbsbc5eqo0",
+                                            "created": 1731021152541,
+                                            "text": "nas236反向代理到gitlab:port"
+                                        },
+                                        "children": []
+                                    }
+                                ]
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "data": {
+                    "id": "d5gbj5541680",
+                    "created": 1731020433777,
+                    "text": "enable"
+                },
+                "children": [
+                    {
+                        "data": {
+                            "id": "d5gbtf6u1u00",
+                            "created": 1731021239291,
+                            "text": "true"
+                        },
+                        "children": [
+                            {
+                                "data": {
+                                    "id": "d5gbtk7zg540",
+                                    "created": 1731021250244,
+                                    "text": "本机启用"
+                                },
+                                "children": []
+                            }
+                        ]
+                    },
+                    {
+                        "data": {
+                            "id": "d5gbthdleio0",
+                            "created": 1731021244053,
+                            "text": "false"
+                        },
+                        "children": [
+                            {
+                                "data": {
+                                    "id": "d5gbtpl14rs0",
+                                    "created": 1731021261917,
+                                    "text": "外机启用"
+                                },
+                                "children": []
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "data": {
+                    "id": "d5gblh8qj080",
+                    "created": 1731020616846,
+                    "text": "external_url"
+                },
+                "children": [
+                    {
+                        "data": {
+                            "id": "d5gblkhe0i80",
+                            "created": 1731020623900,
+                            "text": "https"
+                        },
+                        "children": [
+                            {
+                                "data": {
+                                    "id": "d5gblor0iww0",
+                                    "created": 1731020633189,
+                                    "text": "artifacts_server_url"
+                                },
+                                "children": [
+                                    {
+                                        "data": {
+                                            "id": "d5gblsquiwg0",
+                                            "created": 1731020641886,
+                                            "text": "http://127.0.0.1/api/v4",
+                                            "background": "#ff0000"
+                                        },
+                                        "children": []
+                                    }
+                                ]
+                            },
+                            {
+                                "data": {
+                                    "id": "d5gbmz6tqnk0",
+                                    "created": 1731020734277,
+                                    "text": "gitlab_server"
+                                },
+                                "children": [
+                                    {
+                                        "data": {
+                                            "id": "d5p29lrwft40",
+                                            "created": 1731908335963,
+                                            "text": "https://de.vicp.net:58443",
+                                            "expandState": "expand"
+                                        },
+                                        "children": [
+                                            {
+                                                "data": {
+                                                    "id": "d5gbn504ig00",
+                                                    "created": 1731020746932,
+                                                    "text": "http://127.0.0.1",
+                                                    "background": "#ff0000"
+                                                },
+                                                "children": []
+                                            },
+                                            {
+                                                "data": {
+                                                    "id": "d5p29u8g3e80",
+                                                    "created": 1731908354378,
+                                                    "text": "如果配置成127.0.1\n会跳转到它"
+                                                },
+                                                "children": []
+                                            }
+                                        ]
+                                    },
+                                    {
+                                        "data": {
+                                            "id": "d5p2fye48uo0",
+                                            "created": 1731908833613,
+                                            "text": "没配置internal_gitlab_server会使用,默认二者相等"
+                                        },
+                                        "children": []
+                                    }
+                                ]
+                            },
+                            {
+                                "data": {
+                                    "id": "d5p2afz3zhc0",
+                                    "created": 1731908401702,
+                                    "text": "internal_gitlab_server",
+                                    "resource": [
+                                        "Pair"
+                                    ]
+                                },
+                                "children": [
+                                    {
+                                        "data": {
+                                            "id": "d5p2bke53hc0",
+                                            "created": 1731908489682,
+                                            "text": "http://127.0.0.1",
+                                            "priority": 1
+                                        },
+                                        "children": []
+                                    },
+                                    {
+                                        "data": {
+                                            "id": "d5p2fl79y4o0",
+                                            "created": 1731908804901,
+                                            "text": "优先使用它去gitlab_server授权"
+                                        },
+                                        "children": []
+                                    }
+                                ]
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "data": {
+                    "id": "d5gbqfosh140",
+                    "created": 1731021005284,
+                    "text": "namespace_in_path"
+                },
+                "children": [
+                    {
+                        "data": {
+                            "id": "d5gbqm9wkps0",
+                            "created": 1731021019621,
+                            "text": "true"
+                        },
+                        "children": [
+                            {
+                                "data": {
+                                    "id": "d5gbqosehns0",
+                                    "created": 1731021025093,
+                                    "text": "pages_external_url/org/repo",
+                                    "background": "#ff0000"
+                                },
+                                "children": []
+                            }
+                        ]
+                    },
+                    {
+                        "data": {
+                            "id": "d5gbr4zxacg0",
+                            "created": 1731021060377,
+                            "text": "false"
+                        },
+                        "children": [
+                            {
+                                "data": {
+                                    "id": "d5gbr7dryq80",
+                                    "created": 1731021065568,
+                                    "text": "org.domain/repo"
+                                },
+                                "children": []
+                            }
+                        ]
+                    },
+                    {
+                        "data": {
+                            "id": "d5ozpjzospc0",
+                            "created": 1731901122577,
+                            "text": "override",
+                            "priority": 1
+                        },
+                        "children": [
+                            {
+                                "data": {
+                                    "id": "d5ozqivz8340",
+                                    "created": 1731901198540,
+                                    "text": "NSB/bulletin",
+                                    "hyperlink": "https://de.vicp.net:58443/nsb/bulletin/pages",
+                                    "hyperlinkTitle": ""
+                                },
+                                "children": [
+                                    {
+                                        "data": {
+                                            "id": "d5ozqp0u0400",
+                                            "created": 1731901211894,
+                                            "text": "设置了true,还是生成/bulletin-xxxxxx"
+                                        },
+                                        "children": []
+                                    }
+                                ]
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "data": {
+                    "id": "d5gbuar602o0",
+                    "created": 1731021308000,
+                    "text": "日志"
+                },
+                "children": [
+                    {
+                        "data": {
+                            "id": "d5gbueyx6mg0",
+                            "created": 1731021317176,
+                            "text": "log/gitlab-pages"
+                        },
+                        "children": []
+                    }
+                ]
+            },
+            {
+                "data": {
+                    "id": "d5gdn3195800",
+                    "created": 1731026384867,
+                    "text": "ci/cd"
+                },
+                "children": [
+                    {
+                        "data": {
+                            "id": "d5gdn8jq9y80",
+                            "created": 1731026396868,
+                            "text": "pages job"
+                        },
+                        "children": [
+                            {
+                                "data": {
+                                    "id": "d5gdnwafrrc0",
+                                    "created": 1731026448549,
+                                    "text": "stage"
+                                },
+                                "children": [
+                                    {
+                                        "data": {
+                                            "id": "d5gdorilyko0",
+                                            "created": 1731026516523,
+                                            "text": "必须是deploy"
+                                        },
+                                        "children": []
+                                    }
+                                ]
+                            },
+                            {
+                                "data": {
+                                    "id": "d5gdo87agkg0",
+                                    "created": 1731026474480,
+                                    "text": "artifacts"
+                                },
+                                "children": [
+                                    {
+                                        "data": {
+                                            "id": "d5gdohpkz7k0",
+                                            "created": 1731026495177,
+                                            "text": "必须是public",
+                                            "background": "#ff0000"
+                                        },
+                                        "children": []
+                                    },
+                                    {
+                                        "data": {
+                                            "id": "d5gdp297ry00",
+                                            "created": 1731026539900,
+                                            "text": "其它"
+                                        },
+                                        "children": [
+                                            {
+                                                "data": {
+                                                    "id": "d5gdpdxbiag0",
+                                                    "created": 1731026565302,
+                                                    "text": "job成功"
+                                                },
+                                                "children": []
+                                            },
+                                            {
+                                                "data": {
+                                                    "id": "d5gdplabtaw0",
+                                                    "created": 1731026581326,
+                                                    "text": "但deploy失败"
+                                                },
+                                                "children": []
+                                            }
+                                        ]
+                                    }
+                                ]
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "data": {
+                    "id": "d5p2c7agguw0",
+                    "created": 1731908539526,
+                    "text": "declare",
+                    "layout_mind_offset": {
+                        "x": 348.9999947994949,
+                        "y": -514.999992325902
+                    },
+                    "expandState": "expand"
+                },
+                "children": [
+                    {
+                        "data": {
+                            "id": "d5p2cbnso3c0",
+                            "created": 1731908549039,
+                            "text": "pair",
+                            "resource": [
+                                "Pair"
+                            ],
+                            "expandState": "expand",
+                            "layout_right_offset": {
+                                "x": 236.9999964684249,
+                                "y": -37.999999433755875
+                            }
+                        },
+                        "children": [
+                            {
+                                "data": {
+                                    "id": "d5p2e9l66w80",
+                                    "created": 1731908701255,
+                                    "text": "和上个Item成对使用",
+                                    "layout_right_offset": {
+                                        "x": 314.99999530613434,
+                                        "y": 5.99999991059309
+                                    }
+                                },
+                                "children": []
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    "template": "default",
+    "theme": "fresh-soil",
+    "version": "1.4.43"
+}

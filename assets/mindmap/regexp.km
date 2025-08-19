@@ -1,0 +1,319 @@
+{
+    "root": {
+        "data": {
+            "id": "d5ogfvbley80",
+            "created": 1731846762512,
+            "text": "正则",
+            "background": "#7030a0"
+        },
+        "children": [
+            {
+                "data": {
+                    "id": "d5ogg14tzk80",
+                    "created": 1731846775163,
+                    "text": "Extend ERE"
+                },
+                "children": [
+                    {
+                        "data": {
+                            "id": "d5oggjz48v40",
+                            "created": 1731846816177,
+                            "text": "Linux"
+                        },
+                        "children": [
+                            {
+                                "data": {
+                                    "id": "d5oggraemh40",
+                                    "created": 1731846832097,
+                                    "text": "bash",
+                                    "expandState": "expand"
+                                },
+                                "children": [
+                                    {
+                                        "data": {
+                                            "id": "d5ohk7zeiw80",
+                                            "created": 1731849924639,
+                                            "text": "[[ ]] expr"
+                                        },
+                                        "children": [
+                                            {
+                                                "data": {
+                                                    "id": "d5p1yuzughk0",
+                                                    "created": 1731907494028,
+                                                    "text": "${BASH_REMATCH[n]}"
+                                                },
+                                                "children": [
+                                                    {
+                                                        "data": {
+                                                            "id": "d5p1z1gjub40",
+                                                            "created": 1731907508099,
+                                                            "text": "0 整体"
+                                                        },
+                                                        "children": []
+                                                    },
+                                                    {
+                                                        "data": {
+                                                            "id": "d5p1ze050f40",
+                                                            "created": 1731907535405,
+                                                            "text": "1 第一个()的内容"
+                                                        },
+                                                        "children": []
+                                                    },
+                                                    {
+                                                        "data": {
+                                                            "id": "d5p1zm80gq00",
+                                                            "created": 1731907553295,
+                                                            "text": "n, ..."
+                                                        },
+                                                        "children": []
+                                                    }
+                                                ]
+                                            }
+                                        ]
+                                    }
+                                ]
+                            },
+                            {
+                                "data": {
+                                    "id": "d5oggvpzfr40",
+                                    "created": 1731846841746,
+                                    "text": "grep -E"
+                                },
+                                "children": []
+                            },
+                            {
+                                "data": {
+                                    "id": "d5oi8o0wr800",
+                                    "created": 1731851840299,
+                                    "text": "sed -r"
+                                },
+                                "children": []
+                            },
+                            {
+                                "data": {
+                                    "id": "d5oi8rnfyp40",
+                                    "created": 1731851848192,
+                                    "text": "sed -E"
+                                },
+                                "children": []
+                            }
+                        ]
+                    },
+                    {
+                        "data": {
+                            "id": "d5oi8yx1d400",
+                            "created": 1731851864009,
+                            "text": "`表示或"
+                        },
+                        "children": []
+                    },
+                    {
+                        "data": {
+                            "id": "d5oi97ysfs80",
+                            "created": 1731851883706,
+                            "text": "(),{m,n},都不需要转义"
+                        },
+                        "children": []
+                    }
+                ]
+            },
+            {
+                "data": {
+                    "id": "d5oggaehi280",
+                    "created": 1731846795338,
+                    "text": "Perl PRE"
+                },
+                "children": [
+                    {
+                        "data": {
+                            "id": "d5oggz439xc0",
+                            "created": 1731846849129,
+                            "text": "Linux"
+                        },
+                        "children": [
+                            {
+                                "data": {
+                                    "id": "d5ogh2fxzhc0",
+                                    "created": 1731846856376,
+                                    "text": "grep -P"
+                                },
+                                "children": []
+                            }
+                        ]
+                    },
+                    {
+                        "data": {
+                            "id": "d5p3voatbw00",
+                            "created": 1731912886582,
+                            "text": "Javascript"
+                        },
+                        "children": [
+                            {
+                                "data": {
+                                    "id": "d5p3vri2xzk0",
+                                    "created": 1731912893551,
+                                    "text": "RegExp"
+                                },
+                                "children": [
+                                    {
+                                        "data": {
+                                            "id": "d5p3w0f3hog0",
+                                            "created": 1731912912962,
+                                            "text": "稍有差异",
+                                            "priority": 1
+                                        },
+                                        "children": []
+                                    }
+                                ]
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "data": {
+                    "id": "d5oggd1zy000",
+                    "created": 1731846801113,
+                    "text": "标准BRE"
+                },
+                "children": [
+                    {
+                        "data": {
+                            "id": "d5ogh75ymrs0",
+                            "created": 1731846866657,
+                            "text": "Linux"
+                        },
+                        "children": [
+                            {
+                                "data": {
+                                    "id": "d5oghannau80",
+                                    "created": 1731846874256,
+                                    "text": "grep"
+                                },
+                                "children": []
+                            },
+                            {
+                                "data": {
+                                    "id": "d5ohjtaz7fs0",
+                                    "created": 1731849892687,
+                                    "text": "sed"
+                                },
+                                "children": []
+                            },
+                            {
+                                "data": {
+                                    "id": "d5ohk4au4jc0",
+                                    "created": 1731849916623,
+                                    "text": "bash"
+                                },
+                                "children": []
+                            }
+                        ]
+                    },
+                    {
+                        "data": {
+                            "id": "d5ohj2gqhxs0",
+                            "created": 1731849834262,
+                            "text": "需要转义的字符"
+                        },
+                        "children": [
+                            {
+                                "data": {
+                                    "id": "d5ohj6pacds0",
+                                    "created": 1731849843487,
+                                    "text": "()"
+                                },
+                                "children": []
+                            },
+                            {
+                                "data": {
+                                    "id": "d5ohjb85vco0",
+                                    "created": 1731849853335,
+                                    "text": "{m,n}"
+                                },
+                                "children": []
+                            },
+                            {
+                                "data": {
+                                    "id": "d5ohjfzhieo0",
+                                    "created": 1731849863694,
+                                    "text": "'\\'"
+                                },
+                                "children": []
+                            },
+                            {
+                                "data": {
+                                    "id": "d5oianfb9s00",
+                                    "created": 1731851995721,
+                                    "text": "|"
+                                },
+                                "children": []
+                            },
+                            {
+                                "data": {
+                                    "id": "d5oib5jv3rk0",
+                                    "created": 1731852035178,
+                                    "text": "+"
+                                },
+                                "children": []
+                            },
+                            {
+                                "data": {
+                                    "id": "d5oib8o1w2g0",
+                                    "created": 1731852041962,
+                                    "text": "？"
+                                },
+                                "children": []
+                            }
+                        ]
+                    },
+                    {
+                        "data": {
+                            "id": "d5oibj8foy80",
+                            "created": 1731852064962,
+                            "text": "不需要转义的字符",
+                            "priority": 1
+                        },
+                        "children": [
+                            {
+                                "data": {
+                                    "id": "d5oibp2nq3s0",
+                                    "created": 1731852077674,
+                                    "text": "'.'"
+                                },
+                                "children": []
+                            },
+                            {
+                                "data": {
+                                    "id": "d5oichkeuc80",
+                                    "created": 1731852139697,
+                                    "text": "'*'"
+                                },
+                                "children": []
+                            },
+                            {
+                                "data": {
+                                    "id": "d5oicmk2yb40",
+                                    "created": 1731852150561,
+                                    "text": "[]"
+                                },
+                                "children": []
+                            },
+                            {
+                                "data": {
+                                    "id": "d5oie2fuovs0",
+                                    "created": 1731852263498,
+                                    "text": "如果加了转移符号,表示精确的字符"
+                                },
+                                "children": []
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    "template": "default",
+    "theme": "fresh-blue",
+    "version": "1.4.43"
+}

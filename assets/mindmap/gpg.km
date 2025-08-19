@@ -1,0 +1,685 @@
+{
+    "root": {
+        "data": {
+            "id": "d5kqvt09v600",
+            "created": 1731469982573,
+            "text": "GPG",
+            "background": "#7030a0"
+        },
+        "children": [
+            {
+                "data": {
+                    "id": "d5kqvwtdv8o0",
+                    "created": 1731469990863,
+                    "text": "私钥",
+                    "expandState": "expand"
+                },
+                "children": [
+                    {
+                        "data": {
+                            "id": "d5kqwb1pvhc0",
+                            "created": 1731470021842,
+                            "text": "Key Id"
+                        },
+                        "children": [
+                            {
+                                "data": {
+                                    "id": "d5kqwf3x30w0",
+                                    "created": 1731470030682,
+                                    "text": "email"
+                                },
+                                "children": []
+                            }
+                        ]
+                    },
+                    {
+                        "data": {
+                            "id": "d5kqwl5ua2w0",
+                            "created": 1731470043859,
+                            "text": "解密"
+                        },
+                        "children": [
+                            {
+                                "data": {
+                                    "id": "d5kqwwz7i400",
+                                    "created": 1731470069579,
+                                    "text": "--decrypt",
+                                    "resource": [
+                                        "命令行参数"
+                                    ]
+                                },
+                                "children": []
+                            }
+                        ]
+                    },
+                    {
+                        "data": {
+                            "id": "d5krk1i77yo0",
+                            "created": 1731471881811,
+                            "text": "签名"
+                        },
+                        "children": [
+                            {
+                                "data": {
+                                    "id": "d5krlm2j7bs0",
+                                    "created": 1731472004940,
+                                    "text": "all-in-one",
+                                    "expandState": "expand"
+                                },
+                                "children": [
+                                    {
+                                        "data": {
+                                            "id": "d5krk6upzxc0",
+                                            "created": 1731471893452,
+                                            "text": "--local-user keyId --clear-sign file",
+                                            "resource": [
+                                                "命令行参数"
+                                            ]
+                                        },
+                                        "children": []
+                                    }
+                                ]
+                            },
+                            {
+                                "data": {
+                                    "id": "d5krlvfomgo0",
+                                    "created": 1731472025326,
+                                    "text": "单独文件"
+                                },
+                                "children": [
+                                    {
+                                        "data": {
+                                            "id": "d5krm2776140",
+                                            "created": 1731472040051,
+                                            "text": "--local-user keyId --armor --detach-sign file",
+                                            "resource": [
+                                                "命令行参数"
+                                            ]
+                                        },
+                                        "children": []
+                                    }
+                                ]
+                            }
+                        ]
+                    },
+                    {
+                        "data": {
+                            "id": "d5kr05vzyg00",
+                            "created": 1731470324069,
+                            "text": "生成"
+                        },
+                        "children": [
+                            {
+                                "data": {
+                                    "id": "d5kr0e44jlk0",
+                                    "created": 1731470341975,
+                                    "text": "--gen-key",
+                                    "resource": [
+                                        "命令行参数"
+                                    ]
+                                },
+                                "children": []
+                            },
+                            {
+                                "data": {
+                                    "id": "d5ks7ikatjk0",
+                                    "created": 1731473721319,
+                                    "text": "结果"
+                                },
+                                "children": [
+                                    {
+                                        "data": {
+                                            "id": "d5ks7n3vzyg0",
+                                            "created": 1731473731210,
+                                            "text": "gpg: revocation certificate stored as '/c/Users/ssz/.gnupg/openpgp-revocs.d/A16B7F7C541315D341C78FC8C3DB17068BBBA31A.rev"
+                                        },
+                                        "children": []
+                                    },
+                                    {
+                                        "data": {
+                                            "id": "d5ks8920ipc0",
+                                            "created": 1731473778986,
+                                            "text": "passphrase"
+                                        },
+                                        "children": [
+                                            {
+                                                "data": {
+                                                    "id": "d5ks8arjjkw0",
+                                                    "created": 1731473782707,
+                                                    "text": "私钥密码"
+                                                },
+                                                "children": []
+                                            }
+                                        ]
+                                    }
+                                ]
+                            }
+                        ]
+                    },
+                    {
+                        "data": {
+                            "id": "d5kr723x9u00",
+                            "created": 1731470864390,
+                            "text": "导出"
+                        },
+                        "children": [
+                            {
+                                "data": {
+                                    "id": "d5kr7a8r27k0",
+                                    "created": 1731470882096,
+                                    "text": "--armor --export-secret-keys keyId",
+                                    "resource": [
+                                        "命令行参数"
+                                    ]
+                                },
+                                "children": []
+                            }
+                        ]
+                    },
+                    {
+                        "data": {
+                            "id": "d5krcj2pjhs0",
+                            "created": 1731471293143,
+                            "text": "查询",
+                            "expandState": "collapse"
+                        },
+                        "children": [
+                            {
+                                "data": {
+                                    "id": "d5krcmnqyeo0",
+                                    "created": 1731471300945,
+                                    "text": "--list-secret-keys",
+                                    "resource": [
+                                        "命令行参数"
+                                    ]
+                                },
+                                "children": []
+                            },
+                            {
+                                "data": {
+                                    "id": "d5kre2t4cds0",
+                                    "created": 1731471414463,
+                                    "text": "结果"
+                                },
+                                "children": [
+                                    {
+                                        "data": {
+                                            "id": "d5kre7qomu80",
+                                            "created": 1731471425199,
+                                            "text": ".kbx"
+                                        },
+                                        "children": []
+                                    },
+                                    {
+                                        "data": {
+                                            "id": "d5krecdkjw80",
+                                            "created": 1731471435290,
+                                            "text": "sec",
+                                            "priority": 1,
+                                            "expandState": "expand"
+                                        },
+                                        "children": [
+                                            {
+                                                "data": {
+                                                    "id": "d5krf3pohsg0",
+                                                    "created": 1731471494796,
+                                                    "text": "私钥特征"
+                                                },
+                                                "children": []
+                                            },
+                                            {
+                                                "data": {
+                                                    "id": "d5krfenkvrc0",
+                                                    "created": 1731471518613,
+                                                    "text": "公钥特征",
+                                                    "resource": [
+                                                        "Equals"
+                                                    ]
+                                                },
+                                                "children": []
+                                            }
+                                        ]
+                                    },
+                                    {
+                                        "data": {
+                                            "id": "d5krednl4i00",
+                                            "created": 1731471438073,
+                                            "text": "uid",
+                                            "priority": 1
+                                        },
+                                        "children": [
+                                            {
+                                                "data": {
+                                                    "id": "d5krf09k2ds0",
+                                                    "created": 1731471487291,
+                                                    "text": "keyId"
+                                                },
+                                                "children": []
+                                            }
+                                        ]
+                                    },
+                                    {
+                                        "data": {
+                                            "id": "d5kreqsbn9s0",
+                                            "created": 1731471466657,
+                                            "text": "ssb"
+                                        },
+                                        "children": []
+                                    }
+                                ]
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "data": {
+                    "id": "d5kqw0auigg0",
+                    "created": 1731469998449,
+                    "text": "公钥",
+                    "expandState": "expand"
+                },
+                "children": [
+                    {
+                        "data": {
+                            "id": "d5kr1tenw0o0",
+                            "created": 1731470453628,
+                            "text": "公共库",
+                            "expandState": "expand"
+                        },
+                        "children": [
+                            {
+                                "data": {
+                                    "id": "d5kqybaw22g0",
+                                    "created": 1731470179125,
+                                    "text": "上传",
+                                    "expandState": "expand"
+                                },
+                                "children": [
+                                    {
+                                        "data": {
+                                            "id": "d5kqyk80mns0",
+                                            "created": 1731470198542,
+                                            "text": "--send-keys keyId",
+                                            "resource": [
+                                                "命令行参数"
+                                            ]
+                                        },
+                                        "children": []
+                                    }
+                                ]
+                            },
+                            {
+                                "data": {
+                                    "id": "d5kqzdm7sow0",
+                                    "created": 1731470262528,
+                                    "text": "下载"
+                                },
+                                "children": [
+                                    {
+                                        "data": {
+                                            "id": "d5kqziun85c0",
+                                            "created": 1731470273921,
+                                            "text": "--search-keys keyId",
+                                            "resource": [
+                                                "命令行参数"
+                                            ]
+                                        },
+                                        "children": []
+                                    }
+                                ]
+                            },
+                            {
+                                "data": {
+                                    "id": "d5kr1k4feoo0",
+                                    "created": 1731470433418,
+                                    "text": "撤销"
+                                },
+                                "children": [
+                                    {
+                                        "data": {
+                                            "id": "d5kr1nyu43s0",
+                                            "created": 1731470441787,
+                                            "text": "--gen-revoke keyId",
+                                            "resource": [
+                                                "命令行参数"
+                                            ],
+                                            "priority": 1
+                                        },
+                                        "children": []
+                                    },
+                                    {
+                                        "data": {
+                                            "id": "d5krzs9w63k0",
+                                            "created": 1731473115544,
+                                            "text": "生成.asc\n撤销证书",
+                                            "priority": 2
+                                        },
+                                        "children": []
+                                    },
+                                    {
+                                        "data": {
+                                            "id": "d5ks0bzi62g0",
+                                            "created": 1731473158452,
+                                            "text": "--import .asc",
+                                            "priority": 3
+                                        },
+                                        "children": []
+                                    },
+                                    {
+                                        "data": {
+                                            "id": "d5ks0jv2l340",
+                                            "created": 1731473175598,
+                                            "text": "再次上传",
+                                            "priority": 4
+                                        },
+                                        "children": []
+                                    }
+                                ]
+                            }
+                        ]
+                    },
+                    {
+                        "data": {
+                            "id": "d5kr2q0tdfc0",
+                            "created": 1731470524624,
+                            "text": "本地",
+                            "expandState": "expand"
+                        },
+                        "children": [
+                            {
+                                "data": {
+                                    "id": "d5kqx9sgfa80",
+                                    "created": 1731470097469,
+                                    "text": "加密"
+                                },
+                                "children": [
+                                    {
+                                        "data": {
+                                            "id": "d5kqxj2dxyo0",
+                                            "created": 1731470117661,
+                                            "text": "--recipient keyId",
+                                            "resource": [
+                                                "命令行参数"
+                                            ]
+                                        },
+                                        "children": []
+                                    }
+                                ]
+                            },
+                            {
+                                "data": {
+                                    "id": "d5krpwrgvk00",
+                                    "created": 1731472341672,
+                                    "text": "验证签名"
+                                },
+                                "children": [
+                                    {
+                                        "data": {
+                                            "id": "d5krq1k0pog0",
+                                            "created": 1731472352106,
+                                            "text": "--verify file.asc file",
+                                            "resource": [
+                                                "命令行参数"
+                                            ]
+                                        },
+                                        "children": []
+                                    },
+                                    {
+                                        "data": {
+                                            "id": "d5krsyex1sw0",
+                                            "created": 1731472580359,
+                                            "text": "结果"
+                                        },
+                                        "children": [
+                                            {
+                                                "data": {
+                                                    "id": "d5krt1dfhk00",
+                                                    "created": 1731472586800,
+                                                    "text": "Good signature from keyId"
+                                                },
+                                                "children": []
+                                            }
+                                        ]
+                                    }
+                                ]
+                            },
+                            {
+                                "data": {
+                                    "id": "d5kr2w6ywh40",
+                                    "created": 1731470538057,
+                                    "text": "查询"
+                                },
+                                "children": [
+                                    {
+                                        "data": {
+                                            "id": "d5kr34tdfs80",
+                                            "created": 1731470556826,
+                                            "text": "--list-keys",
+                                            "resource": [
+                                                "命令行参数"
+                                            ]
+                                        },
+                                        "children": []
+                                    },
+                                    {
+                                        "data": {
+                                            "id": "d5kr3badujk0",
+                                            "created": 1731470570915,
+                                            "text": "结果"
+                                        },
+                                        "children": [
+                                            {
+                                                "data": {
+                                                    "id": "d5kr3yumudc0",
+                                                    "created": 1731470622206,
+                                                    "text": ".kbx"
+                                                },
+                                                "children": []
+                                            },
+                                            {
+                                                "data": {
+                                                    "id": "d5kr3mkushc0",
+                                                    "created": 1731470595493,
+                                                    "text": "pub",
+                                                    "priority": 1
+                                                },
+                                                "children": [
+                                                    {
+                                                        "data": {
+                                                            "id": "d5kr4q6jxls0",
+                                                            "created": 1731470681699,
+                                                            "text": "公钥特征",
+                                                            "priority": null
+                                                        },
+                                                        "children": []
+                                                    },
+                                                    {
+                                                        "data": {
+                                                            "id": "d5kr9vl4ooo0",
+                                                            "created": 1731471085286,
+                                                            "text": "公钥指纹",
+                                                            "resource": [
+                                                                "Or"
+                                                            ]
+                                                        },
+                                                        "children": []
+                                                    }
+                                                ]
+                                            },
+                                            {
+                                                "data": {
+                                                    "id": "d5kr3q56ck80",
+                                                    "created": 1731470603252,
+                                                    "text": "uid",
+                                                    "priority": 1
+                                                },
+                                                "children": [
+                                                    {
+                                                        "data": {
+                                                            "id": "d5kr4w2vngw0",
+                                                            "created": 1731470694538,
+                                                            "text": "keyId",
+                                                            "priority": null
+                                                        },
+                                                        "children": []
+                                                    }
+                                                ]
+                                            },
+                                            {
+                                                "data": {
+                                                    "id": "d5kr3ujftco0",
+                                                    "created": 1731470612822,
+                                                    "text": "sub"
+                                                },
+                                                "children": []
+                                            }
+                                        ]
+                                    }
+                                ]
+                            },
+                            {
+                                "data": {
+                                    "id": "d5kr5gt9ots0",
+                                    "created": 1731470739669,
+                                    "text": "删除"
+                                },
+                                "children": [
+                                    {
+                                        "data": {
+                                            "id": "d5kr5khk68w0",
+                                            "created": 1731470747668,
+                                            "text": "--delete-key keyId",
+                                            "resource": [
+                                                "命令行参数"
+                                            ]
+                                        },
+                                        "children": []
+                                    }
+                                ]
+                            },
+                            {
+                                "data": {
+                                    "id": "d5kr6nmvew00",
+                                    "created": 1731470832884,
+                                    "text": "导出"
+                                },
+                                "children": [
+                                    {
+                                        "data": {
+                                            "id": "d5kr6r413io0",
+                                            "created": 1731470840452,
+                                            "text": "--armor --export keyId",
+                                            "resource": [
+                                                "命令行参数"
+                                            ]
+                                        },
+                                        "children": []
+                                    }
+                                ]
+                            },
+                            {
+                                "data": {
+                                    "id": "d5kr85ijmfs0",
+                                    "created": 1731470950169,
+                                    "text": "公钥指纹"
+                                },
+                                "children": [
+                                    {
+                                        "data": {
+                                            "id": "d5kr8e3s6w00",
+                                            "created": 1731470968867,
+                                            "text": "--fingerprint keyId",
+                                            "resource": [
+                                                "命令行参数"
+                                            ]
+                                        },
+                                        "children": []
+                                    }
+                                ]
+                            },
+                            {
+                                "data": {
+                                    "id": "dc2trw0zjmo0",
+                                    "created": 1755243168880,
+                                    "text": "Renew"
+                                },
+                                "children": [
+                                    {
+                                        "data": {
+                                            "id": "dc2trz8lweg0",
+                                            "created": 1755243175871,
+                                            "text": "--edit-key keyId",
+                                            "resource": [
+                                                "命令行参数"
+                                            ]
+                                        },
+                                        "children": [
+                                            {
+                                                "data": {
+                                                    "id": "dc2ts98d3d40",
+                                                    "created": 1755243197624,
+                                                    "text": "key 1",
+                                                    "priority": 1
+                                                },
+                                                "children": []
+                                            },
+                                            {
+                                                "data": {
+                                                    "id": "dc2tsc4r4pk0",
+                                                    "created": 1755243203936,
+                                                    "text": "expire",
+                                                    "priority": 2
+                                                },
+                                                "children": []
+                                            },
+                                            {
+                                                "data": {
+                                                    "id": "dc2tse4v6540",
+                                                    "created": 1755243208296,
+                                                    "text": "save",
+                                                    "priority": 3
+                                                },
+                                                "children": []
+                                            }
+                                        ]
+                                    }
+                                ]
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "data": {
+                    "id": "d5krni80z400",
+                    "created": 1731472153293,
+                    "text": "Both",
+                    "expandState": "collapse"
+                },
+                "children": [
+                    {
+                        "data": {
+                            "id": "d5krnoc1yls0",
+                            "created": 1731472166598,
+                            "text": "签名+加密"
+                        },
+                        "children": [
+                            {
+                                "data": {
+                                    "id": "d5kromku4ls0",
+                                    "created": 1731472241139,
+                                    "text": "--local-user sendkeyId --recipient recipientKeyId --armor --sign --encrypt file"
+                                },
+                                "children": []
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    "template": "default",
+    "theme": "wire",
+    "version": "1.4.43"
+}

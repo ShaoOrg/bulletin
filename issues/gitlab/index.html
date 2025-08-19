@@ -1,0 +1,2980 @@
+
+<!DOCTYPE html>
+
+<html class="no-js" lang="zh">
+<head>
+<meta charset="utf-8"/>
+<meta content="width=device-width,initial-scale=1" name="viewport"/>
+<meta content="Shao 组织内的公告" name="description"/>
+<meta content="佚名" name="author"/>
+<link href="https://example.com/docs/issues/gitlab/" rel="canonical"/>
+<link href="../github/" rel="prev"/>
+<link href="../gpg/" rel="next"/>
+<link href="../../assets/images/favicon.png" rel="icon"/>
+<meta content="mkdocs-1.6.1, mkdocs-material-9.5.45" name="generator"/>
+<title>Gitlab - Shao Organization Wiki</title>
+<link href="../../assets/stylesheets/main.0253249f.min.css" rel="stylesheet"/>
+<link href="../../assets/stylesheets/palette.06af60db.min.css" rel="stylesheet"/>
+<link crossorigin="" href="https://fonts.gstatic.com" rel="preconnect"/>
+<link href="https://fonts.googleapis.com/css?family=Roboto:300,300i,400,400i,700,700i%7CRoboto+Mono:400,400i,700,700i&amp;display=fallback" rel="stylesheet"/>
+<style>:root{--md-text-font:"Roboto";--md-code-font:"Roboto Mono"}</style>
+<script>__md_scope=new URL("../..",location),__md_hash=e=>[...e].reduce(((e,_)=>(e<<5)-e+_.charCodeAt(0)),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
+</head>
+<body data-md-color-accent="indigo" data-md-color-primary="indigo" data-md-color-scheme="default" dir="ltr">
+<input autocomplete="off" class="md-toggle" data-md-toggle="drawer" id="__drawer" type="checkbox"/>
+<input autocomplete="off" class="md-toggle" data-md-toggle="search" id="__search" type="checkbox"/>
+<label class="md-overlay" for="__drawer"></label>
+<div data-md-component="skip">
+<a class="md-skip" href="#gitlab">
+          跳转至
+        </a>
+</div>
+<div data-md-component="announce">
+</div>
+<header class="md-header md-header--shadow md-header--lifted" data-md-component="header">
+<nav aria-label="页眉" class="md-header__inner md-grid">
+<a aria-label="Shao Organization Wiki" class="md-header__button md-logo" data-md-component="logo" href="../.." title="Shao Organization Wiki">
+<svg viewbox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="M12 8a3 3 0 0 0 3-3 3 3 0 0 0-3-3 3 3 0 0 0-3 3 3 3 0 0 0 3 3m0 3.54C9.64 9.35 6.5 8 3 8v11c3.5 0 6.64 1.35 9 3.54 2.36-2.19 5.5-3.54 9-3.54V8c-3.5 0-6.64 1.35-9 3.54"></path></svg>
+</a>
+<label class="md-header__button md-icon" for="__drawer">
+<svg viewbox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="M3 6h18v2H3zm0 5h18v2H3zm0 5h18v2H3z"></path></svg>
+</label>
+<div class="md-header__title" data-md-component="header-title">
+<div class="md-header__ellipsis">
+<div class="md-header__topic">
+<span class="md-ellipsis">
+            Shao Organization Wiki
+          </span>
+</div>
+<div class="md-header__topic" data-md-component="header-topic">
+<span class="md-ellipsis">
+            
+              Gitlab
+            
+          </span>
+</div>
+</div>
+</div>
+<form class="md-header__option" data-md-component="palette">
+<input aria-label="Switch to dark mode" class="md-option" data-md-color-accent="indigo" data-md-color-media="(prefers-color-scheme: light)" data-md-color-primary="indigo" data-md-color-scheme="default" id="__palette_0" name="__palette" type="radio"/>
+<label class="md-header__button md-icon" for="__palette_1" hidden="" title="Switch to dark mode">
+<svg viewbox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="M12 7a5 5 0 0 1 5 5 5 5 0 0 1-5 5 5 5 0 0 1-5-5 5 5 0 0 1 5-5m0 2a3 3 0 0 0-3 3 3 3 0 0 0 3 3 3 3 0 0 0 3-3 3 3 0 0 0-3-3m0-7 2.39 3.42C13.65 5.15 12.84 5 12 5s-1.65.15-2.39.42zM3.34 7l4.16-.35A7.2 7.2 0 0 0 5.94 8.5c-.44.74-.69 1.5-.83 2.29zm.02 10 1.76-3.77a7.131 7.131 0 0 0 2.38 4.14zM20.65 7l-1.77 3.79a7.02 7.02 0 0 0-2.38-4.15zm-.01 10-4.14.36c.59-.51 1.12-1.14 1.54-1.86.42-.73.69-1.5.83-2.29zM12 22l-2.41-3.44c.74.27 1.55.44 2.41.44.82 0 1.63-.17 2.37-.44z"></path></svg>
+</label>
+<input aria-label="Switch to light mode" class="md-option" data-md-color-accent="indigo" data-md-color-media="(prefers-color-scheme: dark)" data-md-color-primary="indigo" data-md-color-scheme="slate" id="__palette_1" name="__palette" type="radio"/>
+<label class="md-header__button md-icon" for="__palette_0" hidden="" title="Switch to light mode">
+<svg viewbox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="m17.75 4.09-2.53 1.94.91 3.06-2.63-1.81-2.63 1.81.91-3.06-2.53-1.94L12.44 4l1.06-3 1.06 3zm3.5 6.91-1.64 1.25.59 1.98-1.7-1.17-1.7 1.17.59-1.98L15.75 11l2.06-.05L18.5 9l.69 1.95zm-2.28 4.95c.83-.08 1.72 1.1 1.19 1.85-.32.45-.66.87-1.08 1.27C15.17 23 8.84 23 4.94 19.07c-3.91-3.9-3.91-10.24 0-14.14.4-.4.82-.76 1.27-1.08.75-.53 1.93.36 1.85 1.19-.27 2.86.69 5.83 2.89 8.02a9.96 9.96 0 0 0 8.02 2.89m-1.64 2.02a12.08 12.08 0 0 1-7.8-3.47c-2.17-2.19-3.33-5-3.49-7.82-2.81 3.14-2.7 7.96.31 10.98 3.02 3.01 7.84 3.12 10.98.31"></path></svg>
+</label>
+</form>
+<script>var palette=__md_get("__palette");if(palette&&palette.color){if("(prefers-color-scheme)"===palette.color.media){var media=matchMedia("(prefers-color-scheme: light)"),input=document.querySelector(media.matches?"[data-md-color-media='(prefers-color-scheme: light)']":"[data-md-color-media='(prefers-color-scheme: dark)']");palette.color.media=input.getAttribute("data-md-color-media"),palette.color.scheme=input.getAttribute("data-md-color-scheme"),palette.color.primary=input.getAttribute("data-md-color-primary"),palette.color.accent=input.getAttribute("data-md-color-accent")}for(var[key,value]of Object.entries(palette.color))document.body.setAttribute("data-md-color-"+key,value)}</script>
+<label class="md-header__button md-icon" for="__search">
+<svg viewbox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.52 6.52 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5"></path></svg>
+</label>
+<div class="md-search" data-md-component="search" role="dialog">
+<label class="md-search__overlay" for="__search"></label>
+<div class="md-search__inner" role="search">
+<form class="md-search__form" name="search">
+<input aria-label="搜索" autocapitalize="off" autocomplete="off" autocorrect="off" class="md-search__input" data-md-component="search-query" name="query" placeholder="搜索" required="" spellcheck="false" type="text"/>
+<label class="md-search__icon md-icon" for="__search">
+<svg viewbox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.52 6.52 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5"></path></svg>
+<svg viewbox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11z"></path></svg>
+</label>
+<nav aria-label="查找" class="md-search__options">
+<a aria-label="分享" class="md-search__icon md-icon" data-clipboard="" data-clipboard-text="" data-md-component="search-share" href="javascript:void(0)" tabindex="-1" title="分享">
+<svg viewbox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="M18 16.08c-.76 0-1.44.3-1.96.77L8.91 12.7c.05-.23.09-.46.09-.7s-.04-.47-.09-.7l7.05-4.11c.54.5 1.25.81 2.04.81a3 3 0 0 0 3-3 3 3 0 0 0-3-3 3 3 0 0 0-3 3c0 .24.04.47.09.7L8.04 9.81C7.5 9.31 6.79 9 6 9a3 3 0 0 0-3 3 3 3 0 0 0 3 3c.79 0 1.5-.31 2.04-.81l7.12 4.15c-.05.21-.08.43-.08.66 0 1.61 1.31 2.91 2.92 2.91s2.92-1.3 2.92-2.91A2.92 2.92 0 0 0 18 16.08"></path></svg>
+</a>
+<button aria-label="清空当前内容" class="md-search__icon md-icon" tabindex="-1" title="清空当前内容" type="reset">
+<svg viewbox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="M19 6.41 17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12z"></path></svg>
+</button>
+</nav>
+<div class="md-search__suggest" data-md-component="search-suggest"></div>
+</form>
+<div class="md-search__output">
+<div class="md-search__scrollwrap" data-md-scrollfix="" tabindex="0">
+<div class="md-search-result" data-md-component="search-result">
+<div class="md-search-result__meta">
+            正在初始化搜索引擎
+          </div>
+<ol class="md-search-result__list" role="presentation"></ol>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="md-header__source">
+<a class="md-source" data-md-component="source" href="https://github.shao.sh/sszorg/bulletin" title="前往仓库">
+<div class="md-source__icon md-icon">
+<svg viewbox="0 0 448 512" xmlns="http://www.w3.org/2000/svg"><!--! Font Awesome Free 6.6.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2024 Fonticons, Inc.--><path d="M439.55 236.05 244 40.45a28.87 28.87 0 0 0-40.81 0l-40.66 40.63 51.52 51.52c27.06-9.14 52.68 16.77 43.39 43.68l49.66 49.66c34.23-11.8 61.18 31 35.47 56.69-26.49 26.49-70.21-2.87-56-37.34L240.22 199v121.85c25.3 12.54 22.26 41.85 9.08 55a34.34 34.34 0 0 1-48.55 0c-17.57-17.6-11.07-46.91 11.25-56v-123c-20.8-8.51-24.6-30.74-18.64-45L142.57 101 8.45 235.14a28.86 28.86 0 0 0 0 40.81l195.61 195.6a28.86 28.86 0 0 0 40.8 0l194.69-194.69a28.86 28.86 0 0 0 0-40.81"></path></svg>
+</div>
+<div class="md-source__repository">
+    sszorg/bulletin
+  </div>
+</a>
+</div>
+</nav>
+<nav aria-label="标签" class="md-tabs" data-md-component="tabs">
+<div class="md-grid">
+<ul class="md-tabs__list">
+<li class="md-tabs__item">
+<a class="md-tabs__link" href="../..">
+        
+  
+    
+  
+  组织内资源
+
+      </a>
+</li>
+<li class="md-tabs__item">
+<a class="md-tabs__link" href="../../drawio/Untitled-Diagram.drawio/">
+          
+  
+    
+  
+  Drawio
+
+        </a>
+</li>
+<li class="md-tabs__item">
+<a class="md-tabs__link" href="../../ide/">
+          
+  
+    
+  
+  Ide
+
+        </a>
+</li>
+<li class="md-tabs__item md-tabs__item--active">
+<a class="md-tabs__link" href="../">
+          
+  
+    
+  
+  Issues
+
+        </a>
+</li>
+<li class="md-tabs__item">
+<a class="md-tabs__link" href="../../kityminder/JDS.km/">
+          
+  
+    
+  
+  Kityminder
+
+        </a>
+</li>
+<li class="md-tabs__item">
+<a class="md-tabs__link" href="../../resources/">
+          
+  
+    
+  
+  Resources
+
+        </a>
+</li>
+<li class="md-tabs__item">
+<a class="md-tabs__link" href="../../tips/">
+          
+  
+    
+  
+  Tips
+
+        </a>
+</li>
+</ul>
+</div>
+</nav>
+</header>
+<div class="md-container" data-md-component="container">
+<main class="md-main" data-md-component="main">
+<div class="md-main__inner md-grid">
+<div class="md-sidebar md-sidebar--primary" data-md-component="sidebar" data-md-type="navigation">
+<div class="md-sidebar__scrollwrap">
+<div class="md-sidebar__inner">
+<nav aria-label="导航栏" class="md-nav md-nav--primary md-nav--lifted" data-md-level="0">
+<label class="md-nav__title" for="__drawer">
+<a aria-label="Shao Organization Wiki" class="md-nav__button md-logo" data-md-component="logo" href="../.." title="Shao Organization Wiki">
+<svg viewbox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="M12 8a3 3 0 0 0 3-3 3 3 0 0 0-3-3 3 3 0 0 0-3 3 3 3 0 0 0 3 3m0 3.54C9.64 9.35 6.5 8 3 8v11c3.5 0 6.64 1.35 9 3.54 2.36-2.19 5.5-3.54 9-3.54V8c-3.5 0-6.64 1.35-9 3.54"></path></svg>
+</a>
+    Shao Organization Wiki
+  </label>
+<div class="md-nav__source">
+<a class="md-source" data-md-component="source" href="https://github.shao.sh/sszorg/bulletin" title="前往仓库">
+<div class="md-source__icon md-icon">
+<svg viewbox="0 0 448 512" xmlns="http://www.w3.org/2000/svg"><!--! Font Awesome Free 6.6.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2024 Fonticons, Inc.--><path d="M439.55 236.05 244 40.45a28.87 28.87 0 0 0-40.81 0l-40.66 40.63 51.52 51.52c27.06-9.14 52.68 16.77 43.39 43.68l49.66 49.66c34.23-11.8 61.18 31 35.47 56.69-26.49 26.49-70.21-2.87-56-37.34L240.22 199v121.85c25.3 12.54 22.26 41.85 9.08 55a34.34 34.34 0 0 1-48.55 0c-17.57-17.6-11.07-46.91 11.25-56v-123c-20.8-8.51-24.6-30.74-18.64-45L142.57 101 8.45 235.14a28.86 28.86 0 0 0 0 40.81l195.61 195.6a28.86 28.86 0 0 0 40.8 0l194.69-194.69a28.86 28.86 0 0 0 0-40.81"></path></svg>
+</div>
+<div class="md-source__repository">
+    sszorg/bulletin
+  </div>
+</a>
+</div>
+<ul class="md-nav__list" data-md-scrollfix="">
+<li class="md-nav__item">
+<a class="md-nav__link" href="../..">
+<span class="md-ellipsis">
+    组织内资源
+  </span>
+</a>
+</li>
+<li class="md-nav__item md-nav__item--nested">
+<input class="md-nav__toggle md-toggle" id="__nav_2" type="checkbox"/>
+<label class="md-nav__link" for="__nav_2" id="__nav_2_label" tabindex="0">
+<span class="md-ellipsis">
+    Drawio
+  </span>
+<span class="md-nav__icon md-icon"></span>
+</label>
+<nav aria-expanded="false" aria-labelledby="__nav_2_label" class="md-nav" data-md-level="1">
+<label class="md-nav__title" for="__nav_2">
+<span class="md-nav__icon md-icon"></span>
+            Drawio
+          </label>
+<ul class="md-nav__list" data-md-scrollfix="">
+<li class="md-nav__item">
+<a class="md-nav__link" href="../../drawio/Untitled-Diagram.drawio/">
+<span class="md-ellipsis">
+    Untitled Diagram.drawio
+  </span>
+</a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="../../drawio/admission-process.drawio/">
+<span class="md-ellipsis">
+    Admission process.drawio
+  </span>
+</a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="../../drawio/bash-lib-map.drawio/">
+<span class="md-ellipsis">
+    Bash lib map.drawio
+  </span>
+</a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="../../drawio/demo.drawio/">
+<span class="md-ellipsis">
+    Demo.drawio
+  </span>
+</a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="../../drawio/demo1.drawio/">
+<span class="md-ellipsis">
+    Demo1.drawio
+  </span>
+</a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="../../drawio/demo2.drawio/">
+<span class="md-ellipsis">
+    Demo2.drawio
+  </span>
+</a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="../../drawio/demo3.drawio/">
+<span class="md-ellipsis">
+    Demo3.drawio
+  </span>
+</a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="../../drawio/demo4.drawio/">
+<span class="md-ellipsis">
+    Demo4.drawio
+  </span>
+</a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="../../drawio/demo5.drawio/">
+<span class="md-ellipsis">
+    Demo5.drawio
+  </span>
+</a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="../../drawio/demo6.drawio/">
+<span class="md-ellipsis">
+    Demo6.drawio
+  </span>
+</a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="../../drawio/docFlow.drawio/">
+<span class="md-ellipsis">
+    docFlow.drawio
+  </span>
+</a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="../../drawio/dynamic-studio.drawio/">
+<span class="md-ellipsis">
+    Dynamic studio.drawio
+  </span>
+</a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="../../drawio/eletrics-demo1.drawio/">
+<span class="md-ellipsis">
+    Eletrics demo1.drawio
+  </span>
+</a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="../../drawio/eletrics-demo2.drawio/">
+<span class="md-ellipsis">
+    Eletrics demo2.drawio
+  </span>
+</a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="../../drawio/exercise.drawio/">
+<span class="md-ellipsis">
+    Exercise.drawio
+  </span>
+</a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="../../drawio/github-runners-process.drawio/">
+<span class="md-ellipsis">
+    Github runners process.drawio
+  </span>
+</a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="../../drawio/github.drawio/">
+<span class="md-ellipsis">
+    Github.drawio
+  </span>
+</a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="../../drawio/how-to-new-solution-by-pycli-code.drawio/">
+<span class="md-ellipsis">
+    How to new solution by pycli code.drawio
+  </span>
+</a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="../../drawio/k8s-docker.drawio/">
+<span class="md-ellipsis">
+    K8s docker.drawio
+  </span>
+</a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="../../drawio/k8s-harbor.drawio/">
+<span class="md-ellipsis">
+    K8s harbor.drawio
+  </span>
+</a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="../../drawio/kvm.drawio/">
+<span class="md-ellipsis">
+    Kvm.drawio
+  </span>
+</a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="../../drawio/map-demo-circle.drawio/">
+<span class="md-ellipsis">
+    Map demo circle.drawio
+  </span>
+</a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="../../drawio/mysql-transaction.drawio/">
+<span class="md-ellipsis">
+    Mysql transaction.drawio
+  </span>
+</a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="../../drawio/network.drawio/">
+<span class="md-ellipsis">
+    Network.drawio
+  </span>
+</a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="../../drawio/nginx.drawio/">
+<span class="md-ellipsis">
+    Nginx.drawio
+  </span>
+</a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="../../drawio/packer.drawio/">
+<span class="md-ellipsis">
+    Packer.drawio
+  </span>
+</a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="../../drawio/shaoorg-bulletin-process.drawio/">
+<span class="md-ellipsis">
+    Shaoorg bulletin process.drawio
+  </span>
+</a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="../../drawio/wiki-drawio.drawio/">
+<span class="md-ellipsis">
+    Wiki drawio.drawio
+  </span>
+</a>
+</li>
+</ul>
+</nav>
+</li>
+<li class="md-nav__item md-nav__item--nested">
+<input class="md-nav__toggle md-toggle" id="__nav_3" type="checkbox"/>
+<div class="md-nav__link md-nav__container">
+<a class="md-nav__link" href="../../ide/">
+<span class="md-ellipsis">
+    Ide
+  </span>
+</a>
+<label class="md-nav__link" for="__nav_3" id="__nav_3_label" tabindex="0">
+<span class="md-nav__icon md-icon"></span>
+</label>
+</div>
+<nav aria-expanded="false" aria-labelledby="__nav_3_label" class="md-nav" data-md-level="1">
+<label class="md-nav__title" for="__nav_3">
+<span class="md-nav__icon md-icon"></span>
+            Ide
+          </label>
+<ul class="md-nav__list" data-md-scrollfix="">
+<li class="md-nav__item">
+<a class="md-nav__link" href="../../ide/vscode/">
+<span class="md-ellipsis">
+    Vscode快捷键
+  </span>
+</a>
+</li>
+</ul>
+</nav>
+</li>
+<li class="md-nav__item md-nav__item--active md-nav__item--section md-nav__item--nested">
+<input checked="" class="md-nav__toggle md-toggle" id="__nav_4" type="checkbox"/>
+<div class="md-nav__link md-nav__container">
+<a class="md-nav__link" href="../">
+<span class="md-ellipsis">
+    Issues
+  </span>
+</a>
+<label class="md-nav__link" for="__nav_4" id="__nav_4_label" tabindex="">
+<span class="md-nav__icon md-icon"></span>
+</label>
+</div>
+<nav aria-expanded="true" aria-labelledby="__nav_4_label" class="md-nav" data-md-level="1">
+<label class="md-nav__title" for="__nav_4">
+<span class="md-nav__icon md-icon"></span>
+            Issues
+          </label>
+<ul class="md-nav__list" data-md-scrollfix="">
+<li class="md-nav__item">
+<a class="md-nav__link" href="../alpinelinux/">
+<span class="md-ellipsis">
+    Alpinelinux
+  </span>
+</a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="../always/">
+<span class="md-ellipsis">
+    常用的短语
+  </span>
+</a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="../anolis/">
+<span class="md-ellipsis">
+    Anolis
+  </span>
+</a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="../backer/">
+<span class="md-ellipsis">
+    Backer
+  </span>
+</a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="../bash/">
+<span class="md-ellipsis">
+    Bash
+  </span>
+</a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="../centos/">
+<span class="md-ellipsis">
+    Centos
+  </span>
+</a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="../chocolatey/">
+<span class="md-ellipsis">
+    Chocolatey
+  </span>
+</a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="../curl/">
+<span class="md-ellipsis">
+    Curl
+  </span>
+</a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="../drawio/">
+<span class="md-ellipsis">
+    Drawio
+  </span>
+</a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="../git/">
+<span class="md-ellipsis">
+    Git
+  </span>
+</a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="../github/">
+<span class="md-ellipsis">
+    Github
+  </span>
+</a>
+</li>
+<li class="md-nav__item md-nav__item--active">
+<input class="md-nav__toggle md-toggle" id="__toc" type="checkbox"/>
+<a class="md-nav__link md-nav__link--active" href="./">
+<span class="md-ellipsis">
+    Gitlab
+  </span>
+</a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="../gpg/">
+<span class="md-ellipsis">
+    GPG 使用指南
+  </span>
+</a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="../harbor/">
+<span class="md-ellipsis">
+    Harbor
+  </span>
+</a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="../javascript/">
+<span class="md-ellipsis">
+    Javascript
+  </span>
+</a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="../jenkins/">
+<span class="md-ellipsis">
+    Jenkins
+  </span>
+</a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="../jira/">
+<span class="md-ellipsis">
+    Jira
+  </span>
+</a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="../lithium-battery/">
+<span class="md-ellipsis">
+    锂电池
+  </span>
+</a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="../lithium_battery_efficiency_comparison/">
+<span class="md-ellipsis">
+    锂电池充电效率对比
+  </span>
+</a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="../mkdoc/">
+<span class="md-ellipsis">
+    Mkdoc
+  </span>
+</a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="../nas228/">
+<span class="md-ellipsis">
+    Nas228
+  </span>
+</a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="../nas249/">
+<span class="md-ellipsis">
+    Nas249
+  </span>
+</a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="../nexus/">
+<span class="md-ellipsis">
+    Nexus
+  </span>
+</a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="../nginx/">
+<span class="md-ellipsis">
+    Nginx
+  </span>
+</a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="../pdd-video/">
+<span class="md-ellipsis">
+    拼多多看视频赚金币
+  </span>
+</a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="../podman/">
+<span class="md-ellipsis">
+    Podman
+  </span>
+</a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="../powershell/">
+<span class="md-ellipsis">
+    Powershell
+  </span>
+</a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="../toutiao/">
+<span class="md-ellipsis">
+    Toutiao
+  </span>
+</a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="../vscode-plugins/">
+<span class="md-ellipsis">
+    Vscode 插件
+  </span>
+</a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="../windows/">
+<span class="md-ellipsis">
+    Windows
+  </span>
+</a>
+</li>
+<li class="md-nav__item md-nav__item--section md-nav__item--nested">
+<input class="md-nav__toggle md-toggle" id="__nav_4_32" type="checkbox"/>
+<label class="md-nav__link" for="__nav_4_32" id="__nav_4_32_label" tabindex="">
+<span class="md-ellipsis">
+    Demo
+  </span>
+<span class="md-nav__icon md-icon"></span>
+</label>
+<nav aria-expanded="false" aria-labelledby="__nav_4_32_label" class="md-nav" data-md-level="2">
+<label class="md-nav__title" for="__nav_4_32">
+<span class="md-nav__icon md-icon"></span>
+            Demo
+          </label>
+<ul class="md-nav__list" data-md-scrollfix="">
+<li class="md-nav__item">
+<a class="md-nav__link" href="../demo/data-table/">
+<span class="md-ellipsis">
+    Data table
+  </span>
+</a>
+</li>
+</ul>
+</nav>
+</li>
+<li class="md-nav__item md-nav__item--section md-nav__item--nested">
+<input class="md-nav__toggle md-toggle" id="__nav_4_33" type="checkbox"/>
+<label class="md-nav__link" for="__nav_4_33" id="__nav_4_33_label" tabindex="">
+<span class="md-ellipsis">
+    Env
+  </span>
+<span class="md-nav__icon md-icon"></span>
+</label>
+<nav aria-expanded="false" aria-labelledby="__nav_4_33_label" class="md-nav" data-md-level="2">
+<label class="md-nav__title" for="__nav_4_33">
+<span class="md-nav__icon md-icon"></span>
+            Env
+          </label>
+<ul class="md-nav__list" data-md-scrollfix="">
+<li class="md-nav__item">
+<a class="md-nav__link" href="../env/windows/">
+<span class="md-ellipsis">
+    Windows 环境
+  </span>
+</a>
+</li>
+</ul>
+</nav>
+</li>
+<li class="md-nav__item md-nav__item--section md-nav__item--nested">
+<input class="md-nav__toggle md-toggle" id="__nav_4_34" type="checkbox"/>
+<label class="md-nav__link" for="__nav_4_34" id="__nav_4_34_label" tabindex="">
+<span class="md-ellipsis">
+    Kubernet
+  </span>
+<span class="md-nav__icon md-icon"></span>
+</label>
+<nav aria-expanded="false" aria-labelledby="__nav_4_34_label" class="md-nav" data-md-level="2">
+<label class="md-nav__title" for="__nav_4_34">
+<span class="md-nav__icon md-icon"></span>
+            Kubernet
+          </label>
+<ul class="md-nav__list" data-md-scrollfix="">
+<li class="md-nav__item">
+<a class="md-nav__link" href="../kubernet/certificates-expired/">
+<span class="md-ellipsis">
+    Certificates expired
+  </span>
+</a>
+</li>
+</ul>
+</nav>
+</li>
+</ul>
+</nav>
+</li>
+<li class="md-nav__item md-nav__item--nested">
+<input class="md-nav__toggle md-toggle" id="__nav_5" type="checkbox"/>
+<label class="md-nav__link" for="__nav_5" id="__nav_5_label" tabindex="0">
+<span class="md-ellipsis">
+    Kityminder
+  </span>
+<span class="md-nav__icon md-icon"></span>
+</label>
+<nav aria-expanded="false" aria-labelledby="__nav_5_label" class="md-nav" data-md-level="1">
+<label class="md-nav__title" for="__nav_5">
+<span class="md-nav__icon md-icon"></span>
+            Kityminder
+          </label>
+<ul class="md-nav__list" data-md-scrollfix="">
+<li class="md-nav__item">
+<a class="md-nav__link" href="../../kityminder/JDS.km/">
+<span class="md-ellipsis">
+    JDS.km
+  </span>
+</a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="../../kityminder/authentication.km/">
+<span class="md-ellipsis">
+    Authentication.km
+  </span>
+</a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="../../kityminder/bash-openrestry.km/">
+<span class="md-ellipsis">
+    Bash openrestry.km
+  </span>
+</a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="../../kityminder/bash-variables.km/">
+<span class="md-ellipsis">
+    Bash variables.km
+  </span>
+</a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="../../kityminder/bash_nginx.km/">
+<span class="md-ellipsis">
+    Bash nginx.km
+  </span>
+</a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="../../kityminder/csp.km/">
+<span class="md-ellipsis">
+    Csp.km
+  </span>
+</a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="../../kityminder/drawio-customize.km/">
+<span class="md-ellipsis">
+    Drawio customize.km
+  </span>
+</a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="../../kityminder/drawio.km/">
+<span class="md-ellipsis">
+    Drawio.km
+  </span>
+</a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="../../kityminder/edu-sites.km/">
+<span class="md-ellipsis">
+    Edu sites.km
+  </span>
+</a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="../../kityminder/ghe-maintain.km/">
+<span class="md-ellipsis">
+    Ghe maintain.km
+  </span>
+</a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="../../kityminder/git.km/">
+<span class="md-ellipsis">
+    Git.km
+  </span>
+</a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="../../kityminder/github-token.km/">
+<span class="md-ellipsis">
+    Github token.km
+  </span>
+</a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="../../kityminder/github-workflow.km/">
+<span class="md-ellipsis">
+    Github workflow.km
+  </span>
+</a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="../../kityminder/github_ci_cd.km/">
+<span class="md-ellipsis">
+    Github ci cd.km
+  </span>
+</a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="../../kityminder/gitlab-pages.km/">
+<span class="md-ellipsis">
+    Gitlab pages.km
+  </span>
+</a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="../../kityminder/gitlab_ci_cd.km/">
+<span class="md-ellipsis">
+    Gitlab ci cd.km
+  </span>
+</a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="../../kityminder/gpg.km/">
+<span class="md-ellipsis">
+    Gpg.km
+  </span>
+</a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="../../kityminder/gradle.km/">
+<span class="md-ellipsis">
+    Gradle.km
+  </span>
+</a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="../../kityminder/jq.km/">
+<span class="md-ellipsis">
+    Jq.km
+  </span>
+</a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="../../kityminder/k8s-harbor.km/">
+<span class="md-ellipsis">
+    K8s harbor.km
+  </span>
+</a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="../../kityminder/ldap.km/">
+<span class="md-ellipsis">
+    Ldap.km
+  </span>
+</a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="../../kityminder/maven.km/">
+<span class="md-ellipsis">
+    Maven.km
+  </span>
+</a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="../../kityminder/mkdoc-material.km/">
+<span class="md-ellipsis">
+    Mkdoc material.km
+  </span>
+</a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="../../kityminder/nas236_nginx_topology.km/">
+<span class="md-ellipsis">
+    Nas236 nginx topology.km
+  </span>
+</a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="../../kityminder/nexus.km/">
+<span class="md-ellipsis">
+    Nexus.km
+  </span>
+</a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="../../kityminder/nginx.km/">
+<span class="md-ellipsis">
+    Nginx.km
+  </span>
+</a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="../../kityminder/object_storage.km/">
+<span class="md-ellipsis">
+    Object storage.km
+  </span>
+</a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="../../kityminder/proxy.km/">
+<span class="md-ellipsis">
+    Proxy.km
+  </span>
+</a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="../../kityminder/regexp.km/">
+<span class="md-ellipsis">
+    Regexp.km
+  </span>
+</a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="../../kityminder/repo-mkdocable.km/">
+<span class="md-ellipsis">
+    Repo mkdocable.km
+  </span>
+</a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="../../kityminder/runner-maintain.km/">
+<span class="md-ellipsis">
+    Runner maintain.km
+  </span>
+</a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="../../kityminder/self-certificates.km/">
+<span class="md-ellipsis">
+    Self certificates.km
+  </span>
+</a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="../../kityminder/write_technical.km/">
+<span class="md-ellipsis">
+    Write technical.km
+  </span>
+</a>
+</li>
+</ul>
+</nav>
+</li>
+<li class="md-nav__item md-nav__item--nested">
+<input class="md-nav__toggle md-toggle" id="__nav_6" type="checkbox"/>
+<div class="md-nav__link md-nav__container">
+<a class="md-nav__link" href="../../resources/">
+<span class="md-ellipsis">
+    Resources
+  </span>
+</a>
+<label class="md-nav__link" for="__nav_6" id="__nav_6_label" tabindex="0">
+<span class="md-nav__icon md-icon"></span>
+</label>
+</div>
+<nav aria-expanded="false" aria-labelledby="__nav_6_label" class="md-nav" data-md-level="1">
+<label class="md-nav__title" for="__nav_6">
+<span class="md-nav__icon md-icon"></span>
+            Resources
+          </label>
+<ul class="md-nav__list" data-md-scrollfix="">
+<li class="md-nav__item">
+<a class="md-nav__link" href="../../resources/examples/">
+<span class="md-ellipsis">
+    User Case 资源
+  </span>
+</a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="../../resources/external/">
+<span class="md-ellipsis">
+    外部网络
+  </span>
+</a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="../../resources/lock/">
+<span class="md-ellipsis">
+    Lock
+  </span>
+</a>
+</li>
+</ul>
+</nav>
+</li>
+<li class="md-nav__item md-nav__item--nested">
+<input class="md-nav__toggle md-toggle" id="__nav_7" type="checkbox"/>
+<div class="md-nav__link md-nav__container">
+<a class="md-nav__link" href="../../tips/">
+<span class="md-ellipsis">
+    Tips
+  </span>
+</a>
+<label class="md-nav__link" for="__nav_7" id="__nav_7_label" tabindex="0">
+<span class="md-nav__icon md-icon"></span>
+</label>
+</div>
+<nav aria-expanded="false" aria-labelledby="__nav_7_label" class="md-nav" data-md-level="1">
+<label class="md-nav__title" for="__nav_7">
+<span class="md-nav__icon md-icon"></span>
+            Tips
+          </label>
+<ul class="md-nav__list" data-md-scrollfix="">
+<li class="md-nav__item">
+<a class="md-nav__link" href="../../tips/drawio-example/">
+<span class="md-ellipsis">
+    Drawio example
+  </span>
+</a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="../../tips/kity-mider-example/">
+<span class="md-ellipsis">
+    Kity mider example
+  </span>
+</a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="../../tips/mkdoc-annotation-example/">
+<span class="md-ellipsis">
+    Material for MKDoc 的注解使用
+  </span>
+</a>
+</li>
+</ul>
+</nav>
+</li>
+</ul>
+</nav>
+</div>
+</div>
+</div>
+<div class="md-sidebar md-sidebar--secondary" data-md-component="sidebar" data-md-type="toc">
+<div class="md-sidebar__scrollwrap">
+<div class="md-sidebar__inner">
+<nav aria-label="目录" class="md-nav md-nav--secondary">
+</nav>
+</div>
+</div>
+</div>
+<div class="md-content" data-md-component="content">
+<article class="md-content__inner md-typeset">
+<a class="md-content__button md-icon" href="https://github.shao.sh/sszorg/bulletin/edit/main/docs/issues/gitlab.md" title="编辑此页">
+<svg viewbox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="M10 20H6V4h7v5h5v3.1l2-2V8l-6-6H6c-1.1 0-2 .9-2 2v16c0 1.1.9 2 2 2h4zm10.2-7c.1 0 .3.1.4.2l1.3 1.3c.2.2.2.6 0 .8l-1 1-2.1-2.1 1-1c.1-.1.2-.2.4-.2m0 3.9L14.1 23H12v-2.1l6.1-6.1z"></path></svg>
+</a>
+<a class="md-content__button md-icon" href="https://github.shao.sh/sszorg/bulletin/raw/main/docs/issues/gitlab.md" title="查看本页的源代码">
+<svg viewbox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="M17 18c.56 0 1 .44 1 1s-.44 1-1 1-1-.44-1-1 .44-1 1-1m0-3c-2.73 0-5.06 1.66-6 4 .94 2.34 3.27 4 6 4s5.06-1.66 6-4c-.94-2.34-3.27-4-6-4m0 6.5a2.5 2.5 0 0 1-2.5-2.5 2.5 2.5 0 0 1 2.5-2.5 2.5 2.5 0 0 1 2.5 2.5 2.5 2.5 0 0 1-2.5 2.5M9.27 20H6V4h7v5h5v4.07c.7.08 1.36.25 2 .49V8l-6-6H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h4.5a8.2 8.2 0 0 1-1.23-2"></path></svg>
+</a>
+<h1 id="gitlab">Gitlab</h1>
+<p><button class="btn-minder-view-toolbar" file="../../assets/mindmap/gitlab_ci_cd.km" id="btn-minder-view-3afb8c53-d93f-4858-b74c-52c8a6f36123-new">📃</button><button class="btn-minder-view-toolbar" file="../../assets/mindmap/gitlab_ci_cd.km" id="btn-minder-view-3afb8c53-d93f-4858-b74c-52c8a6f36123-edit">✔</button><button class="btn-minder-view-toolbar" id="btn-minder-view-3afb8c53-d93f-4858-b74c-52c8a6f36123-zoom-in">➖</button><button class="btn-minder-view-toolbar" id="btn-minder-view-3afb8c53-d93f-4858-b74c-52c8a6f36123-zoom-out">➕</button><button class="btn-minder-view-toolbar" id="btn-minder-view-3afb8c53-d93f-4858-b74c-52c8a6f36123-full">⛶</button><div id="minder-view-3afb8c53-d93f-4858-b74c-52c8a6f36123" minder-data-type="json" type="application/kityminder"></div></p>
+<h6 id="gitlab-runners">GitLab Runners</h6>
+<p>-<a href="https://docs.gitlab.com/ee/ci/runners/runners_scope.html">官方文档</a>
+- <a href="https://de.vicp.net:58443/admin/runners">instance runner</a>
+- <a href="https://docs.gitlab.com/ee/ci/variables/#using-the-ci-variables-in-your-job-scripts">runner缺省的shell类型</a>, 定义在config.toml
+- <a href="https://docs.gitlab.com/runner/shells/index.html#shell-profile-loading">runner supportted shell</a></p>
+<h6 id="gitlab-pages">Gitlab Pages</h6>
+<ul>
+<li><a href="https://docs.gitlab.com/ee/administration/pages/">官方文档</a></li>
+<li>同域 <button class="btn-minder-view-toolbar" file="../../assets/mindmap/gitlab-pages.km" id="btn-minder-view-0ec34ab1-8aa6-4805-ab75-2a2fe4795e47-new">📃</button><button class="btn-minder-view-toolbar" file="../../assets/mindmap/gitlab-pages.km" id="btn-minder-view-0ec34ab1-8aa6-4805-ab75-2a2fe4795e47-edit">✔</button><button class="btn-minder-view-toolbar" id="btn-minder-view-0ec34ab1-8aa6-4805-ab75-2a2fe4795e47-zoom-in">➖</button><button class="btn-minder-view-toolbar" id="btn-minder-view-0ec34ab1-8aa6-4805-ab75-2a2fe4795e47-zoom-out">➕</button><button class="btn-minder-view-toolbar" id="btn-minder-view-0ec34ab1-8aa6-4805-ab75-2a2fe4795e47-full">⛶</button><div id="minder-view-0ec34ab1-8aa6-4805-ab75-2a2fe4795e47" minder-data-type="json" type="application/kityminder"></div></li>
+</ul>
+<h6 id="new-repository">New Repository</h6>
+<ul>
+<li>Create a new repository
+<div class="highlight"><pre><span></span><code>git clone git@de.vicp.net:SszOrg/ci-cd-demo.git
+cd ci-cd-demo
+git switch --create main
+touch README.md
+git add README.md
+git commit -m "add README"
+git push --set-upstream origin main
+</code></pre></div></li>
+<li>Push an existing folder
+<div class="highlight"><pre><span></span><code>cd existing_folder
+git init --initial-branch=main
+git remote add origin git@de.vicp.net:SszOrg/ci-cd-demo.git
+git add .
+git commit -m "Initial commit"
+git push --set-upstream origin main
+</code></pre></div></li>
+<li>Push an existing Git repository
+<div class="highlight"><pre><span></span><code>cd existing_repo
+git remote rename origin old-origin
+git remote add origin git@de.vicp.net:SszOrg/ci-cd-demo.git
+git push --set-upstream origin --all
+git push --set-upstream origin --tags
+</code></pre></div></li>
+</ul>
+<h6 id="variable">Variable</h6>
+<ul>
+<li><a href="https://de.vicp.net:58443/admin/application_settings/ci_cd">企业级</a></li>
+<li><a href="https://de.vicp.net:58443/groups/SszOrg/-/settings/ci_cd">组织级</a></li>
+<li><a href="https://de.vicp.net:58443/SszOrg/ci-cd-demo/-/settings/ci_cd">仓库级</a></li>
+<li>CI级,定义在ci/cd文件的variables里</li>
+<li>branch触发的env
+<div class="highlight"><pre><span></span><code>SHELL=/bin/bash
+CI_PROJECT_NAMESPACE=nsb
+GITLAB_USER_ID=3
+ASSETS_FOLDER=nsb/bulletin/main/docs/assets
+CI_RUNNER_VERSION=17.5.1
+FF_SKIP_NOOP_BUILD_STAGES=true
+DEPLOY_ENV=staging
+FF_USE_INIT_WITH_DOCKER_EXECUTOR=false
+CI_SERVER_NAME=GitLab
+CI_RUNNER_DESCRIPTION=default instance runner
+GITLAB_USER_EMAIL=ssz@de.vicp.net
+NVM_INC=/etc/skel/.nvm/versions/node/v20.18.0/include/node
+CI_SERVER_REVISION=e4e13234b2d
+FF_USE_WINDOWS_LEGACY_PROCESS_STRATEGY=false
+CI_RUNNER_EXECUTABLE_ARCH=linux/amd64
+CI_PIPELINE_NAME=
+CI_REGISTRY_USER=gitlab-ci-token
+CI_API_V4_URL=https://de.vicp.net:58443/api/v4
+CI_REGISTRY_PASSWORD=[MASKED]
+CI_RUNNER_SHORT_TOKEN=24zEdb-7A
+CI_JOB_NAME=pages
+GITLAB_USER_LOGIN=ssz
+CI_PROJECT_NAME=bulletin
+CI_PIPELINE_SOURCE=push
+GITLAB_INSTANCE_VAR=demo variable value of instance level
+FF_RETRIEVE_POD_WARNING_EVENTS=true
+JAVA_HOME=/usr/java/jdk-17
+CI_JOB_STATUS=running
+CI_PIPELINE_ID=1399
+GRADLE_HOME=/usr/share/gradle
+FF_DISABLE_POWERSHELL_STDIN=false
+CI_COMMIT_REF_SLUG=main
+CI_SERVER=yes
+FF_SET_PERMISSIONS_BEFORE_CLEANUP=true
+NPMJS_TEMPESTWIN_PERSON_ACCESS_TOKEN=[MASKED]
+CI_COMMIT_SHORT_SHA=cfaf7101
+CONFIG_FILE=/etc/gitlab-runner/config.toml
+CI_JOB_NAME_SLUG=pages
+RUNNER_TEMP_PROJECT_DIR=/home/gitlab-runner/builds/24zEdb-7A/0/nsb/bulletin.tmp
+CI_DEPENDENCY_PROXY_GROUP_IMAGE_PREFIX=de.vicp.net:58443/nsb/dependency_proxy/containers
+FF_USE_GIT_BUNDLE_URIS=true
+PWD=/home/gitlab-runner/builds/24zEdb-7A/0/nsb/bulletin
+CI_RUNNER_TAGS=["X64", "Self-managed", "Linux", "unbuntu", "ubuntu-latest"]
+CI_PROJECT_PATH=nsb/bulletin
+LOGNAME=gitlab-runner
+FF_TIMESTAMPS=false
+XDG_SESSION_TYPE=unspecified
+FF_USE_NEW_BASH_EVAL_STRATEGY=false
+CI_DEPENDENCY_PROXY_DIRECT_GROUP_IMAGE_PREFIX=de.vicp.net:58443/nsb/dependency_proxy/containers
+CI_SERVER_TLS_CA_FILE=/home/gitlab-runner/builds/24zEdb-7A/0/nsb/bulletin.tmp/CI_SERVER_TLS_CA_FILE
+SYSTEMD_EXEC_PID=620
+FF_USE_LEGACY_S3_CACHE_ADAPTER=false
+FF_DISABLE_UMASK_FOR_KUBERNETES_EXECUTOR=false
+CI_COMMIT_REF_PROTECTED=true
+FF_USE_POWERSHELL_PATH_RESOLVER=false
+FF_USE_DOCKER_AUTOSCALER_DIAL_STDIO=true
+CI_API_GRAPHQL_URL=https://de.vicp.net:58443/api/graphql
+CI_SERVER_VERSION_MINOR=5
+CI_COMMIT_SHA=cfaf7101b54081073f06f9c4f90e6ea330fc911c
+HOME=/home/gitlab-runner
+FF_NETWORK_PER_BUILD=false
+LANG=C.UTF-8
+CI_DEPENDENCY_PROXY_PASSWORD=[MASKED]
+CI_JOB_TIMEOUT=3600
+CI_PROJECT_VISIBILITY=internal
+CI_CONCURRENT_PROJECT_ID=0
+FF_SCRIPT_SECTIONS=false
+CI_COMMIT_MESSAGE=NOCR: gradle project
+FF_USE_WINDOWS_JOB_OBJECT=false
+CI_SERVER_SHELL_SSH_PORT=22
+FF_DISABLE_AUTOMATIC_TOKEN_ROTATION=false
+FF_USE_DIRECT_DOWNLOAD=true
+CI_PAGES_DOMAIN=de.vicp.net
+FF_PRINT_POD_EVENTS=false
+CI_SERVER_VERSION=17.5.1-ee
+FF_USE_POD_ACTIVE_DEADLINE_SECONDS=true
+CI_REGISTRY=de.vicp.net:5050
+CI_SERVER_PORT=58443
+CI_PROJECT_NAMESPACE_ID=673
+CI_SHARED_ENVIRONMENT=true
+FF_TEST_FEATURE=false
+INVOCATION_ID=b255dc90e9204d3596b0d78b557afb6d
+CI_PAGES_URL=https://de.vicp.net:48443/nsb/bulletin
+CI_PIPELINE_IID=13
+CI_REPOSITORY_URL=https://gitlab-ci-token:[MASKED]@de.vicp.net:58443/nsb/bulletin.git
+CI_SERVER_URL=https://de.vicp.net:58443
+FF_ENABLE_BASH_EXIT_CODE_CHECK=false
+GITLAB_FEATURES=audit_events,blocked_issues,board_iteration_lists,code_owners,code_review_analytics,full_codequality_report,group_activity_analytics,group_bulk_edit,issuable_default_templates,issue_weights,iterations,ldap_group_sync,merge_request_approvers,milestone_charts,multiple_issue_assignees,multiple_ldap_servers,multiple_merge_request_assignees,multiple_merge_request_reviewers,project_merge_request_analytics,protected_refs_for_users,push_rules,resource_access_token,seat_link,seat_usage_quotas,pipelines_usage_quotas,transfer_usage_quotas,product_analytics_usage_quotas,wip_limits,zoekt_code_search,blocked_work_items,description_diffs,send_emails_from_admin_area,repository_size_limit,maintenance_mode,scoped_issue_board,contribution_analytics,group_webhooks,member_lock,elastic_search,repository_mirrors,ai_chat,adjourned_deletion_for_projects_and_groups,admin_audit_log,auditor_user,blocking_merge_requests,board_assignee_lists,board_milestone_lists,ci_secrets_management,ci_pipeline_cancellation_restrictions,cluster_agents_ci_impersonation,cluster_agents_user_impersonation,cluster_deployments,code_owner_approval_required,code_suggestions,commit_committer_check,commit_committer_name_check,compliance_framework,custom_compliance_frameworks,custom_fields,custom_file_templates,custom_project_templates,cycle_analytics_for_groups,cycle_analytics_for_projects,db_load_balancing,default_branch_protection_restriction_in_groups,default_project_deletion_protection,delete_unconfirmed_users,dependency_proxy_for_packages,disable_extensions_marketplace_for_enterprise_users,disable_name_update_for_users,disable_personal_access_tokens,domain_verification,epics,extended_audit_events,external_authorization_service_api_management,feature_flags_code_references,file_locks,geo,generic_alert_fingerprinting,git_two_factor_enforcement,group_allowed_email_domains,group_coverage_reports,group_forking_protection,group_level_compliance_dashboard,group_milestone_project_releases,group_project_templates,group_repository_analytics,group_saml,group_scoped_ci_variables,ide_schema_config,incident_metric_upload,instance_level_scim,jira_issues_integration,ldap_group_sync_filter,merge_request_performance_metrics,admin_merge_request_approvers_rules,merge_trains,metrics_reports,multiple_alert_http_integrations,multiple_approval_rules,multiple_group_issue_boards,object_storage,microsoft_group_sync,operations_dashboard,package_forwarding,pages_size_limit,pages_multiple_versions,productivity_analytics,project_aliases,protected_environments,reject_non_dco_commits,reject_unsigned_commits,remote_development,saml_group_sync,service_accounts,scoped_labels,smartcard_auth,ssh_certificates,swimlanes,target_branch_rules,type_of_work_analytics,minimal_access_role,unprotection_restrictions,ci_project_subscriptions,incident_timeline_view,oncall_schedules,escalation_policies,zentao_issues_integration,coverage_check_approval_rule,issuable_resource_links,group_protected_branches,group_level_merge_checks_setting,oidc_client_groups_claim,disable_deleting_account_for_users,disable_private_profiles,group_saved_replies,requested_changes_block_merge_request,project_saved_replies,default_roles_assignees,group_ip_restriction,issues_analytics,password_complexity,group_wikis,email_additional_text,custom_file_templates_for_namespace,incident_sla,export_user_permissions,cross_project_pipelines,feature_flags_related_issues,merge_pipelines,ci_cd_projects,github_integration,ai_config_chat,ai_features,ai_workflows,glab_ask_git_command,ai_agents,ai_review_mr,api_discovery,api_fuzzing,auto_rollback,breach_and_attack_simulation,cluster_receptive_agents,cluster_image_scanning,external_status_checks,combined_project_analytics_dashboards,compliance_pipeline_configuration,container_scanning,credentials_inventory,custom_roles,dast,dependency_scanning,dora4_analytics,epic_colors,enterprise_templates,environment_alerts,evaluate_group_level_compliance_pipeline,explain_code,external_audit_events,experimental_features,generate_description,generate_commit_message,generate_test_file,ai_generate_cube_query,git_abuse_rate_limit,group_ci_cd_analytics,group_level_compliance_adherence_report,group_level_compliance_violations_report,project_level_compliance_dashboard,project_level_compliance_adherence_report,project_level_compliance_violations_report,group_level_analytics_dashboard,incident_management,inline_codequality,insights,issuable_health_status,issues_completed_analytics,jira_vulnerabilities_integration,jira_issue_association_enforcement,kubernetes_cluster_vulnerabilities,license_scanning,okrs,personal_access_token_expiration_policy,pre_receive_secret_detection,product_analytics,project_quality_summary,project_level_analytics_dashboard,quality_management,related_epics,release_evidence_test_artifacts,report_approver_rules,required_ci_templates,requirements,runner_maintenance_note,runner_performance_insights,runner_performance_insights_for_namespace,runner_upgrade_management,runner_upgrade_management_for_namespace,sast,sast_advanced,sast_iac,sast_custom_rulesets,sast_fp_reduction,secret_detection,security_configuration_in_ui,security_dashboard,security_on_demand_scans,security_orchestration_policies,security_training,ssh_key_expiration_policy,summarize_mr_changes,summarize_my_mr_code_review,summarize_new_merge_request,summarize_comments,stale_runner_cleanup_for_namespace,status_page,suggested_reviewers,subepics,observability,troubleshoot_job,unique_project_download_limit,vulnerability_finding_signatures,container_scanning_for_registry,security_exclusions,security_scans_api,coverage_fuzzing,devops_adoption,group_level_devops_adoption,instance_level_devops_adoption
+CI_COMMIT_DESCRIPTION=
+FF_USE_ADVANCED_POD_SPEC_CONFIGURATION=false
+CI_TEMPLATE_REGISTRY_HOST=registry.gitlab.com
+CI_JOB_STAGE=deploy
+NVM_DIR=/etc/skel/.nvm
+CI_PIPELINE_URL=https://de.vicp.net:58443/nsb/bulletin/-/pipelines/1399
+CI_DEFAULT_BRANCH=main
+FF_GIT_URLS_WITHOUT_TOKENS=false
+XDG_SESSION_CLASS=background
+GITLAB_ENV=/home/gitlab-runner/builds/24zEdb-7A/0/nsb/bulletin.tmp/gitlab_runner_env
+CI_SERVER_VERSION_PATCH=1
+CI_COMMIT_TITLE=NOCR: gradle project
+USER=gitlab-runner
+CI_SERVER_FQDN=de.vicp.net:58443
+CI_PROJECT_ROOT_NAMESPACE=nsb
+FF_ENABLE_JOB_CLEANUP=false
+RUNNER_ALLOW_RUNASROOT=1
+FF_RESOLVE_FULL_TLS_CHAIN=false
+GITLAB_USER_NAME=ssz
+CI_PROJECT_DIR=/home/gitlab-runner/builds/24zEdb-7A/0/nsb/bulletin
+SHLVL=1
+NVM_CD_FLAGS=
+CI_RUNNER_ID=2
+CI_PIPELINE_CREATED_AT=2024-11-21T14:00:05Z
+CI_COMMIT_TIMESTAMP=2024-11-21T21:59:52+08:00
+CI_SERVER_SHELL_SSH_HOST=de.vicp.net
+CI_REGISTRY_IMAGE=de.vicp.net:5050/nsb/bulletin
+DRAWIO_EDITOR_URL=https://de.vicp.net:25053
+CI_SERVER_PROTOCOL=https
+XDG_SESSION_ID=c2591
+CI_COMMIT_AUTHOR=tempestwin &lt;tempestwin@163.com&gt;
+FF_POSIXLY_CORRECT_ESCAPES=false
+CI_COMMIT_REF_NAME=main
+CI_SERVER_HOST=de.vicp.net
+FF_USE_DUMB_INIT_WITH_KUBERNETES_EXECUTOR=false
+CI_JOB_URL=https://de.vicp.net:58443/nsb/bulletin/-/jobs/8362
+CI_JOB_TOKEN=[MASKED]
+CI_JOB_STARTED_AT=2024-11-21T14:00:08Z
+CI_CONCURRENT_ID=0
+CI_PROJECT_DESCRIPTION=New Project
+CI_COMMIT_BRANCH=main
+CI_PROJECT_CLASSIFICATION_LABEL=
+FF_USE_LEGACY_KUBERNETES_EXECUTION_STRATEGY=false
+XDG_RUNTIME_DIR=/run/user/998
+CI_RUNNER_REVISION=affd9e7d
+FF_KUBERNETES_HONOR_ENTRYPOINT=false
+FF_CLEAN_UP_FAILED_CACHE_EXTRACT=false
+CI_DEPENDENCY_PROXY_USER=gitlab-ci-token
+FF_USE_DYNAMIC_TRACE_FORCE_SEND_INTERVAL=false
+FF_DISABLE_UMASK_FOR_DOCKER_EXECUTOR=false
+CI_PROJECT_PATH_SLUG=nsb-bulletin
+CI_NODE_TOTAL=1
+CI_JOB_ID=8362
+CI_BUILDS_DIR=/home/gitlab-runner/builds
+CI_PROJECT_REPOSITORY_LANGUAGES=shell
+JOURNAL_STREAM=8:18863
+XDG_DATA_DIRS=/usr/local/share:/usr/share:/var/lib/snapd/desktop
+FF_LOG_IMAGES_CONFIGURED_FOR_JOB=false
+PATH=/usr/java/jdk-17/bin:/etc/skel/.nvm/versions/node/v20.18.0/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin
+KITY_MINDER_EDITOR_URL=https://de.vicp.net:25053
+CI_PROJECT_ID=396
+FF_SECRET_RESOLVING_FAILS_IF_MISSING=true
+CI=true
+GITLAB_CI=true
+DBUS_SESSION_BUS_ADDRESS=unix:path=/run/user/998/bus
+CI_COMMIT_BEFORE_SHA=7e4cfa36344440a23c64ccf2c2f8a70e3962da0b
+CI_PROJECT_TITLE=bulletin
+CI_SERVER_VERSION_MAJOR=17
+NVM_BIN=/etc/skel/.nvm/versions/node/v20.18.0/bin
+MAIL=/var/mail/gitlab-runner
+CI_CONFIG_PATH=.gitlab-ci.yml
+FF_USE_LEGACY_GCS_CACHE_ADAPTER=false
+FF_USE_FASTZIP=false
+CI_DEPENDENCY_PROXY_SERVER=de.vicp.net:58443
+CI_PROJECT_URL=https://de.vicp.net:58443/nsb/bulletin
+OLDPWD=/home/gitlab-runner
+_=/usr/bin/env
+</code></pre></div></li>
+</ul>
+<h6 id="release">Release</h6>
+<ul>
+<li><a href="https://docs.gitlab.com/ee/api/releases">通过API Release</a></li>
+<li><a href="">已有的Release增加Link</a>
+<div class="highlight"><pre><span></span><code>curl "https://de.vicp.net:58443/api/v4/projects/353/releases/v0.3.3/assets/links" --header 'Content-Type: application/json' --request POST --header "PRIVATE-TOKEN: person-access-token" \
+--data @- &lt;&lt;EOF
+{
+  "name": "hello-public.sh",
+  "link_type": "other",
+  "url": "https://de.vicp.net:9000/gitlab.package/demo/hello.sh?X-Amz-Algorithm=AWS4-HMAC-SHA256&amp;X-Amz-Credential=Q0WiPPNdHXSiFoCftsF2%2F20241023%2Fus-east-1%2Fs3%2Faws4_request&amp;X-Amz-Date=20241023T001646Z&amp;X-Amz-Expires=604800&amp;X-Amz-SignedHeaders=host&amp;X-Amz-Signature=df3e54943dc375255e6ba4adc547ebd58b98858bc8027597cc4644ba5db902d0"
+}
+EOF
+</code></pre></div></li>
+</ul>
+<h6 id="job-rules">Job Rules</h6>
+<ul>
+<li>if里不能用<code>${变量}</code>,只能用<code>$变量</code>,否则会报错</li>
+<li><a href="https://www.reddit.com/r/gitlab/comments/1ah7eq3/how_to_get_gitlabrunner_to_run_not_get_stuck_when/">必须在repo的setting里设置protected tag(例如v*)</a>, 这样提交git push origin --tags(git push --follow-tags)时候,这个pipeline才不会stuck</li>
+</ul>
+</article>
+</div>
+<script>var tabs=__md_get("__tabs");if(Array.isArray(tabs))e:for(var set of document.querySelectorAll(".tabbed-set")){var labels=set.querySelector(".tabbed-labels");for(var tab of tabs)for(var label of labels.getElementsByTagName("label"))if(label.innerText.trim()===tab){var input=document.getElementById(label.htmlFor);input.checked=!0;continue e}}</script>
+<script>var target=document.getElementById(location.hash.slice(1));target&&target.name&&(target.checked=target.name.startsWith("__tabbed_"))</script>
+</div>
+<button class="md-top md-icon" data-md-component="top" hidden="" type="button">
+<svg viewbox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="M13 20h-2V8l-5.5 5.5-1.42-1.42L12 4.16l7.92 7.92-1.42 1.42L13 8z"></path></svg>
+  回到页面顶部
+</button>
+</main>
+<footer class="md-footer">
+<div class="md-footer-meta md-typeset">
+<div class="md-footer-meta__inner md-grid">
+<div class="md-copyright">
+<div class="md-copyright__highlight">
+      Copyright © 2016-2022 ShaoShunZhong <a href="https://beian.miit.gov.cn/" target="_blank">您的备案号</a>
+</div>
+  
+  
+    Made with
+    <a href="https://squidfunk.github.io/mkdocs-material/" rel="noopener" target="_blank">
+      Material for MkDocs
+    </a>
+</div>
+<div class="md-social">
+<a class="md-social__link" href="https://twitter.com/squidfunk" rel="noopener" target="_blank" title="squidfunk on Twitter">
+<svg viewbox="0 0 512 512" xmlns="http://www.w3.org/2000/svg"><!--! Font Awesome Free 6.6.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2024 Fonticons, Inc.--><path d="M459.37 151.716c.325 4.548.325 9.097.325 13.645 0 138.72-105.583 298.558-298.558 298.558-59.452 0-114.68-17.219-161.137-47.106 8.447.974 16.568 1.299 25.34 1.299 49.055 0 94.213-16.568 130.274-44.832-46.132-.975-84.792-31.188-98.112-72.772 6.498.974 12.995 1.624 19.818 1.624 9.421 0 18.843-1.3 27.614-3.573-48.081-9.747-84.143-51.98-84.143-102.985v-1.299c13.969 7.797 30.214 12.67 47.431 13.319-28.264-18.843-46.781-51.005-46.781-87.391 0-19.492 5.197-37.36 14.294-52.954 51.655 63.675 129.3 105.258 216.365 109.807-1.624-7.797-2.599-15.918-2.599-24.04 0-57.828 46.782-104.934 104.934-104.934 30.213 0 57.502 12.67 76.67 33.137 23.715-4.548 46.456-13.32 66.599-25.34-7.798 24.366-24.366 44.833-46.132 57.827 21.117-2.273 41.584-8.122 60.426-16.243-14.292 20.791-32.161 39.308-52.628 54.253"></path></svg>
+</a>
+<a class="md-social__link" href="mailto:admin@yiruru.com" rel="noopener" target="_blank" title="">
+<svg viewbox="0 0 512 512" xmlns="http://www.w3.org/2000/svg"><!--! Font Awesome Free 6.6.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2024 Fonticons, Inc.--><path d="M498.1 5.6c10.1 7 15.4 19.1 13.5 31.2l-64 416c-1.5 9.7-7.4 18.2-16 23s-18.9 5.4-28 1.6L284 427.7l-68.5 74.1c-8.9 9.7-22.9 12.9-35.2 8.1S160 493.2 160 480v-83.6c0-4 1.5-7.8 4.2-10.8l167.6-182.8c5.8-6.3 5.6-16-.4-22s-15.7-6.4-22-.7L106 360.8l-88.3-44.2C7.1 311.3.3 300.7 0 288.9s5.9-22.8 16.1-28.7l448-256c10.7-6.1 23.9-5.5 34 1.4"></path></svg>
+</a>
+</div>
+</div>
+</div>
+</footer>
+</div>
+<div class="md-dialog" data-md-component="dialog">
+<div class="md-dialog__inner md-typeset"></div>
+</div>
+<script id="__config" type="application/json">{"base": "../..", "features": ["navigation.instant", "navigation.tracking", "navigation.tabs", "navigation.tabs.sticky", "navigation.sections", "navigation.indexes", "toc.follow", "navigation.top", "search.suggest", "search.highlight", "search.share", "header.autohide", "announce.dismiss", "content.tabs.link", "content.action.edit", "content.action.view", "content.code.annotate", "content.code.copy", "content.tooltips"], "search": "../../assets/javascripts/workers/search.6ce7567c.min.js", "translations": {"clipboard.copied": "\u5df2\u590d\u5236", "clipboard.copy": "\u590d\u5236", "search.result.more.one": "\u5728\u8be5\u9875\u4e0a\u8fd8\u6709 1 \u4e2a\u7b26\u5408\u6761\u4ef6\u7684\u7ed3\u679c", "search.result.more.other": "\u5728\u8be5\u9875\u4e0a\u8fd8\u6709 # \u4e2a\u7b26\u5408\u6761\u4ef6\u7684\u7ed3\u679c", "search.result.none": "\u6ca1\u6709\u627e\u5230\u7b26\u5408\u6761\u4ef6\u7684\u7ed3\u679c", "search.result.one": "\u627e\u5230 1 \u4e2a\u7b26\u5408\u6761\u4ef6\u7684\u7ed3\u679c", "search.result.other": "# \u4e2a\u7b26\u5408\u6761\u4ef6\u7684\u7ed3\u679c", "search.result.placeholder": "\u952e\u5165\u4ee5\u5f00\u59cb\u641c\u7d22", "search.result.term.missing": "\u7f3a\u5c11", "select.version": "\u9009\u62e9\u5f53\u524d\u7248\u672c"}}</script>
+<script src="../../assets/javascripts/bundle.83f73b43.min.js"></script>
+<script src="https://polyfill.alicdn.com/v3/polyfill.js?features=es6"></script>
+<script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
+<script src="https://unpkg.com/tablesort@5.3.0/dist/tablesort.min.js"></script>
+<script src="../../javascripts/tablesort.js"></script>
+<script type="text/javascript">                                              
+        function drawio_get_file_ext_name(filename){
+            return filename.replace(/.+\/[^.]*(.+)$/, "$1");
+        }
+
+        function drawio_get_file_default_asset_sub_folder(filename){
+            const ext_name = drawio_get_file_ext_name(filename);
+            if('.drawio' == ext_name) return 'drawio';
+            if('.km' == ext_name) return 'mindmap';
+        }
+
+        function drawio_get_repo_file(filename, isNew){
+            const file = filename.replace(/.*assets\//, '');
+            if(!isNew) return file;
+            const ext_name = drawio_get_file_ext_name(file);
+            const fileArray = file.split("/");
+            fileArray.pop();
+            const dirname = fileArray.join("/");
+            let newFile = window.prompt("新建文件名字,如果不已" + ext_name + "结尾,自动加上");
+            newFile.endsWith(ext_name) || (newFile += ext_name);
+            return dirname + "/" + newFile
+        }
+
+                                              
+        function drawio_get_repo_abs_file(filename){
+            return 'ShaoOrg/bulletin/main/docs/assets/' + filename;
+        }
+        function drawio_get_git_km_repo_file(filename, isNew){
+            const file = drawio_get_repo_file(filename, isNew);
+            return drawio_get_repo_abs_file(file)
+        }
+        function drawio_get_git_repo_file(filename, prefix){
+            const isNew = 'N' == prefix;
+            const file = drawio_get_repo_file(filename, isNew);
+            return '#' + prefix + drawio_get_repo_abs_file(file)
+        }
+        function drawio_get_github_file(filename){
+            return drawio_get_git_repo_file(filename, 'H')
+        }
+        function drawio_get_gitlab_file(filename){
+            return drawio_get_git_repo_file(filename, 'A')
+        }
+        function drawio_get_new_file(filename){
+            return drawio_get_git_repo_file(filename, 'N')
+        }
+</script><link href="https://cdn.jsdelivr.net/npm/kityminder-core@1.4.50/dist/kityminder.core.min.css" rel="stylesheet"/><style type="text/css">.btn-minder-view-toolbar {
+    border: 1px solid #dbb656;
+    padding: 1px 5px;
+    background-color: #fff2cc;
+    cursor: pointer;
+}
+</style><script src="https://cdn.jsdelivr.net/npm/kity@2.0.4/dist/kity.min.js" type="text/javascript"></script><script src="https://cdn.jsdelivr.net/npm/kityminder-core@1.4.50/dist/kityminder.core.min.js" type="text/javascript"></script><script type="text/javascript">                                              
+        if(!kmLists) { var kmLists = []; }
+        kmLists.push(new kityminder.Minder());
+        kmLists[kmLists.length -1].renderTo(document.querySelector('#minder-view-3afb8c53-d93f-4858-b74c-52c8a6f36123'));
+        kmLists[kmLists.length -1].importJson({
+    "root": {
+        "data": {
+            "id": "d50k35r3nw80",
+            "created": 1729419611963,
+            "text": "gitlab ci/cd",
+            "resource": []
+        },
+        "children": [
+            {
+                "data": {
+                    "id": "d50k3heb3ds1",
+                    "created": 1729419637310,
+                    "text": "job名字",
+                    "progress": 9,
+                    "expandState": "expand",
+                    "note": "key作为名字, stage 关联 stages"
+                },
+                "children": [
+                    {
+                        "data": {
+                            "id": "d50k3heb3ds0",
+                            "created": 1729419637310,
+                            "text": "stage",
+                            "progress": 9
+                        },
+                        "children": []
+                    },
+                    {
+                        "data": {
+                            "id": "d50k6gdtrxk0",
+                            "created": 1729419870197,
+                            "text": "tags",
+                            "resource": [
+                                "runner"
+                            ]
+                        },
+                        "children": []
+                    },
+                    {
+                        "data": {
+                            "id": "d50k5o3pyug0",
+                            "created": 1729419808636,
+                            "text": "needs"
+                        },
+                        "children": []
+                    },
+                    {
+                        "data": {
+                            "id": "d50k3lprz4w0",
+                            "created": 1729419646711,
+                            "text": "image"
+                        },
+                        "children": []
+                    },
+                    {
+                        "data": {
+                            "id": "d50k3tp5cm00",
+                            "created": 1729419664087,
+                            "text": "rules"
+                        },
+                        "children": [
+                            {
+                                "data": {
+                                    "id": "d5p2sgznrl40",
+                                    "created": 1731909814467,
+                                    "text": "changes"
+                                },
+                                "children": [
+                                    {
+                                        "data": {
+                                            "id": "d5p2sjs2hl40",
+                                            "created": 1731909820539,
+                                            "text": "path/**",
+                                            "priority": 1
+                                        },
+                                        "children": [
+                                            {
+                                                "data": {
+                                                    "id": "d5p2sn9wv540",
+                                                    "created": 1731909828148,
+                                                    "text": "任意文件,包括子目录"
+                                                },
+                                                "children": []
+                                            }
+                                        ]
+                                    }
+                                ]
+                            }
+                        ]
+                    },
+                    {
+                        "data": {
+                            "id": "d50k3viwwd40",
+                            "created": 1729419668064,
+                            "text": "script",
+                            "resource": [
+                                "shell"
+                            ]
+                        },
+                        "children": []
+                    },
+                    {
+                        "data": {
+                            "id": "d50k405vblc0",
+                            "created": 1729419678159,
+                            "text": "artifacts"
+                        },
+                        "children": []
+                    },
+                    {
+                        "data": {
+                            "id": "d50k4562gpc0",
+                            "created": 1729419689055,
+                            "text": "environment"
+                        },
+                        "children": []
+                    },
+                    {
+                        "data": {
+                            "id": "d50k47rci5k0",
+                            "created": 1729419694695,
+                            "text": "when"
+                        },
+                        "children": []
+                    },
+                    {
+                        "data": {
+                            "id": "d50k6yd6wow0",
+                            "created": 1729419909341,
+                            "text": "only"
+                        },
+                        "children": [
+                            {
+                                "data": {
+                                    "id": "d5p2qxoi3og0",
+                                    "created": 1731909694069,
+                                    "text": "changes"
+                                },
+                                "children": [
+                                    {
+                                        "data": {
+                                            "id": "d5p2r7qw67s0",
+                                            "created": 1731909715982,
+                                            "text": "path/**",
+                                            "priority": 1
+                                        },
+                                        "children": [
+                                            {
+                                                "data": {
+                                                    "id": "d5p2rfsslv40",
+                                                    "created": 1731909733511,
+                                                    "text": "任意文件,包括子目录"
+                                                },
+                                                "children": []
+                                            }
+                                        ]
+                                    }
+                                ]
+                            },
+                            {
+                                "data": {
+                                    "id": "d5p2s298bls0",
+                                    "created": 1731909782394,
+                                    "text": "推荐用rules代替only",
+                                    "priority": 1
+                                },
+                                "children": []
+                            }
+                        ]
+                    },
+                    {
+                        "data": {
+                            "id": "d50k707hiu80",
+                            "created": 1729419913349,
+                            "text": "except"
+                        },
+                        "children": []
+                    },
+                    {
+                        "data": {
+                            "id": "d50k7a2wixk0",
+                            "created": 1729419934840,
+                            "text": "parallel"
+                        },
+                        "children": []
+                    }
+                ]
+            },
+            {
+                "data": {
+                    "id": "d50kcz9nqhc0",
+                    "created": 1729420381489,
+                    "text": "stages[string]",
+                    "progress": 9
+                },
+                "children": []
+            },
+            {
+                "data": {
+                    "id": "d50kdaqqp5k0",
+                    "created": 1729420406466,
+                    "text": "variables"
+                },
+                "children": [
+                    {
+                        "data": {
+                            "id": "d5gxzpu6bqg0",
+                            "created": 1731083797073,
+                            "text": "Run Pipeline可选"
+                        },
+                        "children": [
+                            {
+                                "data": {
+                                    "id": "d5gxzxbj9000",
+                                    "created": 1731083813360,
+                                    "text": "options"
+                                },
+                                "children": [
+                                    {
+                                        "data": {
+                                            "id": "d5gy07015hs0",
+                                            "created": 1731083834432,
+                                            "text": "枚举类型,配置后可下拉"
+                                        },
+                                        "children": []
+                                    }
+                                ]
+                            },
+                            {
+                                "data": {
+                                    "id": "d5gy00c1i2g0",
+                                    "created": 1731083819921,
+                                    "text": "value"
+                                },
+                                "children": [
+                                    {
+                                        "data": {
+                                            "id": "d5gy02qkciw0",
+                                            "created": 1731083825153,
+                                            "text": "缺省值"
+                                        },
+                                        "children": []
+                                    }
+                                ]
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "data": {
+                    "id": "d5gydrol2hs0",
+                    "created": 1731084898187,
+                    "text": "Token Type"
+                },
+                "children": [
+                    {
+                        "data": {
+                            "id": "d5jw3294uqw0",
+                            "created": 1731383096841,
+                            "text": "Maven/Gradle",
+                            "expandState": "expand",
+                            "hyperlink": "https://docs.gitlab.com/ee/user/packages/maven_repository/?tab=gradle",
+                            "hyperlinkTitle": ""
+                        },
+                        "children": [
+                            {
+                                "data": {
+                                    "id": "d5gydxifcpc0",
+                                    "created": 1731084910875,
+                                    "text": "Personal access token"
+                                },
+                                "children": [
+                                    {
+                                        "data": {
+                                            "id": "d5jw26ncsug0",
+                                            "created": 1731383028044,
+                                            "text": "${PAT}"
+                                        },
+                                        "children": []
+                                    },
+                                    {
+                                        "data": {
+                                            "id": "d5jw2ddcgyo0",
+                                            "created": 1731383042677,
+                                            "text": "名字Private-Token"
+                                        },
+                                        "children": []
+                                    }
+                                ]
+                            },
+                            {
+                                "data": {
+                                    "id": "d5gye6u8nyg0",
+                                    "created": 1731084931180,
+                                    "text": "Deploy Token"
+                                },
+                                "children": [
+                                    {
+                                        "data": {
+                                            "id": "d5jw1cg0ojc0",
+                                            "created": 1731382962297,
+                                            "text": "${DEPLOY_TOKEN}"
+                                        },
+                                        "children": []
+                                    },
+                                    {
+                                        "data": {
+                                            "id": "d5jw1yiezjs0",
+                                            "created": 1731383010331,
+                                            "text": "名字Deploy-Token"
+                                        },
+                                        "children": []
+                                    }
+                                ]
+                            },
+                            {
+                                "data": {
+                                    "id": "d5gyejpzaw00",
+                                    "created": 1731084959221,
+                                    "text": "CI Job token",
+                                    "expandState": "expand"
+                                },
+                                "children": [
+                                    {
+                                        "data": {
+                                            "id": "d5gyelv8pwo0",
+                                            "created": 1731084963893,
+                                            "text": "${CI_JOB_TOKEN}"
+                                        },
+                                        "children": []
+                                    },
+                                    {
+                                        "data": {
+                                            "id": "d5hf3ckbkgg0",
+                                            "created": 1731132040504,
+                                            "text": "名字JOB-TOKEN \n大小写都可以"
+                                        },
+                                        "children": []
+                                    }
+                                ]
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "data": {
+                    "id": "d5gygde2xbc0",
+                    "created": 1731085102169,
+                    "text": "Package Registry"
+                },
+                "children": [
+                    {
+                        "data": {
+                            "id": "d5gygi3amrk0",
+                            "created": 1731085112401,
+                            "text": "maven",
+                            "hyperlink": "https://docs.gitlab.com/ee/user/packages/maven_repository/index.html",
+                            "hyperlinkTitle": "Maven Package",
+                            "expandState": "collapse"
+                        },
+                        "children": [
+                            {
+                                "data": {
+                                    "id": "d5k2p2shg2o0",
+                                    "created": 1731401748682,
+                                    "text": "同一个包3个URL",
+                                    "expandState": "collapse"
+                                },
+                                "children": [
+                                    {
+                                        "data": {
+                                            "id": "d5hkrs36tfk0",
+                                            "created": 1731148060586,
+                                            "text": "PACKAGE_SERVER_MAVEN_URL",
+                                            "expandState": "expand"
+                                        },
+                                        "children": [
+                                            {
+                                                "data": {
+                                                    "id": "d5k2pn8cxw00",
+                                                    "created": 1731401793178,
+                                                    "text": "Instance",
+                                                    "resource": [
+                                                        "Install"
+                                                    ]
+                                                },
+                                                "children": [
+                                                    {
+                                                        "data": {
+                                                            "id": "d5k2qmoike80",
+                                                            "created": 1731401870342,
+                                                            "text": "https://de.vicp.net:58443/api/v4/packages/maven",
+                                                            "resource": []
+                                                        },
+                                                        "children": []
+                                                    },
+                                                    {
+                                                        "data": {
+                                                            "id": "d5k3h9qsri00",
+                                                            "created": 1731403958015,
+                                                            "text": "deploy报错415",
+                                                            "background": "#ff0000"
+                                                        },
+                                                        "children": []
+                                                    }
+                                                ]
+                                            },
+                                            {
+                                                "data": {
+                                                    "id": "d5k2ptcidkg0",
+                                                    "created": 1731401806490,
+                                                    "text": "Root Group",
+                                                    "resource": [
+                                                        "Install"
+                                                    ]
+                                                },
+                                                "children": [
+                                                    {
+                                                        "data": {
+                                                            "id": "d5k2pyr5f6g0",
+                                                            "created": 1731401818259,
+                                                            "text": "https://de.vicp.net:58443/api/v4/groups/473/-/packages/maven"
+                                                        },
+                                                        "children": []
+                                                    },
+                                                    {
+                                                        "data": {
+                                                            "id": "d5k3hgjkwj40",
+                                                            "created": 1731403972816,
+                                                            "text": "deploy报错415",
+                                                            "background": "#ff0000"
+                                                        },
+                                                        "children": []
+                                                    }
+                                                ]
+                                            },
+                                            {
+                                                "data": {
+                                                    "id": "d5k2q9t9u5k0",
+                                                    "created": 1731401842332,
+                                                    "text": "Project",
+                                                    "expandState": "expand",
+                                                    "resource": [
+                                                        "Install",
+                                                        "deploy"
+                                                    ]
+                                                },
+                                                "children": [
+                                                    {
+                                                        "data": {
+                                                            "id": "d5hksda8v2o0",
+                                                            "created": 1731148106725,
+                                                            "text": "https://de.vicp.net:58443/api/v4/projects/353/packages/maven"
+                                                        },
+                                                        "children": []
+                                                    }
+                                                ]
+                                            }
+                                        ]
+                                    }
+                                ]
+                            },
+                            {
+                                "data": {
+                                    "id": "d5gygktloko0",
+                                    "created": 1731085118345,
+                                    "text": "mvn deploy"
+                                },
+                                "children": []
+                            },
+                            {
+                                "data": {
+                                    "id": "d5gygqgthq80",
+                                    "created": 1731085130633,
+                                    "text": "settings.xml",
+                                    "expandState": "collapse"
+                                },
+                                "children": [
+                                    {
+                                        "data": {
+                                            "id": "d5gyhlkpi940",
+                                            "created": 1731085198348,
+                                            "text": "Custom HTTP header",
+                                            "expandState": "expand"
+                                        },
+                                        "children": [
+                                            {
+                                                "data": {
+                                                    "id": "d5gyiop3ut40",
+                                                    "created": 1731085283509,
+                                                    "text": "httpHeaders"
+                                                },
+                                                "children": [
+                                                    {
+                                                        "data": {
+                                                            "id": "d5gyj7qw1vs0",
+                                                            "created": 1731085324975,
+                                                            "text": "token name/value"
+                                                        },
+                                                        "children": []
+                                                    },
+                                                    {
+                                                        "data": {
+                                                            "id": "d5hf8m2ehtc0",
+                                                            "created": 1731132453009,
+                                                            "text": "property",
+                                                            "expandState": "collapse"
+                                                        },
+                                                        "children": [
+                                                            {
+                                                                "data": {
+                                                                    "id": "d5k3etg00pk0",
+                                                                    "created": 1731403765805,
+                                                                    "text": "Job-Token",
+                                                                    "expandState": "collapse"
+                                                                },
+                                                                "children": [
+                                                                    {
+                                                                        "data": {
+                                                                            "id": "d5hf8nflhxk0",
+                                                                            "created": 1731132455984,
+                                                                            "text": "name",
+                                                                            "expandState": "collapse"
+                                                                        },
+                                                                        "children": [
+                                                                            {
+                                                                                "data": {
+                                                                                    "id": "d5hf8pqylzc0",
+                                                                                    "created": 1731132461024,
+                                                                                    "text": "JOB-TOKEN"
+                                                                                },
+                                                                                "children": [
+                                                                                    {
+                                                                                        "data": {
+                                                                                            "id": "d5hf9xbrv7c0",
+                                                                                            "created": 1731132555884,
+                                                                                            "text": "常量,大小写都可以"
+                                                                                        },
+                                                                                        "children": []
+                                                                                    }
+                                                                                ]
+                                                                            }
+                                                                        ]
+                                                                    },
+                                                                    {
+                                                                        "data": {
+                                                                            "id": "d5hf8uteo0g0",
+                                                                            "created": 1731132472056,
+                                                                            "text": "value",
+                                                                            "expandState": "collapse"
+                                                                        },
+                                                                        "children": [
+                                                                            {
+                                                                                "data": {
+                                                                                    "id": "d5hf96pghg80",
+                                                                                    "created": 1731132497939,
+                                                                                    "text": "${CI_JOB_TOKEN}"
+                                                                                },
+                                                                                "children": [
+                                                                                    {
+                                                                                        "data": {
+                                                                                            "id": "d5hf9e1xzns0",
+                                                                                            "created": 1731132513931,
+                                                                                            "text": "只在job run有效\n每个job都重新生成"
+                                                                                        },
+                                                                                        "children": []
+                                                                                    }
+                                                                                ]
+                                                                            }
+                                                                        ]
+                                                                    }
+                                                                ]
+                                                            },
+                                                            {
+                                                                "data": {
+                                                                    "id": "d5k3f5j17n40",
+                                                                    "created": 1731403792110,
+                                                                    "text": "Deploy-Token",
+                                                                    "expandState": "collapse"
+                                                                },
+                                                                "children": [
+                                                                    {
+                                                                        "data": {
+                                                                            "id": "d5k3fc1wciw0",
+                                                                            "created": 1731403806311,
+                                                                            "text": "name"
+                                                                        },
+                                                                        "children": []
+                                                                    },
+                                                                    {
+                                                                        "data": {
+                                                                            "id": "d5k3ffk8fag0",
+                                                                            "created": 1731403813950,
+                                                                            "text": "value",
+                                                                            "expandState": "collapse"
+                                                                        },
+                                                                        "children": [
+                                                                            {
+                                                                                "data": {
+                                                                                    "id": "d5k3fhpmnv40",
+                                                                                    "created": 1731403818630,
+                                                                                    "text": "${DEPLOY_TOKEN}"
+                                                                                },
+                                                                                "children": []
+                                                                            }
+                                                                        ]
+                                                                    }
+                                                                ]
+                                                            },
+                                                            {
+                                                                "data": {
+                                                                    "id": "d5k3fomn3gw0",
+                                                                    "created": 1731403833687,
+                                                                    "text": "Private-Token",
+                                                                    "expandState": "collapse"
+                                                                },
+                                                                "children": [
+                                                                    {
+                                                                        "data": {
+                                                                            "id": "d5k3frw5rvk0",
+                                                                            "created": 1731403840793,
+                                                                            "text": "name"
+                                                                        },
+                                                                        "children": []
+                                                                    },
+                                                                    {
+                                                                        "data": {
+                                                                            "id": "d5k3fu8jp5k0",
+                                                                            "created": 1731403845895,
+                                                                            "text": "value"
+                                                                        },
+                                                                        "children": [
+                                                                            {
+                                                                                "data": {
+                                                                                    "id": "d5k3fwqk6ko0",
+                                                                                    "created": 1731403851338,
+                                                                                    "text": "${PAT}"
+                                                                                },
+                                                                                "children": []
+                                                                            }
+                                                                        ]
+                                                                    }
+                                                                ]
+                                                            }
+                                                        ]
+                                                    }
+                                                ]
+                                            }
+                                        ]
+                                    },
+                                    {
+                                        "data": {
+                                            "id": "d5gyia3q7t40",
+                                            "created": 1731085251741,
+                                            "text": "Basic HTTP Authentication",
+                                            "expandState": "expand"
+                                        },
+                                        "children": [
+                                            {
+                                                "data": {
+                                                    "id": "d5gyjpn2knc0",
+                                                    "created": 1731085363927,
+                                                    "text": "<id>gitlab-maven</id>"
+                                                },
+                                                "children": []
+                                            },
+                                            {
+                                                "data": {
+                                                    "id": "d5hf3vw49k80",
+                                                    "created": 1731132082576,
+                                                    "text": "<username>\ntoken name\n</username>"
+                                                },
+                                                "children": []
+                                            },
+                                            {
+                                                "data": {
+                                                    "id": "d5hf48cdcew0",
+                                                    "created": 1731132109680,
+                                                    "text": "<password/>"
+                                                },
+                                                "children": []
+                                            }
+                                        ]
+                                    }
+                                ]
+                            }
+                        ]
+                    },
+                    {
+                        "data": {
+                            "id": "d5gymid99r40",
+                            "created": 1731085583188,
+                            "text": "generic",
+                            "expandState": "collapse"
+                        },
+                        "children": [
+                            {
+                                "data": {
+                                    "id": "d5gymlt3d000",
+                                    "created": 1731085590676,
+                                    "text": "curl"
+                                },
+                                "children": []
+                            }
+                        ]
+                    },
+                    {
+                        "data": {
+                            "id": "d5hrdu0mie00",
+                            "created": 1731166715456,
+                            "text": "nuget",
+                            "hyperlink": "https://docs.gitlab.com/ee/user/packages/nuget_repository/",
+                            "hyperlinkTitle": "",
+                            "expandState": "collapse"
+                        },
+                        "children": [
+                            {
+                                "data": {
+                                    "id": "d5hrexrx8dk0",
+                                    "created": 1731166802001,
+                                    "text": "see github"
+                                },
+                                "children": []
+                            }
+                        ]
+                    },
+                    {
+                        "data": {
+                            "id": "d5hrdweclb40",
+                            "created": 1731166720639,
+                            "text": "npm",
+                            "hyperlink": "https://docs.gitlab.com/ee/user/packages/npm_registry/",
+                            "hyperlinkTitle": "",
+                            "expandState": "collapse"
+                        },
+                        "children": [
+                            {
+                                "data": {
+                                    "id": "d5hresla3zk0",
+                                    "created": 1731166790715,
+                                    "text": "校验package.json\n的repository是否来自与相同的host",
+                                    "background": "#ff0000"
+                                },
+                                "children": []
+                            },
+                            {
+                                "data": {
+                                    "id": "d5k9zd34zr40",
+                                    "created": 1731422302506,
+                                    "text": "同一个包3个Url",
+                                    "expandState": "collapse"
+                                },
+                                "children": [
+                                    {
+                                        "data": {
+                                            "id": "d5k9zt089480",
+                                            "created": 1731422337158,
+                                            "text": "PACKAGE_SERVER_MAVEN_URL",
+                                            "expandState": "expand"
+                                        },
+                                        "children": [
+                                            {
+                                                "data": {
+                                                    "id": "d5k9ztbses00",
+                                                    "created": 1731422337858,
+                                                    "text": "Instance",
+                                                    "resource": [
+                                                        "Install"
+                                                    ]
+                                                },
+                                                "children": [
+                                                    {
+                                                        "data": {
+                                                            "id": "d5ka03ffx7k0",
+                                                            "created": 1731422359846,
+                                                            "text": "https://de.vicp.net:58443/api/v4/packages/npm"
+                                                        },
+                                                        "children": []
+                                                    },
+                                                    {
+                                                        "data": {
+                                                            "id": "d5ka1cbs70w0",
+                                                            "created": 1731422457580,
+                                                            "text": "deploy报错404",
+                                                            "background": "#ff0000"
+                                                        },
+                                                        "children": []
+                                                    }
+                                                ]
+                                            },
+                                            {
+                                                "data": {
+                                                    "id": "d5ka0cixpq00",
+                                                    "created": 1731422379648,
+                                                    "text": "Root Group",
+                                                    "resource": [
+                                                        "Install"
+                                                    ]
+                                                },
+                                                "children": [
+                                                    {
+                                                        "data": {
+                                                            "id": "d5ka0k6skqo0",
+                                                            "created": 1731422396328,
+                                                            "text": "https://de.vicp.net:58443/api/v4/groups/473/-/packages/npm"
+                                                        },
+                                                        "children": []
+                                                    },
+                                                    {
+                                                        "data": {
+                                                            "id": "d5ka170bn5k0",
+                                                            "created": 1731422446003,
+                                                            "text": "deploy报错404",
+                                                            "background": "#ff0000"
+                                                        },
+                                                        "children": []
+                                                    }
+                                                ]
+                                            },
+                                            {
+                                                "data": {
+                                                    "id": "d5ka0rn0ycw0",
+                                                    "created": 1731422412547,
+                                                    "text": "Project",
+                                                    "resource": [
+                                                        "Install",
+                                                        "deploy"
+                                                    ]
+                                                },
+                                                "children": [
+                                                    {
+                                                        "data": {
+                                                            "id": "d5ka0v1napk0",
+                                                            "created": 1731422419962,
+                                                            "text": "https://de.vicp.net:58443/api/v4/projects/353/packages/npm"
+                                                        },
+                                                        "children": []
+                                                    }
+                                                ]
+                                            }
+                                        ]
+                                    }
+                                ]
+                            },
+                            {
+                                "data": {
+                                    "id": "d5i9ft8wvxs0",
+                                    "created": 1731217650487,
+                                    "text": "scope必须小写"
+                                },
+                                "children": []
+                            },
+                            {
+                                "data": {
+                                    "id": "d5i9g2p78u00",
+                                    "created": 1731217671063,
+                                    "text": "registry必须以/结尾"
+                                },
+                                "children": [
+                                    {
+                                        "data": {
+                                            "id": "d5i9ge8mue80",
+                                            "created": 1731217696182,
+                                            "text": "否则报auth错误"
+                                        },
+                                        "children": []
+                                    }
+                                ]
+                            }
+                        ]
+                    },
+                    {
+                        "data": {
+                            "id": "d5kc9iq58v40",
+                            "created": 1731428740642,
+                            "text": "pypi"
+                        },
+                        "children": [
+                            {
+                                "data": {
+                                    "id": "d5kc9lm4qq00",
+                                    "created": 1731428746930,
+                                    "text": "twine"
+                                },
+                                "children": [
+                                    {
+                                        "data": {
+                                            "id": "d5kc9q5jth40",
+                                            "created": 1731428756811,
+                                            "text": ".pypirc"
+                                        },
+                                        "children": [
+                                            {
+                                                "data": {
+                                                    "id": "d5kc9uww8ko0",
+                                                    "created": 1731428767172,
+                                                    "text": "必须在~目录",
+                                                    "background": "#ff0000"
+                                                },
+                                                "children": []
+                                            },
+                                            {
+                                                "data": {
+                                                    "id": "d5kca0u1o7s0",
+                                                    "created": 1731428780060,
+                                                    "text": "不支持变量",
+                                                    "background": "#ff0000"
+                                                },
+                                                "children": []
+                                            }
+                                        ]
+                                    }
+                                ]
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    "template": "filetree",
+    "theme": "classic-compact",
+    "version": "1.4.43"
+});
+        if(!zoomContainer){
+            var zoomContainer=function(container, scale){
+                const cw = container.offsetWidth;
+                const nw = cw * scale;
+                container.style.width = nw + 'px';
+                const ch = container.offsetHeight;
+                const nh = ch * scale;
+                container.style.height = nh + 'px';
+                const svg = container.querySelector('svg')
+                svg.style.minWidth = nw + 'px';
+                svg.style.minHeight = nh + 'px';
+            }
+        }
+        if(!fullContainer){
+            var fullContainer=function(svgElement){
+                if (svgElement) {
+                    if (svgElement.requestFullscreen) {
+                        svgElement.requestFullscreen();
+                    } else if (svgElement.mozRequestFullScreen) {
+                        svgElement.mozRequestFullScreen();
+                    } else if (svgElement.webkitRequestFullscreen) {
+                        svgElement.webkitRequestFullscreen();
+                    } else if (svgElement.msRequestFullscreen) {
+                        svgElement.msRequestFullscreen();
+                    }
+                }
+            }
+        }
+        document.getElementById('btn-minder-view-3afb8c53-d93f-4858-b74c-52c8a6f36123-zoom-in') && document.getElementById('btn-minder-view-3afb8c53-d93f-4858-b74c-52c8a6f36123-zoom-in').addEventListener('click', function() {
+            zoomContainer(document.getElementById('minder-view-3afb8c53-d93f-4858-b74c-52c8a6f36123'), 0.8)
+        });
+        document.getElementById('btn-minder-view-3afb8c53-d93f-4858-b74c-52c8a6f36123-zoom-out') && document.getElementById('btn-minder-view-3afb8c53-d93f-4858-b74c-52c8a6f36123-zoom-out').addEventListener('click', function() {
+            zoomContainer(document.getElementById('minder-view-3afb8c53-d93f-4858-b74c-52c8a6f36123'), 1.2)
+        });
+        document.getElementById('btn-minder-view-3afb8c53-d93f-4858-b74c-52c8a6f36123-full') && document.getElementById('btn-minder-view-3afb8c53-d93f-4858-b74c-52c8a6f36123-full').addEventListener('click', function() {
+            fullContainer(document.getElementById('minder-view-3afb8c53-d93f-4858-b74c-52c8a6f36123').querySelector('svg'))
+        });
+        document.getElementById('minder-view-3afb8c53-d93f-4858-b74c-52c8a6f36123') && document.getElementById('minder-view-3afb8c53-d93f-4858-b74c-52c8a6f36123').addEventListener('dblclick', function() {
+            const svg = this.querySelector('svg')
+            const divBackground = window.getComputedStyle(this).background;
+            if(!svg.hasFullscreenListener){
+              svg.addEventListener("fullscreenchange", function() {
+                  if (document.fullscreenElement) {
+                      svg.style.background = divBackground;
+                  } else {
+                      svg.style.background = "";
+                  }
+              });
+              svg.hasFullscreenListener = true
+            }
+            fullContainer(this.querySelector('svg'));
+        });
+document.getElementById('btn-minder-view-3afb8c53-d93f-4858-b74c-52c8a6f36123-new') && document.getElementById('btn-minder-view-3afb8c53-d93f-4858-b74c-52c8a6f36123-new').addEventListener('click', function() {
+    window.open("https://de.vicp.net:25053/local-kity-minder/" + drawio_get_new_file(this.getAttribute("file")));
+});
+document.getElementById('btn-minder-view-3afb8c53-d93f-4858-b74c-52c8a6f36123-edit') && document.getElementById('btn-minder-view-3afb8c53-d93f-4858-b74c-52c8a6f36123-edit').addEventListener('click', function() {
+    const file = this.getAttribute("file").replace(/.*\/assets\//, '');
+    window.open("https://de.vicp.net:25053/local-kity-minder/" + file);
+});
+</script><style type="text/css">#minder-view-3afb8c53-d93f-4858-b74c-52c8a6f36123
+{
+    border: 1px solid #ccc;
+    left: 10px;
+    top: 10px;
+    bottom: 10px;
+    right: 10px;
+    height: 400px;
+    width: 1000px;
+    overflow: auto;
+}
+#minder-view-3afb8c53-d93f-4858-b74c-52c8a6f36123 svg
+{
+    min-height: 400px;
+}
+</style><script type="text/javascript">                                              
+        if(!kmLists) { var kmLists = []; }
+        kmLists.push(new kityminder.Minder());
+        kmLists[kmLists.length -1].renderTo(document.querySelector('#minder-view-0ec34ab1-8aa6-4805-ab75-2a2fe4795e47'));
+        kmLists[kmLists.length -1].importJson({
+    "root": {
+        "data": {
+            "id": "d5gbgwu12280",
+            "created": 1731020258964,
+            "text": "gitlab-pages"
+        },
+        "children": [
+            {
+                "data": {
+                    "id": "d5gbh79piew0",
+                    "created": 1731020281680,
+                    "text": "pages_external_url"
+                },
+                "children": [
+                    {
+                        "data": {
+                            "id": "d5gbhnpx7c80",
+                            "created": 1731020317489,
+                            "text": "https"
+                        },
+                        "children": [
+                            {
+                                "data": {
+                                    "id": "d5gbixlg4b40",
+                                    "created": 1731020417351,
+                                    "text": "with TLS"
+                                },
+                                "children": []
+                            }
+                        ]
+                    },
+                    {
+                        "data": {
+                            "id": "d5gbhqasqoo0",
+                            "created": 1731020323105,
+                            "text": "http"
+                        },
+                        "children": [
+                            {
+                                "data": {
+                                    "id": "d5gbisf24qg0",
+                                    "created": 1731020406080,
+                                    "text": "without TLS"
+                                },
+                                "children": []
+                            }
+                        ]
+                    },
+                    {
+                        "data": {
+                            "id": "d5gbhvvswu00",
+                            "created": 1731020335259,
+                            "text": "external_url同域"
+                        },
+                        "children": [
+                            {
+                                "data": {
+                                    "id": "d5gbie35bc00",
+                                    "created": 1731020374885,
+                                    "text": "监听0.0.0.0:port",
+                                    "expandState": "expand",
+                                    "background": "#ff0000"
+                                },
+                                "children": [
+                                    {
+                                        "data": {
+                                            "id": "d5gbsbc5eqo0",
+                                            "created": 1731021152541,
+                                            "text": "nas236反向代理到gitlab:port"
+                                        },
+                                        "children": []
+                                    }
+                                ]
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "data": {
+                    "id": "d5gbj5541680",
+                    "created": 1731020433777,
+                    "text": "enable"
+                },
+                "children": [
+                    {
+                        "data": {
+                            "id": "d5gbtf6u1u00",
+                            "created": 1731021239291,
+                            "text": "true"
+                        },
+                        "children": [
+                            {
+                                "data": {
+                                    "id": "d5gbtk7zg540",
+                                    "created": 1731021250244,
+                                    "text": "本机启用"
+                                },
+                                "children": []
+                            }
+                        ]
+                    },
+                    {
+                        "data": {
+                            "id": "d5gbthdleio0",
+                            "created": 1731021244053,
+                            "text": "false"
+                        },
+                        "children": [
+                            {
+                                "data": {
+                                    "id": "d5gbtpl14rs0",
+                                    "created": 1731021261917,
+                                    "text": "外机启用"
+                                },
+                                "children": []
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "data": {
+                    "id": "d5gblh8qj080",
+                    "created": 1731020616846,
+                    "text": "external_url"
+                },
+                "children": [
+                    {
+                        "data": {
+                            "id": "d5gblkhe0i80",
+                            "created": 1731020623900,
+                            "text": "https"
+                        },
+                        "children": [
+                            {
+                                "data": {
+                                    "id": "d5gblor0iww0",
+                                    "created": 1731020633189,
+                                    "text": "artifacts_server_url"
+                                },
+                                "children": [
+                                    {
+                                        "data": {
+                                            "id": "d5gblsquiwg0",
+                                            "created": 1731020641886,
+                                            "text": "http://127.0.0.1/api/v4",
+                                            "background": "#ff0000"
+                                        },
+                                        "children": []
+                                    }
+                                ]
+                            },
+                            {
+                                "data": {
+                                    "id": "d5gbmz6tqnk0",
+                                    "created": 1731020734277,
+                                    "text": "gitlab_server"
+                                },
+                                "children": [
+                                    {
+                                        "data": {
+                                            "id": "d5p29lrwft40",
+                                            "created": 1731908335963,
+                                            "text": "https://de.vicp.net:58443",
+                                            "expandState": "expand"
+                                        },
+                                        "children": [
+                                            {
+                                                "data": {
+                                                    "id": "d5gbn504ig00",
+                                                    "created": 1731020746932,
+                                                    "text": "http://127.0.0.1",
+                                                    "background": "#ff0000"
+                                                },
+                                                "children": []
+                                            },
+                                            {
+                                                "data": {
+                                                    "id": "d5p29u8g3e80",
+                                                    "created": 1731908354378,
+                                                    "text": "如果配置成127.0.1\n会跳转到它"
+                                                },
+                                                "children": []
+                                            }
+                                        ]
+                                    },
+                                    {
+                                        "data": {
+                                            "id": "d5p2fye48uo0",
+                                            "created": 1731908833613,
+                                            "text": "没配置internal_gitlab_server会使用,默认二者相等"
+                                        },
+                                        "children": []
+                                    }
+                                ]
+                            },
+                            {
+                                "data": {
+                                    "id": "d5p2afz3zhc0",
+                                    "created": 1731908401702,
+                                    "text": "internal_gitlab_server",
+                                    "resource": [
+                                        "Pair"
+                                    ]
+                                },
+                                "children": [
+                                    {
+                                        "data": {
+                                            "id": "d5p2bke53hc0",
+                                            "created": 1731908489682,
+                                            "text": "http://127.0.0.1",
+                                            "priority": 1
+                                        },
+                                        "children": []
+                                    },
+                                    {
+                                        "data": {
+                                            "id": "d5p2fl79y4o0",
+                                            "created": 1731908804901,
+                                            "text": "优先使用它去gitlab_server授权"
+                                        },
+                                        "children": []
+                                    }
+                                ]
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "data": {
+                    "id": "d5gbqfosh140",
+                    "created": 1731021005284,
+                    "text": "namespace_in_path"
+                },
+                "children": [
+                    {
+                        "data": {
+                            "id": "d5gbqm9wkps0",
+                            "created": 1731021019621,
+                            "text": "true"
+                        },
+                        "children": [
+                            {
+                                "data": {
+                                    "id": "d5gbqosehns0",
+                                    "created": 1731021025093,
+                                    "text": "pages_external_url/org/repo",
+                                    "background": "#ff0000"
+                                },
+                                "children": []
+                            }
+                        ]
+                    },
+                    {
+                        "data": {
+                            "id": "d5gbr4zxacg0",
+                            "created": 1731021060377,
+                            "text": "false"
+                        },
+                        "children": [
+                            {
+                                "data": {
+                                    "id": "d5gbr7dryq80",
+                                    "created": 1731021065568,
+                                    "text": "org.domain/repo"
+                                },
+                                "children": []
+                            }
+                        ]
+                    },
+                    {
+                        "data": {
+                            "id": "d5ozpjzospc0",
+                            "created": 1731901122577,
+                            "text": "override",
+                            "priority": 1
+                        },
+                        "children": [
+                            {
+                                "data": {
+                                    "id": "d5ozqivz8340",
+                                    "created": 1731901198540,
+                                    "text": "NSB/bulletin",
+                                    "hyperlink": "https://de.vicp.net:58443/nsb/bulletin/pages",
+                                    "hyperlinkTitle": ""
+                                },
+                                "children": [
+                                    {
+                                        "data": {
+                                            "id": "d5ozqp0u0400",
+                                            "created": 1731901211894,
+                                            "text": "设置了true,还是生成/bulletin-xxxxxx"
+                                        },
+                                        "children": []
+                                    }
+                                ]
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "data": {
+                    "id": "d5gbuar602o0",
+                    "created": 1731021308000,
+                    "text": "日志"
+                },
+                "children": [
+                    {
+                        "data": {
+                            "id": "d5gbueyx6mg0",
+                            "created": 1731021317176,
+                            "text": "log/gitlab-pages"
+                        },
+                        "children": []
+                    }
+                ]
+            },
+            {
+                "data": {
+                    "id": "d5gdn3195800",
+                    "created": 1731026384867,
+                    "text": "ci/cd"
+                },
+                "children": [
+                    {
+                        "data": {
+                            "id": "d5gdn8jq9y80",
+                            "created": 1731026396868,
+                            "text": "pages job"
+                        },
+                        "children": [
+                            {
+                                "data": {
+                                    "id": "d5gdnwafrrc0",
+                                    "created": 1731026448549,
+                                    "text": "stage"
+                                },
+                                "children": [
+                                    {
+                                        "data": {
+                                            "id": "d5gdorilyko0",
+                                            "created": 1731026516523,
+                                            "text": "必须是deploy"
+                                        },
+                                        "children": []
+                                    }
+                                ]
+                            },
+                            {
+                                "data": {
+                                    "id": "d5gdo87agkg0",
+                                    "created": 1731026474480,
+                                    "text": "artifacts"
+                                },
+                                "children": [
+                                    {
+                                        "data": {
+                                            "id": "d5gdohpkz7k0",
+                                            "created": 1731026495177,
+                                            "text": "必须是public",
+                                            "background": "#ff0000"
+                                        },
+                                        "children": []
+                                    },
+                                    {
+                                        "data": {
+                                            "id": "d5gdp297ry00",
+                                            "created": 1731026539900,
+                                            "text": "其它"
+                                        },
+                                        "children": [
+                                            {
+                                                "data": {
+                                                    "id": "d5gdpdxbiag0",
+                                                    "created": 1731026565302,
+                                                    "text": "job成功"
+                                                },
+                                                "children": []
+                                            },
+                                            {
+                                                "data": {
+                                                    "id": "d5gdplabtaw0",
+                                                    "created": 1731026581326,
+                                                    "text": "但deploy失败"
+                                                },
+                                                "children": []
+                                            }
+                                        ]
+                                    }
+                                ]
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "data": {
+                    "id": "d5p2c7agguw0",
+                    "created": 1731908539526,
+                    "text": "declare",
+                    "layout_mind_offset": {
+                        "x": 348.9999947994949,
+                        "y": -514.999992325902
+                    },
+                    "expandState": "expand"
+                },
+                "children": [
+                    {
+                        "data": {
+                            "id": "d5p2cbnso3c0",
+                            "created": 1731908549039,
+                            "text": "pair",
+                            "resource": [
+                                "Pair"
+                            ],
+                            "expandState": "expand",
+                            "layout_right_offset": {
+                                "x": 236.9999964684249,
+                                "y": -37.999999433755875
+                            }
+                        },
+                        "children": [
+                            {
+                                "data": {
+                                    "id": "d5p2e9l66w80",
+                                    "created": 1731908701255,
+                                    "text": "和上个Item成对使用",
+                                    "layout_right_offset": {
+                                        "x": 314.99999530613434,
+                                        "y": 5.99999991059309
+                                    }
+                                },
+                                "children": []
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    "template": "default",
+    "theme": "fresh-soil",
+    "version": "1.4.43"
+});
+        if(!zoomContainer){
+            var zoomContainer=function(container, scale){
+                const cw = container.offsetWidth;
+                const nw = cw * scale;
+                container.style.width = nw + 'px';
+                const ch = container.offsetHeight;
+                const nh = ch * scale;
+                container.style.height = nh + 'px';
+                const svg = container.querySelector('svg')
+                svg.style.minWidth = nw + 'px';
+                svg.style.minHeight = nh + 'px';
+            }
+        }
+        if(!fullContainer){
+            var fullContainer=function(svgElement){
+                if (svgElement) {
+                    if (svgElement.requestFullscreen) {
+                        svgElement.requestFullscreen();
+                    } else if (svgElement.mozRequestFullScreen) {
+                        svgElement.mozRequestFullScreen();
+                    } else if (svgElement.webkitRequestFullscreen) {
+                        svgElement.webkitRequestFullscreen();
+                    } else if (svgElement.msRequestFullscreen) {
+                        svgElement.msRequestFullscreen();
+                    }
+                }
+            }
+        }
+        document.getElementById('btn-minder-view-0ec34ab1-8aa6-4805-ab75-2a2fe4795e47-zoom-in') && document.getElementById('btn-minder-view-0ec34ab1-8aa6-4805-ab75-2a2fe4795e47-zoom-in').addEventListener('click', function() {
+            zoomContainer(document.getElementById('minder-view-0ec34ab1-8aa6-4805-ab75-2a2fe4795e47'), 0.8)
+        });
+        document.getElementById('btn-minder-view-0ec34ab1-8aa6-4805-ab75-2a2fe4795e47-zoom-out') && document.getElementById('btn-minder-view-0ec34ab1-8aa6-4805-ab75-2a2fe4795e47-zoom-out').addEventListener('click', function() {
+            zoomContainer(document.getElementById('minder-view-0ec34ab1-8aa6-4805-ab75-2a2fe4795e47'), 1.2)
+        });
+        document.getElementById('btn-minder-view-0ec34ab1-8aa6-4805-ab75-2a2fe4795e47-full') && document.getElementById('btn-minder-view-0ec34ab1-8aa6-4805-ab75-2a2fe4795e47-full').addEventListener('click', function() {
+            fullContainer(document.getElementById('minder-view-0ec34ab1-8aa6-4805-ab75-2a2fe4795e47').querySelector('svg'))
+        });
+        document.getElementById('minder-view-0ec34ab1-8aa6-4805-ab75-2a2fe4795e47') && document.getElementById('minder-view-0ec34ab1-8aa6-4805-ab75-2a2fe4795e47').addEventListener('dblclick', function() {
+            const svg = this.querySelector('svg')
+            const divBackground = window.getComputedStyle(this).background;
+            if(!svg.hasFullscreenListener){
+              svg.addEventListener("fullscreenchange", function() {
+                  if (document.fullscreenElement) {
+                      svg.style.background = divBackground;
+                  } else {
+                      svg.style.background = "";
+                  }
+              });
+              svg.hasFullscreenListener = true
+            }
+            fullContainer(this.querySelector('svg'));
+        });
+document.getElementById('btn-minder-view-0ec34ab1-8aa6-4805-ab75-2a2fe4795e47-new') && document.getElementById('btn-minder-view-0ec34ab1-8aa6-4805-ab75-2a2fe4795e47-new').addEventListener('click', function() {
+    window.open("https://de.vicp.net:25053/local-kity-minder/" + drawio_get_new_file(this.getAttribute("file")));
+});
+document.getElementById('btn-minder-view-0ec34ab1-8aa6-4805-ab75-2a2fe4795e47-edit') && document.getElementById('btn-minder-view-0ec34ab1-8aa6-4805-ab75-2a2fe4795e47-edit').addEventListener('click', function() {
+    const file = this.getAttribute("file").replace(/.*\/assets\//, '');
+    window.open("https://de.vicp.net:25053/local-kity-minder/" + file);
+});
+</script><style type="text/css">#minder-view-0ec34ab1-8aa6-4805-ab75-2a2fe4795e47
+{
+    border: 1px solid #ccc;
+    left: 10px;
+    top: 10px;
+    bottom: 10px;
+    right: 10px;
+    height: 400px;
+    width: 1000px;
+    overflow: auto;
+}
+#minder-view-0ec34ab1-8aa6-4805-ab75-2a2fe4795e47 svg
+{
+    min-height: 400px;
+}
+</style></body>
+</html>

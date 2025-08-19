@@ -1,0 +1,155 @@
+{
+    "root": {
+        "data": {
+            "id": "d5kn97ano940",
+            "created": 1731459747970,
+            "text": "代理",
+            "background": "#7030a0"
+        },
+        "children": [
+            {
+                "data": {
+                    "id": "d5kn9azixy00",
+                    "created": 1731459756004,
+                    "text": "Windows",
+                    "resource": [
+                        "信任OS"
+                    ]
+                },
+                "children": [
+                    {
+                        "data": {
+                            "id": "d5knahyyh5s0",
+                            "created": 1731459849571,
+                            "text": "注册表"
+                        },
+                        "children": [
+                            {
+                                "data": {
+                                    "id": "d5knay7izz40",
+                                    "created": 1731459884918,
+                                    "text": "HKCU:\\Software\\Microsoft\\Windows\\CurrentVersion\\Internet Settings"
+                                },
+                                "children": [
+                                    {
+                                        "data": {
+                                            "id": "d5knbboq81k0",
+                                            "created": 1731459914256,
+                                            "text": "AutoConfigURL"
+                                        },
+                                        "children": [
+                                            {
+                                                "data": {
+                                                    "id": "d5knc8j2s6g0",
+                                                    "created": 1731459985748,
+                                                    "text": "https://de.vicp.net:5001/static/proxy/gfwlist.pac"
+                                                },
+                                                "children": []
+                                            }
+                                        ]
+                                    },
+                                    {
+                                        "data": {
+                                            "id": "d5knbhr0icw0",
+                                            "created": 1731459927455,
+                                            "text": "ProxyServer"
+                                        },
+                                        "children": [
+                                            {
+                                                "data": {
+                                                    "id": "d5kncguln140",
+                                                    "created": 1731460003859,
+                                                    "text": "192.168.50.34:10811"
+                                                },
+                                                "children": []
+                                            }
+                                        ]
+                                    },
+                                    {
+                                        "data": {
+                                            "id": "d5knbqq5nyw0",
+                                            "created": 1731459946994,
+                                            "text": "ProxyOverride"
+                                        },
+                                        "children": [
+                                            {
+                                                "data": {
+                                                    "id": "d5knbzk84io0",
+                                                    "created": 1731459966227,
+                                                    "text": "*.shao.sh;*.github.shao.sh;*.*.shao.sh;*.*.shao.lx;*.shao.shlg;*.vicp.net;<local>"
+                                                },
+                                                "children": []
+                                            }
+                                        ]
+                                    }
+                                ]
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "data": {
+                    "id": "d5kn9d90s3k0",
+                    "created": 1731459760932,
+                    "text": "Linux",
+                    "resource": [
+                        "信任OS"
+                    ]
+                },
+                "children": [
+                    {
+                        "data": {
+                            "id": "d5kn9mlmdw80",
+                            "created": 1731459781285,
+                            "text": "环境变量"
+                        },
+                        "children": [
+                            {
+                                "data": {
+                                    "id": "d5kn9t4n98o0",
+                                    "created": 1731459795496,
+                                    "text": "http_proxy"
+                                },
+                                "children": []
+                            },
+                            {
+                                "data": {
+                                    "id": "d5kn9x9rgso0",
+                                    "created": 1731459804512,
+                                    "text": "no_proxy"
+                                },
+                                "children": []
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "data": {
+                    "id": "d5kneplep7k0",
+                    "created": 1731460179623,
+                    "text": "curl",
+                    "resource": [
+                        "信任OS"
+                    ]
+                },
+                "children": []
+            },
+            {
+                "data": {
+                    "id": "d5knetoryrc0",
+                    "created": 1731460188534,
+                    "text": "docker",
+                    "resource": [
+                        "信任OS"
+                    ]
+                },
+                "children": []
+            }
+        ]
+    },
+    "template": "default",
+    "theme": "wire",
+    "version": "1.4.33"
+}

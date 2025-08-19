@@ -1,0 +1,141 @@
+{
+    "root": {
+        "data": {
+            "id": "d5lj3b7liw80",
+            "created": 1731549561824,
+            "text": "LDAP"
+        },
+        "children": [
+            {
+                "data": {
+                    "id": "d5lj3haai2w0",
+                    "created": 1731549575048,
+                    "text": "Client",
+                    "layout_right_offset": {
+                        "x": 17.9999997317791,
+                        "y": 121.99999818205833
+                    }
+                },
+                "children": [
+                    {
+                        "data": {
+                            "id": "d5lj3xm5log0",
+                            "created": 1731549610594,
+                            "text": "url"
+                        },
+                        "children": [
+                            {
+                                "data": {
+                                    "id": "d5lj4jgs7sg0",
+                                    "created": 1731549658158,
+                                    "text": "ldap://${ldap_server}/${searchDN}?${userAttr}?sub?(objectClass=${userUniq})"
+                                },
+                                "children": [
+                                    {
+                                        "data": {
+                                            "id": "d5lj72lc1mw0",
+                                            "created": 1731549856520,
+                                            "text": "?${userAttr}",
+                                            "priority": 1
+                                        },
+                                        "children": []
+                                    },
+                                    {
+                                        "data": {
+                                            "id": "d5lj7x3g4m00",
+                                            "created": 1731549922919,
+                                            "text": "?sub",
+                                            "priority": 2
+                                        },
+                                        "children": []
+                                    },
+                                    {
+                                        "data": {
+                                            "id": "d5lj7rcz9800",
+                                            "created": 1731549910435,
+                                            "text": "?(objectClass=${userUniq})",
+                                            "priority": 3
+                                        },
+                                        "children": []
+                                    }
+                                ]
+                            },
+                            {
+                                "data": {
+                                    "id": "d5lj43e1d8w0",
+                                    "created": 1731549623163,
+                                    "text": "ldap://de.vicp.net:389/cn=users,dc=de,dc=vicp,dc=net?uid?sub?(objectClass=person)",
+                                    "resource": [
+                                        "Sample"
+                                    ]
+                                },
+                                "children": []
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "data": {
+                    "id": "d5lj8tv9b8o0",
+                    "created": 1731549994258,
+                    "text": "declare",
+                    "layout_right_offset": {
+                        "x": -80.99999879300594,
+                        "y": -265.9999960362911
+                    }
+                },
+                "children": [
+                    {
+                        "data": {
+                            "id": "d5lj97nytjk0",
+                            "created": 1731550024292,
+                            "text": "sequence"
+                        },
+                        "children": [
+                            {
+                                "data": {
+                                    "id": "d5lj9cs0ct40",
+                                    "created": 1731550035420,
+                                    "text": "1",
+                                    "priority": 1
+                                },
+                                "children": []
+                            },
+                            {
+                                "data": {
+                                    "id": "d5lj9ee8xe00",
+                                    "created": 1731550038942,
+                                    "text": "2",
+                                    "priority": 2
+                                },
+                                "children": []
+                            },
+                            {
+                                "data": {
+                                    "id": "d5lj9gcrvxs0",
+                                    "created": 1731550043206,
+                                    "text": "...",
+                                    "priority": 9
+                                },
+                                "children": []
+                            }
+                        ]
+                    },
+                    {
+                        "data": {
+                            "id": "d5nc33wso0w0",
+                            "created": 1731732918077,
+                            "text": "Note",
+                            "priority": 1
+                        },
+                        "children": []
+                    }
+                ]
+            }
+        ]
+    },
+    "template": "right",
+    "theme": "fresh-green-compat",
+    "version": "1.4.33"
+}

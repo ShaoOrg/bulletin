@@ -1,0 +1,113 @@
+<mxfile host="de.vicp.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0.0.0 Safari/537.36" version="24.7.17" pages="2">
+  <diagram id="PtnR7vMplqudIKb1F226" name="Github">
+    <mxGraphModel dx="693" dy="228" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="4" value="" style="swimlane;startSize=0;" vertex="1" parent="1">
+          <mxGeometry x="240" y="110" width="390" height="270" as="geometry" />
+        </mxCell>
+        <mxCell id="5" value="unicorn" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;" vertex="1" parent="4">
+          <mxGeometry x="40" y="30" width="80" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="8" value="aqueduct" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;" vertex="1" parent="4">
+          <mxGeometry x="40" y="80" width="80" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="7" style="edgeStyle=none;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;endArrow=none;endFill=0;dashed=1;" edge="1" parent="1" source="6" target="5">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="6" value="Ruby" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;dashed=1;dashPattern=8 8;" vertex="1" parent="1">
+          <mxGeometry x="100" y="140" width="80" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="10" style="edgeStyle=none;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;dashed=1;endArrow=none;endFill=0;" edge="1" parent="1" source="9" target="8">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="9" value="Dart" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;dashed=1;dashPattern=8 8;" vertex="1" parent="1">
+          <mxGeometry x="100" y="190" width="80" height="30" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="MnuPui6_E-iCkCKA3b8B" name="DeviceFlow">
+    <mxGraphModel dx="1221" dy="599" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="3FKnpgoLiMhI3NyLMCr8-1" value="Headless App" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=0;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0};fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
+          <mxGeometry x="180" y="50" width="100" height="410" as="geometry" />
+        </mxCell>
+        <mxCell id="3FKnpgoLiMhI3NyLMCr8-2" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0};fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="3FKnpgoLiMhI3NyLMCr8-1">
+          <mxGeometry x="45" y="70" width="10" height="290" as="geometry" />
+        </mxCell>
+        <mxCell id="3FKnpgoLiMhI3NyLMCr8-3" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="3FKnpgoLiMhI3NyLMCr8-1">
+          <mxGeometry x="50" y="110" width="10" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="3FKnpgoLiMhI3NyLMCr8-4" value="Github" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=0;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0};fillColor=#6a00ff;strokeColor=#3700CC;fontColor=#ffffff;" vertex="1" parent="1">
+          <mxGeometry x="590" y="50" width="100" height="410" as="geometry" />
+        </mxCell>
+        <mxCell id="3FKnpgoLiMhI3NyLMCr8-5" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0};fillColor=#6a00ff;fontColor=#ffffff;strokeColor=#3700CC;" vertex="1" parent="3FKnpgoLiMhI3NyLMCr8-4">
+          <mxGeometry x="45" y="80" width="10" height="280" as="geometry" />
+        </mxCell>
+        <mxCell id="3FKnpgoLiMhI3NyLMCr8-6" value="&lt;div style=&quot;text-align: start;&quot;&gt;&lt;font face=&quot;STHeitiSC-Light, STHeiti, Hei, Heiti SC, Microsoft Yahei, Arial, sans-serif&quot; color=&quot;#333333&quot;&gt;&lt;span style=&quot;font-size: 14px; text-wrap-mode: wrap;&quot;&gt;/login/device/code&lt;/span&gt;&lt;/font&gt;&lt;/div&gt;" style="html=1;verticalAlign=bottom;endArrow=block;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;" edge="1" parent="1" source="3FKnpgoLiMhI3NyLMCr8-2" target="3FKnpgoLiMhI3NyLMCr8-5">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="345" y="140" as="sourcePoint" />
+            <Array as="points">
+              <mxPoint x="330" y="130" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="3FKnpgoLiMhI3NyLMCr8-7" value="access_token" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;" edge="1" parent="1" source="3FKnpgoLiMhI3NyLMCr8-5" target="3FKnpgoLiMhI3NyLMCr8-2">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="345" y="215" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="340" y="290" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="3FKnpgoLiMhI3NyLMCr8-8" value="device_code,user_code" style="html=1;verticalAlign=bottom;endArrow=block;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;dashed=1;" edge="1" parent="1" source="3FKnpgoLiMhI3NyLMCr8-5" target="3FKnpgoLiMhI3NyLMCr8-3">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="325" y="170" as="sourcePoint" />
+            <Array as="points">
+              <mxPoint x="340" y="170" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="3FKnpgoLiMhI3NyLMCr8-9" value="&lt;span style=&quot;color: rgb(51, 51, 51); font-family: STHeitiSC-Light, STHeiti, Hei, &amp;quot;Heiti SC&amp;quot;, &amp;quot;Microsoft Yahei&amp;quot;, Arial, sans-serif; font-size: 14px; text-align: start; text-wrap-mode: wrap;&quot;&gt;/login/oauth/access_token&lt;/span&gt;" style="html=1;verticalAlign=bottom;endArrow=open;endSize=8;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;" edge="1" parent="1" source="3FKnpgoLiMhI3NyLMCr8-3" target="3FKnpgoLiMhI3NyLMCr8-5">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="325" y="245" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="330" y="240" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="3FKnpgoLiMhI3NyLMCr8-10" value="" style="shape=actor;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
+          <mxGeometry x="60" y="180" width="40" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="3FKnpgoLiMhI3NyLMCr8-11" value="https://github.shao.sh/login/device" style="html=1;verticalAlign=bottom;startArrow=oval;endArrow=block;startSize=8;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;exitX=0.9;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="3FKnpgoLiMhI3NyLMCr8-10" target="3FKnpgoLiMhI3NyLMCr8-4">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="175" y="120" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="3FKnpgoLiMhI3NyLMCr8-12" style="edgeStyle=elbowEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;elbow=vertical;curved=0;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="235" y="340" as="sourcePoint" />
+            <mxPoint x="639.5" y="340" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="3FKnpgoLiMhI3NyLMCr8-13" value="/api/v3/xxx" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="3FKnpgoLiMhI3NyLMCr8-12">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint y="-12" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="3FKnpgoLiMhI3NyLMCr8-14" style="edgeStyle=elbowEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;elbow=vertical;curved=0;entryX=0.75;entryY=0.25;entryDx=0;entryDy=0;entryPerimeter=0;dashed=1;" edge="1" parent="1" source="3FKnpgoLiMhI3NyLMCr8-3" target="3FKnpgoLiMhI3NyLMCr8-10">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="3FKnpgoLiMhI3NyLMCr8-15" value="user_code" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="3FKnpgoLiMhI3NyLMCr8-14">
+          <mxGeometry x="0.2222" y="-4" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

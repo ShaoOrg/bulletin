@@ -1,0 +1,33 @@
+{
+    "root": {
+        "data": {
+            "id": "dbj51ikt9rc0",
+            "created": 1753243756321,
+            "text": "教育"
+        },
+        "children": [
+            {
+                "data": {
+                    "id": "dbj51khhcow0",
+                    "created": 1753243760473,
+                    "text": "新知识"
+                },
+                "children": [
+                    {
+                        "data": {
+                            "id": "dbj522uan940",
+                            "created": 1753243800430,
+                            "text": "终生学习",
+                            "hyperlink": "https://le.ouchn.cn/home",
+                            "hyperlinkTitle": "终身教育平台"
+                        },
+                        "children": []
+                    }
+                ]
+            }
+        ]
+    },
+    "template": "default",
+    "theme": "fresh-blue-compat",
+    "version": "1.4.33"
+}

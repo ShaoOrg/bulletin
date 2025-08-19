@@ -1,0 +1,40 @@
+{
+    "root": {
+        "data": {
+            "id": "db7clpbqj8w0",
+            "created": 1752046366582,
+            "text": "GHE"
+        },
+        "children": [
+            {
+                "data": {
+                    "id": "db7clztpma80",
+                    "created": 1752046389437,
+                    "text": "CLI"
+                },
+                "children": [
+                    {
+                        "data": {
+                            "id": "db7cm3rn57k0",
+                            "created": 1752046398019,
+                            "text": "ghe-config-apply"
+                        },
+                        "children": [
+                            {
+                                "data": {
+                                    "id": "db7cm8bumyo0",
+                                    "created": 1752046407948,
+                                    "text": "保存config,等同于UI save settings"
+                                },
+                                "children": []
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    "template": "default",
+    "theme": "fresh-green-compat",
+    "version": "1.4.33"
+}

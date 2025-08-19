@@ -1,0 +1,2090 @@
+{
+    "root": {
+        "data": {
+            "id": "d5kmjeh86ns0",
+            "created": 1731457726136,
+            "text": "鉴权",
+            "background": "#fbd4b4",
+            "expandState": "expand"
+        },
+        "children": [
+            {
+                "data": {
+                    "id": "d5kmjindgcw0",
+                    "created": 1731457735215,
+                    "text": "Python",
+                    "expandState": "collapse"
+                },
+                "children": [
+                    {
+                        "data": {
+                            "id": "d5kmjoodyko0",
+                            "created": 1731457748337,
+                            "text": "pip",
+                            "resource": [
+                                "Install"
+                            ],
+                            "hyperlink": "https://pip.pypa.io/en/stable/topics/authentication/",
+                            "hyperlinkTitle": ""
+                        },
+                        "children": [
+                            {
+                                "data": {
+                                    "id": "d5kmk675jww0",
+                                    "created": 1731457786477,
+                                    "text": "keyring ",
+                                    "expandState": "expand"
+                                },
+                                "children": [
+                                    {
+                                        "data": {
+                                            "id": "d5kmjrsz9ps0",
+                                            "created": 1731457755145,
+                                            "text": "Windows Credential Manager"
+                                        },
+                                        "children": []
+                                    },
+                                    {
+                                        "data": {
+                                            "id": "d5kmkhy3b3s0",
+                                            "created": 1731457812051,
+                                            "text": "MacOS Keychain"
+                                        },
+                                        "children": []
+                                    },
+                                    {
+                                        "data": {
+                                            "id": "d5kml0ded340",
+                                            "created": 1731457852158,
+                                            "text": "Linux GNOME Keyring"
+                                        },
+                                        "children": []
+                                    }
+                                ]
+                            },
+                            {
+                                "data": {
+                                    "id": "d5lyyb0el0g0",
+                                    "created": 1731594307327,
+                                    "text": ".netrc"
+                                },
+                                "children": [
+                                    {
+                                        "data": {
+                                            "id": "d5lyyiersjs0",
+                                            "created": 1731594323433,
+                                            "text": "hosted in ~"
+                                        },
+                                        "children": [
+                                            {
+                                                "data": {
+                                                    "id": "d5lyynv4cew0",
+                                                    "created": 1731594335305,
+                                                    "text": "machine domain login user password pw"
+                                                },
+                                                "children": [
+                                                    {
+                                                        "data": {
+                                                            "id": "d5lyyxoe1m80",
+                                                            "created": 1731594356666,
+                                                            "text": "不需要Port",
+                                                            "priority": 1
+                                                        },
+                                                        "children": []
+                                                    }
+                                                ]
+                                            }
+                                        ]
+                                    }
+                                ]
+                            }
+                        ]
+                    },
+                    {
+                        "data": {
+                            "id": "d5kmmwlyic00",
+                            "created": 1731458000697,
+                            "text": "twine",
+                            "expandState": "expand",
+                            "resource": [
+                                "deploy"
+                            ]
+                        },
+                        "children": [
+                            {
+                                "data": {
+                                    "id": "d5kmn1w1mlc0",
+                                    "created": 1731458012191,
+                                    "text": ".pypirc"
+                                },
+                                "children": [
+                                    {
+                                        "data": {
+                                            "id": "d5kmn6lfn7c0",
+                                            "created": 1731458022433,
+                                            "text": "hosted in ~"
+                                        },
+                                        "children": [
+                                            {
+                                                "data": {
+                                                    "id": "d5lyzfaunn40",
+                                                    "created": 1731594395030,
+                                                    "text": "machine domain:port login user password pw"
+                                                },
+                                                "children": []
+                                            }
+                                        ]
+                                    }
+                                ]
+                            },
+                            {
+                                "data": {
+                                    "id": "d5kmo5v3ctc0",
+                                    "created": 1731458099205,
+                                    "text": "环境变量",
+                                    "expandState": "expand"
+                                },
+                                "children": [
+                                    {
+                                        "data": {
+                                            "id": "d5kmnizg1sw0",
+                                            "created": 1731458049402,
+                                            "text": "TWINE_USERNAME",
+                                            "resource": [
+                                                "环境变量"
+                                            ]
+                                        },
+                                        "children": []
+                                    },
+                                    {
+                                        "data": {
+                                            "id": "d5kmnwqhs1c0",
+                                            "created": 1731458079335,
+                                            "text": "TWINE_PASSWORD",
+                                            "resource": [
+                                                "环境变量"
+                                            ]
+                                        },
+                                        "children": []
+                                    }
+                                ]
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "data": {
+                    "id": "d5kml9fjydk0",
+                    "created": 1731457871880,
+                    "text": "Npm",
+                    "expandState": "expand"
+                },
+                "children": [
+                    {
+                        "data": {
+                            "id": "d5kmlhri80g0",
+                            "created": 1731457890017,
+                            "text": ".npmrc",
+                            "resource": [
+                                "Install",
+                                "deploy"
+                            ]
+                        },
+                        "children": [
+                            {
+                                "data": {
+                                    "id": "d5kmllcnmvk0",
+                                    "created": 1731457897826,
+                                    "text": "authToken"
+                                },
+                                "children": [
+                                    {
+                                        "data": {
+                                            "id": "d5kmvljr7ug0",
+                                            "created": 1731458681897,
+                                            "text": "npm login后会自动生成"
+                                        },
+                                        "children": []
+                                    }
+                                ]
+                            },
+                            {
+                                "data": {
+                                    "id": "d5kmlpj7vo80",
+                                    "created": 1731457906930,
+                                    "text": "hosted in",
+                                    "expandState": "expand"
+                                },
+                                "children": [
+                                    {
+                                        "data": {
+                                            "id": "d5kmmcy641c0",
+                                            "created": 1731457957900,
+                                            "text": "当前目录"
+                                        },
+                                        "children": []
+                                    },
+                                    {
+                                        "data": {
+                                            "id": "d5kmluiwnow0",
+                                            "created": 1731457917795,
+                                            "text": "~",
+                                            "resource": [
+                                                "Or"
+                                            ]
+                                        },
+                                        "children": []
+                                    }
+                                ]
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "data": {
+                    "id": "d5kmoysst6w0",
+                    "created": 1731458162193,
+                    "text": "Maven",
+                    "expandState": "collapse"
+                },
+                "children": [
+                    {
+                        "data": {
+                            "id": "d5kmp4d4z8o0",
+                            "created": 1731458174306,
+                            "text": "settings.xml",
+                            "resource": [
+                                "Install",
+                                "deploy"
+                            ]
+                        },
+                        "children": [
+                            {
+                                "data": {
+                                    "id": "d5kmpf7cb3c0",
+                                    "created": 1731458197900,
+                                    "text": "server"
+                                },
+                                "children": [
+                                    {
+                                        "data": {
+                                            "id": "d5kmprnuzjc0",
+                                            "created": 1731458225021,
+                                            "text": "Basic",
+                                            "expandState": "expand"
+                                        },
+                                        "children": [
+                                            {
+                                                "data": {
+                                                    "id": "d5kmpibj00o0",
+                                                    "created": 1731458204684,
+                                                    "text": "username"
+                                                },
+                                                "children": []
+                                            },
+                                            {
+                                                "data": {
+                                                    "id": "d5kmplnkowo0",
+                                                    "created": 1731458211943,
+                                                    "text": "password"
+                                                },
+                                                "children": []
+                                            }
+                                        ]
+                                    },
+                                    {
+                                        "data": {
+                                            "id": "d5kmpxefg6g0",
+                                            "created": 1731458237511,
+                                            "text": "HttpHeader",
+                                            "resource": [
+                                                "Or"
+                                            ]
+                                        },
+                                        "children": [
+                                            {
+                                                "data": {
+                                                    "id": "d5kmq3ziokg0",
+                                                    "created": 1731458251847,
+                                                    "text": "name"
+                                                },
+                                                "children": []
+                                            },
+                                            {
+                                                "data": {
+                                                    "id": "d5kmq7is59c0",
+                                                    "created": 1731458259542,
+                                                    "text": "value"
+                                                },
+                                                "children": []
+                                            }
+                                        ]
+                                    }
+                                ]
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "data": {
+                    "id": "d5kmqgy74ww0",
+                    "created": 1731458280065,
+                    "text": "gradle",
+                    "expandState": "collapse"
+                },
+                "children": [
+                    {
+                        "data": {
+                            "id": "d5kmqlsksjs0",
+                            "created": 1731458290609,
+                            "text": "build.gradle",
+                            "resource": [
+                                "Install",
+                                "deploy"
+                            ]
+                        },
+                        "children": [
+                            {
+                                "data": {
+                                    "id": "d5kmqr5r71k0",
+                                    "created": 1731458302290,
+                                    "text": "maven/credential"
+                                },
+                                "children": [
+                                    {
+                                        "data": {
+                                            "id": "d5kmr0bcopc0",
+                                            "created": 1731458322219,
+                                            "text": "Basic"
+                                        },
+                                        "children": [
+                                            {
+                                                "data": {
+                                                    "id": "d5kmrdkqvk80",
+                                                    "created": 1731458351086,
+                                                    "text": "username"
+                                                },
+                                                "children": []
+                                            },
+                                            {
+                                                "data": {
+                                                    "id": "d5kmrgqnbuw0",
+                                                    "created": 1731458357973,
+                                                    "text": "password"
+                                                },
+                                                "children": []
+                                            }
+                                        ]
+                                    },
+                                    {
+                                        "data": {
+                                            "id": "d5kmr37qlpc0",
+                                            "created": 1731458328531,
+                                            "text": "HttpHeader",
+                                            "resource": [
+                                                "Or"
+                                            ]
+                                        },
+                                        "children": [
+                                            {
+                                                "data": {
+                                                    "id": "d5kmrjahmxs0",
+                                                    "created": 1731458363526,
+                                                    "text": "name"
+                                                },
+                                                "children": []
+                                            },
+                                            {
+                                                "data": {
+                                                    "id": "d5kmrm3z03k0",
+                                                    "created": 1731458369662,
+                                                    "text": "value"
+                                                },
+                                                "children": []
+                                            }
+                                        ]
+                                    }
+                                ]
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "data": {
+                    "id": "d5kmsol6bhc0",
+                    "created": 1731458453420,
+                    "text": "Docker",
+                    "expandState": "collapse"
+                },
+                "children": [
+                    {
+                        "data": {
+                            "id": "d5kmta2t7bs0",
+                            "created": 1731458500199,
+                            "text": "config.json",
+                            "resource": [
+                                "Install",
+                                "deploy"
+                            ]
+                        },
+                        "children": [
+                            {
+                                "data": {
+                                    "id": "d5kmtckmm3c0",
+                                    "created": 1731458505630,
+                                    "text": "hosted in ~/.docker"
+                                },
+                                "children": []
+                            },
+                            {
+                                "data": {
+                                    "id": "d5kmtqgn8zk0",
+                                    "created": 1731458535864,
+                                    "text": "auth"
+                                },
+                                "children": [
+                                    {
+                                        "data": {
+                                            "id": "d5kmtqv09s00",
+                                            "created": 1731458536733,
+                                            "text": "username:password\nthen base64"
+                                        },
+                                        "children": []
+                                    }
+                                ]
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "data": {
+                    "id": "d5kn5a9kr5s0",
+                    "created": 1731459440978,
+                    "text": "NuGet",
+                    "expandState": "collapse"
+                },
+                "children": [
+                    {
+                        "data": {
+                            "id": "d5kn5fskaqo0",
+                            "created": 1731459453010,
+                            "text": "choco"
+                        },
+                        "children": [
+                            {
+                                "data": {
+                                    "id": "d5kn5ip3gig0",
+                                    "created": 1731459459331,
+                                    "text": "--api-key",
+                                    "resource": [
+                                        "deploy",
+                                        "命令行参数"
+                                    ]
+                                },
+                                "children": []
+                            },
+                            {
+                                "data": {
+                                    "id": "d5kn709140w0",
+                                    "created": 1731459575906,
+                                    "text": "source add",
+                                    "resource": [
+                                        "Install",
+                                        "命令行参数"
+                                    ]
+                                },
+                                "children": [
+                                    {
+                                        "data": {
+                                            "id": "d5kn74oka8w0",
+                                            "created": 1731459585552,
+                                            "text": "-u"
+                                        },
+                                        "children": []
+                                    },
+                                    {
+                                        "data": {
+                                            "id": "d5kn7apzmqw0",
+                                            "created": 1731459598699,
+                                            "text": "-p"
+                                        },
+                                        "children": []
+                                    }
+                                ]
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "data": {
+                    "id": "d5kshiq8sk80",
+                    "created": 1731474505320,
+                    "text": "Yum",
+                    "expandState": "collapse"
+                },
+                "children": [
+                    {
+                        "data": {
+                            "id": "d5kshllk8s80",
+                            "created": 1731474511567,
+                            "text": "baseurl"
+                        },
+                        "children": [
+                            {
+                                "data": {
+                                    "id": "d5kshr626740",
+                                    "created": 1731474523690,
+                                    "text": "https://guest:guest@de.vicp.net:58083/xxxx"
+                                },
+                                "children": []
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "data": {
+                    "id": "d5ksi5lmr6o0",
+                    "created": 1731474555107,
+                    "text": "Apt",
+                    "expandState": "collapse"
+                },
+                "children": [
+                    {
+                        "data": {
+                            "id": "d5ksi9ie23k0",
+                            "created": 1731474563618,
+                            "text": "Basic"
+                        },
+                        "children": [
+                            {
+                                "data": {
+                                    "id": "d5ksih19wew0",
+                                    "created": 1731474579997,
+                                    "text": "https://guest:guest@de.vicp.net:58083/xxxx"
+                                },
+                                "children": []
+                            }
+                        ]
+                    },
+                    {
+                        "data": {
+                            "id": "d5ksiq5hy1s0",
+                            "created": 1731474599844,
+                            "text": "/etc/apt/auth.conf.d/apt.conf"
+                        },
+                        "children": [
+                            {
+                                "data": {
+                                    "id": "d5ksiqltoe00",
+                                    "created": 1731474600831,
+                                    "text": "machine de.vicp.net:58083",
+                                    "priority": 1
+                                },
+                                "children": []
+                            },
+                            {
+                                "data": {
+                                    "id": "d5ksjf3ndag0",
+                                    "created": 1731474654152,
+                                    "text": "login guest",
+                                    "priority": 2
+                                },
+                                "children": []
+                            },
+                            {
+                                "data": {
+                                    "id": "d5ksjn23row0",
+                                    "created": 1731474671472,
+                                    "text": "password guest",
+                                    "priority": 3
+                                },
+                                "children": []
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "data": {
+                    "id": "d5lksi007x40",
+                    "created": 1731554356817,
+                    "text": "Nginx/OpenResty",
+                    "expandState": "collapse"
+                },
+                "children": [
+                    {
+                        "data": {
+                            "id": "d5lkszzt0nk0",
+                            "created": 1731554395987,
+                            "text": "配置在location{}",
+                            "priority": 1
+                        },
+                        "children": []
+                    },
+                    {
+                        "data": {
+                            "id": "d5lksrrg72w0",
+                            "created": 1731554378067,
+                            "text": "Basic"
+                        },
+                        "children": [
+                            {
+                                "data": {
+                                    "id": "d5lkv1qoqlc0",
+                                    "created": 1731554556517,
+                                    "text": "location{}",
+                                    "expandState": "expand"
+                                },
+                                "children": [
+                                    {
+                                        "data": {
+                                            "id": "d5lkte13pns0",
+                                            "created": 1731554426540,
+                                            "text": "auth_basic \"Restricted Access\"",
+                                            "priority": null
+                                        },
+                                        "children": []
+                                    },
+                                    {
+                                        "data": {
+                                            "id": "d5lktpvr4k00",
+                                            "created": 1731554452338,
+                                            "text": "auth_basic_user_file /app/etc/.htpasswd"
+                                        },
+                                        "children": [
+                                            {
+                                                "data": {
+                                                    "id": "d5lkz4ej6400",
+                                                    "created": 1731554875769,
+                                                    "text": ".htpasswd"
+                                                },
+                                                "children": [
+                                                    {
+                                                        "data": {
+                                                            "id": "d5lkzp6wwjc0",
+                                                            "created": 1731554921021,
+                                                            "text": "z15:xxxxxxxxxxxxxxxx",
+                                                            "resource": [
+                                                                "Sample"
+                                                            ]
+                                                        },
+                                                        "children": []
+                                                    },
+                                                    {
+                                                        "data": {
+                                                            "id": "d5ll1eukl5c0",
+                                                            "created": 1731555055235,
+                                                            "text": "生成"
+                                                        },
+                                                        "children": [
+                                                            {
+                                                                "data": {
+                                                                    "id": "d5ll1hxlu3s0",
+                                                                    "created": 1731555061949,
+                                                                    "text": "htpasswd -b /etc/nginx/.htpasswd username password"
+                                                                },
+                                                                "children": []
+                                                            },
+                                                            {
+                                                                "data": {
+                                                                    "id": "d5ll1o46jwg0",
+                                                                    "created": 1731555075407,
+                                                                    "text": "openssl passwd -apr1 \"password\"",
+                                                                    "resource": [
+                                                                        "Or"
+                                                                    ]
+                                                                },
+                                                                "children": []
+                                                            }
+                                                        ]
+                                                    }
+                                                ]
+                                            }
+                                        ]
+                                    }
+                                ]
+                            }
+                        ]
+                    },
+                    {
+                        "data": {
+                            "id": "d5lksuckhsg0",
+                            "created": 1731554383698,
+                            "text": "Ldap"
+                        },
+                        "children": [
+                            {
+                                "data": {
+                                    "id": "d5lkvabhuao0",
+                                    "created": 1731554575189,
+                                    "text": "location{}",
+                                    "expandState": "expand"
+                                },
+                                "children": [
+                                    {
+                                        "data": {
+                                            "id": "d5lku8kjjco0",
+                                            "created": 1731554493019,
+                                            "text": "auth_ldap \"Forbidden\""
+                                        },
+                                        "children": []
+                                    },
+                                    {
+                                        "data": {
+                                            "id": "d5lkuq364cw0",
+                                            "created": 1731554531150,
+                                            "text": "auth_ldap_servers ad_de_vicp_net"
+                                        },
+                                        "children": []
+                                    }
+                                ]
+                            },
+                            {
+                                "data": {
+                                    "id": "d5lkvvd9kv40",
+                                    "created": 1731554621009,
+                                    "text": "根目录"
+                                },
+                                "children": [
+                                    {
+                                        "data": {
+                                            "id": "d5lkwies8aw0",
+                                            "created": 1731554671167,
+                                            "text": "ldap_server ad_de_vicp_net {}"
+                                        },
+                                        "children": [
+                                            {
+                                                "data": {
+                                                    "id": "d5lkwz0iidk0",
+                                                    "created": 1731554707309,
+                                                    "text": "url"
+                                                },
+                                                "children": []
+                                            },
+                                            {
+                                                "data": {
+                                                    "id": "d5lkx2m8s1s0",
+                                                    "created": 1731554715153,
+                                                    "text": "binddn"
+                                                },
+                                                "children": []
+                                            },
+                                            {
+                                                "data": {
+                                                    "id": "d5lkx62p7w80",
+                                                    "created": 1731554722679,
+                                                    "text": "binddn_passwd"
+                                                },
+                                                "children": []
+                                            },
+                                            {
+                                                "data": {
+                                                    "id": "d5lkxd944pk0",
+                                                    "created": 1731554738304,
+                                                    "text": "group_attribute"
+                                                },
+                                                "children": []
+                                            },
+                                            {
+                                                "data": {
+                                                    "id": "d5lkxnhd41c0",
+                                                    "created": 1731554760571,
+                                                    "text": "group_attribute_is_dn"
+                                                },
+                                                "children": []
+                                            },
+                                            {
+                                                "data": {
+                                                    "id": "d5lkxsux96g0",
+                                                    "created": 1731554772275,
+                                                    "text": "require group"
+                                                },
+                                                "children": []
+                                            },
+                                            {
+                                                "data": {
+                                                    "id": "d5lkxwdk5jc0",
+                                                    "created": 1731554779932,
+                                                    "text": "require user"
+                                                },
+                                                "children": []
+                                            }
+                                        ]
+                                    }
+                                ]
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "data": {
+                    "id": "d5o48ckdf480",
+                    "created": 1731812319816,
+                    "text": "Git",
+                    "expandState": "collapse"
+                },
+                "children": [
+                    {
+                        "data": {
+                            "id": "d5o48iz83c00",
+                            "created": 1731812333774,
+                            "text": "SSH",
+                            "expandState": "expand"
+                        },
+                        "children": [
+                            {
+                                "data": {
+                                    "id": "d5o4az8xljs0",
+                                    "created": 1731812525918,
+                                    "text": "Server",
+                                    "expandState": "expand"
+                                },
+                                "children": [
+                                    {
+                                        "data": {
+                                            "id": "d5o4b44s6g00",
+                                            "created": 1731812536551,
+                                            "text": "~/.ssh/authorized_keys",
+                                            "expandState": "expand"
+                                        },
+                                        "children": [
+                                            {
+                                                "data": {
+                                                    "id": "d5o4coop07c0",
+                                                    "created": 1731812659655,
+                                                    "text": "存放Client的Pubic Key"
+                                                },
+                                                "children": []
+                                            }
+                                        ]
+                                    }
+                                ]
+                            },
+                            {
+                                "data": {
+                                    "id": "d5o4c0vd4bs0",
+                                    "created": 1731812607815,
+                                    "text": "Client",
+                                    "expandState": "expand"
+                                },
+                                "children": [
+                                    {
+                                        "data": {
+                                            "id": "d5o48ptppew0",
+                                            "created": 1731812348679,
+                                            "text": "~/.ssh/id_rsa"
+                                        },
+                                        "children": []
+                                    }
+                                ]
+                            }
+                        ]
+                    },
+                    {
+                        "data": {
+                            "id": "d5o48wa1f940",
+                            "created": 1731812362726,
+                            "text": "~/.gitconfig",
+                            "expandState": "expand"
+                        },
+                        "children": [
+                            {
+                                "data": {
+                                    "id": "d5o49bnm2wo0",
+                                    "created": 1731812396199,
+                                    "text": "[credential \"https://github.shao.sh\"]"
+                                },
+                                "children": [
+                                    {
+                                        "data": {
+                                            "id": "d5o49dviee80",
+                                            "created": 1731812401030,
+                                            "text": "password=xxx"
+                                        },
+                                        "children": []
+                                    }
+                                ]
+                            }
+                        ]
+                    },
+                    {
+                        "data": {
+                            "id": "d5o49s9wko00",
+                            "created": 1731812432375,
+                            "text": "文件权限"
+                        },
+                        "children": [
+                            {
+                                "data": {
+                                    "id": "d5o4a8nq4bs0",
+                                    "created": 1731812468039,
+                                    "text": "授予",
+                                    "expandState": "expand"
+                                },
+                                "children": [
+                                    {
+                                        "data": {
+                                            "id": "d5o4a0c0z1c0",
+                                            "created": 1731812449918,
+                                            "text": "git update-index --chmod +x file"
+                                        },
+                                        "children": []
+                                    }
+                                ]
+                            },
+                            {
+                                "data": {
+                                    "id": "d5o4actch4g0",
+                                    "created": 1731812477086,
+                                    "text": "查询"
+                                },
+                                "children": [
+                                    {
+                                        "data": {
+                                            "id": "d5o4af3njxk0",
+                                            "created": 1731812482063,
+                                            "text": "git ls-files --stage file"
+                                        },
+                                        "children": []
+                                    }
+                                ]
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "data": {
+                    "id": "d5q7ealee740",
+                    "created": 1732024368952,
+                    "text": "Github Applications",
+                    "expandState": "expand"
+                },
+                "children": [
+                    {
+                        "data": {
+                            "id": "d5q7efi9vwo0",
+                            "created": 1732024379647,
+                            "text": "Register",
+                            "priority": 1,
+                            "expandState": "expand"
+                        },
+                        "children": [
+                            {
+                                "data": {
+                                    "id": "d5q7eneccj40",
+                                    "created": 1732024396824,
+                                    "text": "callback"
+                                },
+                                "children": []
+                            },
+                            {
+                                "data": {
+                                    "id": "d5q7gwencnc0",
+                                    "created": 1732024573161,
+                                    "text": "clientId"
+                                },
+                                "children": []
+                            },
+                            {
+                                "data": {
+                                    "id": "d5q7h0ifra00",
+                                    "created": 1732024582098,
+                                    "text": "clientSecret"
+                                },
+                                "children": []
+                            }
+                        ]
+                    },
+                    {
+                        "data": {
+                            "id": "d5q7fvdl43k0",
+                            "created": 1732024492556,
+                            "text": "/login/oauth/authorize",
+                            "priority": 2
+                        },
+                        "children": [
+                            {
+                                "data": {
+                                    "id": "d5q7l1ebul40",
+                                    "created": 1732024897483,
+                                    "text": "GithubClient.js/drawio"
+                                },
+                                "children": []
+                            },
+                            {
+                                "data": {
+                                    "id": "d5q7vwvd2i80",
+                                    "created": 1732025749635,
+                                    "text": "window.open"
+                                },
+                                "children": []
+                            },
+                            {
+                                "data": {
+                                    "id": "d5q7l6sky8g0",
+                                    "created": 1732024909228,
+                                    "text": "scope权限力度",
+                                    "priority": 1,
+                                    "resource": [
+                                        "Request"
+                                    ]
+                                },
+                                "children": [
+                                    {
+                                        "data": {
+                                            "id": "d5q7qykhwbk0",
+                                            "created": 1732025361510,
+                                            "text": "user%20repo"
+                                        },
+                                        "children": []
+                                    },
+                                    {
+                                        "data": {
+                                            "id": "d5qirth6kuw0",
+                                            "created": 1732056460999,
+                                            "text": "对于每个用户只是第一次生效",
+                                            "priority": 1,
+                                            "progress": 2
+                                        },
+                                        "children": []
+                                    },
+                                    {
+                                        "data": {
+                                            "id": "d5qivfbsy7k0",
+                                            "created": 1732056743656,
+                                            "text": "如果需要修改,必须在Authorized里去revoke后再次调用",
+                                            "priority": 1,
+                                            "progress": 2,
+                                            "resource": [
+                                                "Pair"
+                                            ]
+                                        },
+                                        "children": []
+                                    },
+                                    {
+                                        "data": {
+                                            "id": "d5rk8n9oufc0",
+                                            "created": 1732162160743,
+                                            "text": "只对OAuth App有效"
+                                        },
+                                        "children": []
+                                    }
+                                ]
+                            },
+                            {
+                                "data": {
+                                    "id": "d5qit0vo93k0",
+                                    "created": 1732056555477,
+                                    "text": "Authoirzed",
+                                    "hyperlink": "https://github.shao.sh/settings/applications",
+                                    "hyperlinkTitle": ""
+                                },
+                                "children": [
+                                    {
+                                        "data": {
+                                            "id": "d5qqv2p0tps0",
+                                            "created": 1732079285036,
+                                            "text": "Github App"
+                                        },
+                                        "children": [
+                                            {
+                                                "data": {
+                                                    "id": "d5qqvs5q2pk0",
+                                                    "created": 1732079340465,
+                                                    "text": "Install First,否则一直只读权限",
+                                                    "background": "#c00000",
+                                                    "hyperlink": "https://github.shao.sh/github-apps/local-drawio",
+                                                    "hyperlinkTitle": ""
+                                                },
+                                                "children": []
+                                            },
+                                            {
+                                                "data": {
+                                                    "id": "d5rk98ybymo0",
+                                                    "created": 1732162207945,
+                                                    "text": "access_token权限取决于授予它的用户和GitHub App的Permissions",
+                                                    "background": "#fbd4b4"
+                                                },
+                                                "children": []
+                                            }
+                                        ]
+                                    },
+                                    {
+                                        "data": {
+                                            "id": "d5qqvejzh1c0",
+                                            "created": 1732079310853,
+                                            "text": "OAuth App"
+                                        },
+                                        "children": [
+                                            {
+                                                "data": {
+                                                    "id": "d5qqyl1t02o0",
+                                                    "created": 1732079560083,
+                                                    "text": "无须安装"
+                                                },
+                                                "children": []
+                                            },
+                                            {
+                                                "data": {
+                                                    "id": "d5rk9wjdx540",
+                                                    "created": 1732162259284,
+                                                    "text": "access_token权限取决于scope和授权它的用户",
+                                                    "background": "#fbd4b4"
+                                                },
+                                                "children": []
+                                            }
+                                        ]
+                                    },
+                                    {
+                                        "data": {
+                                            "id": "d5qqvip0i5c0",
+                                            "created": 1732079319864,
+                                            "text": "用户授权它后出现在Authorized Github/OAuth Apps里",
+                                            "background": "#fbd4b4"
+                                        },
+                                        "children": []
+                                    }
+                                ]
+                            }
+                        ]
+                    },
+                    {
+                        "data": {
+                            "id": "d5q7mqu2yog0",
+                            "created": 1732025031219,
+                            "text": "/login/oauth/access_token",
+                            "priority": 3,
+                            "resource": [
+                                "Callback"
+                            ],
+                            "expandState": "expand"
+                        },
+                        "children": [
+                            {
+                                "data": {
+                                    "id": "d5q7mydfrmo0",
+                                    "created": 1732025047627,
+                                    "text": "access_token",
+                                    "progress": 1,
+                                    "resource": [
+                                        "Response"
+                                    ]
+                                },
+                                "children": []
+                            },
+                            {
+                                "data": {
+                                    "id": "d5q7nkhao880",
+                                    "created": 1732025095749,
+                                    "text": "expires_in",
+                                    "resource": [
+                                        "Response"
+                                    ]
+                                },
+                                "children": []
+                            },
+                            {
+                                "data": {
+                                    "id": "d5qr3wn9c2g0",
+                                    "created": 1732079977146,
+                                    "text": "redirect_uri",
+                                    "resource": [
+                                        "Request"
+                                    ]
+                                },
+                                "children": [
+                                    {
+                                        "data": {
+                                            "id": "d5qr472iihs0",
+                                            "created": 1732079999836,
+                                            "text": "必须和注册时候相等,否则报错",
+                                            "priority": 1
+                                        },
+                                        "children": []
+                                    }
+                                ]
+                            }
+                        ]
+                    },
+                    {
+                        "data": {
+                            "id": "d5q7n5mw7b40",
+                            "created": 1732025063436,
+                            "text": "invoke github API",
+                            "priority": 4
+                        },
+                        "children": [
+                            {
+                                "data": {
+                                    "id": "d5q7nft9yco0",
+                                    "created": 1732025085590,
+                                    "text": "access_token",
+                                    "progress": 1,
+                                    "resource": [
+                                        "Pair",
+                                        "Response"
+                                    ]
+                                },
+                                "children": []
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "data": {
+                    "id": "d5q7w6r52000",
+                    "created": 1732025771147,
+                    "text": "Gitlab Applications",
+                    "expandState": "collapse"
+                },
+                "children": [
+                    {
+                        "data": {
+                            "id": "d5qjc1zkuy00",
+                            "created": 1732058046809,
+                            "text": "Register App",
+                            "hyperlink": "https://de.vicp.net:58443/admin/applications",
+                            "hyperlinkTitle": "",
+                            "priority": 1
+                        },
+                        "children": [
+                            {
+                                "data": {
+                                    "id": "d5qjch1inw00",
+                                    "created": 1732058079578,
+                                    "text": "clientId"
+                                },
+                                "children": []
+                            },
+                            {
+                                "data": {
+                                    "id": "d5qjckc6hh40",
+                                    "created": 1732058086753,
+                                    "text": "clientSecret"
+                                },
+                                "children": []
+                            }
+                        ]
+                    },
+                    {
+                        "data": {
+                            "id": "d5qqszifmhs0",
+                            "created": 1732079121379,
+                            "text": "/oauth/authorize",
+                            "priority": 2
+                        },
+                        "children": [
+                            {
+                                "data": {
+                                    "id": "d5qr0rfhpg80",
+                                    "created": 1732079730700,
+                                    "text": "scope粒度",
+                                    "priority": 1
+                                },
+                                "children": [
+                                    {
+                                        "data": {
+                                            "id": "d5qr0vqbhc00",
+                                            "created": 1732079740062,
+                                            "text": "api%20read_repository%20write_repository",
+                                            "resource": [
+                                                "Sample"
+                                            ]
+                                        },
+                                        "children": []
+                                    }
+                                ]
+                            }
+                        ]
+                    },
+                    {
+                        "data": {
+                            "id": "d5qqtote1340",
+                            "created": 1732079176461,
+                            "text": "/oauth/token",
+                            "resource": [
+                                "Callback"
+                            ],
+                            "priority": 3
+                        },
+                        "children": [
+                            {
+                                "data": {
+                                    "id": "d5qqzjyn4mo0",
+                                    "created": 1732079636080,
+                                    "text": "access_token",
+                                    "progress": 3,
+                                    "resource": [
+                                        "Response"
+                                    ]
+                                },
+                                "children": []
+                            },
+                            {
+                                "data": {
+                                    "id": "d5qr2x97biw0",
+                                    "created": 1732079900109,
+                                    "text": "redirect_uri",
+                                    "resource": [
+                                        "Request"
+                                    ]
+                                },
+                                "children": [
+                                    {
+                                        "data": {
+                                            "id": "d5qr35s6ig00",
+                                            "created": 1732079918671,
+                                            "text": "必须和注册时候相等,否则报错",
+                                            "priority": 1
+                                        },
+                                        "children": []
+                                    }
+                                ]
+                            }
+                        ]
+                    },
+                    {
+                        "data": {
+                            "id": "d5qqtx3wbdk0",
+                            "created": 1732079194511,
+                            "text": "invoke gitlab API",
+                            "priority": 4
+                        },
+                        "children": [
+                            {
+                                "data": {
+                                    "id": "d5qqz7lind40",
+                                    "created": 1732079609165,
+                                    "text": "access_token",
+                                    "progress": 3,
+                                    "resource": [
+                                        "Pair",
+                                        "Request"
+                                    ]
+                                },
+                                "children": []
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "data": {
+                    "id": "d5rgjidk94o0",
+                    "created": 1732151727659,
+                    "text": "Token",
+                    "expandState": "collapse"
+                },
+                "children": [
+                    {
+                        "data": {
+                            "id": "d5rgjlsvbjk0",
+                            "created": 1732151735115,
+                            "text": "GitHub",
+                            "expandState": "expand"
+                        },
+                        "children": [
+                            {
+                                "data": {
+                                    "id": "d5rgq6lwcoo0",
+                                    "created": 1732152250591,
+                                    "text": "Organization",
+                                    "expandState": "expand"
+                                },
+                                "children": [
+                                    {
+                                        "data": {
+                                            "id": "d5rgqdq2uu80",
+                                            "created": 1732152266081,
+                                            "text": "GitHub Apps",
+                                            "hyperlink": "https://github.shao.sh/organizations/ShaoOrg/settings/installations",
+                                            "hyperlinkTitle": ""
+                                        },
+                                        "children": [
+                                            {
+                                                "data": {
+                                                    "id": "d5rgrpn0gbk0",
+                                                    "created": 1732152370381,
+                                                    "text": "已安装的GitHub Apps"
+                                                },
+                                                "children": []
+                                            }
+                                        ]
+                                    },
+                                    {
+                                        "data": {
+                                            "id": "d5rgqqdrbns0",
+                                            "created": 1732152293634,
+                                            "text": "Personal Access Tokens",
+                                            "hyperlink": "https://github.shao.sh/organizations/ShaoOrg/settings/personal-access-tokens-onboarding",
+                                            "hyperlinkTitle": ""
+                                        },
+                                        "children": [
+                                            {
+                                                "data": {
+                                                    "id": "d5rgr359m5s0",
+                                                    "created": 1732152321419,
+                                                    "text": "缺省Fine-grained不能访问\n这里可以设置它可访问"
+                                                },
+                                                "children": []
+                                            }
+                                        ]
+                                    },
+                                    {
+                                        "data": {
+                                            "id": "d5ric73b8bs0",
+                                            "created": 1732156796765,
+                                            "text": "保留组织的设置",
+                                            "hyperlink": "https://github.shao.sh/stafftools/users/github-enterprise/apps",
+                                            "hyperlinkTitle": ""
+                                        },
+                                        "children": []
+                                    }
+                                ]
+                            },
+                            {
+                                "data": {
+                                    "id": "d5rgo41q9ns0",
+                                    "created": 1732152088290,
+                                    "text": "Repository",
+                                    "expandState": "collapse"
+                                },
+                                "children": [
+                                    {
+                                        "data": {
+                                            "id": "d5rgoaz3gyo0",
+                                            "created": 1732152103368,
+                                            "text": "Deploy Keys",
+                                            "hyperlink": "https://github.shao.sh/ShaoOrg/bulletin/settings/keys",
+                                            "hyperlinkTitle": ""
+                                        },
+                                        "children": []
+                                    }
+                                ]
+                            },
+                            {
+                                "data": {
+                                    "id": "d5rgjtpgxns0",
+                                    "created": 1732151752324,
+                                    "text": "Personal",
+                                    "hyperlink": "https://github.shao.sh/settings/apps",
+                                    "hyperlinkTitle": "",
+                                    "expandState": "collapse"
+                                },
+                                "children": [
+                                    {
+                                        "data": {
+                                            "id": "d5rgl1uf3ww0",
+                                            "created": 1732151848401,
+                                            "text": "GitHub Apps"
+                                        },
+                                        "children": [
+                                            {
+                                                "data": {
+                                                    "id": "d5rgudvri8w0",
+                                                    "created": 1732152579882,
+                                                    "text": "Server",
+                                                    "expandState": "expand"
+                                                },
+                                                "children": [
+                                                    {
+                                                        "data": {
+                                                            "id": "d5rgtpwkx8o0",
+                                                            "created": 1732152527688,
+                                                            "text": "Public link",
+                                                            "priority": 1,
+                                                            "resource": [
+                                                                "Share"
+                                                            ]
+                                                        },
+                                                        "children": []
+                                                    },
+                                                    {
+                                                        "data": {
+                                                            "id": "d5rgwahwy880",
+                                                            "created": 1732152729242,
+                                                            "text": "Fine-grained Permissions"
+                                                        },
+                                                        "children": []
+                                                    },
+                                                    {
+                                                        "data": {
+                                                            "id": "d5rgv9e81280",
+                                                            "created": 1732152648478,
+                                                            "text": "Callback URL"
+                                                        },
+                                                        "children": []
+                                                    },
+                                                    {
+                                                        "data": {
+                                                            "id": "d5rh28r3ee00",
+                                                            "created": 1732153195629,
+                                                            "text": "Event Webhook",
+                                                            "resource": [
+                                                                "Optional"
+                                                            ],
+                                                            "expandState": "expand"
+                                                        },
+                                                        "children": [
+                                                            {
+                                                                "data": {
+                                                                    "id": "d5rgvhi3ark0",
+                                                                    "created": 1732152666126,
+                                                                    "text": "Callback URL"
+                                                                },
+                                                                "children": []
+                                                            },
+                                                            {
+                                                                "data": {
+                                                                    "id": "d5rh2s5ffig0",
+                                                                    "created": 1732153237854,
+                                                                    "text": "Secret"
+                                                                },
+                                                                "children": []
+                                                            }
+                                                        ]
+                                                    },
+                                                    {
+                                                        "data": {
+                                                            "id": "d5rh32hhau00",
+                                                            "created": 1732153260351,
+                                                            "text": "Device Flow",
+                                                            "resource": [
+                                                                "Optional"
+                                                            ]
+                                                        },
+                                                        "children": []
+                                                    },
+                                                    {
+                                                        "data": {
+                                                            "id": "d5rh3e8eluo0",
+                                                            "created": 1732153285923,
+                                                            "text": "Post Install",
+                                                            "resource": [
+                                                                "Optional"
+                                                            ]
+                                                        },
+                                                        "children": [
+                                                            {
+                                                                "data": {
+                                                                    "id": "d5rh3i67sf40",
+                                                                    "created": 1732153294498,
+                                                                    "text": "Callback URL"
+                                                                },
+                                                                "children": []
+                                                            }
+                                                        ]
+                                                    }
+                                                ]
+                                            },
+                                            {
+                                                "data": {
+                                                    "id": "d5rgugzb9dc0",
+                                                    "created": 1732152586627,
+                                                    "text": "Client",
+                                                    "expandState": "expand"
+                                                },
+                                                "children": [
+                                                    {
+                                                        "data": {
+                                                            "id": "d5rgtsvv8200",
+                                                            "created": 1732152534175,
+                                                            "text": "Client Id"
+                                                        },
+                                                        "children": []
+                                                    },
+                                                    {
+                                                        "data": {
+                                                            "id": "d5rgtx0zx800",
+                                                            "created": 1732152543193,
+                                                            "text": "Client Secret"
+                                                        },
+                                                        "children": []
+                                                    }
+                                                ]
+                                            }
+                                        ]
+                                    },
+                                    {
+                                        "data": {
+                                            "id": "d5rglpwxdqw0",
+                                            "created": 1732151900796,
+                                            "text": "OAuth Apps"
+                                        },
+                                        "children": [
+                                            {
+                                                "data": {
+                                                    "id": "d5rguwzsku80",
+                                                    "created": 1732152621484,
+                                                    "text": "Server"
+                                                },
+                                                "children": [
+                                                    {
+                                                        "data": {
+                                                            "id": "d5rguzuhb9c0",
+                                                            "created": 1732152627693,
+                                                            "text": "Callback URL"
+                                                        },
+                                                        "children": []
+                                                    }
+                                                ]
+                                            },
+                                            {
+                                                "data": {
+                                                    "id": "d5rgupqmmo80",
+                                                    "created": 1732152605692,
+                                                    "text": "Client",
+                                                    "expandState": "expand"
+                                                },
+                                                "children": [
+                                                    {
+                                                        "data": {
+                                                            "id": "d5rgu2dx4bc0",
+                                                            "created": 1732152554858,
+                                                            "text": "Client Id"
+                                                        },
+                                                        "children": []
+                                                    },
+                                                    {
+                                                        "data": {
+                                                            "id": "d5rgu5ltigo0",
+                                                            "created": 1732152561866,
+                                                            "text": "Client Secret"
+                                                        },
+                                                        "children": []
+                                                    }
+                                                ]
+                                            }
+                                        ]
+                                    },
+                                    {
+                                        "data": {
+                                            "id": "d5rglyt5aw00",
+                                            "created": 1732151920158,
+                                            "text": "Personal Access Tokens"
+                                        },
+                                        "children": [
+                                            {
+                                                "data": {
+                                                    "id": "d5rgmgz5ojk0",
+                                                    "created": 1732151959704,
+                                                    "text": "Fine-grained"
+                                                },
+                                                "children": []
+                                            },
+                                            {
+                                                "data": {
+                                                    "id": "d5rgnbzc6ls0",
+                                                    "created": 1732152027195,
+                                                    "text": "Classic"
+                                                },
+                                                "children": []
+                                            }
+                                        ]
+                                    }
+                                ]
+                            },
+                            {
+                                "data": {
+                                    "id": "d5rhoxjrg200",
+                                    "created": 1732154973616,
+                                    "text": "WorkFlow"
+                                },
+                                "children": [
+                                    {
+                                        "data": {
+                                            "id": "d5rhp0wjg740",
+                                            "created": 1732154980919,
+                                            "text": "GITHUB_TOKEN"
+                                        },
+                                        "children": [
+                                            {
+                                                "data": {
+                                                    "id": "d5rhp7dfh4w0",
+                                                    "created": 1732154995001,
+                                                    "text": "每次JOB重新生成"
+                                                },
+                                                "children": []
+                                            }
+                                        ]
+                                    }
+                                ]
+                            },
+                            {
+                                "data": {
+                                    "id": "d5rhz1yyl000",
+                                    "created": 1732155766884,
+                                    "text": "Instance"
+                                },
+                                "children": [
+                                    {
+                                        "data": {
+                                            "id": "d5rhze5teps0",
+                                            "created": 1732155793420,
+                                            "text": "Personal Access Tokens policies",
+                                            "hyperlink": "https://github.shao.sh/enterprises/ssz/settings/personal-access-tokens-onboarding",
+                                            "hyperlinkTitle": ""
+                                        },
+                                        "children": [
+                                            {
+                                                "data": {
+                                                    "id": "d5ri0akguq00",
+                                                    "created": 1732155863963,
+                                                    "text": "缺省Fine-grained不能访问\n这里可以设置它可访问"
+                                                },
+                                                "children": []
+                                            }
+                                        ]
+                                    }
+                                ]
+                            }
+                        ]
+                    },
+                    {
+                        "data": {
+                            "id": "d5rgjq0cseg0",
+                            "created": 1732151744275,
+                            "text": "GitLab"
+                        },
+                        "children": [
+                            {
+                                "data": {
+                                    "id": "d5rh66jkqps0",
+                                    "created": 1732153504277,
+                                    "text": "Group"
+                                },
+                                "children": [
+                                    {
+                                        "data": {
+                                            "id": "d5rhhe4ax8w0",
+                                            "created": 1732154382774,
+                                            "text": "Access Token",
+                                            "hyperlink": "https://de.vicp.net:58443/groups/ShaoOrg/-/settings/access_tokens",
+                                            "hyperlinkTitle": ""
+                                        },
+                                        "children": []
+                                    },
+                                    {
+                                        "data": {
+                                            "id": "d5rhht5wkq00",
+                                            "created": 1732154415522,
+                                            "text": "LDAP synchronizations",
+                                            "hyperlink": "https://de.vicp.net:58443/groups/ShaoOrg/-/ldap_group_links",
+                                            "hyperlinkTitle": ""
+                                        },
+                                        "children": []
+                                    },
+                                    {
+                                        "data": {
+                                            "id": "d5rhikjqla80",
+                                            "created": 1732154475133,
+                                            "text": "Deploy tokens",
+                                            "hyperlink": "https://de.vicp.net:58443/groups/ShaoOrg/-/settings/repository",
+                                            "hyperlinkTitle": ""
+                                        },
+                                        "children": []
+                                    },
+                                    {
+                                        "data": {
+                                            "id": "d5rhj4rfkxk0",
+                                            "created": 1732154519133,
+                                            "text": "Applications",
+                                            "hyperlink": "https://de.vicp.net:58443/groups/ShaoOrg/-/settings/applications",
+                                            "hyperlinkTitle": ""
+                                        },
+                                        "children": []
+                                    }
+                                ]
+                            },
+                            {
+                                "data": {
+                                    "id": "d5rh6aew9sw0",
+                                    "created": 1732153512701,
+                                    "text": "Project"
+                                },
+                                "children": [
+                                    {
+                                        "data": {
+                                            "id": "d5rh6jtzy9k0",
+                                            "created": 1732153533206,
+                                            "text": "Access Token",
+                                            "hyperlink": "https://de.vicp.net:58443/SszOrg/ci-cd-event-demo/-/settings/access_tokens",
+                                            "hyperlinkTitle": ""
+                                        },
+                                        "children": []
+                                    },
+                                    {
+                                        "data": {
+                                            "id": "d5rhc4arlq80",
+                                            "created": 1732153969576,
+                                            "text": "Pipeline trigger tokens",
+                                            "hyperlink": "https://de.vicp.net:58443/ShaoOrg/bulletin/-/settings/ci_cd",
+                                            "hyperlinkTitle": ""
+                                        },
+                                        "children": []
+                                    },
+                                    {
+                                        "data": {
+                                            "id": "d5rhe0tnre00",
+                                            "created": 1732154118739,
+                                            "text": "Deploy tokens",
+                                            "hyperlink": "https://de.vicp.net:58443/ShaoOrg/bulletin/-/settings/repository",
+                                            "hyperlinkTitle": ""
+                                        },
+                                        "children": []
+                                    },
+                                    {
+                                        "data": {
+                                            "id": "d5rhe55vpl40",
+                                            "created": 1732154128186,
+                                            "text": "Deploy keys",
+                                            "hyperlink": "https://de.vicp.net:58443/ShaoOrg/bulletin/-/settings/repository",
+                                            "hyperlinkTitle": ""
+                                        },
+                                        "children": []
+                                    },
+                                    {
+                                        "data": {
+                                            "id": "d5rhg5a9j740",
+                                            "created": 1732154285179,
+                                            "text": "Secure files",
+                                            "hyperlink": "https://de.vicp.net:58443/ShaoOrg/bulletin/-/settings/ci_cd",
+                                            "hyperlinkTitle": ""
+                                        },
+                                        "children": []
+                                    }
+                                ]
+                            },
+                            {
+                                "data": {
+                                    "id": "d5rh6cost5c0",
+                                    "created": 1732153517654,
+                                    "text": "Personal"
+                                },
+                                "children": [
+                                    {
+                                        "data": {
+                                            "id": "d5rh80xjrug0",
+                                            "created": 1732153648790,
+                                            "text": "SSH Keys",
+                                            "hyperlink": "https://de.vicp.net:58443/-/user_settings/ssh_keys",
+                                            "hyperlinkTitle": ""
+                                        },
+                                        "children": []
+                                    },
+                                    {
+                                        "data": {
+                                            "id": "d5rh86p0zsw0",
+                                            "created": 1732153661335,
+                                            "text": "GPG Keys",
+                                            "hyperlink": "https://de.vicp.net:58443/-/user_settings/gpg_keys",
+                                            "hyperlinkTitle": ""
+                                        },
+                                        "children": []
+                                    },
+                                    {
+                                        "data": {
+                                            "id": "d5rh932ew3k0",
+                                            "created": 1732153731802,
+                                            "text": "Personal Access Token",
+                                            "hyperlink": "https://de.vicp.net:58443/-/user_settings/personal_access_tokens",
+                                            "hyperlinkTitle": ""
+                                        },
+                                        "children": []
+                                    },
+                                    {
+                                        "data": {
+                                            "id": "d5rha1ezt3k0",
+                                            "created": 1732153806573,
+                                            "text": "Applications",
+                                            "hyperlink": "https://de.vicp.net:58443/-/user_settings/applications",
+                                            "hyperlinkTitle": ""
+                                        },
+                                        "children": [
+                                            {
+                                                "data": {
+                                                    "id": "d5rha7keez40",
+                                                    "created": 1732153819960,
+                                                    "text": "类似于GitHub OAuth Apps"
+                                                },
+                                                "children": []
+                                            }
+                                        ]
+                                    }
+                                ]
+                            },
+                            {
+                                "data": {
+                                    "id": "d5rh6z5ra5c0",
+                                    "created": 1732153566568,
+                                    "text": "WorkFlow"
+                                },
+                                "children": [
+                                    {
+                                        "data": {
+                                            "id": "d5rhba8pwz40",
+                                            "created": 1732153904149,
+                                            "text": "CI_JOB_TOKEN"
+                                        },
+                                        "children": [
+                                            {
+                                                "data": {
+                                                    "id": "d5rhclhyxc80",
+                                                    "created": 1732154007017,
+                                                    "text": "Job token permissions",
+                                                    "hyperlink": "https://de.vicp.net:58443/ShaoOrg/bulletin/-/settings/ci_cd",
+                                                    "hyperlinkTitle": ""
+                                                },
+                                                "children": []
+                                            },
+                                            {
+                                                "data": {
+                                                    "id": "d5rhpi61kr40",
+                                                    "created": 1732155018499,
+                                                    "text": "每次JOB重新生成"
+                                                },
+                                                "children": []
+                                            }
+                                        ]
+                                    }
+                                ]
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "data": {
+                    "id": "d5rhmj3r1kw0",
+                    "created": 1732154785445,
+                    "text": "GitHub CLI"
+                },
+                "children": [
+                    {
+                        "data": {
+                            "id": "d5rhog02p8w0",
+                            "created": 1732154935422,
+                            "text": "DeviceFlow生成",
+                            "hyperlink": "https://de.vicp.net:25053/drawio/github.drawio/",
+                            "hyperlinkTitle": ""
+                        },
+                        "children": []
+                    },
+                    {
+                        "data": {
+                            "id": "d5rk4jf0qn40",
+                            "created": 1732161838901,
+                            "text": "gh auth login",
+                            "expandState": "expand",
+                            "progress": 1
+                        },
+                        "children": [
+                            {
+                                "data": {
+                                    "id": "d5rhn2ymry00",
+                                    "created": 1732154828671,
+                                    "text": ".config/hosts.yml",
+                                    "note": "github.shao.sh:\n    users:\n        ssz:\n            oauth_token: gho_xxx\n    git_protocol: https\n    oauth_token: gho_xxx\n    user: ssz"
+                                },
+                                "children": [
+                                    {
+                                        "data": {
+                                            "id": "d5rhnhbfqp40",
+                                            "created": 1732154859920,
+                                            "text": "hosted in ~"
+                                        },
+                                        "children": []
+                                    },
+                                    {
+                                        "data": {
+                                            "id": "d5rk5k5qkm80",
+                                            "created": 1732161918881,
+                                            "text": "access_token"
+                                        },
+                                        "children": []
+                                    },
+                                    {
+                                        "data": {
+                                            "id": "d5rk5n7spow0",
+                                            "created": 1732161925536,
+                                            "text": "gh host"
+                                        },
+                                        "children": []
+                                    },
+                                    {
+                                        "data": {
+                                            "id": "d5rk5sa9vq80",
+                                            "created": 1732161936569,
+                                            "text": "user"
+                                        },
+                                        "children": []
+                                    }
+                                ]
+                            }
+                        ]
+                    },
+                    {
+                        "data": {
+                            "id": "d5rk3ok4up40",
+                            "created": 1732161771730,
+                            "text": "环境变量",
+                            "resource": [
+                                "Or"
+                            ],
+                            "progress": 1
+                        },
+                        "children": [
+                            {
+                                "data": {
+                                    "id": "d5rk3slnpk00",
+                                    "created": 1732161780529,
+                                    "text": "GH_HOST"
+                                },
+                                "children": [
+                                    {
+                                        "data": {
+                                            "id": "d5rk5anxvxs0",
+                                            "created": 1732161898214,
+                                            "text": "github.shao.sh"
+                                        },
+                                        "children": []
+                                    }
+                                ]
+                            },
+                            {
+                                "data": {
+                                    "id": "d5rk3vx4fkg0",
+                                    "created": 1732161787753,
+                                    "text": "GH_ENTERPRISE_TOKEN"
+                                },
+                                "children": [
+                                    {
+                                        "data": {
+                                            "id": "d5rk53u91cg0",
+                                            "created": 1732161883358,
+                                            "text": "access_token"
+                                        },
+                                        "children": []
+                                    }
+                                ]
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    "template": "default",
+    "theme": "wire",
+    "version": "1.4.43"
+}
