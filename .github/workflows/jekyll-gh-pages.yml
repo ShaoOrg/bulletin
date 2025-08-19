@@ -41,6 +41,8 @@ jobs:
   build:
     uses: ShaoOrg/bulletin/.github/workflows/github-pages-ci.yml@main
     with:
+      UPLOAD_ARTIFACT_VERSION: ${{ vars.UPLOAD_ARTIFACT_VERSION || 'v4' }}
+      DEPLOY_PAGES_VERSION:  ${{ vars.DEPLOY_PAGES_VERSION  || 'v3' }}
       DEPLOY_ENV: ${{github.event.inputs.DEPLOY_ENV}}
       USING_REPO_README: "true"
     secrets: inherit

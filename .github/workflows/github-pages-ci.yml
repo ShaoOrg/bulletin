@@ -1,11 +1,16 @@
 # Sample workflow for building and deploying a Jekyll site to GitHub Pages
 name: GitHub Pages CI
-env:
-  ACTION_UPLOAD_ARTIFACT_VERSION: ${{ vars.ACTION_UPLOAD_ARTIFACT_VERSION || 'v3' }}
-  ACTION_DEPLOY_PAGES_VERSION:  ${{ vars.ACTION_DEPLOY_PAGES_VERSION  || 'v2' }}
 on:
   workflow_call:
     inputs:
+      ACTION_UPLOAD_ARTIFACT_VERSION:
+        required: false
+        type: string
+        default: "v4"
+      ACTION_DEPLOY_PAGES_VERSION:
+        required: false
+        type: string
+        default: "v3"
       DEPLOY_ENV:
         description: "Select deployment environment"
         required: true
@@ -136,9 +141,9 @@ jobs:
           pwd
           cd .. && cp -r dist/* site/react-web
       - name: Upload to GitHub Pages (Cloud)
-        uses: actions/upload-pages-artifact@${{ env.ACTION_UPLOAD_ARTIFACT_VERSION }}
+        uses: actions/upload-pages-artifact@${{ inputs.ACTION_UPLOAD_ARTIFACT_VERSION }}
         with:
           path: site
       - name: Deploy to GitHub Pages (Cloud)
         id: deploy_cloud
-        uses: actions/deploy-pages@${{ env.ACTION_DEPLOY_PAGES_VERSION }}
+        uses: actions/deploy-pages@${{ inputs.ACTION_DEPLOY_PAGES_VERSION }}
