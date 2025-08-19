@@ -117,35 +117,41 @@ jobs:
           gh run download ${{ steps.get_run.outputs.run_id }} -n react-dist
           pwd
           cd .. && cp -r dist/* site/react-web
-  # uses里的版本号不能使用变量,所以要分成2个job去执行
-  deploy-ghes:
-    if: ${{ github.server_url != 'https://github.com' }}
-    environment:
-      name: github-pages
-      url: ${{ steps.deployment.outputs.page_url }}
-    runs-on: [ ubuntu-latest ]
-    needs: build
-    steps:
-      - name: Upload to GitHub Pages (GHES)
-        uses: actions/upload-pages-artifact@v2
+      - name: Deploy to GitHub Pages / GHES
+        uses: peaceiris/actions-gh-pages@v4
         with:
-          path: site
-      - name: Deploy to GitHub Pages (GHES)
-        id: deploy_ghes
-        uses: actions/deploy-pages@v3
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          publish_dir: ./site       # 构建产物目录
 
-  deploy-cloud:
-    if: ${{ github.server_url == 'https://github.com' }}
-    environment:
-      name: github-pages
-      url: ${{ steps.deployment.outputs.page_url }}
-    runs-on: [ ubuntu-latest ]
-    needs: build
-    steps:
-      - name: Upload to GitHub Pages (Cloud)
-        uses: actions/upload-pages-artifact@v3
-        with:
-          path: site
-      - name: Deploy to GitHub Pages (Cloud)
-        id: deploy_cloud
-        uses: actions/deploy-pages@v4
+  # uses里的版本号不能使用变量,所以要分成2个job去执行
+  # deploy-ghes:
+  #   if: ${{ github.server_url != 'https://github.com' }}
+  #   environment:
+  #     name: github-pages
+  #     url: ${{ steps.deployment.outputs.page_url }}
+  #   runs-on: [ ubuntu-latest ]
+  #   needs: build
+  #   steps:
+  #     - name: Upload to GitHub Pages (GHES)
+  #       uses: actions/upload-pages-artifact@v2
+  #       with:
+  #         path: site
+  #     - name: Deploy to GitHub Pages (GHES)
+  #       id: deploy_ghes
+  #       uses: actions/deploy-pages@v3
+
+  # deploy-cloud:
+  #   if: ${{ github.server_url == 'https://github.com' }}
+  #   environment:
+  #     name: github-pages
+  #     url: ${{ steps.deployment.outputs.page_url }}
+  #   runs-on: [ ubuntu-latest ]
+  #   needs: build
+  #   steps:
+  #     - name: Upload to GitHub Pages (Cloud)
+  #       uses: actions/upload-pages-artifact@v3
+  #       with:
+  #         path: site
+  #     - name: Deploy to GitHub Pages (Cloud)
+  #       id: deploy_cloud
+  #       uses: actions/deploy-pages@v4
