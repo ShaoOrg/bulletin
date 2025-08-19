@@ -6,4 +6,4 @@
 |Resources Url|[Resources Url](docs/resources/index.md)|
 |Resources UserCase|[Resources UserCase](docs/resources/examples.md)|
 
-Copyright by Shao ShunZhong
+Copyright by Shao ShunZhong 2025-08-19

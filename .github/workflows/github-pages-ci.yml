@@ -115,6 +115,7 @@ jobs:
         uses: peaceiris/actions-gh-pages@v4
         with:
           github_token: ${{ secrets.GITHUB_TOKEN }}
+          publish_branch: gh-pages
           publish_dir: ./site       # 构建产物目录
 
   # uses里的版本号不能使用变量,所以要分成2个job去执行
