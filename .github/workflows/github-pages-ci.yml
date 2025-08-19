@@ -3,14 +3,6 @@ name: GitHub Pages CI
 on:
   workflow_call:
     inputs:
-      ACTION_UPLOAD_ARTIFACT_VERSION:
-        required: false
-        type: string
-        default: "v4"
-      ACTION_DEPLOY_PAGES_VERSION:
-        required: false
-        type: string
-        default: "v3"
       DEPLOY_ENV:
         description: "Select deployment environment"
         required: true
@@ -26,21 +18,6 @@ on:
         required: false
         default: ""
         type: string
-        # type: choice
-        # options:
-        #   - "staging"
-        #   - "deploy"
-  # Allows you to run this workflow manually from the Actions tab
-  # workflow_dispatch:
-  #   inputs:
-  #     DEPLOY_ENV:
-  #       description: "Select deployment environment"
-  #       required: true
-  #       default: "staging"
-  #       type: choice
-  #       options:
-  #         - "staging"
-  #         - "deploy"
 # Sets permissions of the GITHUB_TOKEN to allow deployment to GitHub Pages
 permissions:
   contents: read
@@ -140,10 +117,35 @@ jobs:
           gh run download ${{ steps.get_run.outputs.run_id }} -n react-dist
           pwd
           cd .. && cp -r dist/* site/react-web
+  # uses里的版本号不能使用变量,所以要分成2个job去执行
+  deploy-ghes:
+    if: ${{ github.server_url != 'https://github.com' }}
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    runs-on: [ ubuntu-latest ]
+    needs: build
+    steps:
+      - name: Upload to GitHub Pages (GHES)
+        uses: actions/upload-pages-artifact@v2
+        with:
+          path: site
+      - name: Deploy to GitHub Pages (GHES)
+        id: deploy_ghes
+        uses: actions/deploy-pages@v3
+
+  deploy-cloud:
+    if: ${{ github.server_url == 'https://github.com' }}
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    runs-on: [ ubuntu-latest ]
+    needs: build
+    steps:
       - name: Upload to GitHub Pages (Cloud)
-        uses: actions/upload-pages-artifact@${{ inputs.ACTION_UPLOAD_ARTIFACT_VERSION }}
+        uses: actions/upload-pages-artifact@v3
         with:
           path: site
       - name: Deploy to GitHub Pages (Cloud)
         id: deploy_cloud
-        uses: actions/deploy-pages@${{ inputs.ACTION_DEPLOY_PAGES_VERSION }}
+        uses: actions/deploy-pages@v4

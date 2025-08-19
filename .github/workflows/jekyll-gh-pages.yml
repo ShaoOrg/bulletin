@@ -22,10 +22,7 @@ on:
         options:
           - "staging"
           - "deploy"
-# env:
-#   DRAWIO_EDITOR_URL: https://de.vicp.net:25053
-#   KITY_MINDER_EDITOR_URL: https://de.vicp.net:25053
-# # Sets permissions of the GITHUB_TOKEN to allow deployment to GitHub Pages
+
 permissions:
   contents: read
   pages: write
@@ -41,8 +38,6 @@ jobs:
   build:
     uses: ShaoOrg/bulletin/.github/workflows/github-pages-ci.yml@main
     with:
-      UPLOAD_ARTIFACT_VERSION: ${{ vars.UPLOAD_ARTIFACT_VERSION || 'v4' }}
-      DEPLOY_PAGES_VERSION:  ${{ vars.DEPLOY_PAGES_VERSION  || 'v3' }}
       DEPLOY_ENV: ${{github.event.inputs.DEPLOY_ENV}}
       USING_REPO_README: "true"
     secrets: inherit
