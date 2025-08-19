@@ -1,6 +1,8 @@
 # Sample workflow for building and deploying a Jekyll site to GitHub Pages
 name: GitHub Pages CI
-
+env:
+  ACTION_UPLOAD_ARTIFACT_VERSION: ${{ vars.ACTION_UPLOAD_ARTIFACT_VERSION || 'v3' }}
+  ACTION_DEPLOY_PAGES_VERSION:  ${{ vars.ACTION_DEPLOY_PAGES_VERSION  || 'v2' }}
 on:
   workflow_call:
     inputs:
@@ -134,34 +136,9 @@ jobs:
           pwd
           cd .. && cp -r dist/* site/react-web
       - name: Upload to GitHub Pages (Cloud)
-        if: ${{ github.server_url == 'https://github.com' }}
-        uses: actions/upload-pages-artifact@v3
-        with:
-          path: site
-      - name: Upload to GitHub Pages (GHES)
-        if: ${{ github.server_url != 'https://github.com' }}
-        uses: actions/upload-pages-artifact@v2
+        uses: actions/upload-pages-artifact@${{ env.ACTION_UPLOAD_ARTIFACT_VERSION }}
         with:
           path: site
       - name: Deploy to GitHub Pages (Cloud)
-        if: ${{ github.server_url == 'https://github.com' }}
         id: deploy_cloud
-        uses: actions/deploy-pages@v4
-
-      - name: Deploy to GitHub Pages (GHES)
-        if: ${{ github.server_url != 'https://github.com' }}
-        id: deploy_ghes
-        uses: actions/deploy-pages@v3
-
-  # Deployment job
-  # deploy:
-  #   environment:
-  #     name: github-pages
-  #     url: ${{ steps.deployment.outputs.page_url }}
-  #   runs-on: [ self-hosted ]
-  #   if: ${{ inputs.DEPLOY_ENV == 'deploy' }}|| github.event_name == 'push'
-  #   needs: build
-  #   steps:
-  #     - name: Deploy to GitHub Pages
-  #       id: deployment
-  #       uses: actions/deploy-pages@v3
+        uses: actions/deploy-pages@${{ env.ACTION_DEPLOY_PAGES_VERSION }}
