@@ -3510,25 +3510,37 @@ z15@de.vicp.net.secret.gpg
 tempestwin@163.com.secret.gpg
 这2个文件需要自己备份和恢复</p>
 <h2 id="credential">Credential</h2>
-<p>~目录下有.env, .npmrc, config, .gitconfig
-- .env 用于gradle, chocolatey等保存密码
-- .npmrc 用于nodejs保存密码
-- config 用于kubernet保存密钥
-- .gitconfig 用于git保存密码</p>
+<p>~目录下有.env, .npmrc, config, .gitconfig</p>
+<ul>
+<li>.env 用于gradle, chocolatey等保存密码</li>
+<li>.npmrc 用于nodejs保存密码</li>
+<li>config 用于kubernet保存密钥</li>
+<li>.gitconfig 用于git保存密码</li>
+</ul>
 <h3 id="_1">备份</h3>
+<ul>
+<li>
 <p>使用python的batch子命令, 命令脚本定义在win-8001/batch.install.runtime.yaml
 <div class="highlight"><pre><span></span><code>deploy batch credential
-</code></pre></div>
-如果遇到gpg公钥到期,需要用(key 1是必须的否则报公钥无效)
+</code></pre></div></p>
+</li>
+<li>
+<p>如果遇到gpg公钥到期,需要用(key 1是必须的否则报公钥无效)
 <div class="highlight"><pre><span></span><code>gpg --edit-key longid
 gpg# key 1
 gpg# expire
 gpg# save
-</code></pre></div>
-提交备份到git
+</code></pre></div></p>
+</li>
+<li>
+<p>提交备份到git
 <div class="highlight"><pre><span></span><code>vilink check-git-commit --commit
 </code></pre></div></p>
+</li>
+<li>
 <p>去renew 它(私钥在本机)</p>
+</li>
+</ul>
 <h3 id="_2">恢复</h3>
 <div class="highlight"><pre><span></span><code>choco install -y env.ssz.auth
 </code></pre></div>
