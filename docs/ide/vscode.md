@@ -2,6 +2,7 @@
 ## 常用快捷键
 - toggle terminal, Ctrl + `
 - toggle explorer, Ctrl + B
+- toggle editor, Ctrl + Tab
 ## 导航 Navigation
 |按 Press|功能 Function|
 |  ----  | ----  |
@@ -16,7 +17,7 @@
 |**Alt + ←/→**|返回/前进 Go back / forward, 回到上个光标所在行|
 |Ctrl + M|切换选项卡移动焦点 Toggle Tab moves focus|
 
-## 切换工作区 Ctrl+W, Toggle 2个文件 Ctrl+Tab
+## 关闭Editor Ctrl+W, Toggle 2个文件 Ctrl+Tab
 ---
 |按 Press|功能 Function|
 |  ----  | ----  |
