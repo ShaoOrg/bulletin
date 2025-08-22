@@ -40,3 +40,9 @@ probable authentication failure (mismatch of preshared secrets?): malformed payl
     - 发送所用流量
     - URL 那些域名需要走vpn的配置页
 `http://192.168.50.236:5000/static/proxy/gfwlist.pac`
+
+## Iphone11端Troubleshooting
+排错
+
+- 局域网内无法访问vpn
+Url必须要配置成`http://192.168.50.236:5000/static/proxy/gfwlist.pac, 不能用de.vicp.net作域名
