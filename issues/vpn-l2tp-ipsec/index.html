@@ -3520,17 +3520,27 @@
 - IKE 验证
     - 预共享密码,等同于IPhone上的密钥</p>
 <h2 id="troubleshooting">群晖端Troubleshooting</h2>
-<p>排错
-- 检查端口, 确认UDP可用
-    - 500 IKE
-    - 4500 NAT-T
-    - 1701 L2TP
+<p>排错</p>
+<ul>
+<li>
+<p>检查端口, 确认UDP可用</p>
+<ul>
+<li>500 IKE</li>
+<li>4500 NAT-T</li>
+<li>1701 L2TP
 <div class="highlight"><pre><span></span><code>netstat -ano |grep -E &#39;500|4500|1701&#39;
-</code></pre></div>
-- 检查日志
-<code>tail -f /var/log/*log | grep -i l2tp</code>
-    - 密钥不对
-probable authentication failure (mismatch of preshared secrets?): malformed payload in packet</p>
+</code></pre></div></li>
+</ul>
+</li>
+<li>
+<p>检查日志
+<code>tail -f /var/log/*log | grep -i l2tp</code></p>
+<ul>
+<li>密钥不对
+<code>probable authentication failure (mismatch of preshared secrets?): malformed payload in packet</code></li>
+</ul>
+</li>
+</ul>
 <h2 id="_1">手机端配置</h2>
 <p>配置项目
 - Overview
@@ -3552,7 +3562,7 @@ probable authentication failure (mismatch of preshared secrets?): malformed payl
 <p>排错</p>
 <ul>
 <li>局域网内无法访问vpn
-Url必须要配置成`http://192.168.50.236:5000/static/proxy/gfwlist.pac, 不能用de.vicp.net作域名</li>
+<code>Url必须要配置成</code>http://192.168.50.236:5000/static/proxy/gfwlist.pac, 不能用de.vicp.net作域名`</li>
 </ul>
 
 
