@@ -13,6 +13,7 @@
 
 ## 群晖端Troubleshooting
 排错
+
 - 检查端口, 确认UDP可用
     - 500 IKE
     - 4500 NAT-T
@@ -20,6 +21,7 @@
 ```
 netstat -ano |grep -E '500|4500|1701'
 ```
+
 - 检查日志
 `tail -f /var/log/*log | grep -i l2tp`
     - 密钥不对
