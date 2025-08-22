@@ -25,7 +25,7 @@ netstat -ano |grep -E '500|4500|1701'
 - 检查日志
 `tail -f /var/log/*log | grep -i l2tp`
     - 密钥不对
-probable authentication failure (mismatch of preshared secrets?): malformed payload in packet
+`probable authentication failure (mismatch of preshared secrets?): malformed payload in packet`
 
 
 ## 手机端配置
@@ -47,4 +47,4 @@ probable authentication failure (mismatch of preshared secrets?): malformed payl
 排错
 
 - 局域网内无法访问vpn
-Url必须要配置成`http://192.168.50.236:5000/static/proxy/gfwlist.pac, 不能用de.vicp.net作域名
+`Url必须要配置成`http://192.168.50.236:5000/static/proxy/gfwlist.pac, 不能用de.vicp.net作域名`

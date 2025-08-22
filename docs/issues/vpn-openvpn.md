@@ -3,6 +3,7 @@ Windows, linux用
 
 ## 群晖6.22配置
 配置项目
+
 - Overview
 ![overview](./images/syno-vpn-openvpn.png)
 - 启动vpn压缩联机, disabled, 从openvpn3-client v3.7.2后就不支持comp-lzo压缩了
