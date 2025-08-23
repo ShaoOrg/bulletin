@@ -37,7 +37,6 @@ runs:
       shell: bash
       id: ipcheck
       run: |
-        env
         if ping -c 1 -W 1 192.168.50.236 >/dev/null 2>&1; then
           echo "reachable=true" >> $GITHUB_OUTPUT
         else
