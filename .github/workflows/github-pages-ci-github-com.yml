@@ -45,5 +45,5 @@ jobs:
           DEPLOY_ENV: ${{inputs.DEPLOY_ENV}}
           COMBIND_REACT_WORKFLOW_NAME: ${{inputs.COMBIND_REACT_WORKFLOW_NAME}}
           USING_REPO_README: ${{inputs.USING_REPO_README}}
-      - name: Deploy site to GHES Pages
-        uses: ShaoOrg/bulletin/.github/actions/deploy-gh-pages-in-ghes@main
+      - name: Deploy site to Github Cloud Pages
+        uses: ShaoOrg/bulletin/.github/actions/deploy-gh-pages-in-github-com@main
