@@ -4,7 +4,7 @@ runs:
   using: composite
   steps:
     - name: Upload to GitHub Pages (Cloud)
-      uses: actions/upload-pages-artifact@v3
+      uses: actions/upload-pages-artifact@v4
       with:
         path: site
     - name: Deploy to GitHub Pages (Cloud)
