@@ -1,0 +1,12 @@
+name: GitHub Pages Deploy (GHES)
+description: Upload & Deploy site to GitHub Pages (GitHub Enterprise Server)
+runs:
+  using: composite
+  steps:
+    - name: Upload to GitHub Pages (GHES)
+      uses: actions/upload-pages-artifact@v2
+      with:
+        path: site
+    - name: Deploy to GitHub Pages (GHES)
+      id: deploy_ghes
+      uses: actions/deploy-pages@v3

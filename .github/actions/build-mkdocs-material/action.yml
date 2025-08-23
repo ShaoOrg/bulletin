@@ -1,0 +1,100 @@
+name: Build Mkdocs Material Action
+author: Tempest ShunZhong Shao <tempestwin@163.com>
+description: 📖 Build Mkdocs Material Action
+branding:
+  icon: book
+  color: blue
+inputs:
+  DEPLOY_ENV:
+    description: ""
+    required: false
+    default: "staging"
+  COMBIND_REACT_WORKFLOW_NAME:
+    description: >-
+      .
+    required: true
+    default: ""
+  USING_REPO_README:
+    description: >-
+      .
+    required: false
+    default: "false"
+outputs:
+  wiki_url:
+    description: >-
+      The HTTP URL that points to the deployed repository's wiki tab. This is
+      essentially the concatenation of github.server_url, github.repository, and
+      the /wiki page.
+    value: ${{ steps.main.outputs.wiki_url }}
+runs:
+  using: composite
+  steps:
+    - name: "Set environmental variables" # workaround for unsupported nest env var
+      shell: bash
+      run: |
+        echo "ASSETS_FOLDER=$GITHUB_REPOSITORY/$GITHUB_REF_NAME/docs/assets" >> $GITHUB_ENV
+    - name: Check IP reachability
+      shell: bash
+      id: ipcheck
+      run: |
+        if ping -c 1 -W 1 192.168.50.236 >/dev/null 2>&1; then
+          echo "reachable=true" >> $GITHUB_OUTPUT
+        else
+          echo "reachable=false" >> $GITHUB_OUTPUT
+        fi
+    - name: Set up Python
+      if: steps.ipcheck.outputs.reachable == 'false'
+      uses: actions/setup-python@v4
+      with:
+        python-version: "3.x"
+    - name: using repo readme to replace index.md
+      if: inputs.USING_REPO_README != ''
+      shell: bash
+      run: |
+        cp -f README.md docs/index.md
+    - name: Build documentation
+      shell: bash
+      run: |
+        pushd ~ || exit 1
+        [ -d github-python-sszorg-bulletin ] || {
+          python3 -m venv github-python-sszorg-bulletin
+        }
+        source github-python-sszorg-bulletin/bin/activate
+        popd || exit 1
+        pwd
+        ./generate_md.sh $(pwd)
+        pip install mkdocs-material jieba
+        pip install mkdocs-drawio-km --upgrade
+        mkdocs build --clean
+        mkdocs --version
+    - name: Get latest successful run ID
+      shell: bash
+      if: inputs.COMBIND_REACT_WORKFLOW_NAME != ''
+      id: get_run
+      run: |
+        RUN_ID=$(gh run list \
+          --workflow="${{ inputs.COMBIND_REACT_WORKFLOW_NAME }}" \
+          --limit=1 \
+          --json databaseId \
+          --jq '.[0].databaseId')
+        echo "workflow=${{ inputs.COMBIND_REACT_WORKFLOW_NAME }}, run_id=$RUN_ID"
+        echo "run_id=$RUN_ID" >> $GITHUB_OUTPUT
+    - name: Combine react build into mkdocs material
+      if: inputs.COMBIND_REACT_WORKFLOW_NAME != ''
+      shell: bash
+      run: |
+        rm -rf site/react-web
+        rm -rf dist
+        mkdir -p site/react-web
+        mkdir -p dist && cd dist
+        gh run download ${{ steps.get_run.outputs.run_id }} -n react-dist
+        pwd
+        cd .. && cp -r dist/* site/react-web
+    - id: main
+      run: '"${GITHUB_ACTION_PATH%/}/cliw"'
+      shell: bash
+      env:
+        INPUT_DEPLOY_ENV: ${{ inputs.DEPLOY_ENV }}
+        INPUT_COMBIND_REACT_WORKFLOW_NAME: ${{ inputs.COMBIND_REACT_WORKFLOW_NAME }}
+        INPUT_USING_REPO_README: ${{ inputs.USING_REPO_README }}
+        INPUT_STEP_IP_CHECK_REACHABLE : ${{ steps.ipcheck.outputs.reachable }}
