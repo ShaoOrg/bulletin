@@ -51,6 +51,7 @@ runs:
       if: inputs.USING_REPO_README != ''
       shell: bash
       run: |
+        echo "using README.md to replace docs/index.md"
         cp -f README.md docs/index.md
     - name: Build documentation
       shell: bash
