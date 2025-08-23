@@ -2,5 +2,5 @@
 # Copyright 2023 Jacob Hummer
 # SPDX-License-Identifier: Apache-2.0
 # Based on https://github.com/jcbhmr/deno_wrapper
-echo Hello World for github action!
+echo Hello World for github action! 11
 # env
