@@ -35,6 +35,7 @@ concurrency:
   group: "pages"
   cancel-in-progress: false
 
+
 jobs:
   build:
     uses: ShaoOrg/bulletin/.github/workflows/github-pages-ci.yml@main
