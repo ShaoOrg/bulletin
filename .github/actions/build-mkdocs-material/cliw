@@ -1,0 +1,6 @@
+#!/usr/bin/env bash
+# Copyright 2023 Jacob Hummer
+# SPDX-License-Identifier: Apache-2.0
+# Based on https://github.com/jcbhmr/deno_wrapper
+echo Hello World for github action!
+env
