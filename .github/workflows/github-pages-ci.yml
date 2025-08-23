@@ -40,14 +40,14 @@ jobs:
     steps:
       - name: Checkout
         uses: actions/checkout@v4
-      - uses: ./.github/actions/build-mkdocs-material
+      - uses: ShaoOrg/bulletin/.github/actions/build-mkdocs-material
         with:
           DEPLOY_ENV: ${{inputs.DEPLOY_ENV}}
           COMBIND_REACT_WORKFLOW_NAME: ${{inputs.COMBIND_REACT_WORKFLOW_NAME}}
           USING_REPO_README: ${{inputs.USING_REPO_README}}
       - name: Deploy site to GHES Pages
         if: ${{ github.server_url != 'https://github.com' }}
-        uses: ./.github/actions/deploy-gh-pages-in-ghes
+        uses: ShaoOrg/bulletin/.github/actions/deploy-gh-pages-in-ghes
       - name: Deploy site to Github Cloud Pages
         if: ${{ github.server_url == 'https://github.com' }}
-        uses: ./.github/actions/deploy-gh-pages-in-github-com
+        uses: ShaoOrg/bulletin/.github/actions/deploy-gh-pages-in-github-com
