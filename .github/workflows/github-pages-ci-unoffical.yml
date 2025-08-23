@@ -1,5 +1,5 @@
 # Sample workflow for building and deploying a Jekyll site to GitHub Pages
-name: GitHub Pages CI
+name: GitHub Pages CI Unoffical Version
 on:
   workflow_call:
     inputs:
