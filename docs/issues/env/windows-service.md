@@ -73,3 +73,14 @@ Service Wrapper）： 1. 下载 [WinSW](https://github.com/winsw/winsw)。 2.
 
 我可以针对你具体的场景写一个完整配置（例如 Spring Boot + WinSW 或者
 Python 脚本 + nssm）。你是想运行什么程序作为服务呢？
+
+## Example Vilink Monitor
+
+```
+nssm install VilinkMonitorService "C:\usr\ssz\workspace\git\app\scm-python\sh\bin\vilink.bat"
+nssm set VilinkMonitorService AppDirectory "C:\usr\ssz\win-services\vilink-monitor"
+nssm set VilinkMonitorService AppParameters "monitor -a runtime -r"
+nssm set VilinkMonitorService ObjectName ".\ssz" "xxx"
+```
+
+## Example TODO
