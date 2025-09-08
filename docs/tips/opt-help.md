@@ -1,9 +1,9 @@
 # Opt 命令行
+
 ## `kernal alinux`
 
-### manage kinds of docker container
+manage kinds of docker container
 
-### Usage
 ```bash
 kernal alinux [options]
 ```
@@ -11,13 +11,12 @@ kernal alinux [options]
 ### Arguments
 | Long Option | Short | Mandatory | Description | Default | Validation File | Validation Key |
 |-------------|-------|-----------|-------------|---------|-----------------|----------------|
-| --name | -n | true | tool alias | hello-world | /sh/lib/kernal/plugin_alinux/validation.properties | enum-kernal-alinux-tools |
+- true -n, --name: tool alias
 
 ## `kernal almalinux`
 
-### manage kinds of docker container
+manage kinds of docker container
 
-### Usage
 ```bash
 kernal almalinux [options]
 ```
@@ -25,13 +24,12 @@ kernal almalinux [options]
 ### Arguments
 | Long Option | Short | Mandatory | Description | Default | Validation File | Validation Key |
 |-------------|-------|-----------|-------------|---------|-----------------|----------------|
-| --name | -n | true | tool alias | hello-world | /sh/lib/kernal/plugin_almalinux/validation.properties | enum-kernal-almalinux-tools |
+- true -n, --name: tool alias
 
 ## `kernal alpinelinux`
 
-### manage kinds of docker container
+manage kinds of docker container
 
-### Usage
 ```bash
 kernal alpinelinux [options]
 ```
@@ -39,13 +37,12 @@ kernal alpinelinux [options]
 ### Arguments
 | Long Option | Short | Mandatory | Description | Default | Validation File | Validation Key |
 |-------------|-------|-----------|-------------|---------|-----------------|----------------|
-| --name | -n | true | tool alias | hello-world | /sh/lib/kernal/plugin_alpinelinux/validation.properties | enum-kernal-alpinelinux-tools |
+- true -n, --name: tool alias
 
 ## `kernal anolis`
 
-### manage kinds of docker container
+manage kinds of docker container
 
-### Usage
 ```bash
 kernal anolis [options]
 ```
@@ -53,13 +50,12 @@ kernal anolis [options]
 ### Arguments
 | Long Option | Short | Mandatory | Description | Default | Validation File | Validation Key |
 |-------------|-------|-----------|-------------|---------|-----------------|----------------|
-| --name | -n | true | tool alias | hello-world | /sh/lib/kernal/plugin_anolis/validation.properties | enum-kernal-anolis-tools |
+- true -n, --name: tool alias
 
 ## `kernal app`
 
-### manage kinds of app
+manage kinds of app
 
-### Usage
 ```bash
 kernal app [options]
 ```
@@ -67,13 +63,12 @@ kernal app [options]
 ### Arguments
 | Long Option | Short | Mandatory | Description | Default | Validation File | Validation Key |
 |-------------|-------|-----------|-------------|---------|-----------------|----------------|
-| --name | -n | true | tool alias | hello-world | /sh/lib/kernal/plugin_app/validation.properties | enum-kernal-app-tools |
+- true -n, --name: tool alias
 
 ## `kernal app github`
 
-### manage kinds of docker container
+manage kinds of docker container
 
-### Usage
 ```bash
 kernal app github [options]
 ```
@@ -81,13 +76,12 @@ kernal app github [options]
 ### Arguments
 | Long Option | Short | Mandatory | Description | Default | Validation File | Validation Key |
 |-------------|-------|-----------|-------------|---------|-----------------|----------------|
-| --name | -n | true | tool alias | hello-world | /sh/lib/kernal/plugin_app/plugin_github/validation.properties | enum-kernal-app-github-tools |
+- true -n, --name: tool alias
 
 ## `kernal app github_issues`
 
-### manage kinds of docker container
+manage kinds of docker container
 
-### Usage
 ```bash
 kernal app github_issues [options]
 ```
@@ -95,13 +89,12 @@ kernal app github_issues [options]
 ### Arguments
 | Long Option | Short | Mandatory | Description | Default | Validation File | Validation Key |
 |-------------|-------|-----------|-------------|---------|-----------------|----------------|
-| --name | -n | true | tool alias | hello-world | /sh/lib/kernal/plugin_app/plugin_github_issues/validation.properties | enum-kernal-app-github_issues-tools |
+- true -n, --name: tool alias
 
 ## `kernal app gitlab`
 
-### manage kinds of docker container
+manage kinds of docker container
 
-### Usage
 ```bash
 kernal app gitlab [options]
 ```
@@ -109,13 +102,12 @@ kernal app gitlab [options]
 ### Arguments
 | Long Option | Short | Mandatory | Description | Default | Validation File | Validation Key |
 |-------------|-------|-----------|-------------|---------|-----------------|----------------|
-| --name | -n | true | tool alias | hello-world | /sh/lib/kernal/plugin_app/plugin_gitlab/validation.properties | enum-kernal-app-gitlab-tools |
+- true -n, --name: tool alias
 
 ## `kernal app jenkins`
 
-### manage kinds of docker container
+manage kinds of docker container
 
-### Usage
 ```bash
 kernal app jenkins [options]
 ```
@@ -123,13 +115,12 @@ kernal app jenkins [options]
 ### Arguments
 | Long Option | Short | Mandatory | Description | Default | Validation File | Validation Key |
 |-------------|-------|-----------|-------------|---------|-----------------|----------------|
-| --name | -n | true | tool alias | hello-world | /sh/lib/kernal/plugin_app/plugin_jenkins/validation.properties | enum-kernal-app-jenkins-tools |
+- true -n, --name: tool alias
 
 ## `kernal app ldap`
 
-### manage kinds of docker container
+manage kinds of docker container
 
-### Usage
 ```bash
 kernal app ldap [options]
 ```
@@ -137,14 +128,13 @@ kernal app ldap [options]
 ### Arguments
 | Long Option | Short | Mandatory | Description | Default | Validation File | Validation Key |
 |-------------|-------|-----------|-------------|---------|-----------------|----------------|
-| --name | -n | true | tool alias | hello-world | /sh/lib/kernal/plugin_app/plugin_ldap/validation.properties | enum-kernal-app-ldap-tools |
-| --url | -u | option | github.com repository url | null | null | null |
+- true -n, --name: tool alias
+- option -u, --url: github.com repository url
 
 ## `kernal app metrics`
 
-### manage kinds of docker container
+manage kinds of docker container
 
-### Usage
 ```bash
 kernal app metrics [options]
 ```
@@ -152,15 +142,14 @@ kernal app metrics [options]
 ### Arguments
 | Long Option | Short | Mandatory | Description | Default | Validation File | Validation Key |
 |-------------|-------|-----------|-------------|---------|-----------------|----------------|
-| --name | -n | true | tool alias | hello-world | /sh/lib/kernal/plugin_app/plugin_metrics/validation.properties | enum-kernal-app-metrics-tools |
-| --string | -s | option | generic string type | null | null | null |
-| --bool | -b | false | generic bool type | null | null | null |
+- true -n, --name: tool alias
+- option -s, --string: generic string type
+- false -b, --bool: generic bool type
 
 ## `kernal app net`
 
-### manage kinds of docker container
+manage kinds of docker container
 
-### Usage
 ```bash
 kernal app net [options]
 ```
@@ -168,13 +157,12 @@ kernal app net [options]
 ### Arguments
 | Long Option | Short | Mandatory | Description | Default | Validation File | Validation Key |
 |-------------|-------|-----------|-------------|---------|-----------------|----------------|
-| --name | -n | true | tool alias | hello-world | /sh/lib/kernal/plugin_app/plugin_net/validation.properties | enum-kernal-app-net-tools |
+- true -n, --name: tool alias
 
 ## `kernal app npm`
 
-### manage kinds of docker container
+manage kinds of docker container
 
-### Usage
 ```bash
 kernal app npm [options]
 ```
@@ -182,13 +170,12 @@ kernal app npm [options]
 ### Arguments
 | Long Option | Short | Mandatory | Description | Default | Validation File | Validation Key |
 |-------------|-------|-----------|-------------|---------|-----------------|----------------|
-| --name | -n | true | tool alias | hello-world | /sh/lib/kernal/plugin_app/plugin_npm/validation.properties | enum-kernal-app-npm-tools |
+- true -n, --name: tool alias
 
 ## `kernal app python`
 
-### manage kinds of docker container
+manage kinds of docker container
 
-### Usage
 ```bash
 kernal app python [options]
 ```
@@ -196,13 +183,12 @@ kernal app python [options]
 ### Arguments
 | Long Option | Short | Mandatory | Description | Default | Validation File | Validation Key |
 |-------------|-------|-----------|-------------|---------|-----------------|----------------|
-| --name | -n | true | tool alias | hello-world | /sh/lib/kernal/plugin_app/plugin_python/validation.properties | enum-kernal-app-python-tools |
+- true -n, --name: tool alias
 
 ## `kernal app router`
 
-### manage kinds of docker container
+manage kinds of docker container
 
-### Usage
 ```bash
 kernal app router [options]
 ```
@@ -210,13 +196,12 @@ kernal app router [options]
 ### Arguments
 | Long Option | Short | Mandatory | Description | Default | Validation File | Validation Key |
 |-------------|-------|-----------|-------------|---------|-----------------|----------------|
-| --name | -n | true | tool alias | hello-world | /sh/lib/kernal/plugin_app/plugin_router/validation.properties | enum-kernal-app-router-tools |
+- true -n, --name: tool alias
 
 ## `kernal app vpn`
 
-### manage kinds of docker container
+manage kinds of docker container
 
-### Usage
 ```bash
 kernal app vpn [options]
 ```
@@ -224,13 +209,12 @@ kernal app vpn [options]
 ### Arguments
 | Long Option | Short | Mandatory | Description | Default | Validation File | Validation Key |
 |-------------|-------|-----------|-------------|---------|-----------------|----------------|
-| --name | -n | true | tool alias | hello-world | /sh/lib/kernal/plugin_app/plugin_vpn/validation.properties | enum-kernal-app-vpn-tools |
+- true -n, --name: tool alias
 
 ## `kernal auth`
 
-### manage auth in linux host
+manage auth in linux host
 
-### Usage
 ```bash
 kernal auth [options]
 ```
@@ -238,13 +222,12 @@ kernal auth [options]
 ### Arguments
 | Long Option | Short | Mandatory | Description | Default | Validation File | Validation Key |
 |-------------|-------|-----------|-------------|---------|-----------------|----------------|
-| --name | -n | true | tool alias | nfs-clients | /sh/lib/kernal/plugin_auth/validation.properties | enum-kernal-auth-tools |
+- true -n, --name: tool alias
 
 ## `kernal backup`
 
-### manage kinds of docker container
+manage kinds of docker container
 
-### Usage
 ```bash
 kernal backup [options]
 ```
@@ -252,13 +235,12 @@ kernal backup [options]
 ### Arguments
 | Long Option | Short | Mandatory | Description | Default | Validation File | Validation Key |
 |-------------|-------|-----------|-------------|---------|-----------------|----------------|
-| --name | -n | true | tool alias | hello-world | /sh/lib/kernal/plugin_backup/validation.properties | enum-kernal-backup-tools |
+- true -n, --name: tool alias
 
 ## `kernal centos`
 
-### manage kinds of centos
+manage kinds of centos
 
-### Usage
 ```bash
 kernal centos [options]
 ```
@@ -266,13 +248,12 @@ kernal centos [options]
 ### Arguments
 | Long Option | Short | Mandatory | Description | Default | Validation File | Validation Key |
 |-------------|-------|-----------|-------------|---------|-----------------|----------------|
-| --name | -n | true | tool alias | gui | /sh/lib/kernal/plugin_centos/validation.properties | enum-kernal-centos-tools |
+- true -n, --name: tool alias
 
 ## `kernal centos stream`
 
-### manage kinds of docker container
+manage kinds of docker container
 
-### Usage
 ```bash
 kernal centos stream [options]
 ```
@@ -280,13 +261,12 @@ kernal centos stream [options]
 ### Arguments
 | Long Option | Short | Mandatory | Description | Default | Validation File | Validation Key |
 |-------------|-------|-----------|-------------|---------|-----------------|----------------|
-| --name | -n | true | tool alias | hello-world | /sh/lib/kernal/plugin_centos/plugin_stream/validation.properties | enum-kernal-centos-stream-tools |
+- true -n, --name: tool alias
 
 ## `kernal certificate`
 
-### manage kinds of docker container
+manage kinds of docker container
 
-### Usage
 ```bash
 kernal certificate [options]
 ```
@@ -294,13 +274,12 @@ kernal certificate [options]
 ### Arguments
 | Long Option | Short | Mandatory | Description | Default | Validation File | Validation Key |
 |-------------|-------|-----------|-------------|---------|-----------------|----------------|
-| --name | -n | true | tool alias | hello-world | /sh/lib/kernal/plugin_certificate/validation.properties | enum-kernal-certificate-tools |
+- true -n, --name: tool alias
 
 ## `kernal debian`
 
-### manage kinds of debian
+manage kinds of debian
 
-### Usage
 ```bash
 kernal debian [options]
 ```
@@ -308,13 +287,12 @@ kernal debian [options]
 ### Arguments
 | Long Option | Short | Mandatory | Description | Default | Validation File | Validation Key |
 |-------------|-------|-----------|-------------|---------|-----------------|----------------|
-| --name | -n | true | tool alias | kernel-download | /sh/lib/kernal/plugin_debian/validation.properties | enum-kernal-debian-tools |
+- true -n, --name: tool alias
 
 ## `kernal fedora`
 
-### manage kinds of fedora
+manage kinds of fedora
 
-### Usage
 ```bash
 kernal fedora [options]
 ```
@@ -322,13 +300,12 @@ kernal fedora [options]
 ### Arguments
 | Long Option | Short | Mandatory | Description | Default | Validation File | Validation Key |
 |-------------|-------|-----------|-------------|---------|-----------------|----------------|
-| --name | -n | true | tool alias | kernel-upgrade | /sh/lib/kernal/plugin_fedora/validation.properties | enum-kernal-fedora-tools |
+- true -n, --name: tool alias
 
 ## `kernal iscsi`
 
-### manage kinds of docker container
+manage kinds of docker container
 
-### Usage
 ```bash
 kernal iscsi [options]
 ```
@@ -336,13 +313,12 @@ kernal iscsi [options]
 ### Arguments
 | Long Option | Short | Mandatory | Description | Default | Validation File | Validation Key |
 |-------------|-------|-----------|-------------|---------|-----------------|----------------|
-| --name | -n | true | tool alias | connect | /sh/lib/kernal/plugin_iscsi/validation.properties | enum-kernal-iscsi-tools |
+- true -n, --name: tool alias
 
 ## `kernal msg`
 
-### manage kinds of docker container
+manage kinds of docker container
 
-### Usage
 ```bash
 kernal msg [options]
 ```
@@ -350,13 +326,12 @@ kernal msg [options]
 ### Arguments
 | Long Option | Short | Mandatory | Description | Default | Validation File | Validation Key |
 |-------------|-------|-----------|-------------|---------|-----------------|----------------|
-| --name | -n | true | tool alias | hello-world | /sh/lib/kernal/plugin_msg/validation.properties | enum-kernal-msg-tools |
+- true -n, --name: tool alias
 
 ## `kernal net`
 
-### manage kinds of docker container
+manage kinds of docker container
 
-### Usage
 ```bash
 kernal net [options]
 ```
@@ -364,13 +339,12 @@ kernal net [options]
 ### Arguments
 | Long Option | Short | Mandatory | Description | Default | Validation File | Validation Key |
 |-------------|-------|-----------|-------------|---------|-----------------|----------------|
-| --name | -n | true | tool alias | hello-world | /sh/lib/kernal/plugin_net/validation.properties | enum-kernal-net-tools |
+- true -n, --name: tool alias
 
 ## `kernal rocky`
 
-### manage kinds of docker container
+manage kinds of docker container
 
-### Usage
 ```bash
 kernal rocky [options]
 ```
@@ -378,13 +352,12 @@ kernal rocky [options]
 ### Arguments
 | Long Option | Short | Mandatory | Description | Default | Validation File | Validation Key |
 |-------------|-------|-----------|-------------|---------|-----------------|----------------|
-| --name | -n | true | tool alias | hello-world | /sh/lib/kernal/plugin_rocky/validation.properties | enum-kernal-rocky-tools |
+- true -n, --name: tool alias
 
 ## `kernal ubuntu`
 
-### manage kinds of ubuntu
+manage kinds of ubuntu
 
-### Usage
 ```bash
 kernal ubuntu [options]
 ```
@@ -392,13 +365,12 @@ kernal ubuntu [options]
 ### Arguments
 | Long Option | Short | Mandatory | Description | Default | Validation File | Validation Key |
 |-------------|-------|-----------|-------------|---------|-----------------|----------------|
-| --name | -n | true | tool alias | kernel-download | /sh/lib/kernal/plugin_ubuntu/validation.properties | enum-kernal-ubuntu-tools |
+- true -n, --name: tool alias
 
 ## `eium dev`
 
-### manage kinds of docker container
+manage kinds of docker container
 
-### Usage
 ```bash
 eium dev [options]
 ```
@@ -406,13 +378,12 @@ eium dev [options]
 ### Arguments
 | Long Option | Short | Mandatory | Description | Default | Validation File | Validation Key |
 |-------------|-------|-----------|-------------|---------|-----------------|----------------|
-| --name | -n | true | tool alias | hello-world | /sh/lib/eium/plugin_dev/validation.properties | enum-eium-dev-tools |
+- true -n, --name: tool alias
 
 ## `eium docker`
 
-### manage kinds of docker container in eium
+manage kinds of docker container in eium
 
-### Usage
 ```bash
 eium docker [options]
 ```
@@ -420,14 +391,13 @@ eium docker [options]
 ### Arguments
 | Long Option | Short | Mandatory | Description | Default | Validation File | Validation Key |
 |-------------|-------|-----------|-------------|---------|-----------------|----------------|
-| --name | -n | true | tool alias | emby | /sh/lib/eium/plugin_docker/validation.properties | enum-eium-docker-tools |
-| --string | -s | option | generic string type parameter | null | null | null |
+- true -n, --name: tool alias
+- option -s, --string: generic string type parameter
 
 ## `eium ems`
 
-### manage kinds of docker container
+manage kinds of docker container
 
-### Usage
 ```bash
 eium ems [options]
 ```
@@ -435,13 +405,12 @@ eium ems [options]
 ### Arguments
 | Long Option | Short | Mandatory | Description | Default | Validation File | Validation Key |
 |-------------|-------|-----------|-------------|---------|-----------------|----------------|
-| --name | -n | true | tool alias | hello-world | /sh/lib/eium/plugin_ems/validation.properties | enum-eium-ems-tools |
+- true -n, --name: tool alias
 
 ## `eium env`
 
-### manage kinds of docker container
+manage kinds of docker container
 
-### Usage
 ```bash
 eium env [options]
 ```
@@ -449,13 +418,12 @@ eium env [options]
 ### Arguments
 | Long Option | Short | Mandatory | Description | Default | Validation File | Validation Key |
 |-------------|-------|-----------|-------------|---------|-----------------|----------------|
-| --name | -n | true | tool alias | hello-world | /sh/lib/eium/plugin_env/validation.properties | enum-eium-env-tools |
+- true -n, --name: tool alias
 
 ## `eium integration`
 
-### manage kinds of integration case in eium
+manage kinds of integration case in eium
 
-### Usage
 ```bash
 eium integration [options]
 ```
@@ -463,14 +431,13 @@ eium integration [options]
 ### Arguments
 | Long Option | Short | Mandatory | Description | Default | Validation File | Validation Key |
 |-------------|-------|-----------|-------------|---------|-----------------|----------------|
-| --name | -n | true | tool alias | k8s | /sh/lib/eium/plugin_integration/validation.properties | enum-eium-integration-tools |
-| --cb | -b | false | case use config bundle | null | null | null |
+- true -n, --name: tool alias
+- false -b, --cb: case use config bundle
 
 ## `eium mgr`
 
-### manage kinds of docker container
+manage kinds of docker container
 
-### Usage
 ```bash
 eium mgr [options]
 ```
@@ -478,13 +445,12 @@ eium mgr [options]
 ### Arguments
 | Long Option | Short | Mandatory | Description | Default | Validation File | Validation Key |
 |-------------|-------|-----------|-------------|---------|-----------------|----------------|
-| --name | -n | true | tool alias | hello-world | /sh/lib/eium/plugin_mgr/validation.properties | enum-eium-mgr-tools |
+- true -n, --name: tool alias
 
 ## `eium ndb`
 
-### manage kinds of docker container
+manage kinds of docker container
 
-### Usage
 ```bash
 eium ndb [options]
 ```
@@ -492,13 +458,12 @@ eium ndb [options]
 ### Arguments
 | Long Option | Short | Mandatory | Description | Default | Validation File | Validation Key |
 |-------------|-------|-----------|-------------|---------|-----------------|----------------|
-| --name | -n | true | tool alias | hello-world | /sh/lib/eium/plugin_ndb/validation.properties | enum-eium-ndb-tools |
+- true -n, --name: tool alias
 
 ## `eium raw`
 
-### manage kinds of docker container
+manage kinds of docker container
 
-### Usage
 ```bash
 eium raw [options]
 ```
@@ -506,13 +471,12 @@ eium raw [options]
 ### Arguments
 | Long Option | Short | Mandatory | Description | Default | Validation File | Validation Key |
 |-------------|-------|-----------|-------------|---------|-----------------|----------------|
-| --name | -n | true | tool alias | hello-world | /sh/lib/eium/plugin_raw/validation.properties | enum-eium-raw-tools |
+- true -n, --name: tool alias
 
 ## `eium snapwiki`
 
-### manage kinds of docker container
+manage kinds of docker container
 
-### Usage
 ```bash
 eium snapwiki [options]
 ```
@@ -520,13 +484,12 @@ eium snapwiki [options]
 ### Arguments
 | Long Option | Short | Mandatory | Description | Default | Validation File | Validation Key |
 |-------------|-------|-----------|-------------|---------|-----------------|----------------|
-| --name | -n | true | tool alias | hello-world | /sh/lib/eium/plugin_snapwiki/validation.properties | enum-eium-snapwiki-tools |
+- true -n, --name: tool alias
 
 ## `exercise btest`
 
-### manage kinds of docker container
+manage kinds of docker container
 
-### Usage
 ```bash
 exercise btest [options]
 ```
@@ -534,13 +497,12 @@ exercise btest [options]
 ### Arguments
 | Long Option | Short | Mandatory | Description | Default | Validation File | Validation Key |
 |-------------|-------|-----------|-------------|---------|-----------------|----------------|
-| --name | -n | true | tool alias | hello-world | /sh/lib/exercise/plugin_btest/validation.properties | enum-exercise-btest-tools |
+- true -n, --name: tool alias
 
 ## `exercise docker`
 
-### manage kinds of docker container
+manage kinds of docker container
 
-### Usage
 ```bash
 exercise docker [options]
 ```
@@ -548,13 +510,12 @@ exercise docker [options]
 ### Arguments
 | Long Option | Short | Mandatory | Description | Default | Validation File | Validation Key |
 |-------------|-------|-----------|-------------|---------|-----------------|----------------|
-| --name | -n | true | tool alias | hello-world | /sh/lib/exercise/plugin_docker/validation.properties | enum-exercise-docker-tools |
+- true -n, --name: tool alias
 
 ## `exercise file`
 
-### manage kinds of docker container
+manage kinds of docker container
 
-### Usage
 ```bash
 exercise file [options]
 ```
@@ -562,13 +523,12 @@ exercise file [options]
 ### Arguments
 | Long Option | Short | Mandatory | Description | Default | Validation File | Validation Key |
 |-------------|-------|-----------|-------------|---------|-----------------|----------------|
-| --name | -n | true | tool alias | hello-world | /sh/lib/exercise/plugin_file/validation.properties | enum-exercise-file-tools |
+- true -n, --name: tool alias
 
 ## `exercise file pipeline`
 
-### manage kinds of docker container
+manage kinds of docker container
 
-### Usage
 ```bash
 exercise file pipeline [options]
 ```
@@ -576,13 +536,12 @@ exercise file pipeline [options]
 ### Arguments
 | Long Option | Short | Mandatory | Description | Default | Validation File | Validation Key |
 |-------------|-------|-----------|-------------|---------|-----------------|----------------|
-| --name | -n | true | tool alias | hello-world | /sh/lib/exercise/plugin_file/plugin_pipeline/validation.properties | enum-exercise-file-pipeline-tools |
+- true -n, --name: tool alias
 
 ## `exercise file txt`
 
-### manage kinds of docker container
+manage kinds of docker container
 
-### Usage
 ```bash
 exercise file txt [options]
 ```
@@ -590,13 +549,12 @@ exercise file txt [options]
 ### Arguments
 | Long Option | Short | Mandatory | Description | Default | Validation File | Validation Key |
 |-------------|-------|-----------|-------------|---------|-----------------|----------------|
-| --name | -n | true | tool alias | hello-world | /sh/lib/exercise/plugin_file/plugin_txt/validation.properties | enum-exercise-file-txt-tools |
+- true -n, --name: tool alias
 
 ## `exercise file txt read`
 
-### manage kinds of docker container
+manage kinds of docker container
 
-### Usage
 ```bash
 exercise file txt read [options]
 ```
@@ -604,13 +562,12 @@ exercise file txt read [options]
 ### Arguments
 | Long Option | Short | Mandatory | Description | Default | Validation File | Validation Key |
 |-------------|-------|-----------|-------------|---------|-----------------|----------------|
-| --name | -n | true | tool alias | hello-world | /sh/lib/exercise/plugin_file/plugin_txt/plugin_read/validation.properties | enum-exercise-file-txt-read-tools |
+- true -n, --name: tool alias
 
 ## `k8s chartmuseum`
 
-### manage kinds of docker container
+manage kinds of docker container
 
-### Usage
 ```bash
 k8s chartmuseum [options]
 ```
@@ -618,13 +575,12 @@ k8s chartmuseum [options]
 ### Arguments
 | Long Option | Short | Mandatory | Description | Default | Validation File | Validation Key |
 |-------------|-------|-----------|-------------|---------|-----------------|----------------|
-| --name | -n | true | tool alias | hello-world | /sh/lib/k8s/plugin_chartmuseum/validation.properties | enum-k8s-chartmuseum-tools |
+- true -n, --name: tool alias
 
 ## `k8s docker`
 
-### manage kinds of docker container
+manage kinds of docker container
 
-### Usage
 ```bash
 k8s docker [options]
 ```
@@ -632,13 +588,12 @@ k8s docker [options]
 ### Arguments
 | Long Option | Short | Mandatory | Description | Default | Validation File | Validation Key |
 |-------------|-------|-----------|-------------|---------|-----------------|----------------|
-| --name | -n | true | tool alias | common | /sh/lib/k8s/plugin_docker/validation.properties | enum-k8s-docker-tools |
+- true -n, --name: tool alias
 
 ## `k8s docker app`
 
-### manage kinds of docker container
+manage kinds of docker container
 
-### Usage
 ```bash
 k8s docker app [options]
 ```
@@ -646,13 +601,12 @@ k8s docker app [options]
 ### Arguments
 | Long Option | Short | Mandatory | Description | Default | Validation File | Validation Key |
 |-------------|-------|-----------|-------------|---------|-----------------|----------------|
-| --name | -n | true | tool alias | hello-world | /sh/lib/k8s/plugin_docker/plugin_app/validation.properties | enum-k8s-docker-app-tools |
+- true -n, --name: tool alias
 
 ## `k8s docker raw`
 
-### manage kinds of docker container
+manage kinds of docker container
 
-### Usage
 ```bash
 k8s docker raw [options]
 ```
@@ -660,13 +614,12 @@ k8s docker raw [options]
 ### Arguments
 | Long Option | Short | Mandatory | Description | Default | Validation File | Validation Key |
 |-------------|-------|-----------|-------------|---------|-----------------|----------------|
-| --name | -n | true | tool alias | hello-world | /sh/lib/k8s/plugin_docker/plugin_raw/validation.properties | enum-k8s-docker-raw-tools |
+- true -n, --name: tool alias
 
 ## `k8s docker standalone`
 
-### manage kinds of docker container
+manage kinds of docker container
 
-### Usage
 ```bash
 k8s docker standalone [options]
 ```
@@ -674,13 +627,12 @@ k8s docker standalone [options]
 ### Arguments
 | Long Option | Short | Mandatory | Description | Default | Validation File | Validation Key |
 |-------------|-------|-----------|-------------|---------|-----------------|----------------|
-| --name | -n | true | tool alias | hello-world | /sh/lib/k8s/plugin_docker/plugin_standalone/validation.properties | enum-k8s-docker-standalone-tools |
+- true -n, --name: tool alias
 
 ## `k8s env`
 
-### manage kinds of docker container
+manage kinds of docker container
 
-### Usage
 ```bash
 k8s env [options]
 ```
@@ -688,13 +640,12 @@ k8s env [options]
 ### Arguments
 | Long Option | Short | Mandatory | Description | Default | Validation File | Validation Key |
 |-------------|-------|-----------|-------------|---------|-----------------|----------------|
-| --name | -n | true | tool alias | hello-world | /sh/lib/k8s/plugin_env/validation.properties | enum-k8s-env-tools |
+- true -n, --name: tool alias
 
 ## `k8s ha`
 
-### manage kinds of docker container
+manage kinds of docker container
 
-### Usage
 ```bash
 k8s ha [options]
 ```
@@ -702,14 +653,13 @@ k8s ha [options]
 ### Arguments
 | Long Option | Short | Mandatory | Description | Default | Validation File | Validation Key |
 |-------------|-------|-----------|-------------|---------|-----------------|----------------|
-| --name | -n | true | tool alias | hello-world | /sh/lib/k8s/plugin_ha/validation.properties | enum-k8s-ha-tools |
-| --vip | -i | true | vip to expose | null | null | null |
+- true -n, --name: tool alias
+- true -i, --vip: vip to expose
 
 ## `k8s harbor`
 
-### manage kinds of docker container
+manage kinds of docker container
 
-### Usage
 ```bash
 k8s harbor [options]
 ```
@@ -717,13 +667,12 @@ k8s harbor [options]
 ### Arguments
 | Long Option | Short | Mandatory | Description | Default | Validation File | Validation Key |
 |-------------|-------|-----------|-------------|---------|-----------------|----------------|
-| --name | -n | true | tool alias | hello-world | /sh/lib/k8s/plugin_harbor/validation.properties | enum-k8s-harbor-tools |
+- true -n, --name: tool alias
 
 ## `k8s helm`
 
-### manage kinds of helm features
+manage kinds of helm features
 
-### Usage
 ```bash
 k8s helm [options]
 ```
@@ -731,13 +680,12 @@ k8s helm [options]
 ### Arguments
 | Long Option | Short | Mandatory | Description | Default | Validation File | Validation Key |
 |-------------|-------|-----------|-------------|---------|-----------------|----------------|
-| --name | -n | true | tool alias | env | /sh/lib/k8s/plugin_helm/validation.properties | enum-k8s-helm-tools |
+- true -n, --name: tool alias
 
 ## `k8s infrastructure`
 
-### manage kinds of docker container
+manage kinds of docker container
 
-### Usage
 ```bash
 k8s infrastructure [options]
 ```
@@ -745,13 +693,12 @@ k8s infrastructure [options]
 ### Arguments
 | Long Option | Short | Mandatory | Description | Default | Validation File | Validation Key |
 |-------------|-------|-----------|-------------|---------|-----------------|----------------|
-| --name | -n | true | tool alias | hello-world | /sh/lib/k8s/plugin_infrastructure/validation.properties | enum-k8s-infrastructure-tools |
+- true -n, --name: tool alias
 
 ## `k8s infrastructure ingress`
 
-### manage kinds of docker container
+manage kinds of docker container
 
-### Usage
 ```bash
 k8s infrastructure ingress [options]
 ```
@@ -759,13 +706,12 @@ k8s infrastructure ingress [options]
 ### Arguments
 | Long Option | Short | Mandatory | Description | Default | Validation File | Validation Key |
 |-------------|-------|-----------|-------------|---------|-----------------|----------------|
-| --name | -n | true | tool alias | hello-world | /sh/lib/k8s/plugin_infrastructure/plugin_ingress/validation.properties | enum-k8s-infrastructure-ingress-tools |
+- true -n, --name: tool alias
 
 ## `k8s infrastructure monitoring`
 
-### manage kinds of docker container
+manage kinds of docker container
 
-### Usage
 ```bash
 k8s infrastructure monitoring [options]
 ```
@@ -773,13 +719,12 @@ k8s infrastructure monitoring [options]
 ### Arguments
 | Long Option | Short | Mandatory | Description | Default | Validation File | Validation Key |
 |-------------|-------|-----------|-------------|---------|-----------------|----------------|
-| --name | -n | true | tool alias | hello-world | /sh/lib/k8s/plugin_infrastructure/plugin_monitoring/validation.properties | enum-k8s-infrastructure-monitoring-tools |
+- true -n, --name: tool alias
 
 ## `k8s maint`
 
-### manage kinds of docker container
+manage kinds of docker container
 
-### Usage
 ```bash
 k8s maint [options]
 ```
@@ -787,13 +732,12 @@ k8s maint [options]
 ### Arguments
 | Long Option | Short | Mandatory | Description | Default | Validation File | Validation Key |
 |-------------|-------|-----------|-------------|---------|-----------------|----------------|
-| --name | -n | true | tool alias | hello-world | /sh/lib/k8s/plugin_maint/validation.properties | enum-k8s-maint-tools |
+- true -n, --name: tool alias
 
 ## `k8s ms`
 
-### manage kinds of docker container
+manage kinds of docker container
 
-### Usage
 ```bash
 k8s ms [options]
 ```
@@ -801,14 +745,13 @@ k8s ms [options]
 ### Arguments
 | Long Option | Short | Mandatory | Description | Default | Validation File | Validation Key |
 |-------------|-------|-----------|-------------|---------|-----------------|----------------|
-| --name | -n | true | tool alias | hello-world | /sh/lib/k8s/plugin_ms/validation.properties | enum-k8s-ms-tools |
-| --image-path-with-version | -i | option | image path with version, e.g. ms/ms-jdk17-dns-2021d4:1.1.0-SNAPSHOT | null | null | null |
+- true -n, --name: tool alias
+- option -i, --image-path-with-version: image path with version, e.g. ms/ms-jdk17-dns-2021d4:1.1.0-SNAPSHOT
 
 ## `k8s ms vm`
 
-### manage kinds of docker container
+manage kinds of docker container
 
-### Usage
 ```bash
 k8s ms vm [options]
 ```
@@ -816,13 +759,12 @@ k8s ms vm [options]
 ### Arguments
 | Long Option | Short | Mandatory | Description | Default | Validation File | Validation Key |
 |-------------|-------|-----------|-------------|---------|-----------------|----------------|
-| --name | -n | true | tool alias | hello-world | /sh/lib/k8s/plugin_ms/plugin_vm/validation.properties | enum-k8s-ms-vm-tools |
+- true -n, --name: tool alias
 
 ## `k8s okd`
 
-### manage kinds of okd application
+manage kinds of okd application
 
-### Usage
 ```bash
 k8s okd [options]
 ```
@@ -830,13 +772,12 @@ k8s okd [options]
 ### Arguments
 | Long Option | Short | Mandatory | Description | Default | Validation File | Validation Key |
 |-------------|-------|-----------|-------------|---------|-----------------|----------------|
-| --name | -n | true | tool alias | bastion | /sh/lib/k8s/plugin_okd/validation.properties | enum-k8s-okd-tools |
+- true -n, --name: tool alias
 
 ## `k8s raw`
 
-### manage kinds of docker container
+manage kinds of docker container
 
-### Usage
 ```bash
 k8s raw [options]
 ```
@@ -844,13 +785,12 @@ k8s raw [options]
 ### Arguments
 | Long Option | Short | Mandatory | Description | Default | Validation File | Validation Key |
 |-------------|-------|-----------|-------------|---------|-----------------|----------------|
-| --name | -n | true | tool alias | hello-world | /sh/lib/k8s/plugin_raw/validation.properties | enum-k8s-raw-tools |
+- true -n, --name: tool alias
 
 ## `k8s rbac`
 
-### manage kinds of docker container
+manage kinds of docker container
 
-### Usage
 ```bash
 k8s rbac [options]
 ```
@@ -858,13 +798,12 @@ k8s rbac [options]
 ### Arguments
 | Long Option | Short | Mandatory | Description | Default | Validation File | Validation Key |
 |-------------|-------|-----------|-------------|---------|-----------------|----------------|
-| --name | -n | true | tool alias | hello-world | /sh/lib/k8s/plugin_rbac/validation.properties | enum-k8s-rbac-tools |
+- true -n, --name: tool alias
 
 ## `k8s snap`
 
-### manage kinds of docker container
+manage kinds of docker container
 
-### Usage
 ```bash
 k8s snap [options]
 ```
@@ -872,13 +811,12 @@ k8s snap [options]
 ### Arguments
 | Long Option | Short | Mandatory | Description | Default | Validation File | Validation Key |
 |-------------|-------|-----------|-------------|---------|-----------------|----------------|
-| --name | -n | true | tool alias | hello-world | /sh/lib/k8s/plugin_snap/validation.properties | enum-k8s-snap-tools |
+- true -n, --name: tool alias
 
 ## `k8s standalone`
 
-### manage kinds of docker container
+manage kinds of docker container
 
-### Usage
 ```bash
 k8s standalone [options]
 ```
@@ -886,13 +824,12 @@ k8s standalone [options]
 ### Arguments
 | Long Option | Short | Mandatory | Description | Default | Validation File | Validation Key |
 |-------------|-------|-----------|-------------|---------|-----------------|----------------|
-| --name | -n | true | tool alias | hello-world | /sh/lib/k8s/plugin_standalone/validation.properties | enum-k8s-standalone-tools |
+- true -n, --name: tool alias
 
 ## `k8s tanzu`
 
-### manage kinds of docker container
+manage kinds of docker container
 
-### Usage
 ```bash
 k8s tanzu [options]
 ```
@@ -900,13 +837,12 @@ k8s tanzu [options]
 ### Arguments
 | Long Option | Short | Mandatory | Description | Default | Validation File | Validation Key |
 |-------------|-------|-----------|-------------|---------|-----------------|----------------|
-| --name | -n | true | tool alias | hello-world | /sh/lib/k8s/plugin_tanzu/validation.properties | enum-k8s-tanzu-tools |
+- true -n, --name: tool alias
 
 ## `k8s volume`
 
-### manage kinds of static volume
+manage kinds of static volume
 
-### Usage
 ```bash
 k8s volume [options]
 ```
@@ -914,15 +850,14 @@ k8s volume [options]
 ### Arguments
 | Long Option | Short | Mandatory | Description | Default | Validation File | Validation Key |
 |-------------|-------|-----------|-------------|---------|-----------------|----------------|
-| --name | -n | true | tool alias | nfs | /sh/lib/k8s/plugin_volume/validation.properties | enum-k8s-volume-tools |
-| --pvc | -p | true | reserve bind pvc name | null | /sh/lib/kernal/validation.properties | reg-fqdn |
-| --namespace | -s | true | reserve bind pvc namespace | null | /sh/lib/kernal/validation.properties | reg-fqdn |
+- true -n, --name: tool alias
+- true -p, --pvc: reserve bind pvc name
+- true -s, --namespace: reserve bind pvc namespace
 
 ## `kvm app`
 
-### manage kinds of kvm app
+manage kinds of kvm app
 
-### Usage
 ```bash
 kvm app [options]
 ```
@@ -930,14 +865,13 @@ kvm app [options]
 ### Arguments
 | Long Option | Short | Mandatory | Description | Default | Validation File | Validation Key |
 |-------------|-------|-----------|-------------|---------|-----------------|----------------|
-| --instance | -i | option | kvm instance | null | kvm_exists_server_name_properties | enum-kvm-servers |
-| --name | -n | true | tool alias | nfs | /sh/lib/kvm/plugin_app/validation.properties | enum-kvm-app-tools |
+- option -i, --instance: kvm instance
+- true -n, --name: tool alias
 
 ## `kvm app misc`
 
-### manage kinds of docker container
+manage kinds of docker container
 
-### Usage
 ```bash
 kvm app misc [options]
 ```
@@ -945,13 +879,12 @@ kvm app misc [options]
 ### Arguments
 | Long Option | Short | Mandatory | Description | Default | Validation File | Validation Key |
 |-------------|-------|-----------|-------------|---------|-----------------|----------------|
-| --name | -n | true | tool alias | hello-world | /sh/lib/kvm/plugin_app/plugin_misc/validation.properties | enum-kvm-app-misc-tools |
+- true -n, --name: tool alias
 
 ## `kvm img`
 
-### manage kinds of docker container
+manage kinds of docker container
 
-### Usage
 ```bash
 kvm img [options]
 ```
@@ -959,13 +892,12 @@ kvm img [options]
 ### Arguments
 | Long Option | Short | Mandatory | Description | Default | Validation File | Validation Key |
 |-------------|-------|-----------|-------------|---------|-----------------|----------------|
-| --name | -n | true | tool alias | hello-world | /sh/lib/kvm/plugin_img/validation.properties | enum-kvm-img-tools |
+- true -n, --name: tool alias
 
 ## `kvm init`
 
-### manage kinds of docker container
+manage kinds of docker container
 
-### Usage
 ```bash
 kvm init [options]
 ```
@@ -973,5 +905,5 @@ kvm init [options]
 ### Arguments
 | Long Option | Short | Mandatory | Description | Default | Validation File | Validation Key |
 |-------------|-------|-----------|-------------|---------|-----------------|----------------|
-| --name | -n | true | tool alias | hello-world | /sh/lib/kvm/plugin_init/validation.properties | enum-kvm-init-tools |
+- true -n, --name: tool alias
 
