@@ -8,9 +8,13 @@ manage kinds of docker container
 kernal alinux [options]
 ```
 
-- hello-world
+
+### hello-world
+
 - option -v, --volume: volume name / iscsi iqn
-- upgrade-kernel
+
+### upgrade-kernel
+
 - true -n, --name: tool alias
 
 ## `kernal almalinux`
@@ -21,10 +25,16 @@ manage kinds of docker container
 kernal almalinux [options]
 ```
 
-- hello-world
+
+### hello-world
+
 - option -v, --volume: volume name / iscsi iqn
-- yum-aliyun
-- upgrade-kernel
+
+### yum-aliyun
+
+
+### upgrade-kernel
+
 - true -n, --name: tool alias
 
 ## `kernal alpinelinux`
@@ -35,10 +45,16 @@ manage kinds of docker container
 kernal alpinelinux [options]
 ```
 
-- hello-world
+
+### hello-world
+
 - option -v, --volume: volume name / iscsi iqn
-- apk-aliyun
-- upgrade-kernel
+
+### apk-aliyun
+
+
+### upgrade-kernel
+
 - true -n, --name: tool alias
 
 ## `kernal anolis`
@@ -49,9 +65,13 @@ manage kinds of docker container
 kernal anolis [options]
 ```
 
-- hello-world
+
+### hello-world
+
 - option -v, --volume: volume name / iscsi iqn
-- upgrade-kernel
+
+### upgrade-kernel
+
 - true -n, --name: tool alias
 
 ## `kernal app`
@@ -62,23 +82,49 @@ manage kinds of app
 kernal app [options]
 ```
 
-- hello-world
+
+### hello-world
+
 - option -v, --volume: volume name / iscsi iqn
-- hpe-route
-- hpe-gateway
-- firefox
-- maven
-- cockpit-cert
-- private-key
-- repo-sync
+
+### hpe-route
+
+
+### hpe-gateway
+
+
+### firefox
+
+
+### maven
+
+
+### cockpit-cert
+
+
+### private-key
+
+
+### repo-sync
+
 - false -r, --rhel: base rhel repo, centos, fedora, yum install
 - false -u, --ubuntu: base ubuntu repo, apt install
 - false -d, --debian: base debian repo, apt install
-- jmeter
-- smart
-- sh-service
-- swap
-- sync-ssz-share
+
+### jmeter
+
+
+### smart
+
+
+### sh-service
+
+
+### swap
+
+
+### sync-ssz-share
+
 - true -n, --name: tool alias
 
 ## `kernal app github`
@@ -89,18 +135,28 @@ manage kinds of docker container
 kernal app github [options]
 ```
 
-- hello-world
+
+### hello-world
+
 - option -v, --volume: volume name / iscsi iqn
-- commit
+
+### commit
+
 - option -t, --token: github personal access token
 - option -p, --file_path_with_repo: file path with repo, e.g. Shao/jenkins-pipeline/src/pipe-update-ssz-public-ip/public_ip.txt
 - option -f, --raw_file: raw file, e.g. /root/.jenkins/xxx/src/pipe-update-ssz-public-ip/public_ip.txt
 - option -b, --branch: branch name, e.g. master
 - option -m, --commit_message: commit message, e.g. public ip
 - false -c, --is_github_com: commit to github.com instead github.shao.sh, e.g. --is_github_com
-- sync-all-webhooks
-- update-issues
-- runner
+
+### sync-all-webhooks
+
+
+### update-issues
+
+
+### runner
+
 - true -n, --name: tool alias
 - true -t, --token: github runner token, expiration after an hour
 - option -o, --no: github runner no
@@ -115,7 +171,9 @@ manage kinds of docker container
 kernal app github_issues [options]
 ```
 
-- hello-world
+
+### hello-world
+
 - option -v, --volume: volume name / iscsi iqn
 - true -n, --name: tool alias
 
@@ -127,9 +185,13 @@ manage kinds of docker container
 kernal app gitlab [options]
 ```
 
-- hello-world
+
+### hello-world
+
 - option -v, --volume: volume name / iscsi iqn
-- add-owner
+
+### add-owner
+
 - true -n, --name: tool alias
 
 ## `kernal app jenkins`
@@ -140,9 +202,13 @@ manage kinds of docker container
 kernal app jenkins [options]
 ```
 
-- hello-world
+
+### hello-world
+
 - option -v, --volume: volume name / iscsi iqn
-- agent-node
+
+### agent-node
+
 - true -n, --name: tool alias
 
 ## `kernal app ldap`
@@ -153,20 +219,36 @@ manage kinds of docker container
 kernal app ldap [options]
 ```
 
-- hello-world
+
+### hello-world
+
 - option -v, --volume: volume name / iscsi iqn
-- add-user
+
+### add-user
+
 - true -u, --user: ldap user name
-- fork-github-com
+
+### fork-github-com
+
 - true -u, --url: github.com repository url
-- update-repository-about-topic
+
+### update-repository-about-topic
+
 - true -u, --url: github.com repository url
-- update-rat-from-file
+
+### update-rat-from-file
+
 - true -f, --file: the file name contains about and topics content
-- set-default-branch
+
+### set-default-branch
+
 - true -u, --url: github.com repository url
-- update-issues
-- commit
+
+### update-issues
+
+
+### commit
+
 - true -f, --raw_file: the file name to commit
 - option -t, --token: the owner of PAT
 - true -n, --name: tool alias
@@ -180,13 +262,23 @@ manage kinds of docker container
 kernal app metrics [options]
 ```
 
-- hello-world
+
+### hello-world
+
 - option -v, --volume: volume name / iscsi iqn
-- node-exporter
+
+### node-exporter
+
 - option -m, --master: master node name
-- check-sites
-- ipinfo-io
-- restart-github
+
+### check-sites
+
+
+### ipinfo-io
+
+
+### restart-github
+
 - true -n, --name: tool alias
 - option -s, --string: generic string type
 - false -b, --bool: generic bool type
@@ -199,10 +291,16 @@ manage kinds of docker container
 kernal app net [options]
 ```
 
-- hello-world
+
+### hello-world
+
 - option -v, --volume: volume name / iscsi iqn
-- ipset
-- public-ip
+
+### ipset
+
+
+### public-ip
+
 - true -n, --name: tool alias
 
 ## `kernal app npm`
@@ -213,9 +311,13 @@ manage kinds of docker container
 kernal app npm [options]
 ```
 
-- hello-world
+
+### hello-world
+
 - option -v, --volume: volume name / iscsi iqn
-- env
+
+### env
+
 - true -n, --name: tool alias
 
 ## `kernal app python`
@@ -226,13 +328,25 @@ manage kinds of docker container
 kernal app python [options]
 ```
 
-- hello-world
+
+### hello-world
+
 - option -v, --volume: volume name / iscsi iqn
-- env
-- cli
-- 3-9
-- pycli
-- scm-python
+
+### env
+
+
+### cli
+
+
+### 3-9
+
+
+### pycli
+
+
+### scm-python
+
 - true -n, --name: tool alias
 
 ## `kernal app router`
@@ -243,13 +357,25 @@ manage kinds of docker container
 kernal app router [options]
 ```
 
-- hello-world
+
+### hello-world
+
 - option -v, --volume: volume name / iscsi iqn
-- login
-- sync-fqdn
-- list-ingress
-- hpe_route
-- echo-route
+
+### login
+
+
+### sync-fqdn
+
+
+### list-ingress
+
+
+### hpe_route
+
+
+### echo-route
+
 - false -a, --all: route all cirs from hpe vpn, instead of snap cirs
 - true -e, --env: route all cirs from hpe vpn, instead of snap cirs
 - true -n, --name: tool alias
@@ -262,18 +388,38 @@ manage kinds of docker container
 kernal app vpn [options]
 ```
 
-- hello-world
+
+### hello-world
+
 - option -v, --volume: volume name / iscsi iqn
-- hpe
+
+### hpe
+
 - true -s, --session: session id
-- sh
-- shlg
-- lanxi
-- openvpn-client
-- after-start
-- sh-monitor-on-shlg
-- shvpn-init
-- lanxivpn-init
+
+### sh
+
+
+### shlg
+
+
+### lanxi
+
+
+### openvpn-client
+
+
+### after-start
+
+
+### sh-monitor-on-shlg
+
+
+### shvpn-init
+
+
+### lanxivpn-init
+
 - true -n, --name: tool alias
 
 ## `kernal auth`
@@ -284,17 +430,29 @@ manage auth in linux host
 kernal auth [options]
 ```
 
-- hello-world
-- nfs-clients
-- nfs-white-list
+
+### hello-world
+
+
+### nfs-clients
+
+
+### nfs-white-list
+
 - option -c, --consumer: initiator client hostname
-- password-init
+
+### password-init
+
 - true -s, --store-type: store key in /app/etc/password.properties
 - true -p, --password: password to mask
-- secret-init
+
+### secret-init
+
 - true -t, --secret-name: store key in /app/etc/password.properties
 - true -s, --secret: secret to mask
-- failure-connect-list
+
+### failure-connect-list
+
 - true -n, --name: tool alias
 
 ## `kernal backup`
@@ -305,28 +463,70 @@ manage kinds of docker container
 kernal backup [options]
 ```
 
-- hello-world
+
+### hello-world
+
 - option -v, --volume: volume name / iscsi iqn
-- bandersnatch
-- xfs-root
-- xfs-restore-root
-- webdav
-- smb
-- dns
-- lsyncd
-- smb-raid0
-- smb-tv
-- nfs
-- systemd-lv
-- systemd-sync-repo
-- systemd-sync-public-resources
-- systemd-sync-fqdn
-- systemd-sync-ntp
-- systemd-ipset-persistent
-- systemd-after-power
-- systemd-sync-camera
-- systemd-workaround-master
-- systemd-monitor-on-shlg
+
+### bandersnatch
+
+
+### xfs-root
+
+
+### xfs-restore-root
+
+
+### webdav
+
+
+### smb
+
+
+### dns
+
+
+### lsyncd
+
+
+### smb-raid0
+
+
+### smb-tv
+
+
+### nfs
+
+
+### systemd-lv
+
+
+### systemd-sync-repo
+
+
+### systemd-sync-public-resources
+
+
+### systemd-sync-fqdn
+
+
+### systemd-sync-ntp
+
+
+### systemd-ipset-persistent
+
+
+### systemd-after-power
+
+
+### systemd-sync-camera
+
+
+### systemd-workaround-master
+
+
+### systemd-monitor-on-shlg
+
 - true -n, --name: tool alias
 
 ## `kernal centos`
@@ -337,20 +537,40 @@ manage kinds of centos
 kernal centos [options]
 ```
 
-- hello-world
-- gui
+
+### hello-world
+
+
+### gui
+
 - false -m, --mainline: download mainline version
 - option -v, --version: kernel version
-- yum-sync
+
+### yum-sync
+
 - true -c, --case: case alias
 - option -r, --repository: repository alias
-- tools-sync
-- repo-link
-- correct-yum
-- pull-softwares
-- unset-proxy
-- mailx
-- test
+
+### tools-sync
+
+
+### repo-link
+
+
+### correct-yum
+
+
+### pull-softwares
+
+
+### unset-proxy
+
+
+### mailx
+
+
+### test
+
 - true -n, --name: tool alias
 
 ## `kernal centos stream`
@@ -361,10 +581,16 @@ manage kinds of docker container
 kernal centos stream [options]
 ```
 
-- hello-world
+
+### hello-world
+
 - option -v, --volume: volume name / iscsi iqn
-- yum-aliyun
-- upgrade-kernel
+
+### yum-aliyun
+
+
+### upgrade-kernel
+
 - true -n, --name: tool alias
 
 ## `kernal certificate`
@@ -375,13 +601,21 @@ manage kinds of docker container
 kernal certificate [options]
 ```
 
-- hello-world
+
+### hello-world
+
 - option -v, --volume: volume name / iscsi iqn
-- harbor
+
+### harbor
+
 - option -d, --domain: issue certifcate to it and *.it, used in harbor and ingress nginx
 - false -p, --public: issue certifcate to use in external
-- root-ca
-- ca-crl
+
+### root-ca
+
+
+### ca-crl
+
 - true -n, --name: tool alias
 
 ## `kernal debian`
@@ -392,12 +626,20 @@ manage kinds of debian
 kernal debian [options]
 ```
 
-- kernel-download
+
+### kernel-download
+
 - false -m, --mainline: download mainline version
 - option -v, --version: kernel version
-- kernel-upgrade
-- hello-world
-- apt-aliyun
+
+### kernel-upgrade
+
+
+### hello-world
+
+
+### apt-aliyun
+
 - true -n, --name: tool alias
 
 ## `kernal fedora`
@@ -408,8 +650,12 @@ manage kinds of fedora
 kernal fedora [options]
 ```
 
-- kernel-upgrade
-- xrdp
+
+### kernel-upgrade
+
+
+### xrdp
+
 - true -n, --name: tool alias
 
 ## `kernal iscsi`
@@ -420,11 +666,17 @@ manage kinds of docker container
 kernal iscsi [options]
 ```
 
-- connect
-- target
+
+### connect
+
+
+### target
+
 - true -c, --consumer: initiator client hostname
 - false -d, --disable-chap: use white list to acsl, default is chap
-- ssz1
+
+### ssz1
+
 - true -n, --name: tool alias
 
 ## `kernal msg`
@@ -435,18 +687,30 @@ manage kinds of docker container
 kernal msg [options]
 ```
 
-- hello-world
+
+### hello-world
+
 - option -v, --volume: volume name / iscsi iqn
-- wechat
+
+### wechat
+
 - true -m, --message: message
-- wechat-approve
+
+### wechat-approve
+
 - true -m, --message: message
 - true -t, --wechat-access-token: wechat-access-token
-- dingtalk
+
+### dingtalk
+
 - true -m, --message: message
-- host-info
+
+### host-info
+
 - option -t, --wechat-access-token: wechat-access-token
-- sms
+
+### sms
+
 - true -n, --name: tool alias
 
 ## `kernal net`
@@ -457,9 +721,13 @@ manage kinds of docker container
 kernal net [options]
 ```
 
-- hello-world
+
+### hello-world
+
 - option -v, --volume: volume name / iscsi iqn
-- ipv6
+
+### ipv6
+
 - true -n, --name: tool alias
 
 ## `kernal rocky`
@@ -470,10 +738,16 @@ manage kinds of docker container
 kernal rocky [options]
 ```
 
-- hello-world
+
+### hello-world
+
 - option -v, --volume: volume name / iscsi iqn
-- yum-aliyun
-- upgrade-kernel
+
+### yum-aliyun
+
+
+### upgrade-kernel
+
 - true -n, --name: tool alias
 
 ## `kernal ubuntu`
@@ -484,14 +758,26 @@ manage kinds of ubuntu
 kernal ubuntu [options]
 ```
 
-- kernel-download
+
+### kernel-download
+
 - false -m, --mainline: download mainline version
 - option -v, --version: kernel version
-- kernel-upgrade
-- xrdp
-- eclipse
-- firefox248
-- chrome
+
+### kernel-upgrade
+
+
+### xrdp
+
+
+### eclipse
+
+
+### firefox248
+
+
+### chrome
+
 - true -n, --name: tool alias
 
 ## `eium dev`
@@ -502,10 +788,16 @@ manage kinds of docker container
 eium dev [options]
 ```
 
-- hello-world
+
+### hello-world
+
 - option -v, --volume: volume name / iscsi iqn
-- clone-common
-- clone-ium
+
+### clone-common
+
+
+### clone-ium
+
 - true -n, --name: tool alias
 
 ## `eium docker`
@@ -516,23 +808,41 @@ manage kinds of docker container in eium
 eium docker [options]
 ```
 
-- wiki
-- mysql
+
+### wiki
+
+
+### mysql
+
 - true -p, --app: mysql app lists
-- app
+
+### app
+
 - true -i, --image-version: docker version lists in eium
 - option -p, --app: app lists
-- image-build
+
+### image-build
+
 - option -i, --eium-version: version lists in eium
 - option -l, --loose-patch: loose patch folder
 - false -r, --mysqlrouter: build mysql router as co-located deployment
 - option -t, --tag: image tag name
-- images
-- image-base
-- bash
+
+### images
+
+
+### image-base
+
+
+### bash
+
 - option -i, --image: image tag name
-- mpc
-- mpc-project
+
+### mpc
+
+
+### mpc-project
+
 - true -n, --name: tool alias
 - option -s, --string: generic string type parameter
 
@@ -544,18 +854,32 @@ manage kinds of docker container
 eium ems [options]
 ```
 
-- hello-world
+
+### hello-world
+
 - option -v, --volume: volume name / iscsi iqn
-- update-license
+
+### update-license
+
 - true,* -i, --eium-version: version lists in eium
-- sync-license
-- web-remote-debug
+
+### sync-license
+
+
+### web-remote-debug
+
 - true -i, --eium-version: version lists in eium
 - true -s, --app-server: webappserver/ManagementServer
 - true -p, --port: port num
-- rd-clear
-- log-level
-- config-web
+
+### rd-clear
+
+
+### log-level
+
+
+### config-web
+
 - true -i, --eium-version: version lists in eium
 - true -s, --web-server: web-console/cis-ui
 - true -t, --timeout: timeout minutes
@@ -569,10 +893,16 @@ manage kinds of docker container
 eium env [options]
 ```
 
-- hello-world
+
+### hello-world
+
 - option -v, --volume: volume name / iscsi iqn
-- sctp
-- install
+
+### sctp
+
+
+### install
+
 - false -r, --reinstall: boolean, set is uninstall in first
 - option -R, --rc: string, IC1/RC1, exists to use rc build instead of GA
 - false -a, --noact: boolean, set is no activate it
@@ -584,17 +914,29 @@ eium env [options]
 - false -j, --jds: boolean, activate jds
 - option -t, --type: string, Standard,Standalone or Bare 
 - true,* -i, --eium-version: version lists in eium
-- uninstall
+
+### uninstall
+
 - false -f, --force: boolean, set yes clean up if uninstall failure
 - true -i, --eium-version: version lists in eium
-- act
-- vnc
-- xrdp
-- patch
+
+### act
+
+
+### vnc
+
+
+### xrdp
+
+
+### patch
+
 - true -i, --eium-version: version lists in eium
 - option -l, --last-patch: last patch file, full path, empty means that use the latest patch
 - option -p, --patch: full path, 91 or 92 only
-- on-after
+
+### on-after
+
 - true -n, --name: tool alias
 
 ## `eium integration`
@@ -605,27 +947,45 @@ manage kinds of integration case in eium
 eium integration [options]
 ```
 
-- k8s
+
+### k8s
+
 - true -c, --case: case alias
 - option -s, --namespace: namespace
-- docker
+
+### docker
+
 - true -c, --case: case alias
 - option -i, --eium-version: version lists in eium
 - option -q, --mysql: mysql host:port, sample 127.0.0.1:3306
 - false -s, --no-shell: disable shell
-- standalone
+
+### standalone
+
 - true -c, --case: case alias
-- standard
+
+### standard
+
 - true -c, --case: case alias
 - option -i, --eium-version: version lists in eium
-- umbrella
+
+### umbrella
+
 - true -c, --case: case alias
 - option -s, --namespace: namespace
 - false -o, --one: use one chart by ssz
-- test
-- rt
-- all
-- httpclient
+
+### test
+
+
+### rt
+
+
+### all
+
+
+### httpclient
+
 - true -n, --name: tool alias
 - false -b, --cb: case use config bundle
 
@@ -637,32 +997,74 @@ manage kinds of docker container
 eium mgr [options]
 ```
 
-- boot
-- router
-- close-ro
-- ip-allow
-- cnf
-- database-init
-- ium-cfg
-- ium-checkin
-- test
+
+### boot
+
+
+### router
+
+
+### close-ro
+
+
+### ip-allow
+
+
+### cnf
+
+
+### database-init
+
+
+### ium-cfg
+
+
+### ium-checkin
+
+
+### test
+
 - option -s, --suffix: TestServer suffix, R means TestServerR
 - false -c, --httpclient: use httpclient to test
 - option -l, --loop: loop count
 - option -b, --batchSize: batchSize, unit million
 - option -i, --insertIndex: insertIndex, unit million
-- wait-for-result
-- param
-- cluster-param
-- patch-mysqlrouter-image
-- k8s-log
-- helm-deploy
-- sql
-- httpclient
-- moco-dependency
-- moco-operator
-- moco-cluster
-- monitor-kvm
+
+### wait-for-result
+
+
+### param
+
+
+### cluster-param
+
+
+### patch-mysqlrouter-image
+
+
+### k8s-log
+
+
+### helm-deploy
+
+
+### sql
+
+
+### httpclient
+
+
+### moco-dependency
+
+
+### moco-operator
+
+
+### moco-cluster
+
+
+### monitor-kvm
+
 - option -o, --node: monitor guest node, default is k8s-5i1-guest
 - true -n, --name: tool alias
 
@@ -674,25 +1076,41 @@ manage kinds of docker container
 eium ndb [options]
 ```
 
-- hello-world
+
+### hello-world
+
 - option -v, --volume: volume name / iscsi iqn
-- data
+
+### data
+
 - false -m, --mt: use multipile thread instead single thread
-- sql
+
+### sql
+
 - false -t, --twice: twice node in single host
 - false -s, --source: source node with replications
 - false -r, --replics: replics node with replications
-- mgm
+
+### mgm
+
 - false -k, --hdd: use hdd instead ssd as data node
 - false -r, --replics: replics ndb cluster mgm node
-- client
-- data-sql
+
+### client
+
+
+### data-sql
+
 - false -m, --mt: use multipile thread instead single thread
 - false -t, --twice: twice node in single host
 - false -s, --source: source node with replications
 - false -r, --replics: replics node with replications
-- mgm-start
-- database-init
+
+### mgm-start
+
+
+### database-init
+
 - true -n, --name: tool alias
 
 ## `eium raw`
@@ -703,15 +1121,21 @@ manage kinds of docker container
 eium raw [options]
 ```
 
-- hello-world
+
+### hello-world
+
 - option -v, --volume: volume name / iscsi iqn
-- download
+
+### download
+
 - true -i, --eium-version: version lists in eium
 - false -r, --release: download from mpc release repo
 - false -c, --components: download components from mpc release repo
 - false -s, --skipbin: skip bin download in dev branch
 - false -d, --doc: download documents from mpc release repo
-- delegate-download
+
+### delegate-download
+
 - true -n, --name: tool alias
 
 ## `eium snapwiki`
@@ -722,10 +1146,16 @@ manage kinds of docker container
 eium snapwiki [options]
 ```
 
-- hello-world
+
+### hello-world
+
 - option -v, --volume: volume name / iscsi iqn
-- dev
-- kb
+
+### dev
+
+
+### kb
+
 - true -n, --name: tool alias
 
 ## `exercise btest`
@@ -736,23 +1166,49 @@ manage kinds of docker container
 exercise btest [options]
 ```
 
-- hello-world
+
+### hello-world
+
 - option -v, --volume: volume name / iscsi iqn
-- list
-- map
-- cli-opt
-- cli
+
+### list
+
+
+### map
+
+
+### cli-opt
+
+
+### cli
+
 - true -n, --name: tool alias
 - option -i, --eium-version: version lists in eium
 - false -b, --bool: boolean value, general purpose
-- env
-- file
-- str
-- bash-completion
-- unit-test
-- jq
-- func
-- no-dep
+
+### env
+
+
+### file
+
+
+### str
+
+
+### bash-completion
+
+
+### unit-test
+
+
+### jq
+
+
+### func
+
+
+### no-dep
+
 - true -n, --name: tool alias
 
 ## `exercise docker`
@@ -763,9 +1219,13 @@ manage kinds of docker container
 exercise docker [options]
 ```
 
-- hello-world
+
+### hello-world
+
 - option -v, --volume: volume name / iscsi iqn
-- cp
+
+### cp
+
 - true -n, --name: tool alias
 
 ## `exercise file`
@@ -776,10 +1236,16 @@ manage kinds of docker container
 exercise file [options]
 ```
 
-- hello-world
+
+### hello-world
+
 - option -v, --volume: volume name / iscsi iqn
-- env-replace
-- github-issues
+
+### env-replace
+
+
+### github-issues
+
 - true -n, --name: tool alias
 
 ## `exercise file pipeline`
@@ -790,7 +1256,9 @@ manage kinds of docker container
 exercise file pipeline [options]
 ```
 
-- hello-world
+
+### hello-world
+
 - option -v, --volume: volume name / iscsi iqn
 - true -n, --name: tool alias
 
@@ -802,9 +1270,13 @@ manage kinds of docker container
 exercise file txt [options]
 ```
 
-- hello-world
+
+### hello-world
+
 - option -v, --volume: volume name / iscsi iqn
-- dollor
+
+### dollor
+
 - option -v, --volume: volume name / iscsi iqn
 - true -n, --name: tool alias
 
@@ -816,7 +1288,9 @@ manage kinds of docker container
 exercise file txt read [options]
 ```
 
-- hello-world
+
+### hello-world
+
 - option -v, --volume: volume name / iscsi iqn
 - true -n, --name: tool alias
 
@@ -828,9 +1302,13 @@ manage kinds of docker container
 k8s chartmuseum [options]
 ```
 
-- hello-world
+
+### hello-world
+
 - option -v, --volume: volume name / iscsi iqn
-- env
+
+### env
+
 - true -n, --name: tool alias
 
 ## `k8s docker`
@@ -841,16 +1319,34 @@ manage kinds of docker container
 k8s docker [options]
 ```
 
-- site-migration
-- repo-migrate
-- hello-world
+
+### site-migration
+
+
+### repo-migrate
+
+
+### hello-world
+
 - option -v, --volume: volume name / iscsi iqn
-- login
-- compose
-- proxy
-- certificate
-- guest-ip
-- prune
+
+### login
+
+
+### compose
+
+
+### proxy
+
+
+### certificate
+
+
+### guest-ip
+
+
+### prune
+
 - true -n, --name: tool alias
 
 ## `k8s docker app`
@@ -861,9 +1357,13 @@ manage kinds of docker container
 k8s docker app [options]
 ```
 
-- hello-world
+
+### hello-world
+
 - option -v, --volume: volume name / iscsi iqn
-- inst
+
+### inst
+
 - true -c, --case: case name in docker
 - false -a, --await: wait for docker init complete
 - true -n, --name: tool alias
@@ -876,12 +1376,20 @@ manage kinds of docker container
 k8s docker raw [options]
 ```
 
-- hello-world
+
+### hello-world
+
 - option -v, --volume: volume name / iscsi iqn
-- load-images
+
+### load-images
+
 - false -c, --cache: use cache file to fast check
-- images
-- elastic
+
+### images
+
+
+### elastic
+
 - true -n, --name: tool alias
 
 ## `k8s docker standalone`
@@ -892,16 +1400,32 @@ manage kinds of docker container
 k8s docker standalone [options]
 ```
 
-- hello-world
+
+### hello-world
+
 - option -v, --volume: volume name / iscsi iqn
-- emby
+
+### emby
+
 - option -v, --volume: volume name / iscsi iqn
-- nginx
-- gluster
-- yum
-- heketi
-- jaeger
-- alpine-jdk
+
+### nginx
+
+
+### gluster
+
+
+### yum
+
+
+### heketi
+
+
+### jaeger
+
+
+### alpine-jdk
+
 - true -n, --name: tool alias
 
 ## `k8s env`
@@ -912,29 +1436,59 @@ manage kinds of docker container
 k8s env [options]
 ```
 
-- hello-world
+
+### hello-world
+
 - option -v, --volume: volume name / iscsi iqn
-- uninstall
-- rebind
-- master
-- master-init-cfg
-- bastion
-- pause
-- kubectl
-- upgrade
-- token
+
+### uninstall
+
+
+### rebind
+
+
+### master
+
+
+### master-init-cfg
+
+
+### bastion
+
+
+### pause
+
+
+### kubectl
+
+
+### upgrade
+
+
+### token
+
 - false -d, --dashboard: dashboard access token
 - false -k, --kubeconfig: dashboard kubeconfig file
-- inst
+
+### inst
+
 - false -m, --master: create master node
 - option -c, --cri: which CRI is used in k8s, default is podman
-- docker
+
+### docker
+
 - false -f, --force: force install again
-- podman
+
+### podman
+
 - false -f, --force: force install again
-- crio
+
+### crio
+
 - false -f, --force: force install again
-- show-local
+
+### show-local
+
 - true -n, --name: tool alias
 
 ## `k8s ha`
@@ -945,14 +1499,24 @@ manage kinds of docker container
 k8s ha [options]
 ```
 
-- hello-world
+
+### hello-world
+
 - option -v, --volume: volume name / iscsi iqn
-- lvs
+
+### lvs
+
 - true -i, --vip: vip to expose
-- control-plane
-- restart-pod
+
+### control-plane
+
+
+### restart-pod
+
 - true -c, --component: restart pod in node, like kube-proxy
-- renew-apiserver
+
+### renew-apiserver
+
 - true -n, --name: tool alias
 - true -i, --vip: vip to expose
 
@@ -964,15 +1528,31 @@ manage kinds of docker container
 k8s harbor [options]
 ```
 
-- hello-world
+
+### hello-world
+
 - option -v, --volume: volume name / iscsi iqn
-- env
-- prepare
-- certificate
-- cloud
-- images
-- images-convert
-- upgrade-docker
+
+### env
+
+
+### prepare
+
+
+### certificate
+
+
+### cloud
+
+
+### images
+
+
+### images-convert
+
+
+### upgrade-docker
+
 - true -n, --name: tool alias
 
 ## `k8s helm`
@@ -983,15 +1563,27 @@ manage kinds of helm features
 k8s helm [options]
 ```
 
-- env
-- ms
+
+### env
+
+
+### ms
+
 - option -a, --helm-ms-app: ms-app name
 - option -s, --sleep: sleep seconds
-- unms
+
+### unms
+
 - option -a, --helm-ms-app: ms-app name
-- repo
-- upgrade
-- snapdev
+
+### repo
+
+
+### upgrade
+
+
+### snapdev
+
 - true -u, --user: mysql user name
 - true -p, --password: mysql password
 - true -n, --name: tool alias
@@ -1004,20 +1596,36 @@ manage kinds of docker container
 k8s infrastructure [options]
 ```
 
-- hello-world
+
+### hello-world
+
 - option -v, --volume: volume name / iscsi iqn
-- local-volume
-- plugins-with-yaml
-- plugins
+
+### local-volume
+
+
+### plugins-with-yaml
+
+
+### plugins
+
 - false -u, --username: mysql username
-- plugins-monitor
-- plugins-persist
+
+### plugins-monitor
+
+
+### plugins-persist
+
 - option -d, --domain: domain name or ip
 - false -s, --static-pv: use static pv
 - false -m, --multi-host: multipile host deploy, use virtual ip for load balancer
 - false -v, --ipv6: ipv6 only
-- plugins-persist-clickhouse
-- plugins-persist-mongodb
+
+### plugins-persist-clickhouse
+
+
+### plugins-persist-mongodb
+
 - true -n, --name: tool alias
 
 ## `k8s infrastructure ingress`
@@ -1028,7 +1636,9 @@ manage kinds of docker container
 k8s infrastructure ingress [options]
 ```
 
-- hello-world
+
+### hello-world
+
 - option -v, --volume: volume name / iscsi iqn
 - true -n, --name: tool alias
 
@@ -1040,11 +1650,19 @@ manage kinds of docker container
 k8s infrastructure monitoring [options]
 ```
 
-- hello-world
+
+### hello-world
+
 - option -v, --volume: volume name / iscsi iqn
-- grafana-storage
-- kube-prometheus
-- kube-prometheus-uninstall
+
+### grafana-storage
+
+
+### kube-prometheus
+
+
+### kube-prometheus-uninstall
+
 - true -n, --name: tool alias
 
 ## `k8s maint`
@@ -1055,8 +1673,12 @@ manage kinds of docker container
 k8s maint [options]
 ```
 
-- hello-world
-- upgrade
+
+### hello-world
+
+
+### upgrade
+
 - true -v, --version: kubernetes version / latest
 - true -n, --name: tool alias
 
@@ -1068,24 +1690,48 @@ manage kinds of docker container
 k8s ms [options]
 ```
 
-- hello-world
+
+### hello-world
+
 - option -v, --volume: volume name / iscsi iqn
-- env
+
+### env
+
 - option -d, --domain: domain name or ip
 - false -s, --static-pv: use static pv
 - false -m, --multi-host: multipile host deploy, use virtual ip for load balancer
-- cluster
+
+### cluster
+
 - false -a, --apply: apply cmd
 - option -s, --sleep: sleep seconds
-- restart
-- image-build
-- ft-image-build
-- ps-image-build
-- cellong-image-build
-- mqtt-image-build
-- node-selector
-- debug
-- patch-version
+
+### restart
+
+
+### image-build
+
+
+### ft-image-build
+
+
+### ps-image-build
+
+
+### cellong-image-build
+
+
+### mqtt-image-build
+
+
+### node-selector
+
+
+### debug
+
+
+### patch-version
+
 - true -n, --name: tool alias
 - option -i, --image-path-with-version: image path with version, e.g. ms/ms-jdk17-dns-2021d4:1.1.0-SNAPSHOT
 
@@ -1097,28 +1743,70 @@ manage kinds of docker container
 k8s ms vm [options]
 ```
 
-- hello-world
+
+### hello-world
+
 - option -v, --volume: volume name / iscsi iqn
-- deploy
-- foo
-- testcase
-- sample
-- ws
-- rpcweb
-- scheduler
-- management
-- registry
-- gui-rpcweb
-- ps-deploy
-- cellong-deploy
-- mqtt-deploy
-- cellong-web-deploy
-- ps
-- cellong
-- mqtt
-- ft
-- ft-web
-- ft-webpage
+
+### deploy
+
+
+### foo
+
+
+### testcase
+
+
+### sample
+
+
+### ws
+
+
+### rpcweb
+
+
+### scheduler
+
+
+### management
+
+
+### registry
+
+
+### gui-rpcweb
+
+
+### ps-deploy
+
+
+### cellong-deploy
+
+
+### mqtt-deploy
+
+
+### cellong-web-deploy
+
+
+### ps
+
+
+### cellong
+
+
+### mqtt
+
+
+### ft
+
+
+### ft-web
+
+
+### ft-webpage
+
 - true -n, --name: tool alias
 
 ## `k8s okd`
@@ -1129,62 +1817,118 @@ manage kinds of okd application
 k8s okd [options]
 ```
 
-- bastion
-- dns1-update
+
+### bastion
+
+
+### dns1-update
+
 - true -c, --cluster: openshift cluster name
 - true -b, --bootstrap: bootstrap node ip
 - true -m, --master: master node ip
 - option -w, --worker: worker node ip
 - option -d, --dns: dns server ip
-- dns2-update
+
+### dns2-update
+
 - true -c, --cluster: openshift cluster name
 - true -m, --master: master node ip
 - option -d, --dns: dns server ip
-- fcos-download
-- iso
+
+### fcos-download
+
+
+### iso
+
 - true -c, --cluster: openshift cluster name
 - option -b, --bootstrap: boostrap node ip
 - true -m, --master: master node ip
 - option -w, --worker: worker node ip
 - option -d, --dns: dns server ip
-- iso1
+
+### iso1
+
 - true -c, --cluster: openshift cluster name
 - option -b, --bootstrap: boostrap node ip
 - true -m, --master: master node ip
 - option -w, --worker: worker node ip
 - option -d, --dns: dns server ip
-- iso-software
-- iso-expand
+
+### iso-software
+
+
+### iso-expand
+
 - true -o, --hostname: expand hostname name, not include cluster name
 - true -w, --worker: expand ip
-- iso-kvm
+
+### iso-kvm
+
 - option -c, --cluster: openshift cluster name
 - option -b, --bastion: bastion server ip or fqdn
-- expand-kvm
+
+### expand-kvm
+
 - true -c, --cluster: openshift cluster name
 - true -o, --hostname: expand hostname name, not include cluster name
 - true -w, --worker: expand ip
-- iso1-kvm
-- mirror
-- info-bootstrap
-- info-master
-- info-etcd
-- patch-etcd
-- patch-operator
-- wait-for-patch
-- wait-for-expand
+
+### iso1-kvm
+
+
+### mirror
+
+
+### info-bootstrap
+
+
+### info-master
+
+
+### info-etcd
+
+
+### patch-etcd
+
+
+### patch-operator
+
+
+### wait-for-patch
+
+
+### wait-for-expand
+
 - true -o, --hostname: expand hostname name, not include cluster name
-- hpe-dns
-- env
+
+### hpe-dns
+
+
+### env
+
 - option -c, --cluster: openshift cluster name
 - option -m, --master: master node ip
-- producer
-- consumer
-- upload-extract
-- worker-kvm
-- upgrade
-- certificate
-- workaround-master
+
+### producer
+
+
+### consumer
+
+
+### upload-extract
+
+
+### worker-kvm
+
+
+### upgrade
+
+
+### certificate
+
+
+### workaround-master
+
 - true -n, --name: tool alias
 
 ## `k8s raw`
@@ -1195,7 +1939,9 @@ manage kinds of docker container
 k8s raw [options]
 ```
 
-- hello-world
+
+### hello-world
+
 - option -v, --volume: volume name / iscsi iqn
 - true -n, --name: tool alias
 
@@ -1207,9 +1953,13 @@ manage kinds of docker container
 k8s rbac [options]
 ```
 
-- hello-world
+
+### hello-world
+
 - option -v, --volume: volume name / iscsi iqn
-- create
+
+### create
+
 - true -u, --user: user name
 - true -s, --namespace: namespace
 - true -n, --name: tool alias
@@ -1222,15 +1972,23 @@ manage kinds of docker container
 k8s snap [options]
 ```
 
-- hello-world
+
+### hello-world
+
 - option -v, --volume: volume name / iscsi iqn
-- env
+
+### env
+
 - option -d, --domain: domain name or ip
 - false -s, --static-pv: use static pv
 - false -m, --multi-host: multipile host deploy, use virtual ip for load balancer
 - false -v, --ipv6: ipv6 only
-- multi-host
-- nginx-ingress
+
+### multi-host
+
+
+### nginx-ingress
+
 - true -s, --lb-suffix: lb address suffix 26/28
 - true -n, --name: tool alias
 
@@ -1242,10 +2000,16 @@ manage kinds of docker container
 k8s standalone [options]
 ```
 
-- hello-world
+
+### hello-world
+
 - option -v, --volume: volume name / iscsi iqn
-- lb-dns-update
-- mounted-local-volumes
+
+### lb-dns-update
+
+
+### mounted-local-volumes
+
 - true -n, --name: tool alias
 
 ## `k8s tanzu`
@@ -1256,7 +2020,9 @@ manage kinds of docker container
 k8s tanzu [options]
 ```
 
-- hello-world
+
+### hello-world
+
 - option -v, --volume: volume name / iscsi iqn
 - true -n, --name: tool alias
 
@@ -1268,15 +2034,27 @@ manage kinds of static volume
 k8s volume [options]
 ```
 
-- nfs
+
+### nfs
+
 - true -v, --volume: volume name
-- iscsi
+
+### iscsi
+
 - true -i, --iqn: iscsi iqn
 - true -t, --target-host: iscsi target hostname
-- glusterfs
-- local
-- cephfs
-- pvc
+
+### glusterfs
+
+
+### local
+
+
+### cephfs
+
+
+### pvc
+
 - option -c, --sc: storage class name
 - true -n, --name: tool alias
 - true -p, --pvc: reserve bind pvc name
@@ -1291,15 +2069,27 @@ kvm app [options]
 ```
 
 - option -i, --instance: kvm instance
-- backup
+
+### backup
+
 - false -a, --all: backup all instance to target folder
 - false -s, --sparsify: need to virt-sparsify?
-- restore
+
+### restore
+
 - true -f, --file: backup tar file name
-- clear
-- sync-images
-- network-unbuntu
-- renew-win
+
+### clear
+
+
+### sync-images
+
+
+### network-unbuntu
+
+
+### renew-win
+
 - true -n, --name: tool alias
 
 ## `kvm app misc`
@@ -1310,7 +2100,9 @@ manage kinds of docker container
 kvm app misc [options]
 ```
 
-- hello-world
+
+### hello-world
+
 - option -v, --volume: volume name / iscsi iqn
 - true -n, --name: tool alias
 
@@ -1322,12 +2114,22 @@ manage kinds of docker container
 kvm img [options]
 ```
 
-- hello-world
+
+### hello-world
+
 - option -v, --volume: volume name / iscsi iqn
-- dsm
-- dsm-rr
-- openwrt
-- github
+
+### dsm
+
+
+### dsm-rr
+
+
+### openwrt
+
+
+### github
+
 - true -n, --name: tool alias
 
 ## `kvm init`
@@ -1338,8 +2140,12 @@ manage kinds of docker container
 kvm init [options]
 ```
 
-- hello-world
+
+### hello-world
+
 - option -v, --volume: volume name / iscsi iqn
-- qemu-img
+
+### qemu-img
+
 - true -n, --name: tool alias
 
