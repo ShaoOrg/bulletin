@@ -2149,3 +2149,21 @@ kvm init [options]
 
 - true -n, --name: tool alias
 
+## `emby tools`
+
+install emby tools
+
+```bash
+emby tools [options]
+```
+
+
+### hello-world
+
+
+### smb238
+
+- true -n, --name: tool alias
+- option -s, --string: string type parameters
+- false -b, --boolean: boolean type parameters
+
