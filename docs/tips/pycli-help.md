@@ -1212,6 +1212,12 @@ upgrade github enterprise server to new release
 - --crack: C:\usr\ssz\workspace\git\app\scm\..\scm-shared\snap\ssz1\app-eium-backup-config\toShared\app\github\crack
 - --domain: github.shao.sh
 
+### deploy batch opt markdown help
+
+generate opt markdown help
+
+- --helpFolder: C:\usr\ssz\workspace\git\ShaoOrg\bulletin\docs\tips
+
 ### deploy batch test func
 
 function unit test
