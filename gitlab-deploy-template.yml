@@ -7,7 +7,7 @@ spec:
 ---
 # 必须是pages作为名字
 pages:
-  stage: $[[ inputs.stage ]]
+  stage: deploy
   tags: [ Self-managed, ubuntu-latest ]
   variables:
     DRAWIO_EDITOR_URL: https://de.vicp.net:25053
@@ -49,3 +49,4 @@ pages:
       - gitlab-deploy-template.yml
       - README.md
     # - if: $DEPLOY_ENV == "deploy"
+    - when: manual  # 兜底规则，避免一直卡住
