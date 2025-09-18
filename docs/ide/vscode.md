@@ -3,6 +3,7 @@
 - toggle terminal, Ctrl + `
 - toggle explorer, Ctrl + B
 - toggle editor, Ctrl + Tab
+- Alt + ←/→	返回/前进 Go back / forward, 回到上个光标所在行
 ## 导航 Navigation
 |按 Press|功能 Function|
 |  ----  | ----  |
