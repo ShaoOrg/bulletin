@@ -7,6 +7,11 @@
 ## Issue
 
 - 命令行太长, 启动配置里->缩短命令行->java -cp classpath.jar
+- Debug/Run当前文件, Shift + F9/F10
+- Local History当前文件,未提交的代码修改,打开右键菜单
+- Toggle Maven View, Ctrl+Alt+0
+- Explorer 当前文件, 打开Windows Explorer, Ctrl+Alt+F12
+
 
 ## 导航 Navigation
 

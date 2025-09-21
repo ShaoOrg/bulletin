@@ -17,3 +17,4 @@
 - [时间戳转换](https://tool.lu/timestamp/)
 - [头条视频下载](https://snapany.com/zh)
 - [目前国内可用Docker镜像源汇总（截至2025年8月）](https://www.coderjia.cn/archives/dba3f94c-a021-468a-8ac6-e840f85867ea)
+- [7 types of jenkins build parameters with examples](https://codefresh.io/learn/jenkins/7-types-of-jenkins-build-parameters-with-examples/)
