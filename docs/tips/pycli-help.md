@@ -1214,9 +1214,67 @@ upgrade github enterprise server to new release
 
 ### deploy batch cli markdown help
 
-generate opt markdown help
+generate cli markdown help
 
 - --helpFolder: C:\usr\ssz\workspace\git\ShaoOrg\bulletin\docs\tips
+
+### deploy batch cli json help
+
+generate cli json help for powershell completion
+
+- --helpFolder: C:\Users\ssz\.ium
+
+### deploy batch cli plan daily
+
+daily task
+
+- --draftWorkspace: C:\usr\ssz\workspace\git\app\draft
+
+### deploy batch create windows service
+
+create a windows service
+
+- --name: TestService
+- --workspace: C:\usr\ssz\win-services\${name}
+- --cmd: deploy
+- --pw: ******
+
+### deploy batch create schedule task
+
+create a window schedule task
+
+- --name: Test
+- --taskName: ${name}ScheduleTask
+- --workspace: C:\usr\ssz\win-services\${taskName}
+- --cmd: deploy
+- --args: batch test func
+- --runHour: 00:00
+- --pw: ******
+
+### deploy batch use cpu
+
+use cpu
+
+- --cpu: 20
+
+### deploy batch watch new process
+
+watch new process information
+
+- --name: java.exe
+
+### deploy batch watch new file
+
+watch new file information
+
+- --paths: C:\usr\ssz\workspace\git\app\tmp-java-modules
+
+### deploy batch query process
+
+query process information
+
+- --name: java.exe
+- --cpu: 10
 
 ### deploy batch test func
 
@@ -1234,6 +1292,7 @@ function unit test
 - --pathDirname: ::func os.path.dirname subPath
 - --pathBasename: ::func os.path.basename subPath
 - --userProfile: C:\Users\ssz
+- --pw: ******
 
 ### deploy batch foreach func
 
@@ -1250,6 +1309,66 @@ delete fingerprint in known_hosts
 - boolean -, --quiet: no log
 - string -f, --file: the context file by yaml format
 - string -n, --host: hostname or ip
+
+## deploy plan-task-daily
+
+generate plan task from jira issue daily
+
+- boolean -h, --help: print help information
+- boolean -, --quiet: no log
+- string -f, --file: the context file by yaml format
+
+## deploy plan-item
+
+create a plan item
+
+- boolean -h, --help: print help information
+- boolean -, --quiet: no log
+- string -f, --file: the context file by yaml format
+- string -i, --item: 计划项目内容
+- string -, --days: undefined argument
+- string -, --minutes: undefined argument
+
+## deploy memory-daily
+
+update memory ebbinghaus item daily
+
+- boolean -h, --help: print help information
+- boolean -, --quiet: no log
+- string -f, --file: the context file by yaml format
+
+## deploy plan-markdown
+
+generate plan and memory task from jira issue daily
+
+- boolean -h, --help: print help information
+- boolean -, --quiet: no log
+- string -f, --file: the context file by yaml format
+- string -, --month: undefined argument
+
+## deploy syno-notes
+
+generate plan and memory task from jira issue daily
+
+- boolean -h, --help: print help information
+- boolean -, --quiet: no log
+- string -f, --file: the context file by yaml format
+
+## deploy syno-notes-latest
+
+generate plan and memory task from jira issue daily
+
+- boolean -h, --help: print help information
+- boolean -, --quiet: no log
+- string -f, --file: the context file by yaml format
+
+## deploy syno-webapis
+
+list avaiable webapis
+
+- boolean -h, --help: print help information
+- boolean -, --quiet: no log
+- string -f, --file: the context file by yaml format
 
 ## eclipse hello
 
@@ -1846,6 +1965,14 @@ python plugins install
 - boolean -, --quiet: no log
 - string -f, --file: the context file by yaml format
 
+## host http-server
+
+start a http server for debug
+
+- boolean -h, --help: print help information
+- boolean -, --quiet: no log
+- string -f, --file: the context file by yaml format
+
 ## idea hello
 
 first extension for eclipse, do some investigation
@@ -2126,6 +2253,476 @@ check all repo defined in vilink/job, if have uncommit, commit it
 - string -f, --file: the context file by yaml format
 - boolean -c, --commit: automatically commit
 
+## vilink commit-push
+
+git commit and pull --rebase and push with check JIRA task creation
+
+- boolean -h, --help: print help information
+- boolean -, --quiet: no log
+- string -f, --file: the context file by yaml format
+- string -n, --name: message for commit
+- string -, --params: undefined argument
+
+### vilink commit-push Generic Epic
+
+
+
+- --Bug: 1
+- --Story: 1
+- --Task: 1
+- --Epic: 1
+- --Sub-task: 1
+
+### vilink commit-push fix scm.yaml striped
+
+
+
+- --Bug: 1
+- --Story: 1
+- --Task: 1
+- --Epic: 1
+- --Sub-task: 1
+
+### vilink commit-push plan and memory daily
+
+
+
+- --Bug: 1
+- --Story: 1
+- --Task: 1
+- --Epic: 1
+- --Sub-task: 1
+
+### vilink commit-push document
+
+
+
+- --Bug: 1
+- --Story: 1
+- --Task: 1
+- --Epic: 1
+- --Sub-task: 1
+
+### vilink commit-push plan task daily
+
+
+
+- --Bug: 1
+- --Story: 1
+- --Task: 1
+- --Epic: 1
+- --Sub-task: 1
+
+### vilink commit-push support pwsh in batch shell
+
+
+
+- --Bug: 1
+- --Story: 1
+- --Task: 1
+- --Epic: 1
+- --Sub-task: 1
+
+### vilink commit-push job to generate pipeline
+
+
+
+- --Bug: 1
+- --Story: 1
+- --Task: 1
+- --Epic: 1
+- --Sub-task: 1
+
+### vilink commit-push opt k8s ms
+
+
+
+- --Bug: 1
+- --Story: 1
+- --Task: 1
+- --Epic: 1
+- --Sub-task: 1
+
+### vilink commit-push support watch new file
+
+
+
+- --Bug: 1
+- --Story: 1
+- --Task: 1
+- --Epic: 1
+- --Sub-task: 1
+
+### vilink commit-push trigger image build with code commit
+
+
+
+- --Bug: 1
+- --Story: 1
+- --Task: 1
+- --Epic: 1
+- --Sub-task: 1
+
+### vilink commit-push sync synology note
+
+
+
+- --Bug: 1
+- --Story: 1
+- --Task: 1
+- --Epic: 1
+- --Sub-task: 1
+
+### vilink commit-push skip next steps if only doc or config change
+
+
+
+- --Bug: 1
+- --Story: 1
+- --Task: 1
+- --Epic: 1
+- --Sub-task: 1
+
+### vilink commit-push exclude files in vscode
+
+
+
+- --Bug: 1
+- --Story: 1
+- --Task: 1
+- --Epic: 1
+- --Sub-task: 1
+
+### vilink commit-push doc for 2025 September
+
+
+
+- --Bug: 1
+- --Story: 1
+- --Task: 1
+- --Epic: 1
+- --Sub-task: 1
+
+### vilink commit-push should provider a backup for mysql in nas236
+
+
+
+- --Bug: 1
+- --Story: 1
+- --Task: 1
+- --Epic: 1
+- --Sub-task: 1
+
+### vilink commit-push should set data file path to sync path for outlook
+
+
+
+- --Bug: 1
+- --Story: 1
+- --Task: 1
+- --Epic: 1
+- --Sub-task: 1
+
+### vilink commit-push filebeat should format the log context
+
+
+
+- --Bug: 1
+- --Story: 1
+- --Task: 1
+- --Epic: 1
+- --Sub-task: 1
+
+### vilink commit-push pipe-update-ssz-android-task
+
+
+
+- --Bug: 1
+- --Story: 1
+- --Task: 1
+- --Epic: 1
+- --Sub-task: 1
+
+### vilink commit-push plan task issue between jira,github and gitlab
+
+
+
+- --Bug: 1
+- --Story: 1
+- --Task: 1
+- --Epic: 1
+- --Sub-task: 1
+
+### vilink commit-push add customized command is match handle to avoid having the same initial letter
+
+
+
+- --Bug: 1
+- --Story: 1
+- --Task: 1
+- --Epic: 1
+- --Sub-task: 1
+
+### vilink commit-push plan for 2025 October
+
+
+
+- --Bug: 1
+- --Story: 1
+- --Task: 1
+- --Epic: 1
+- --Sub-task: 1
+
+### vilink commit-push auto generate plan monthly
+
+
+
+- --Bug: 1
+- --Story: 1
+- --Task: 1
+- --Epic: 1
+- --Sub-task: 1
+
+### vilink commit-push should resize the log file in kibana log
+
+
+
+- --Bug: 1
+- --Story: 1
+- --Task: 1
+- --Epic: 1
+- --Sub-task: 1
+
+### vilink commit-push plan for 2025 Auguest
+
+
+
+- --Bug: 1
+- --Story: 1
+- --Task: 1
+- --Epic: 1
+- --Sub-task: 1
+
+### vilink commit-push sync jira issue between jira,github and gitlab
+
+
+
+- --Bug: 1
+- --Story: 1
+- --Task: 1
+- --Epic: 1
+- --Sub-task: 1
+
+### vilink commit-push foo
+
+
+
+- --Bug: 1
+- --Story: 1
+- --Task: 1
+- --Epic: 1
+- --Sub-task: 1
+
+### vilink commit-push True
+
+
+
+- --Bug: 1
+- --Story: 1
+- --Task: 1
+- --Epic: 1
+- --Sub-task: 1
+
+### vilink commit-push To use custom certificates in kubenetes dashboard
+
+
+
+- --Bug: 1
+- --Story: 1
+- --Task: 1
+- --Epic: 1
+- --Sub-task: 1
+
+### vilink commit-push memory for 2025 September
+
+
+
+- --Bug: 1
+- --Story: 1
+- --Task: 1
+- --Epic: 1
+- --Sub-task: 1
+
+### vilink commit-push plan for 2025 September
+
+
+
+- --Bug: 1
+- --Story: 1
+- --Task: 1
+- --Epic: 1
+- --Sub-task: 1
+
+### vilink commit-push should automatic run some task after linux server restarting
+
+
+
+- --Bug: 1
+- --Story: 1
+- --Task: 1
+- --Epic: 1
+- --Sub-task: 1
+
+### vilink commit-push fix foo
+
+
+
+- --Bug: 1
+- --Story: 1
+- --Task: 1
+- --Epic: 1
+- --Sub-task: 1
+
+### vilink commit-push fix github ci/cd
+
+
+
+- --Bug: 1
+- --Story: 1
+- --Task: 1
+- --Epic: 1
+- --Sub-task: 1
+
+### vilink commit-push fix gitlab ci/cd
+
+
+
+- --Bug: 1
+- --Story: 1
+- --Task: 1
+- --Epic: 1
+- --Sub-task: 1
+
+### vilink commit-push fix unit test issues
+
+
+
+- --Bug: 1
+- --Story: 1
+- --Task: 1
+- --Epic: 1
+- --Sub-task: 1
+
+### vilink commit-push fix jenkins ci/cd
+
+
+
+- --Bug: 1
+- --Story: 1
+- --Task: 1
+- --Epic: 1
+- --Sub-task: 1
+
+### vilink commit-push fix pipeline issues
+
+
+
+- --Bug: 1
+- --Story: 1
+- --Task: 1
+- --Epic: 1
+- --Sub-task: 1
+
+### vilink commit-push task for eium project
+
+
+
+- --Bug: 1
+- --Story: 1
+- --Task: 1
+- --Epic: 1
+- --Sub-task: 1
+
+### vilink commit-push wiki media investigation
+
+
+
+- --Bug: 1
+- --Story: 1
+- --Task: 1
+- --Epic: 1
+- --Sub-task: 1
+
+### vilink commit-push everything in scm
+
+
+
+- --Bug: 1
+- --Story: 1
+- --Task: 1
+- --Epic: 1
+- --Sub-task: 1
+
+### vilink commit-push kinds of bug
+
+
+
+- --Bug: 1
+- --Story: 1
+- --Task: 1
+- --Epic: 1
+- --Sub-task: 1
+
+### vilink commit-push 家里的各种事情
+
+
+
+- --Bug: 1
+- --Story: 1
+- --Task: 1
+- --Epic: 1
+- --Sub-task: 1
+
+### vilink commit-push support jdk25 for micro service
+
+
+
+- --Bug: 1
+- --Story: 1
+- --Task: 1
+- --Epic: 1
+- --Sub-task: 1
+
+### vilink commit-push support jdk21 for micro service
+
+
+
+- --Bug: 1
+- --Story: 1
+- --Task: 1
+- --Epic: 1
+- --Sub-task: 1
+
+### vilink commit-push jira plugin to support log time
+
+
+
+- --Bug: 1
+- --Story: 1
+- --Task: 1
+- --Epic: 1
+- --Sub-task: 1
+
+### vilink commit-push 经验 不可更改
+
+
+
+- --Bug: 1
+- --Story: 1
+- --Task: 1
+- --Epic: 1
+- --Sub-task: 1
+
 ## vilink append-content
 
 启动一个python process来执行检查哪些repo的文件里缺少内容,然后补全
@@ -2158,3 +2755,11 @@ to detect file encoding
 - boolean -, --quiet: no log
 - string -f, --file: the context file by yaml format
 - string -t, --target: 文件名称
+
+## vilink hello-world
+
+to test meaninglessly
+
+- boolean -h, --help: print help information
+- boolean -, --quiet: no log
+- string -f, --file: the context file by yaml format

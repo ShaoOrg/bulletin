@@ -25,31 +25,6 @@ manage kinds of eium cli
 ### `--name sync-license-from-portal`
 ### `--name jdk`
 - true -n, --name: tool alias
-
-### `--eium-version 92`
-### `--eium-version 91`
-### `--eium-version 90`
-### `--eium-version 92pirtp`
-### `--eium-version 10`
-### `--eium-version 1031`
-### `--eium-version 92pi`
-### `--eium-version 1091`
-### `--eium-version 91ngr`
-### `--eium-version 1072`
-### `--eium-version 1071`
-### `--eium-version 109`
-### `--eium-version 108`
-### `--eium-version 103`
-### `--eium-version 105`
-### `--eium-version 90roges`
-### `--eium-version 104`
-### `--eium-version 107`
-### `--eium-version 106`
-### `--eium-version 112`
-### `--eium-version 113`
-### `--eium-version 110`
-### `--eium-version 111`
-### `--eium-version 91verizon`
 - option -i, --eium-version: version lists in eium
 - false -b, --bool: boolean value, general purpose
 ## `eium start`
@@ -58,31 +33,6 @@ manage kinds of eium cli
 kill other ium instance to ensure unique instance running
 
 - false -r, --need-restart: boolean, set is restart self
-
-### `--eium-version 92`
-### `--eium-version 91`
-### `--eium-version 90`
-### `--eium-version 92pirtp`
-### `--eium-version 10`
-### `--eium-version 1031`
-### `--eium-version 92pi`
-### `--eium-version 1091`
-### `--eium-version 91ngr`
-### `--eium-version 1072`
-### `--eium-version 1071`
-### `--eium-version 109`
-### `--eium-version 108`
-### `--eium-version 103`
-### `--eium-version 105`
-### `--eium-version 90roges`
-### `--eium-version 104`
-### `--eium-version 107`
-### `--eium-version 106`
-### `--eium-version 112`
-### `--eium-version 113`
-### `--eium-version 110`
-### `--eium-version 111`
-### `--eium-version 91verizon`
 - true,* -i, --eium-version: version lists in eium
 ## `eium config`
 
@@ -97,36 +47,7 @@ kill other ium instance to ensure unique instance running
 ### `--opt loadconfig`
 ### `--opt saveconfig`
 - true -o, --opt: loadconfig/saveconfig
-
-### `--eium-version 92`
-### `--eium-version 91`
-### `--eium-version 90`
-### `--eium-version 92pirtp`
-### `--eium-version 10`
-### `--eium-version 1031`
-### `--eium-version 92pi`
-### `--eium-version 1091`
-### `--eium-version 91ngr`
-### `--eium-version 1072`
-### `--eium-version 1071`
-### `--eium-version 109`
-### `--eium-version 108`
-### `--eium-version 103`
-### `--eium-version 105`
-### `--eium-version 90roges`
-### `--eium-version 104`
-### `--eium-version 107`
-### `--eium-version 106`
-### `--eium-version 112`
-### `--eium-version 113`
-### `--eium-version 110`
-### `--eium-version 111`
-### `--eium-version 91verizon`
 - true -i, --eium-version: version lists in eium
-
-### `--server TestServerR249`
-### `--server TestServerW249`
-### `--server webappserver`
 - true -s, --server: running server
 ## `eium tools`
 
@@ -136,31 +57,6 @@ install eium tools
 
 ### `--name test`
 - true -n, --name: tool alias
-
-### `--eium-version 92`
-### `--eium-version 91`
-### `--eium-version 90`
-### `--eium-version 92pirtp`
-### `--eium-version 10`
-### `--eium-version 1031`
-### `--eium-version 92pi`
-### `--eium-version 1091`
-### `--eium-version 91ngr`
-### `--eium-version 1072`
-### `--eium-version 1071`
-### `--eium-version 109`
-### `--eium-version 108`
-### `--eium-version 103`
-### `--eium-version 105`
-### `--eium-version 90roges`
-### `--eium-version 104`
-### `--eium-version 107`
-### `--eium-version 106`
-### `--eium-version 112`
-### `--eium-version 113`
-### `--eium-version 110`
-### `--eium-version 111`
-### `--eium-version 91verizon`
 - option -i, --eium-version: version lists in eium
 - option -p, --patch: the patch id or alias
 - option -d, --domain: domain name
@@ -170,31 +66,6 @@ install eium tools
 
 uninstall clean up eium
 
-
-### `--eium-version 92`
-### `--eium-version 91`
-### `--eium-version 90`
-### `--eium-version 92pirtp`
-### `--eium-version 10`
-### `--eium-version 1031`
-### `--eium-version 92pi`
-### `--eium-version 1091`
-### `--eium-version 91ngr`
-### `--eium-version 1072`
-### `--eium-version 1071`
-### `--eium-version 109`
-### `--eium-version 108`
-### `--eium-version 103`
-### `--eium-version 105`
-### `--eium-version 90roges`
-### `--eium-version 104`
-### `--eium-version 107`
-### `--eium-version 106`
-### `--eium-version 112`
-### `--eium-version 113`
-### `--eium-version 110`
-### `--eium-version 111`
-### `--eium-version 91verizon`
 - true -i, --eium-version: version lists in eium
 eium dev
 ## `eium dev hello-world`
@@ -219,19 +90,6 @@ start app in docker
 ### `--image-version 10.4`
 ### `--image-version latest`
 - true -i, --image-version: docker version lists in eium
-
-### `--app snap-studio`
-### `--app trace`
-### `--app web-console`
-### `--app rtc-studio-old`
-### `--app rtc-studio-102`
-### `--app rtc-studio`
-### `--app pcf-studio`
-### `--app rdm`
-### `--app rt-cluster`
-### `--app all-in-one`
-### `--app nosc`
-### `--app jds-cluster`
 - option -p, --app: app lists
 - option -s, --string: generic string type parameter
 ## `eium docker wiki`
@@ -245,21 +103,6 @@ deploy snap wiki in docker
 
 deploy snap mysql in docker
 
-
-### `--app standard`
-### `--app standalone`
-### `--app ebike`
-### `--app pcf`
-### `--app aleph`
-### `--app mysql`
-### `--app iumgr4`
-### `--app iumgr1`
-### `--app iumgr2`
-### `--app iumgr3`
-### `--app iumgr`
-### `--app chf`
-### `--app ha`
-### `--app test`
 - true -p, --app: mysql app lists
 - option -s, --string: generic string type parameter
 ## `eium docker bash`
@@ -274,31 +117,6 @@ image short name with tag
 
 start app in docker
 
-
-### `--eium-version 92`
-### `--eium-version 91`
-### `--eium-version 90`
-### `--eium-version 92pirtp`
-### `--eium-version 10`
-### `--eium-version 1031`
-### `--eium-version 92pi`
-### `--eium-version 1091`
-### `--eium-version 91ngr`
-### `--eium-version 1072`
-### `--eium-version 1071`
-### `--eium-version 109`
-### `--eium-version 108`
-### `--eium-version 103`
-### `--eium-version 105`
-### `--eium-version 90roges`
-### `--eium-version 104`
-### `--eium-version 107`
-### `--eium-version 106`
-### `--eium-version 112`
-### `--eium-version 113`
-### `--eium-version 110`
-### `--eium-version 111`
-### `--eium-version 91verizon`
 - option -i, --eium-version: version lists in eium
 
 - option -l, --loose-patch: loose patch folder
@@ -323,62 +141,12 @@ eium ems
 
 update license from snap_share
 
-
-### `--eium-version 92`
-### `--eium-version 91`
-### `--eium-version 90`
-### `--eium-version 92pirtp`
-### `--eium-version 10`
-### `--eium-version 1031`
-### `--eium-version 92pi`
-### `--eium-version 1091`
-### `--eium-version 91ngr`
-### `--eium-version 1072`
-### `--eium-version 1071`
-### `--eium-version 109`
-### `--eium-version 108`
-### `--eium-version 103`
-### `--eium-version 105`
-### `--eium-version 90roges`
-### `--eium-version 104`
-### `--eium-version 107`
-### `--eium-version 106`
-### `--eium-version 112`
-### `--eium-version 113`
-### `--eium-version 110`
-### `--eium-version 111`
-### `--eium-version 91verizon`
 - true,* -i, --eium-version: version lists in eium
 ## `eium ems web-remote-debug`
 
 
 append remote debug info into ini file if have no remote debug info
 
-
-### `--eium-version 92`
-### `--eium-version 91`
-### `--eium-version 90`
-### `--eium-version 92pirtp`
-### `--eium-version 10`
-### `--eium-version 1031`
-### `--eium-version 92pi`
-### `--eium-version 1091`
-### `--eium-version 91ngr`
-### `--eium-version 1072`
-### `--eium-version 1071`
-### `--eium-version 109`
-### `--eium-version 108`
-### `--eium-version 103`
-### `--eium-version 105`
-### `--eium-version 90roges`
-### `--eium-version 104`
-### `--eium-version 107`
-### `--eium-version 106`
-### `--eium-version 112`
-### `--eium-version 113`
-### `--eium-version 110`
-### `--eium-version 111`
-### `--eium-version 91verizon`
 - true -i, --eium-version: version lists in eium
 
 ### `--app-server webappserver`
@@ -396,31 +164,6 @@ hello world for eium-ems
 
 change web xml to debug something
 
-
-### `--eium-version 92`
-### `--eium-version 91`
-### `--eium-version 90`
-### `--eium-version 92pirtp`
-### `--eium-version 10`
-### `--eium-version 1031`
-### `--eium-version 92pi`
-### `--eium-version 1091`
-### `--eium-version 91ngr`
-### `--eium-version 1072`
-### `--eium-version 1071`
-### `--eium-version 109`
-### `--eium-version 108`
-### `--eium-version 103`
-### `--eium-version 105`
-### `--eium-version 90roges`
-### `--eium-version 104`
-### `--eium-version 107`
-### `--eium-version 106`
-### `--eium-version 112`
-### `--eium-version 113`
-### `--eium-version 110`
-### `--eium-version 111`
-### `--eium-version 91verizon`
 - true -i, --eium-version: version lists in eium
 
 ### `--web-server web-console`
@@ -458,31 +201,6 @@ eium env
 ### `--type Standalone`
 ### `--type Bare`
 - option -t, --type: string, Standard,Standalone or Bare 
-
-### `--eium-version 92`
-### `--eium-version 91`
-### `--eium-version 90`
-### `--eium-version 92pirtp`
-### `--eium-version 10`
-### `--eium-version 1031`
-### `--eium-version 92pi`
-### `--eium-version 1091`
-### `--eium-version 91ngr`
-### `--eium-version 1072`
-### `--eium-version 1071`
-### `--eium-version 109`
-### `--eium-version 108`
-### `--eium-version 103`
-### `--eium-version 105`
-### `--eium-version 90roges`
-### `--eium-version 104`
-### `--eium-version 107`
-### `--eium-version 106`
-### `--eium-version 112`
-### `--eium-version 113`
-### `--eium-version 110`
-### `--eium-version 111`
-### `--eium-version 91verizon`
 - true,* -i, --eium-version: version lists in eium
 ## `eium env uninstall`
 
@@ -490,62 +208,12 @@ eium env
 uninstall eium include the following step
 
 - false -f, --force: boolean, set yes clean up if uninstall failure
-
-### `--eium-version 92`
-### `--eium-version 91`
-### `--eium-version 90`
-### `--eium-version 92pirtp`
-### `--eium-version 10`
-### `--eium-version 1031`
-### `--eium-version 92pi`
-### `--eium-version 1091`
-### `--eium-version 91ngr`
-### `--eium-version 1072`
-### `--eium-version 1071`
-### `--eium-version 109`
-### `--eium-version 108`
-### `--eium-version 103`
-### `--eium-version 105`
-### `--eium-version 90roges`
-### `--eium-version 104`
-### `--eium-version 107`
-### `--eium-version 106`
-### `--eium-version 112`
-### `--eium-version 113`
-### `--eium-version 110`
-### `--eium-version 111`
-### `--eium-version 91verizon`
 - true -i, --eium-version: version lists in eium
 ## `eium env patch`
 
 
 install patch
 
-
-### `--eium-version 92`
-### `--eium-version 91`
-### `--eium-version 90`
-### `--eium-version 92pirtp`
-### `--eium-version 10`
-### `--eium-version 1031`
-### `--eium-version 92pi`
-### `--eium-version 1091`
-### `--eium-version 91ngr`
-### `--eium-version 1072`
-### `--eium-version 1071`
-### `--eium-version 109`
-### `--eium-version 108`
-### `--eium-version 103`
-### `--eium-version 105`
-### `--eium-version 90roges`
-### `--eium-version 104`
-### `--eium-version 107`
-### `--eium-version 106`
-### `--eium-version 112`
-### `--eium-version 113`
-### `--eium-version 110`
-### `--eium-version 111`
-### `--eium-version 91verizon`
 - true -i, --eium-version: version lists in eium
 
 - option -l, --last-patch: last patch file, full path, empty means that use the latest patch
@@ -584,31 +252,6 @@ start case in standard vm
 ### `--case alarms`
 ### `--case dt-couchbase`
 - true -c, --case: case alias
-
-### `--eium-version 92`
-### `--eium-version 91`
-### `--eium-version 90`
-### `--eium-version 92pirtp`
-### `--eium-version 10`
-### `--eium-version 1031`
-### `--eium-version 92pi`
-### `--eium-version 1091`
-### `--eium-version 91ngr`
-### `--eium-version 1072`
-### `--eium-version 1071`
-### `--eium-version 109`
-### `--eium-version 108`
-### `--eium-version 103`
-### `--eium-version 105`
-### `--eium-version 90roges`
-### `--eium-version 104`
-### `--eium-version 107`
-### `--eium-version 106`
-### `--eium-version 112`
-### `--eium-version 113`
-### `--eium-version 110`
-### `--eium-version 111`
-### `--eium-version 91verizon`
 - option -i, --eium-version: version lists in eium
 - false -b, --cb: case use config bundle
 ## `eium integration umbrella`
@@ -687,31 +330,6 @@ install kinds of script/config etc in integration test
 ### `--case all`
 ### `--case iumgr`
 - true -c, --case: case alias
-
-### `--eium-version 92`
-### `--eium-version 91`
-### `--eium-version 90`
-### `--eium-version 92pirtp`
-### `--eium-version 10`
-### `--eium-version 1031`
-### `--eium-version 92pi`
-### `--eium-version 1091`
-### `--eium-version 91ngr`
-### `--eium-version 1072`
-### `--eium-version 1071`
-### `--eium-version 109`
-### `--eium-version 108`
-### `--eium-version 103`
-### `--eium-version 105`
-### `--eium-version 90roges`
-### `--eium-version 104`
-### `--eium-version 107`
-### `--eium-version 106`
-### `--eium-version 112`
-### `--eium-version 113`
-### `--eium-version 110`
-### `--eium-version 111`
-### `--eium-version 91verizon`
 - option -i, --eium-version: version lists in eium
 - option -q, --mysql: mysql host:port, sample 127.0.0.1:3306
 - false -s, --no-shell: disable shell
@@ -841,31 +459,6 @@ hello world for eium-raw
   "after session expired, please renew session id in backup.properites"
 ]
 
-
-### `--eium-version 92`
-### `--eium-version 91`
-### `--eium-version 90`
-### `--eium-version 92pirtp`
-### `--eium-version 10`
-### `--eium-version 1031`
-### `--eium-version 92pi`
-### `--eium-version 1091`
-### `--eium-version 91ngr`
-### `--eium-version 1072`
-### `--eium-version 1071`
-### `--eium-version 109`
-### `--eium-version 108`
-### `--eium-version 103`
-### `--eium-version 105`
-### `--eium-version 90roges`
-### `--eium-version 104`
-### `--eium-version 107`
-### `--eium-version 106`
-### `--eium-version 112`
-### `--eium-version 113`
-### `--eium-version 110`
-### `--eium-version 111`
-### `--eium-version 91verizon`
 - true -i, --eium-version: version lists in eium
 - false -r, --release: download from mpc release repo
 - false -c, --components: download components from mpc release repo
@@ -1071,57 +664,6 @@ k8s docker app
 
 base on configurations to run docker container
 
-
-### `--case minio`
-### `--case ub-bionic`
-### `--case fedora`
-### `--case db-buster`
-### `--case redis-test`
-### `--case centos79`
-### `--case nexus`
-### `--case helm-chartmuseum`
-### `--case shaoWiki`
-### `--case emqx`
-### `--case drawio`
-### `--case ps-controller`
-### `--case mqtt-simulator`
-### `--case cellong-web`
-### `--case geminiprochat`
-### `--case shaoOrgWiki`
-### `--case alpine`
-### `--case jammy`
-### `--case bionic`
-### `--case nexus-test`
-### `--case ub-focal`
-### `--case non-storage`
-### `--case github-runner-noble`
-### `--case ruby`
-### `--case n8n`
-### `--case storage`
-### `--case registry`
-### `--case buster`
-### `--case jira`
-### `--case github-runner-jammy`
-### `--case gitlab`
-### `--case db-stretch`
-### `--case stretch`
-### `--case bash-nginx`
-### `--case ub-noble`
-### `--case mediawiki`
-### `--case ium-license-portal`
-### `--case focal`
-### `--case bullseye`
-### `--case ub-jammy`
-### `--case bandersnatch`
-### `--case gitlab-pages`
-### `--case bookworm`
-### `--case oiWiki`
-### `--case nas234-nginx`
-### `--case ft-web`
-### `--case grafana-pcp`
-### `--case centos82`
-### `--case python`
-### `--case jenkins`
 - true -c, --case: case name in docker
 - false -a, --await: wait for docker init complete
 ## `k8s docker app hello-world`
@@ -1298,20 +840,6 @@ k8s helm
 
 helm install ms cluster
 
-
-### `--helm-ms-app ms-registry`
-### `--helm-ms-app ms-manager`
-### `--helm-ms-app ms-metrics`
-### `--helm-ms-app ms-sso`
-### `--helm-ms-app ms-persist`
-### `--helm-ms-app ms-service`
-### `--helm-ms-app ms-schedule`
-### `--helm-ms-app ms-ssoweb`
-### `--helm-ms-app ms-rpcweb`
-### `--helm-ms-app ms-ws`
-### `--helm-ms-app ms-sample`
-### `--helm-ms-app ms-foo`
-### `--helm-ms-app ms-testcase`
 - option -a, --helm-ms-app: ms-app name
 - option -s, --sleep: sleep seconds
 ## `k8s helm unms`
@@ -1418,6 +946,13 @@ init test environment for k8s-ms
 - false -s, --static-pv: use static pv
 - false -m, --multi-host: multipile host deploy, use virtual ip for load balancer
 - option -i, --image-path-with-version: image path with version, e.g. ms/ms-jdk17-dns-2021d4:1.1.0-SNAPSHOT
+## `k8s ms restart`
+
+
+restart cluster
+
+- option -d, --deploy: deployment name in k8s
+- option -i, --image-path-with-version: image path with version, e.g. ms/ms-jdk17-dns-2021d4:1.1.0-SNAPSHOT
 ## `k8s ms cluster`
 
 
@@ -1432,9 +967,6 @@ microservice cluster
 hello world for k8s-ms
 
 - option -v, --volume: volume name / iscsi iqn
-- option -i, --image-path-with-version: image path with version, e.g. ms/ms-jdk17-dns-2021d4:1.1.0-SNAPSHOT
-## `k8s ms restart`
-
 - option -i, --image-path-with-version: image path with version, e.g. ms/ms-jdk17-dns-2021d4:1.1.0-SNAPSHOT
 ## `k8s ms image-build`
 
@@ -1747,31 +1279,6 @@ hell world in kernal
 ### `--image centos7base`
 ### `--image centos82withkey`
 - true -m, --image: image lists in openstack
-
-### `--eium-version 92`
-### `--eium-version 91`
-### `--eium-version 90`
-### `--eium-version 92pirtp`
-### `--eium-version 10`
-### `--eium-version 1031`
-### `--eium-version 92pi`
-### `--eium-version 1091`
-### `--eium-version 91ngr`
-### `--eium-version 1072`
-### `--eium-version 1071`
-### `--eium-version 109`
-### `--eium-version 108`
-### `--eium-version 103`
-### `--eium-version 105`
-### `--eium-version 90roges`
-### `--eium-version 104`
-### `--eium-version 107`
-### `--eium-version 106`
-### `--eium-version 112`
-### `--eium-version 113`
-### `--eium-version 110`
-### `--eium-version 111`
-### `--eium-version 91verizon`
 - true -i, --eium-version: version lists in eium
 ## `kernal host`
 
@@ -1932,12 +1439,6 @@ rating disk performace
 rating network performace by scp
 
 - option -s, --file-size: the test file size, Unit is MB, default is 1000MB
-
-### `--remote-host lanxi`
-### `--remote-host home`
-### `--remote-host hpe`
-### `--remote-host vps`
-### `--remote-host shlg`
 - option -r, --remote-host: remote host, hpe/home/lanxi/vps
 ## `kernal lvm`
 
@@ -2097,6 +1598,43 @@ hello world for kernal-app-jenkins
 - option -v, --volume: volume name / iscsi iqn
 ## `kernal app jenkins agent-node`
 
+kernal app jira
+## `kernal app jira hello-world`
+
+
+hello world for kernal-app-jira
+
+- option -v, --volume: volume name / iscsi iqn
+- option -s, --string: generic string type
+- false -b, --bool: generic bool type
+## `kernal app jira custom-fileds`
+
+- option -s, --string: generic string type
+- false -b, --bool: generic bool type
+## `kernal app jira create-bug`
+
+- option -s, --string: generic string type
+- false -b, --bool: generic bool type
+## `kernal app jira create-epic`
+
+- option -s, --string: generic string type
+- false -b, --bool: generic bool type
+## `kernal app jira list-project`
+
+- option -s, --string: generic string type
+- false -b, --bool: generic bool type
+## `kernal app jira update-bug`
+
+- option -s, --string: generic string type
+- false -b, --bool: generic bool type
+## `kernal app jira update-epic-parent`
+
+- option -s, --string: generic string type
+- false -b, --bool: generic bool type
+## `kernal app jira sync_issue`
+
+- option -s, --string: generic string type
+- false -b, --bool: generic bool type
 kernal app ldap
 ## `kernal app ldap set-default-branch`
 
@@ -2224,10 +1762,6 @@ kernal app router
 echo route for hpe vpn
 
 - false -a, --all: route all cirs from hpe vpn, instead of snap cirs
-
-### `--env lanxi`
-### `--env home`
-### `--env shlg`
 - true -e, --env: route all cirs from hpe vpn, instead of snap cirs
 ## `kernal app router hpe-route`
 
@@ -2249,6 +1783,19 @@ hello world for kernal-app-router
 
 ## `kernal app router hpe_route`
 
+kernal app synology
+## `kernal app synology hello-world`
+
+
+hello world for kernal-app-synology
+
+- option -v, --volume: volume name / iscsi iqn
+- option -s, --string: generic string type
+- false -b, --bool: generic bool type
+## `kernal app synology login`
+
+- option -s, --string: generic string type
+- false -b, --bool: generic bool type
 kernal app vpn
 ## `kernal app vpn hpe`
 
@@ -2394,18 +1941,6 @@ download the latest kernel
 
 sync yum from mirror url
 
-
-### `--case fedora36`
-### `--case fedora34`
-### `--case fedora35`
-### `--case fedora33`
-### `--case centos7`
-### `--case stream8`
-### `--case centos8`
-### `--case stream9`
-### `--case rocky8`
-### `--case fedora40`
-### `--case stream10`
 - true -c, --case: case alias
 - option -r, --repository: repository alias
 ## `kernal centos hello-world`
@@ -2577,35 +2112,7 @@ restore an vm in kvm
 ### `--mem-size 512`
 ### `--mem-size 32768`
 - true -m, --mem-size: memory size, unit MB
-
-### `--volume 9ipv6.qcow2`
-### `--volume al-9901.qcow2`
-### `--volume ali-9801.qcow2`
-### `--volume alp-9201.qcow2`
-### `--volume alp-9202.qcow2`
-### `--volume alp-9203.qcow2`
-### `--volume an-9801.qcow2`
-### `--volume an-9802.qcow2`
-### `--volume cs-9801.qcow2`
-### `--volume cs-9901.qcow2`
-### `--volume cs-9a01.qcow2`
-### `--volume eium-9801.qcow2`
-### `--volume eium-9804.qcow2`
-### `--volume fdr-9401.qcow2`
-### `--volume k8s-9i1.qcow2`
-### `--volume ndb-data-9803.qcow2`
-### `--volume ndb-data-9804.qcow2`
-### `--volume rhel-9801.qcow2`
-### `--volume rhel-9901.qcow2`
-### `--volume ub-9202.qcow2`
-### `--volume ub-9203.qcow2`
-### `--volume ub-9403.qcow2`
 - true -v, --volume: volume name
-
-### `--instance k8s-9i1`
-### `--instance win-9002`
-### `--instance ub-9201`
-### `--instance win-9001`
 - true -n, --instance: kvm name
 ## `kvm hello world`
 
@@ -2655,61 +2162,7 @@ create an vm in kvm
 ### `--disk-size 10`
 ### `--disk-size 500`
 - true -d, --disk-size: disk size, unit GB
-
-### `--image alinux3-2408.qcow2`
-### `--image almalinux9.qcow2`
-### `--image alpinelinux3.20-3.qcow2`
-### `--image anolisos80.qcow2`
-### `--image anolisos8.qcow2`
-### `--image centos79-2009.img`
-### `--image centos81-1911.img`
-### `--image centos82-2004.img`
-### `--image centos83-2011.img`
-### `--image centos84-2105.img`
-### `--image crc-linux-amd64.tar.xz`
-### `--image debian10-buster.img`
-### `--image debian11-bullseye.img`
-### `--image debian9-stretch.img`
-### `--image dragonflybsd5.8.3.img`
-### `--image fedora32.img`
-### `--image fedora33.img`
-### `--image fedora34.img`
-### `--image fedora35.img`
-### `--image fedora36.img`
-### `--image fedora40.qcow2`
-### `--image freebsd12.2.img`
-### `--image gluster02-storage`
-### `--image netbsd9.1.img`
-### `--image openbsd6.8.img`
-### `--image opensuse15.2.img`
-### `--image openwrt-19.07.4-x86-64-combined-ext4.img`
-### `--image rhel7.2.img`
-### `--image rhel7.9.img`
-### `--image rhel8.4.img`
-### `--image rhel8.6.img`
-### `--image rhel9.0.img`
-### `--image rocky8-10-2405.qcow2`
-### `--image rocky8.6.img`
-### `--image rocky9-4-2406.qcow2`
-### `--image stream10-2410.qcow2`
-### `--image stream8-2406.qcow2`
-### `--image stream9-2410.qcow2`
-### `--image synoboot-102b.img`
-### `--image synoboot-104b.img`
-### `--image ubuntu18.04-bionic.img`
-### `--image ubuntu20.04-focal.img`
-### `--image ubuntu21.10-impish.img`
-### `--image ubuntu22.04-jammy.img`
-### `--image ubuntu24.04-noble.qcow2`
-### `--image virtio-win-1.9.25.iso`
-### `--image win10.img`
-### `--image win11.qocw2`
 - true -i, --image: image name
-
-### `--instance k8s-9i1`
-### `--instance win-9002`
-### `--instance ub-9201`
-### `--instance win-9001`
 - true -n, --instance: kvm name
 
 ### `--hostdev gpu`
