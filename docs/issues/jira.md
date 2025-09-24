@@ -1,5 +1,17 @@
 # Jira
 
+## Story Point
+
+1. story point是用来评估一个任务（Product Backlog）的难度，跟小时数没有必然的关系。Story point需要使用斐波那契数列来表示（1,2,3,5,8...）。只所以用这个序列是要更好的显示差异。
+1. 对管理层和team的作用是，你一个sprint完成了多少个point能进行显示，那么经过多个sprint之后你就能看到这个team的velocity了！
+1. Scrum是头对头，因此是所有的team成员进行投票。每人一副12358的扑克牌，进行投票并对决讨论为什么这个story point是这个数字。此时不知道谁是执行人，减少认知偏差。
+1. 不蛋疼。a.如果是一个难度是3的PBI，甲程序员完成可能10h，乙程序员可能需要8h，这个是一个方面。b.Sprint planning的时候你需要输入每个人的capacity吧，输入这个小时数就能看见一个程序员是不是超工作量了。c.输入完orginal time和remaining time就能产生burning down chart。这个chart对开发过程的重要性不用多解释了吧。
+
+作者：子回
+链接：https://www.zhihu.com/question/53153108/answer/139540981
+来源：知乎
+著作权归作者所有。商业转载请联系作者获得授权，非商业转载请注明出处。
+
 ## Rest API
 
 ### [v2](https://developer.atlassian.com/cloud/jira/platform/rest/v2/intro/#version)
