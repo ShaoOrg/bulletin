@@ -25,3 +25,4 @@
 - [代码分析](https://deepwiki.com/CyC2018/CS-Notes)
 - [音标输入](https://gltjk.com/program/ipainput/)
 - [jwk生成](https://jwkset.com/generate)
+- [Vault mTLS](https://www.hashicorp.com/en/resources/mutual-tls-mtls-for-vault-strategic-patterns-with-hands-on-steps)
