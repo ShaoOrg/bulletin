@@ -1,8 +1,18 @@
 # 网站资源
 ---
+
+## React开发
+- [node modules](https://github.shao.sh/Shao/node-modules)
+- [react modules](https://github.shao.sh/Shao/react-modules)
+- [react demo](https://github.shao.sh/SszOrg/solution-db-demo-web)
+
 ## 云平台
 |描述|地址|
 |  ----  | ----  |
+|eium license portal|[license portal](http://192.168.50.246:58086/ium-license)|
+|eium 9.0|[eium 9.0](http://eium-9802.shao.sh:8159/web-console)|
+|eium 10.10|[eium 10.10](http://eium-9803.shao.sh:8159/web-console)|
+
 |k8s-9i1 dashboard|[dashboard](https://dashboard.k8s-9i1.shao.sh)|
 |k8s-9i1 grafana|[grafana](https://grafana.k8s-9i1.shao.sh)|
 |k8s-9i1 prometheus|[prometheus](https://prometheus.k8s-9i1.shao.sh)|
