@@ -26,4 +26,7 @@ https://zhuanlan.zhihu.com/p/592296884
 右键authorized_keys，选择属性->安全->高级->（左下角）禁用继承
 弹框选择“将已继承的权限转换为此对象的显式权限。”
 在权限条目中删除除了SYSTEM和当前用户外的所有权限，然后应用并退出。如下图所示：
+
+https://gitee.com/decbe/idcops#https://gitee.com/link?target=https%3A%2F%2Fidcops.yuzekeji.cn%2Fdocs%2F
+
 ```
